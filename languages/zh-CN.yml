@@ -2,7 +2,7 @@ home: 首页
 archives: 归档
 about: 关于
 categories: 分类
-search: 搜索
+search: Welcome to CVBlogs,search here
 tags: 标签
 tagcloud: 标签云
 tweets: 推文
@@ -16,11 +16,11 @@ recent_posts: 最新文章
 newer: 上一篇
 older: 下一篇
 share: 分享
-theme_by: Theme by
+theme_by: Powered by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
-connect: '联系我们'
+connect: '联系我'
 post_total_count: 嗯，目前共计%d篇文章
 read_more: '阅读全文'
 contents: 文章目录
@@ -34,3 +34,5 @@ insight:
     categories: '分类'
     tags: '标签'
     untitled: '(无标题)'
+article:
+    more: '查看更多'

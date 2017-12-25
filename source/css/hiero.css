@@ -253,23 +253,38 @@ object {
 /* HEADER
 ----------------------------------------------- */
 .site-header {
-	padding: 20px 0 0;
+    height: 50px;
 	background: #16171b;
 	}
 .site-branding {
 	float: left;
+    display:inline-block;
 	}
+
+.site-search{
+	float: right;
+    display:inline-block;
+}
+
 .site-title {
 	margin: 0;
-	font-size: 4.25em;
+	font-size: 16px;
 	font-family: "Yanone Kaffeesatz", "Microsoft YaHei Light", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	line-height: 1;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 600;
 	}
 .site-title a {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 600;
 	color: #fff;
 	text-decoration: none;
 	}
+
 .site-description {
 	color: #999;
 	font-family: "Yanone Kaffeesatz", "Microsoft YaHei Light", Arial, Helvetica, sans-serif;
@@ -327,7 +342,6 @@ object {
 
 #main-navigation {
 	clear: both;
-	padding: 20px 0 0;
 	}
 #main-navigation .sf-menu {
 	background: #060608;
@@ -421,6 +435,8 @@ object {
 		display: block;
 		cursor: pointer;
 		text-align: center;
+        margin: 5px 0 0 0;
+        height: 41px;
 		}
 	#main-navigation:target > .nav-open {
 		display: none;
@@ -432,6 +448,7 @@ object {
 	#main-navigation > .sf-menu {
 		position: relative;
 		text-align: left;
+        width: 80px;
 		}
 	#main-navigation > .sf-menu > ul {
 		position: absolute;
@@ -1049,6 +1066,8 @@ body.search .page .entry-footer {
 	margin: 10px 0;
 	text-align: right;
 	}
+/*
+*/
 
 /* SIDEBAR
 ----------------------------------------------- */
@@ -1057,18 +1076,26 @@ body.search .page .entry-footer {
 	}
 
 .site-sidebar .widget_search .search-form {
-	margin: 15px 0;
+    float: right;
 	}
 .site-sidebar .widget_search .search-field {
-	float: left;
 	width: 68%;
-	margin: 0 10px 0 0;
+    border-radius: ((42 + 2)/2);
 	height: 42px;
-    width: 100%;
 	}
 .site-sidebar .widget_search .search-submit {
-	font-size: 1.3em;
-	}
+    /*top: 50%;*/
+    width: 32%;
+    right: 15px;
+    border: none;
+    cursor: pointer;
+    /*margin-top: -7px;*/
+    background: none;
+    position: absolute;
+    font: 13px font-icon;
+    font-family: 'FontAwesome';
+}
+
 
 .site-sidebar .widget_archive select,
 .site-sidebar .widget_categories select {
@@ -1078,10 +1105,15 @@ body.search .page .entry-footer {
 	}
 
 .search-field {
-	height: 42px;
-    width: 100%;
+    margin: 9px 0 0 0;
+    border-radius: ((100 + 2)/2);
+	height: 32px;
+    width: 230px;
 	}
-
+.search-form-submit{
+    height: 50px;
+    background: none;
+}
 /* SITE EXTRA
 ----------------------------------------------- */
 .site-extra {
@@ -1138,7 +1170,7 @@ body.search .page .entry-footer {
 /* FOOTER
 ----------------------------------------------- */
 .site-footer {
-	padding: 18px 0;
+	padding: 0 0 18px 0;
 	color: #999;
 	font-size: .9em;
 	background: #16171b;
@@ -1151,10 +1183,12 @@ body.search .page .entry-footer {
 	color: #ff2828;
 	}
 .site-info {
-	float: left;
+	margin:0 auto;
+	text-align:center;
 	}
 .site-credit {
-	float: right;
+	margin:0 auto;
+	text-align:center;
 	}
 
 /* RESPONSIVE SUPPORT
@@ -1179,6 +1213,12 @@ body.search .page .entry-footer {
 		}
 	}
 @media screen and (max-width: 758px) {
+	.site-header .widget {
+		float: right;
+		clear: right;
+		margin: 10px 0;
+		text-align: right;
+	}
 	.site-header .widget-area {
 		display: none;
 		}
@@ -1209,6 +1249,15 @@ body.search .page .entry-footer {
 		}
 	}
 @media screen and (max-width: 480px) {
+	.container {
+		width: 97%;
+	}
+	.site-header .widget {
+		float: right;
+		clear: right;
+		margin: 2px 0;
+		text-align: right;
+	}
 	.site-footer {
 		text-align: center;
 		}
@@ -1218,4 +1267,10 @@ body.search .page .entry-footer {
 		}
 	}
 @media screen and (max-width: 320px) {
+	.site-header .widget {
+		float: right;
+		clear: right;
+		margin: 2px 0;
+		text-align: right;
+	}
 	}

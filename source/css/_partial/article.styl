@@ -23,11 +23,31 @@
   font-size: .9em
 
 .article-date
-  color: #999
+    @extend $block-caption
+    text-align: center
+    font-weight: normal
+
+.article-date:before
+  font-family: "FontAwesome";
+  content: "\f073";
+  @media mq-mobile
+    display: none
+
+.article-date:hover
+  color: color-theme
+
+.article-views
+  @extend $block-caption
   text-align: center
   font-weight: normal
 
-.article-date:hover
+.article-views:before
+  font-family: "FontAwesome";
+  content: "\f06e";
+  @media mq-mobile
+    display: none
+
+.article-views:hover
   color: color-theme
 
 .article-category
@@ -188,6 +208,7 @@
       margin-top: 0
 
 .article-more-link
+  padding: 0 0 20px 20px
   text-align: center
 
 .article-more-link a

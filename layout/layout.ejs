@@ -13,7 +13,7 @@
     <div id="wrap">
             
       <div id="content" class="outer">
-        <% if (theme.sidebar && theme.sidebar !== 'bottom' && !is_post()){ %>
+        <% if (theme.sidebar && theme.sidebar !== 'bottom' && !is_post() && is_home()){ %>
           <section id="main"><%- body %></section>
           <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
         <% } else {%>
@@ -22,7 +22,6 @@
       </div>
       <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
     </div>
-    <!-- <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %> -->
     <%- partial('_partial/after-footer') %>
   </div>
 
