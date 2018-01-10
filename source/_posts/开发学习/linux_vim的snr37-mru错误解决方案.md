@@ -4,7 +4,7 @@ date: 2018-01-10 16:55:24
 categories:
 - 网页开发
 tags:
-- 测试
+- Linux
 ---
 # 前言
 使用oh-my-zsh的快捷配置过程中，出现每次打开vim都报:
