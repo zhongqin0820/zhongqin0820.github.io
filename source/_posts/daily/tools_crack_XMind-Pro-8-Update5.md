@@ -7,6 +7,8 @@ tags:
 - 测试
 ---
 ## 前言
+&emsp;&emsp;更新Windows破解失效解决方法。（在Win环境下，修改`hosts`文件需要将域名指向`127.0.0.1`而非`0.0.0.0`，修改完之后，需要以管理员方式运行`powershell`，使用`ifconfig /flushdns`）更新本地dns缓存。以下为原回答。
+
 &emsp;&emsp;当前时间：2017年11月7日，此方法适用所有终端平台[Mac Win Linux]，只不过略有不同(例如一些文件的位置，但是还是能够在网上找到的)，由于笔者手头需要安装在Mac下，因此以Mac为例子讲解。
 ![镇楼](http://ovnuv29fq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2003.48.30.png)
 
@@ -39,4 +41,3 @@ XAka34A2rVRYJ4XBIU35UZMUEEF64CMMIYZCK2FZZUQNODEKUHGJLFMSLIQMQUCUBXRENLK6NZL37JXP
 &emsp;&emsp;这是我安装的最坎坷的一个软件（为此，我居然花了将近七个小时从10:00pm--05:00am），只能说XMind.cn实在是在防盗版这块做的很强大...以及他们的营销...
 &emsp;&emsp;分享给有需要的人。
 &emsp;&emsp;另外，如果你觉得这篇文章确实帮助到了你。可以通过下面的微信支付给我打赏:)谢谢。
-![微信支付](http://ovnuv29fq.bkt.clouddn.com/Photo_1107_1a.png?imageView/3/w/200/h/200)
