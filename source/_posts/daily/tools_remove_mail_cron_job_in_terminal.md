@@ -4,7 +4,7 @@ date: 2018-07-23 20:10:30
 categories:
 - 网页开发
 tags:
-- 测试
+- 开发总结
 ---
 # 前言
 &emsp;&emsp;Mac自从安装了Alfred之后,不知道下载了哪个插件脚本,导致每次打开终端都会提示:You have received a new mail...

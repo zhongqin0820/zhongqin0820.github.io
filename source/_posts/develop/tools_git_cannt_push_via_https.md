@@ -4,7 +4,7 @@ date: 2017-12-08 10:22:26
 categories:
 - 网页开发
 tags:
-- 测试
+- 开发总结
 ---
 #### 错误信息：`fatal: Unable to find remote helper for 'https'`
 昨天想要提交代码的时候，死活无法`push`，稍晚的时候才想起来原来是自己太着急了，代码都没有`commit`，那么何谈`push`呢。

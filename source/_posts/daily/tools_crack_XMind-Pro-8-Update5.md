@@ -4,7 +4,7 @@ date: 2017-11-07 05:17:30
 categories:
 - 网页开发
 tags:
-- 测试
+- 开发总结
 ---
 ## 前言
 &emsp;&emsp;更新Windows破解失效解决方法。（在Win环境下，修改`hosts`文件需要将域名指向`127.0.0.1`而非`0.0.0.0`，修改完之后，需要以管理员方式运行`powershell`，使用`ifconfig /flushdns`）更新本地dns缓存。以下为原回答。
