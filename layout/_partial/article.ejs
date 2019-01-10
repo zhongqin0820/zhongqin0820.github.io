@@ -8,6 +8,7 @@
     <% } %>
     <div class="article-meta">
       <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+      <%- partial('post/updated', {class_name: 'article-date', date_format: null}) %>
       <%- partial('post/category') %>
       <%- partial('post/tag') %>
       <%- partial('post/busuanzi-analytics',{index: index, class_name: 'article-views'}) %>

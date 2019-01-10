@@ -1,4 +1,4 @@
-home: 首页
+home: Home
 archives: 归档
 about: 关于
 categories: 分类
@@ -21,7 +21,7 @@ rss_feed: RSS Feed
 category: Category
 tag: Tag
 connect: '联系我'
-post_total_count: 嗯，目前共计%d篇文章
+post_total_count: 目前共计%d篇文章
 read_more: '阅读全文'
 contents: 文章目录
 none: 无
@@ -36,3 +36,5 @@ insight:
     untitled: '(无标题)'
 article:
     more: '查看更多'
+published: '创建于'
+updated: '更新于'

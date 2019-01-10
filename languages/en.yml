@@ -34,3 +34,7 @@ insight:
     categories: 'Categories'
     tags: 'Tags'
     untitled: '(Untitled)'
+article:
+    more: 'Read More'
+published: 'Published'
+updated: 'Updated'
