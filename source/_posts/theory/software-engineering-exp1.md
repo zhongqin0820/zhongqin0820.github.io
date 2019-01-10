@@ -15,11 +15,11 @@ tags:
 
 ### 实验内容
 &emsp;&emsp;即使从来没有使用的人，参照实验大纲，也能够很顺利的完成实验内容。(可能在配置Git的时候，会占用过多的时间！)
-![github使用及创建编译运行部分](http://ou5rpeic9.bkt.clouddn.com/seexp1_1.png)
+![github使用及创建编译运行部分](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/seexp1_1.png)
 <br/>&emsp;&emsp;虽然不是第一次使用GitHub，但是，依旧没能够记住`git push`命令的使用...
-<br/>![github push命令使用](http://ou5rpeic9.bkt.clouddn.com/seexp1_2.png)
+<br/>![github push命令使用](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/seexp1_2.png)
 <br/>&emsp;&emsp;虽然这次的代码量真的非常有限，但是也能够学习到一些关于vim使用的技巧！
-<br/>![代码截图](http://ou5rpeic9.bkt.clouddn.com/seexp1_3.png)
+<br/>![代码截图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/seexp1_3.png)
 ### 实验代码
 &emsp;&emsp;本次实验代码非常简单，关键应该是那些命令行的使用！
 ```c
