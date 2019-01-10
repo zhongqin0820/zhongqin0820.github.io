@@ -1,7 +1,7 @@
 ---
 title: 数学基础：矩阵范数及latex公式编辑
 date: 2017-09-25 16:22:10
-updated
+updated: 2017-09-25 16:22:10
 categories:
 - 图像处理
 

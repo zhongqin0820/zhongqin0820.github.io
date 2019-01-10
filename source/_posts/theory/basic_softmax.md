@@ -1,7 +1,7 @@
 ---
 title: softmax用在哪里？
 date: 2017-12-30 22:23:10
-updated
+updated: 2017-12-30 22:23:10
 categories:
 - 深度学习
 tags:

@@ -1,7 +1,7 @@
 ---
 title: metadata元数据
 date: 2017-12-08 19:00:26
-updated
+updated: 2017-12-08 19:00:26
 categories:
 - 图像处理
 tags:

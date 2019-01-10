@@ -1,7 +1,7 @@
 ---
 title: 计算架构之CPU与GPU
 date: 2017-11-29 17:38:10
-updated
+updated: 2017-11-29 17:38:10
 categories:
 - 深度学习
 

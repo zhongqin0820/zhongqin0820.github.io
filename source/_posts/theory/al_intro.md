@@ -1,7 +1,7 @@
 ---
 title: 翻译:主动学习调研总结
 date: 2018-08-07 15:04:18
-updated
+updated: 2018-08-07 15:04:18
 categories:
 - 机器学习
 

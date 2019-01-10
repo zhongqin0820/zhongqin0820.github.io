@@ -1,7 +1,7 @@
 ---
 title: 自步学习与课程学习基础概念
 date: 2018-01-01 08:00:00
-updated
+updated: 2018-01-01 08:00:00
 categories:
 - 机器学习
 
