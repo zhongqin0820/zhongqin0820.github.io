@@ -1,6 +1,7 @@
 ---
 title: 读书笔记:Ian Goodfellow《深度学习》第六章
 date: 2017-09-26 21:10:04
+updated: 2017-09-26 21:10:04
 categories:
 - 深度学习
 

@@ -1,6 +1,7 @@
 ---
 title: linux之Shell命令的状态码
-date: 2017-11-08 01:59:10
+date: 2017-11-08 21:59:10
+updated: 2017-11-08 21:59:10
 categories:
 - 网页开发
 

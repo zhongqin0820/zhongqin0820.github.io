@@ -9,6 +9,7 @@ categories:
 - 学习周报
 - 医学影像计算
 - 网页开发
+- 其它
 
 tags:
 - 数学基础
@@ -23,6 +24,7 @@ tags:
 - Go
 - Node.js
 - Docker
+- 读书笔记
 ---
 1、首行缩进
 &emsp;&emsp;
