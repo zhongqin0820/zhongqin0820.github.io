@@ -27,6 +27,10 @@ tags:
 - 读书笔记
 - 修复问题
 ---
+0、图片链接
+
+`https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/`
+
 1、首行缩进
 &emsp;&emsp;
 
