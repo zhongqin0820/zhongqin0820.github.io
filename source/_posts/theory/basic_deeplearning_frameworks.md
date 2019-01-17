@@ -1,5 +1,5 @@
 ---
-title: 深度学习框架: PyTorch
+title: 深度学习框架-PyTorch
 date: 2017-12-05 10:57:10
 updated: 2017-12-05 10:57:10
 categories:
