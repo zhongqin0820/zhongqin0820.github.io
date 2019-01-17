@@ -58,19 +58,19 @@ def testdb(request):    #此处对应urls.py中的路由处理函数，一定要
 ```
 ### 获取数据
 通过objects这个模型管理器来进行完成对应的操作
-all()获得所有数据行，相当于SQL中的SELECT * FROM
+`all()`获得所有数据行，相当于SQL中的`SELECT * FROM`
 filter相当于SQL中的WHERE，可设置条件过滤结果
-objects.get(id=1)获取单个对象
-objects.order_by('name')[0:2]限制返回的数据 相当于 SQL 中的 OFFSET 0 LIMIT 2;
-objects.order_by("id")数据排序
+`objects.get(id=1)`获取单个对象
+`objects.order_by('name')[0:2]`限制返回的数据 相当于 SQL 中的 `OFFSET 0 LIMIT 2;`
+`objects.order_by('id')`数据排序
 上面的方法可以连锁使用
 
 ### 更新数据
-修改数据可以使用 save() 或 update()
+修改数据可以使用 `save()` 或 `update()`
 > save()和update都得针对已经有的数据进行操作
  
 ### 删除数据
-删除数据库中的对象只需调用该对象的delete()方法即可
+删除数据库中的对象只需调用该对象的`delete()`方法即可
 
 
 # 结束语

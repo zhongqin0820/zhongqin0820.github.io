@@ -17,16 +17,19 @@ tags:
 [http://www.runoob.com/django/django-first-app.html](http://www.runoob.com/django/django-first-app.html)
 
 # Web框架介绍
-![一般的web框架](http://images2015.cnblogs.com/blog/948404/201608/948404-20160830212049246-1153317231.jpg)
+![一般的web框架](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/django1.jpg)
+
 其它基于python的web框架，如tornado、flask、webpy都是在这个范围内进行增删裁剪的。例如tornado用的是自己的异步非阻塞“wsgi”，flask则只提供了最精简和基本的框架。Django则是直接使用了WSGI，并实现了大部分功能
 
 # MVC/MTV介绍
-模型(model)：定义数据库相关的内容，一般放在models.py文件中。
-视图(view)：定义HTML等静态网页文件相关，也就是那些html、css、js等前端的东西。
-控制器(controller)：定义业务逻辑相关，就是你的主要代码。
-MTV: 有些WEB框架觉得MVC的字面意思很别扭，就给它改了一下。view不再是HTML相关，而是主业务逻辑了，相当于控制器。html被放在Templates中，称作模板，于是MVC就变成了MTV。这其实就是一个文字游戏，和MVC本质上是一样的，换了个名字和叫法而已，换汤不换药。
+- 模型(model)：定义数据库相关的内容，一般放在models.py文件中。
+- 视图(view)：定义HTML等静态网页文件相关，也就是那些html、css、js等前端的东西。
+- 控制器(controller)：定义业务逻辑相关，就是你的主要代码。
+- MTV: 有些WEB框架觉得MVC的字面意思很别扭，就给它改了一下。view不再是HTML相关，而是主业务逻辑了，相当于控制器。html被放在Templates中，称作模板，于是MVC就变成了MTV。这其实就是一个文字游戏，和MVC本质上是一样的，换了个名字和叫法而已，换汤不换药。
+
 # Django模型组织
-![Django模型组织](http://images2015.cnblogs.com/blog/948404/201609/948404-20160903111840215-2065765780.jpg)
+![Django模型组织](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/django2.jpg)
+
 ## 我们学Django学的是什么？
 
 1. 目录结构规范
@@ -43,10 +46,14 @@ MTV: 有些WEB框架觉得MVC的字面意思很别扭，就给它改了一下。
 
 
 # Django项目目录结构
-![xiaogu_django项目结构.png](./xiaogu_django项目结构.png)
-![目录结构](http://images2015.cnblogs.com/blog/948404/201608/948404-20160830222155746-982749621.png)
+![xiaogu_django项目结构.png](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/django3.png)
+
+![目录结构](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/django4.png)
+
 **所有的APP共享项目资源**
+
 在每个django项目中可以包含多个APP，相当于一个大型项目中的分系统、子模块、功能部件等等，相互之间比较独立，但也有联系。
+
 **编写路由**
 路由都在urls.py文件里，它将浏览器输入的url映射到相应的业务处理逻辑
 > 此处尚未理解透彻
