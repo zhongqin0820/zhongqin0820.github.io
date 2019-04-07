@@ -8,7 +8,7 @@ tags:
 - 修复问题
 ---
 # 前言
-解决使用QQ for Mac时，发现发起视频，对方无法听到己方声音的办法。
+解决使用QQ for Mac时，发起视频，对方无法听到己方声音的办法。
 
 ![qq版本截图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-01-16%2017.57.15.png)
 
