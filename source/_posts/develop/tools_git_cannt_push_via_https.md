@@ -3,9 +3,9 @@ title: git利用https无法push解决方法
 date: 2017-12-08 10:22:26
 updated: 2017-12-08 10:22:26
 categories:
-- 网页开发
+- 其它
 tags:
-- 开发总结
+- 修复问题
 ---
 #### 错误信息：`fatal: Unable to find remote helper for 'https'`
 昨天想要提交代码的时候，死活无法`push`，稍晚的时候才想起来原来是自己太着急了，代码都没有`commit`，那么何谈`push`呢。
