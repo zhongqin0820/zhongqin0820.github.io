@@ -1,58 +1,182 @@
 ---
 date: 2019-05-03 21:52:12
-updated: 2019-05-03 21:52:12
+updated: 2019-05-04 20:43:11
 comments: false
 layout: projects
 ---
-# 告警系统
+# 实习项目：告警系统(2个月)
+时间：2017年11月、2018年7月
 ## 所用技术
-涉及硬件raspberry pi的环境搭建、告警生态系统搭建、以及核心业务告警系统代码
+涉及硬件raspberry pi的环境搭建、告警生态系统搭建、以及核心业务系统。
 ### 外部系统搭建
-- grafana（数据绘制面板）
-- influxdb（数据库）
+- grafana v5（数据绘制面板）
+- influxdb v1.7（数据库）
 - raspberry pi（采集IoT数据）
-- python（采集IoT数据，并发送至influxdb）
+- python 3（采集IoT数据，并使用request模块发送至influxdb）
 
 ### 告警系统搭建
-- nginx
-- node.js
-- mongodb
+- ~~nginx~~
+- node.js v8
+- mongodb v3
 - docker（自动化部署）
 
 ## 实现细节
-下面是整个系统的示意图
-![系统示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/projects_illustration.png)
+下面是整个系统的示意图，点击查看大图。
+
+<div style="width: 300px; margin: auto">![系统示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/projects_illustration.png)
+</div>
+
 ### 外部系统
 #### 硬件平台raspberry pi
+[代码及相关说明地址](https://github.com/XiaoguTech/rta-simulator/tree/master/iot)。
+搭建硬件数据采集平台，并使用python处理数据后，利用request模块发送至influxdb。功能包括：
+- 硬件搭建
+- 数据采集
+- 数据发送
 
-#### influxdb
+#### influxdb与grafana
+[代码及相关说明地址](https://github.com/XiaoguTech/rta-simulator)：包括一些配置修改。
+部署使用其docker file构建得到docker image后运行容器。
 
-#### grafana
+### 告警业务系统
+基于[OpenKB](https://github.com/mrvautin/openKB)进行再开发得到。项目代码地址：[Github](https://github.com/XiaoguTech/rta-monitor)。主要由两部分组成：简单的监控系统展示+简单的后台管理。
+- 告警展示与推送： 可以查看不同分类下的数据监控信息以及自动获取报警推送和查看对应报警的解决方案文章。
+- 添加告警平台组织的管理
+- 添加告警平台组织下用户的管理
+- 添加告警面板与告警帮助文章的管理：主要是grafana对应panel链接和OpenKB中帮助文档的关联管理
 
-
-### 告警系统
+## 其它
+在完成上述系统搭建之余，完成关于了90%的[Grafana汉化工作](https://github.com/XiaoguTech/grafana)，很可惜没能坚持完成。
 
 ## 不足
-# 操作系统课程作业：一个简单文件系统的实现
+- 本次项目涉及内容庞杂，因此对所用技术原理了解不深入，停留在表面。但是收获还是很多的，学习到了很多新技术。
+- 另外，由于项目没有投入生产，对代码质量不够关注，整个构建过程代码质量不高。
+
+
+# 实训项目：图片分类分割(半个月)
+时间：2017年7月
+源码地址：无
+
+## 所用技术
+涉及：网络爬虫、图像分类、图像分割
+- Python 2
+- Redis
+- TensorFlow
+### 网络爬虫实现
+- 使用request模块，爬取Bing图片中的图片
+    - 涉及匿名IP的使用
+    - 请求头字段设置
+- 使用Redis存储数据信息
+- 对数据进行预处理：包括切割和删选图片，最终形成10个类别，每个类别200张图片的小数据集。
+
+### 图像分类
+- 使用特征工程提取图像特征（颜色、边缘信息）
+- 使用简单线性分类模型对图像进行分类
+
+### 图像分割
+- 使用经典的图像分割算法对图像进行分割
+- 利用图像分类阶段得到模型提取得到语义掩膜得到显著图像
+
+### Challenge阶段
+- 使用LeNet 5直接进行图像分类实验
+- 使用Grabcut方法分离前背景
+
+## 不足
+- Challenge阶段，没有用到图像分类部分的内容
+
+# 编译原理课程设计：一个简单类C文法解释器的实现(一个月)
+时间：2016年12月
+源码地址：[Github](https://github.com/Zokingo/compiler)
+
 ## 所用技术
 - Java
+
 ## 实现细节
+更多细节请看[项目文档](https://raw.githubusercontent.com/Zokingo/compiler/master/documents/reports.pdf)。
 
 ## 不足
+- 未完成编译成机器码部分内容
 
-# 抠图系统
+# 大创项目：抠图系统(一年)
+开始时间：2016年9月
+在完成抠图的基础之上，加入图片合成的小功能。
+源码地址：[Github](https://github.com/zhongqin0820/GrabcutQt)
+点击查看[系统演示](https://raw.githubusercontent.com/zhongqin0820/GrabcutQt/master/res/Jietu20170919-180439-HD.gif)。
+
 ## 所用技术
 - Qt 5
 - C++
+
 ## 实现细节
+### 主要挑战
+- 抠图算法[GrabCut](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)的理解与实现
+- 可视化界面实现
+    - 抠图，抠取显著前景图像
+    - 合成，从背景图像列表中选取背景与抠取的前景图像合成新的图像。
+
+### GrabCut实现
+基于OpenCV中的实现，进行扩展可视化界面。由于没有改进算法，所以大创项目终期答辩没有通过。
+项目涉及的概念：
+- 显著性计算：传统的显著性计算策略，主要是颜色空间以及边缘线的特征。
+- GMM：根据显著性计算结果，生成高斯混合模型，计算像素点间的关系
+- GrabCut：利用生成的混合模型对前背景像素点（super pixel graph）进行分类（涉及最大流最小割算法），涉及到一些预处理和后处理的策略，如生物腐蚀操作等。
 
 ## 不足
+- 美化系统UI
+- 改进算法性能，显著性的计算部分可以替换成利用深度网络提取的图片特征（显著性）。
+- 真正意义的自动抠图，主要是在预处理和后处理方面的改进。
+- 优化图片合成部分的功能
 
-# 麻将组合消
+# 单机游戏：消除类小游戏(一个半月)
+开始时间: 2016年4月（独立完成）
+项目共有两个版本，一个是消除麻将素材，一个是消除糖果素材（含有关卡模式）。
+源码地址：[Github](https://github.com/zhongqin0820/linkgameplus)
+
 ## 所用技术
-- Cocos2d-X
+- Cocos2d-X：v3.6
 - C++
 
 ## 实现细节
+### 核心概念
+- 移动：控制素材向空白区域的目标方向作直线移动，遇到障碍或到达指定空格则停止
+- 消除：每次消除3个符合**消除条件**的素材，或者消除1个奖励素材（获得一次额外的移动机会，奖励只累积一次）
+- 胜利条件：在规定时间內，完成所有素材的消除
+- 失败条件：反之
+
+### 核心玩法
+- 如果选中3个素材，检查选中的素材是否符合消除条件：当它们中的一个最多向一个方向上移动若干步可以使得选中的素材连成一条直线，且这三个素材ID符合取模3的结果相等。如下图所示。
+- 如果选中的素材是加成素材：则添加一次移动机会
+- 每次消除完之后必须移动一个素材。
+
+<div style="width: 300px; margin: auto">![消除规则示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/help_tip2.png)
+</div>
+
+### 挑战
+#### Cocos2d-X 框架及相关生态的学习曲线
+在实现过程中，主要涉及到关于Cocos2d-X的框架的学习与理解（包括用到的一些设计模式：单例模式、工厂模式、观察者模式等，以及一些游戏实现方面的术语：场景、精灵、地图等）。
+因为，这是第一次接触到关于游戏引擎等相关概念，所以这个过程大概花费了两周的时间。后续编码，由于本身游戏实现相对简单，所以用的时间反而较少。而由于缺少游戏静态资源，因此准备的过程也花费了一些时间。
+
+#### 游戏资源准备
+主要包括：图片资源、字体资源以及声音及音效资源的获取。这个过程大致花费了两周时间。
+
+#### 主要内容
+- 游戏加载界面：游戏进入页，显示加载字样以及随机产生游戏技巧说明。
+- 游戏主场景：加载关卡信息
+- 关卡选择界面：显示当前关卡信息以及关卡选择
+- 设置界面：系统、游戏內的设置界面
+- 帮助界面：显示游戏帮助信息
+- 关于界面：介绍游戏信息
+
+以下是页面跳转示意图：
+<div style="width: 300px; margin: auto">![游戏页面跳转示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/page_goto.png)
+</div>
+
+
+## 项目收获
+- 对Cocos2d-X游戏引擎框架有了一定的了解
+- 相比传统的消除游戏（如：连连看），该游戏在玩法上有一定的创新。
+- 第一次作出一个基本完整的小项目，并将其发布在应用商店（已下架）。如果你感兴趣，这里有一份[可执行文件](https://pan.baidu.com/s/1053E-eDhjeaRVCtPOfcvuA)可供尝试，提取码: u454。
 
 ## 不足
+- 使用XML进行本地的数据存储。
+- 玩法涉及移动，与传统消除游戏区别较大，一开始玩家可能不习惯。

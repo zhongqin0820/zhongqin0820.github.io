@@ -9,33 +9,41 @@ layout: resume
 - [中文简历](https://cvblogs.cn/resume/resume.html)
 
 # Skills I mastered
+## Specialized Skills
+- Machine Learning: Familiar
+- Web development: Familiar
+- Crawler: Known
+- Concurrent Programming: Known
+- Data Structure and Algorithm: Known
+- CI/CD: Known
+
 ## Techniques
-### ML frameworks
-- PyTorch: Known and Used
-- TensorFlow: Known and Used
+- ML frameworks
+    - PyTorch: Known and Used
+    - TensorFlow: Known and Used
 
-### DB products
-- MySQL: Known and Used
-- MongoDB: Known and Used
-- InfluxDB: Known and Used
+- DB products
+    - MySQL: Known and Used
+    - MongoDB: Known and Used
+    - InfluxDB: Known and Used
 
-### Others
-- Grafana: Familiar and Used
-- Docker: Known and Used
-- Cocos2dX: Used
+- Others
+    - Grafana: Familiar and Used
+    - Docker: Known and Used
+    - Cocos2dX: Used
 
 ## Programming languages
-### Familiar
-- Python: One and a half year
-- Golang: One year
+- Familiar
+    - Python: One and a half year
+    - Golang: One year
 
-### Used
-- Node.js（JavaScript）: Three months
-- HTML 5: Three months
-- CSS 3: Three months
-- Matlab: One year
-- C++: A half year
-- Java: A half year
+- Used
+    - Node.js（JavaScript）: Three months
+    - HTML 5: Three months
+    - CSS 3: Three months
+    - Matlab: One year
+    - C++: A half year
+    - Java: A half year
 
 ## Languages
 - English: CET6（534）

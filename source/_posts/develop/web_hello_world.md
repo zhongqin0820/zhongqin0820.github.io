@@ -20,9 +20,9 @@ updated: 2019-05-04 16:11:11
 - [x] resume section: both english and chinese version added
 - [x] fix about page layout: have fixed the search area and tuned some style issues
 - [x] projects section: added the basic page + layout
+- [x] projects section: need to promote and add more details!
 
 
 ## coming soon
-- [ ] projects section: need to promote and add more details!
 - [ ] github issues comments
 - [ ] willing to add web ad?
