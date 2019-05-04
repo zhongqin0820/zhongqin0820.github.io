@@ -3,7 +3,7 @@ title: vim的mru插件报错解决方案
 date: 2018-01-10 16:55:24
 updated: 2018-01-10 16:55:24
 categories:
-- 网页开发
+- 其它
 tags:
 - Linux
 ---
