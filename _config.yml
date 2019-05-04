@@ -9,7 +9,10 @@ menu:
   Categories: /categories
   Tags: /tags
   About: /about
-rss: /atom.xml
+  Resume: /resume/resume.html
+  Projects: /projects
+
+#rss: /atom.xml
 
 since: 2017
 
@@ -29,7 +32,7 @@ avatar:
   width: 45
   height: 45
   bottom: 0
-  url: http://ou5rpeic9.bkt.clouddn.com/favicon.ico
+  url: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/favicon.ico
 
 
 # AboutPage background
@@ -71,6 +74,7 @@ social:
 #  Instagram:
 #  Pinterest:
 #  Flickr:
+  rss: /atom.xml
   email: zhongqin0820@163.com
 
 
@@ -145,9 +149,14 @@ cnzz_siteid: 1263278368
 donate:
     enable: true
     message: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!'
-    wechatImage: http://ou5rpeic9.bkt.clouddn.com/mm_facetoface_collect_qrcode_1532340710502.png
-    alipayImage: http://ou5rpeic9.bkt.clouddn.com/1532340773616.jpg
+    wechatImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/mm_facetoface_collect_qrcode_1532340710502.png
+    alipayImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/1532340773616.jpg
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 #baidu_push: true
+
+# word_count
+word_count: true
+read_count: true
+total_count: true

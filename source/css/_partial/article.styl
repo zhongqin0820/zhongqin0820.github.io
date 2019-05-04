@@ -30,10 +30,35 @@
 .article-date:before
   font-family: "FontAwesome";
   content: "\f073";
-  @media mq-mobile
-    display: none
+  color: #333
 
 .article-date:hover
+  color: color-theme
+
+.article-count
+  @extend $block-caption
+  text-align: center
+  font-weight: normal
+
+.article-count:before
+  font-family: "FontAwesome";
+  content: "\f11c";
+  color: #333
+
+.article-count:hover
+  color: color-theme
+
+.article-read
+  @extend $block-caption
+  text-align: center
+  font-weight: normal
+
+.article-read:before
+  font-family: "FontAwesome";
+  content: "\f252";
+  color: #333
+
+.article-read:hover
   color: color-theme
 
 .article-views
@@ -44,8 +69,7 @@
 .article-views:before
   font-family: "FontAwesome";
   content: "\f06e";
-  @media mq-mobile
-    display: none
+  color: #333
 
 .article-views:hover
   color: color-theme

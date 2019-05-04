@@ -9,9 +9,12 @@
     <div class="article-meta">
       <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
       <%- partial('post/updated', {class_name: 'article-date', date_format: null}) %>
+      <br />
       <%- partial('post/category') %>
       <%- partial('post/tag') %>
       <%- partial('post/busuanzi-analytics',{index: index, class_name: 'article-views'}) %>
+      <%- partial('post/word_count',{index: index, class_name: 'article-count'}) %>
+      <%- partial('post/read_count',{index: index, class_name: 'article-read'}) %>
     </div>
     <div class="article-entry" itemprop="articleBody">
       <% if ( index ){ %>
@@ -39,6 +42,9 @@
       <a href="<%- url_for(post.path) %>#more"><%= __('article.more') %></a>
     </div>
     <%}%>
+    <% if(!index) {%>
+    <%- related_posts(post, site.posts) %>
+    <% } %>
     <footer class="entry-meta entry-footer">
 
       <% if (!index && theme.donate.enable){ %>

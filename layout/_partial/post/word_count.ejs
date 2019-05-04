@@ -1,0 +1,7 @@
+<% if (!index && is_post() && theme.word_count){ %>
+<a class="<%= class_name %>">
+    <span >
+        <%= wordcount(post.content) %><%= __('nav.Words')%>
+    </span>
+</a>
+<% } %>

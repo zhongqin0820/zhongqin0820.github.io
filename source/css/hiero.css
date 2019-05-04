@@ -76,7 +76,15 @@ blockquote p {
 dd {
 	margin-bottom: 1em;
 	}
-
+input[type="search"],
+.uneditable-input {
+	color: #333;
+	line-height: 26px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	border-color: #333333;
+}
 /* Forms */
 select,
 textarea,
@@ -91,7 +99,6 @@ input[type="week"],
 input[type="number"],
 input[type="email"],
 input[type="url"],
-input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
@@ -263,7 +270,8 @@ object {
 
 .site-search{
 	float: right;
-    display:inline-block;
+    /*display:inline-block;*/
+	border-radius: 50px;
 }
 
 .site-title {

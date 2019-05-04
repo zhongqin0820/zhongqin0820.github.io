@@ -1,0 +1,7 @@
+<% if (!index && is_post() && theme.read_count){ %>
+<a class="<%= class_name %>">
+    <span >
+        <%= min2read(post.content,{cn: 300, en: 160}) %><%= __('nav.Min')%>
+    </span>
+</a>
+<% } %>

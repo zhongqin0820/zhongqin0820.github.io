@@ -12,12 +12,15 @@
       </div>
 
       <div class="site-credit">
-          <% if (theme.busuanzi_analytics){ %>
+          <% if (theme.busuanzi_analytics) { %>
           <span id="busuanzi_container_site_uv">
-              本站访客数<span id="busuanzi_value_site_uv"></span>人次
-              本站总访问量<span id="busuanzi_value_site_pv"></span>次
+              <%= __('credit.total_visits')%>:<span id="busuanzi_value_site_uv"> </span><%= __('credit.people_num')%>
+              <%= __('credit.all_visits')%>:<span id="busuanzi_value_site_pv"> </span><%= __('credit.times')%>
             </span>
           <% } %>
+          <% if (theme.total_count){%>
+                <%= __('credit.total_counts')%>:<span ><%= totalcount(site)%> <%= __('nav.Words')%></span>
+          <%}%>
       </div>
   </div>
 </footer>
