@@ -1,4 +1,31 @@
-<% if (theme.gentie_productKey){ %>
+<% if (theme.gitment.enable) {%>
+	<!-- gitment start-->
+	<div id="comment"></div>
+	<!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+	<!--<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css"/>
+	<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
+	<script>
+		var id = window.location.pathname
+		if (id.length > 50) {
+			id = '<%- page.slug%>'
+		}
+		if (id.length > 50) {
+			id = '<%- page.date%>'
+		}
+		var gitment = new Gitment({
+			id: id, // 可选。默认为 location.href
+			owner: '<%- theme.gitment.githubID %>',
+			repo: '<%- theme.gitment.repo %>',
+			oauth: {
+				client_id: '<%- theme.gitment.ClientID %>',
+				client_secret: '<%- theme.gitment.ClientSecret %>',
+			},
+		})
+		gitment.render('comment')
+	</script>
+	<!-- gitment end -->
+<% } else if (theme.gentie_productKey){ %>
 	<!-- 网易云跟帖 start -->
 	<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
 	<script>
