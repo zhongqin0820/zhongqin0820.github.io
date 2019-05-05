@@ -103,8 +103,8 @@ gitment:
     enable: true
     githubID: zhongqin0820
     repo: zhongqin0820.github.io
-    ClientID: 884f27d7bba3bd8e5572
-    ClientSecret: 288e3236093acbdc48dbf3b285c732b8c9809616
+    ClientID: xxxxx
+    ClientSecret: xxxxxxxxx
     lazy: false
 
 # Code Highlight theme
@@ -128,8 +128,8 @@ show_count: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification: "google-site-verification: google2ade42c9eaad51d0.html"
-baidu_site_verification: "N7RDvFcI1s"
+google_site_verification: "google-site-verification: xxxxxxxxxx.html"
+baidu_site_verification: "xxxx"
 qihu_site_verification:
 
 # Miscellaneous
