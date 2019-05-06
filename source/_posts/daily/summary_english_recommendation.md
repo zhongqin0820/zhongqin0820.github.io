@@ -1,7 +1,7 @@
 ---
-title: 大学专业课程简单总结
+title: 英语学习资料总结
 date: 2019-04-14 19:40:10
-updated: 2019-04-14 20:28:10
+updated: 2019-05-04 21:46:38
 categories:
 - 其它
 
@@ -14,12 +14,15 @@ tags:
 <!--more-->
 # 词法/语法
 ## 书本
-- [英语语法新图解 :用思维导图快速学语法]()
-- [英语新手一看就懂 :思维导图学语法]()
+- [英语语法新图解 :用思维导图快速学语法](https://book.douban.com/subject/30246892/)
+- [英语新手一看就懂 :思维导图学语法](https://book.douban.com/subject/30845258/)
 
 ## 网站/APP
-- [Duolingo](https://duolingo.com)
-- [CastBox](https://castbox.fm/)
+- [Duolingo](https://duolingo.com)：简单语法树、卡片式
+- [CastBox](https://castbox.fm/)：收听有声读物
+
+## 视频教程
+- [一堂课让你懂得英语语法百分之九十五](https://www.bilibili.com/video/av47618740): 强烈推荐学习
 
 # 说
 ## 书本
@@ -43,3 +46,4 @@ tags:
 
 ## 生活用语
 - [【纽约/英语学习】《 We Speak NYC》第一季](https://www.bilibili.com/video/av33128510)
+- [走遍美国](https://pan.baidu.com/s/4kWk4TL1)：可以配合剧本练习

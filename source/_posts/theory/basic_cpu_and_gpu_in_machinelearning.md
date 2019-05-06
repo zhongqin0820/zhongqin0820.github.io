@@ -19,6 +19,7 @@ CUDA和GPU之间的关系十分重要。
 CUDA在编程基础上实现GPU的性能。
 CUDA：软件
 GPU：硬件
+
 # 发展历程
 GPGPU->CUDA->GPU
 
