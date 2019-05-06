@@ -1,6 +1,6 @@
 ---
 date: 2019-05-03 21:47:12
-updated: 2019-05-03 21:47:12
+updated: 2019-05-06 14:02:36
 comments: false
 layout: resume
 ---
@@ -14,8 +14,8 @@ layout: resume
 - Web development: Familiar
 - Crawler: Known
 - Concurrent Programming: Known
-- Data Structure and Algorithm: Known
 - CI/CD: Known
+- Data Structure and Algorithm: Familiar
 
 ## Techniques
 - ML frameworks
@@ -38,26 +38,34 @@ layout: resume
     - Golang: One year
 
 - Used
-    - Node.js（JavaScript）: Three months
-    - HTML 5: Three months
-    - CSS 3: Three months
     - Matlab: One year
     - C++: A half year
     - Java: A half year
+    - Node.js（JavaScript）: Three months
+    - HTML 5: Three months
+    - CSS 3: Three months
 
 ## Languages
 - English: CET6（534）
 - Chinese(Simplify): Mother tongue
 
+## Projects
+- Check this [**link**](https://cvblogs.cn/projects/) for more details.
+
 # Education
-## Master Degree
-- San Yat-sen University（2018-Up to now）
+## Master of Science
+- San Yat-sen University, GuangZhou, GuangDong（2018-**Up to now**）
 - Computer Technology
+- Major Researches: Machine Learning(Semi-supervised Learning, Active Learning)
+
+### Awards
 - Third-class scholarship: Once
 
-## Bachelor
-- North Eastern University（2014-2018）
+## Bachelor of Science
+- North Eastern University, ShenYang, LiaoNing（2014-2018）
 - Computer Science and Technology（3.8/5.0）
+
+### Awards
 - First-class scholarship: Once
 - Second-class scholarship: Three times
 - National encouragement scholarship: Three times
@@ -65,6 +73,6 @@ layout: resume
 
 # Publications
 
-- [Yang M., Zhong Q., Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshop. In Progress]()
+- Yang M., **Zhong Q.**, Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshop. **In Progress**
 
-- [Zhong Q., Yang M., Zhang T. (2018) Semi supervised Dictionary Active Learning for Pattern Classification. PRCV 2018](https://link.springer.com/chapter/10.1007/978-3-030-03338-5_47)
+- **Zhong Q.**, Yang M., Zhang T. (2018) Semi supervised Dictionary Active Learning for Pattern Classification. PRCV 2018. [**Link**](https://link.springer.com/chapter/10.1007/978-3-030-03338-5_47).

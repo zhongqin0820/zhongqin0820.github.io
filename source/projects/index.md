@@ -1,21 +1,26 @@
 ---
 date: 2019-05-03 21:52:12
-updated: 2019-05-04 20:43:11
+updated: 2019-05-06 14:17:36
 comments: false
 layout: projects
 ---
 # 实习项目：告警系统(2个月)
-时间：2017年11月、2018年7月
+- 时间：2017年11月、2018年7月
+
 ## 所用技术
-涉及硬件raspberry pi的环境搭建、告警生态系统搭建、以及核心业务系统。
+- 涉及硬件raspberry pi的环境搭建、告警生态系统搭建、以及核心业务系统实现。
+
 ### 外部系统搭建
+#### 硬件raspberry pi的环境搭建
+- raspberry pi（采集IoT数据）
+- python 3（采集IoT数据，并使用requests模块发送至influxdb）
+
+#### 告警生态系统搭建
 - grafana v5（数据绘制面板）
 - influxdb v1.7（数据库）
-- raspberry pi（采集IoT数据）
-- python 3（采集IoT数据，并使用request模块发送至influxdb）
 
-### 告警系统搭建
-- ~~nginx~~
+### 核心业务系统实现
+- ~~nginx~~：由于部署在云平台[heroku](https://www.heroku.com)，所以实际未使用。
 - node.js v8
 - mongodb v3
 - docker（自动化部署）
@@ -29,21 +34,22 @@ layout: projects
 ### 外部系统
 #### 硬件平台raspberry pi
 [代码及相关说明地址](https://github.com/XiaoguTech/rta-simulator/tree/master/iot)。
-搭建硬件数据采集平台，并使用python处理数据后，利用request模块发送至influxdb。功能包括：
-- 硬件搭建
-- 数据采集
-- 数据发送
+搭建硬件数据采集平台，并使用python处理数据后，利用requests模块发送至influxdb。功能包括：
+- 硬件搭建：主要涉及使用组件的接线问题
+- 数据采集：根据使用模块数据的传输位置读取数据（所用DS18B20通过总线传输数据，查询手册找到对应的地址）
+- 数据发送：可以使用requests模块将数据发送给influxdb所在服务器
 
 #### influxdb与grafana
-[代码及相关说明地址](https://github.com/XiaoguTech/rta-simulator)：包括一些配置修改。
-部署使用其docker file构建得到docker image后运行容器。
+[代码及相关说明地址](https://github.com/XiaoguTech/rta-simulator)：包括一些配置修改。部署时，在修改部分配置下，使用其docker file构建得到docker image后运行容器实例。
+- 主要根据influxdb中的数据，拉取数据进行绘制，为了能够公开访问图表，使用匿名组织画图
 
 ### 告警业务系统
-基于[OpenKB](https://github.com/mrvautin/openKB)进行再开发得到。项目代码地址：[Github](https://github.com/XiaoguTech/rta-monitor)。主要由两部分组成：简单的监控系统展示+简单的后台管理。
-- 告警展示与推送： 可以查看不同分类下的数据监控信息以及自动获取报警推送和查看对应报警的解决方案文章。
-- 添加告警平台组织的管理
-- 添加告警平台组织下用户的管理
-- 添加告警面板与告警帮助文章的管理：主要是grafana对应panel链接和OpenKB中帮助文档的关联管理
+- 基于[OpenKB](https://github.com/mrvautin/openKB)进行再开发得到。项目代码地址：[Github](https://github.com/XiaoguTech/rta-monitor)。
+- 主要由两部分组成：简单的监控系统展示+简单的后台管理。
+    - 告警展示与推送： 可以查看不同分类下的数据监控信息以及自动获取报警推送和查看对应报警的解决方案文章。
+    - 添加告警平台组织的管理
+    - 添加告警平台组织下用户的管理
+    - 添加告警面板与告警帮助文章的管理：主要是grafana对应panel链接和OpenKB中帮助文档的关联管理
 
 ## 其它
 在完成上述系统搭建之余，完成关于了90%的[Grafana汉化工作](https://github.com/XiaoguTech/grafana)，很可惜没能坚持完成。
@@ -52,22 +58,22 @@ layout: projects
 - 本次项目涉及内容庞杂，因此对所用技术原理了解不深入，停留在表面。但是收获还是很多的，学习到了很多新技术。
 - 另外，由于项目没有投入生产，对代码质量不够关注，整个构建过程代码质量不高。
 
-
 # 实训项目：图片分类分割(半个月)
-时间：2017年7月
-源码地址：无
+- 时间：2017年7月
+- 源码地址：无（项目主要侧重概念的理解）
 
 ## 所用技术
-涉及：网络爬虫、图像分类、图像分割
-- Python 2
-- Redis
-- TensorFlow
+- 涉及：网络爬虫、图像分类、图像分割
+    - Python 2，Matlab
+    - Redis
+    - TensorFlow
+
 ### 网络爬虫实现
-- 使用request模块，爬取Bing图片中的图片
+- 使用requests模块，爬取Bing图片中的图片
     - 涉及匿名IP的使用
     - 请求头字段设置
-- 使用Redis存储数据信息
-- 对数据进行预处理：包括切割和删选图片，最终形成10个类别，每个类别200张图片的小数据集。
+- 使用Redis存储数据信息，由于数据量较小，实际中意义不大
+- 对数据进行预处理：包括切割和删选图片，最终形成10个类别，每个类别200张图片的小数据集（类似cifar10）。
 
 ### 图像分类
 - 使用特征工程提取图像特征（颜色、边缘信息）
@@ -84,24 +90,26 @@ layout: projects
 ## 不足
 - Challenge阶段，没有用到图像分类部分的内容
 
-# 编译原理课程设计：一个简单类C文法解释器的实现(一个月)
-时间：2016年12月
-源码地址：[Github](https://github.com/Zokingo/compiler)
+# 课程设计：一个简单类C文法解释器的实现(一个月)
+- 时间：2016年12月
+- 源码地址：[Github](https://github.com/Zokingo/compiler)
 
 ## 所用技术
 - Java
+- 编译原理知识
 
 ## 实现细节
-更多细节请看[项目文档](https://raw.githubusercontent.com/Zokingo/compiler/master/documents/reports.pdf)。
+该项目为编译原理课程设计项目，涉及内容大多与其相关(词法、语法、语义分析、优化等)。篇幅较大，更多细节请看[项目文档](https://raw.githubusercontent.com/Zokingo/compiler/master/documents/reports.pdf)。
 
 ## 不足
-- 未完成编译成机器码部分内容
+- 未完成编译成机器码部分内容，只是一个解释器
+- 测试方法不够自动化
 
 # 大创项目：抠图系统(一年)
-开始时间：2016年9月
-在完成抠图的基础之上，加入图片合成的小功能。
-源码地址：[Github](https://github.com/zhongqin0820/GrabcutQt)
-点击查看[系统演示](https://raw.githubusercontent.com/zhongqin0820/GrabcutQt/master/res/Jietu20170919-180439-HD.gif)。
+- 开始时间：2016年9月
+- 源码地址：[Github](https://github.com/zhongqin0820/GrabcutQt)
+    - 在完成抠图的基础之上，加入图片合成的小功能。
+    - 点击查看[系统演示](https://raw.githubusercontent.com/zhongqin0820/GrabcutQt/master/res/Jietu20170919-180439-HD.gif)。
 
 ## 所用技术
 - Qt 5
@@ -115,11 +123,11 @@ layout: projects
     - 合成，从背景图像列表中选取背景与抠取的前景图像合成新的图像。
 
 ### GrabCut实现
-基于OpenCV中的实现，进行扩展可视化界面。由于没有改进算法，所以大创项目终期答辩没有通过。
-项目涉及的概念：
-- 显著性计算：传统的显著性计算策略，主要是颜色空间以及边缘线的特征。
-- GMM：根据显著性计算结果，生成高斯混合模型，计算像素点间的关系
-- GrabCut：利用生成的混合模型对前背景像素点（super pixel graph）进行分类（涉及最大流最小割算法），涉及到一些预处理和后处理的策略，如生物腐蚀操作等。
+- 基于OpenCV中的实现，进行扩展可视化界面。由于没有改进算法，所以大创项目终期答辩没有通过。
+- 项目涉及的概念：
+    - 显著性计算：传统的显著性计算策略，主要是颜色空间以及边缘线的特征。
+    - GMM：根据显著性计算结果，生成高斯混合模型，计算像素点间的关系
+    - GrabCut：利用生成的混合模型对前背景像素点（super pixel graph）进行分类（涉及最大流最小割算法），涉及到一些预处理和后处理的策略，如生物腐蚀操作等。
 
 ## 不足
 - 美化系统UI
@@ -128,9 +136,9 @@ layout: projects
 - 优化图片合成部分的功能
 
 # 单机游戏：消除类小游戏(一个半月)
-开始时间: 2016年4月（独立完成）
-项目共有两个版本，一个是消除麻将素材，一个是消除糖果素材（含有关卡模式）。
-源码地址：[Github](https://github.com/zhongqin0820/linkgameplus)
+- 开始时间: 2016年4月（独立完成）
+- 源码地址：[Github](https://github.com/zhongqin0820/linkgameplus)
+    - 项目共有两个版本，一个是消除麻将素材，一个是消除糖果素材（含有关卡模式）。
 
 ## 所用技术
 - Cocos2d-X：v3.6
@@ -153,11 +161,11 @@ layout: projects
 
 ### 挑战
 #### Cocos2d-X 框架及相关生态的学习曲线
-在实现过程中，主要涉及到关于Cocos2d-X的框架的学习与理解（包括用到的一些设计模式：单例模式、工厂模式、观察者模式等，以及一些游戏实现方面的术语：场景、精灵、地图等）。
-因为，这是第一次接触到关于游戏引擎等相关概念，所以这个过程大概花费了两周的时间。后续编码，由于本身游戏实现相对简单，所以用的时间反而较少。而由于缺少游戏静态资源，因此准备的过程也花费了一些时间。
+- 在实现过程中，主要涉及到关于Cocos2d-X的框架的学习与理解（包括用到的一些设计模式：单例模式、工厂模式、观察者模式等，以及一些游戏实现方面的术语：场景、精灵、地图等）。
+- 因为，这是第一次接触到关于游戏引擎等相关概念，所以这个过程大概花费了两周的时间。后续编码，由于本身游戏实现相对简单，所以用的时间反而较少。而由于缺少游戏静态资源，因此准备的过程也花费了一些时间。
 
 #### 游戏资源准备
-主要包括：图片资源、字体资源以及声音及音效资源的获取。这个过程大致花费了两周时间。
+- 主要包括：图片资源、字体资源以及声音及音效资源的获取。这个过程大致花费了两周时间。
 
 #### 主要内容
 - 游戏加载界面：游戏进入页，显示加载字样以及随机产生游戏技巧说明。
