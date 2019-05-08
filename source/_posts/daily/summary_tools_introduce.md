@@ -1,7 +1,7 @@
 ---
 title: 工作开发中的一些工具
 date: 2017-11-04 22:08:10
-updated: 2019-03-04 22:08:10
+updated: 2019-05-08 12:12:45
 categories:
 - 其它
 
@@ -24,6 +24,12 @@ tags:
 |OneTab|减轻标签页混乱现象|
 |RSS Feed Reader|配合[rsshub](https://docs.rsshub.app/)使用|
 |沙拉查词|专业划词翻译扩展|
+
+### 搜索引擎使用技巧
+- filetype
+- insite
+- intitle
+- inurl
 
 ## 编程工具：IDE/编辑器
 无论是使用IDE还是编辑器都应该花心思熟悉快捷键以及搭配插件使用。
