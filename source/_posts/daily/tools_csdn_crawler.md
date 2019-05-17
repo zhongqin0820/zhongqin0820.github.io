@@ -65,5 +65,19 @@ Domain Name: TWBLOGS.NET
 - 简体转繁体，一开始看到文章同时有[简体](https://www.twblogs.net/a/5b8319ec2b717766a1eb0dbb/zh-cn)与[繁体](https://www.twblogs.net/a/5b8319ec2b717766a1eb0dbb)版本的时候还挺意外的，原来利用一些现有的工具就可以简单实现了。
 - 该网站作者在设计API的时候还是挺考究的，将资源标识符hash加密存储，值得学习。
 
+## 其它
+使用`builtwith`工具看到的一些信息
+
+```
+In [1]: import builtwith
+
+In [2]: builtwith.parse('https://twblogs.net/')
+Out[2]:
+{'advertising-networks': ['Google AdSense'],
+ 'cdn': ['CloudFlare'],
+ 'javascript-frameworks': ['jQuery'],
+ 'web-frameworks': ['Twitter Bootstrap']}
+```
+
 # 结束语
 感叹一下数据隐私的重要性。在想，成立一家互联网隐私数据清理网站需要什么技术。

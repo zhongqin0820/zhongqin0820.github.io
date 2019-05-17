@@ -57,6 +57,7 @@ tags:
 6. XMind：思维导图应用
 7. Alfred/Launchy：前者还配合工作流使用
 8. tmux：终端神器，划分终端窗口
+9. z：终端神器，代替cd命令
 
 ## 实用网站
 1. [thatseed](https://www.thatseed.org/)：VPS服务提供商

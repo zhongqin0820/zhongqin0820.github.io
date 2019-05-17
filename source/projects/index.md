@@ -17,7 +17,7 @@ layout: projects
 
 #### 告警生态系统搭建
 - grafana v5（数据绘制面板）
-- influxdb v1.7（数据库）
+- influxdb v1.7（时序型数据库）
 
 ### 核心业务系统实现
 - ~~nginx~~：由于部署在云平台[heroku](https://www.heroku.com)，所以实际未使用。
@@ -70,8 +70,8 @@ layout: projects
 
 ### 网络爬虫实现
 - 使用requests模块，爬取Bing图片中的图片
-    - 涉及匿名IP的使用
     - 请求头字段设置
+    - 涉及代理IP的使用
 - 使用Redis存储数据信息，由于数据量较小，实际中意义不大
 - 对数据进行预处理：包括切割和删选图片，最终形成10个类别，每个类别200张图片的小数据集（类似cifar10）。
 

@@ -32,7 +32,7 @@ layout: resume
     - Docker: Known and Used
     - Cocos2dX: Used
 
-## Programming languages
+## Programming Languages
 - Familiar
     - Python: One and a half year
     - Golang: One year
@@ -45,18 +45,18 @@ layout: resume
     - HTML 5: Three months
     - CSS 3: Three months
 
-## Languages
-- English: CET6（534）
-- Chinese(Simplify): Mother tongue
-
 ## Projects
 - Check this [**link**](https://cvblogs.cn/projects/) for more details.
+
+## Speaking Languages
+- English: CET6（534）
+- Chinese(Simplify): Mother tongue
 
 # Education
 ## Master of Science
 - San Yat-sen University, GuangZhou, GuangDong（2018-**Up to now**）
 - Computer Technology
-- Major Researches: Machine Learning(Semi-supervised Learning, Active Learning)
+- Major Researches: Machine Learning(Semi-supervised Learning, Dictionary Learning, Active Learning)
 
 ### Awards
 - Third-class scholarship: Once

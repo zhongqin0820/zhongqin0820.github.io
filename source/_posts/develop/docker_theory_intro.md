@@ -81,17 +81,10 @@ ENV # 环境变量
 ```
 
 ## 网络连接
-主要包括：网络基础、容器间的连接、与外部网络的连接 三部分。这篇[博文](https://www.cnblogs.com/Hai--D/p/7017933.html)总结的很好。这里不再锥述。
+主要包括：网络基础、容器间的连接、与外部网络的连接 三部分。这篇[博文](https://www.cnblogs.com/Hai--D/p/7017933.html)总结的很好。这里不再缀述。
 
 ## 资料汇总
 - [bilibili-Docker 从入门到实践（极客学院）](https://www.bilibili.com/video/av42752665)
 - [Docker入门学习笔记1](https://cvblogs.cn/2018/07/02/develop/docker_basic_intro/)
-- [Docker入门学习笔记2](https://github.com/zhongqin0820/coding-playground/wiki/Docker%E5%85%A5%E9%97%A8
-%E5%AD
-%A6%E4
-%B9%A0)
+- [Docker入门学习笔记2](https://github.com/zhongqin0820/coding-playground/wiki/Docker%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0)
 - [Docker基本命令与使用 —— Docker容器的网络连接（四）](https://www.cnblogs.com/Hai--D/p/7017933.html)
-
-## 待完成
-- [ ] kubernetes
-- [ ] docker-compose
