@@ -23,11 +23,11 @@ There are many virtuals of mankind conveyed from the book or the whole story. Af
 More than that, different people may have different points of view of the book. For me, the truth hided in the story is the most fascinating thing. After reading it, I am eager to know more about the history at that time, especially age 1950's. As for me, I find that I have a shallow knowledge about the history of Europe or England precisely. And it is always blurred in my mind that the western countries or the people in there live a better life than the people in my motherland in early modern times. I am shocked that the ordinary people there have the same bitter lives as well. For example, I never imagine that they once experienced a rationing system. No wonder, that may be why George Orwell wrote *1984*?
 On the other hand, I also known that though having learned English as second language for so many years, I am still an illiteracy in the spoken countries if I didn't have the basis of common literature knowledge there.
 
-Last but not least, I want to take a reflection of the development of the human society nowadays. It is so speedy that it may lost its mind. We should keep our mind clear and lead to the right direction. Maybe it is time to slow our pace and look around.
+Last but not least, I want to take a reflection of the development of the human society nowadays. It is so speedy that it may lost its mind. We should keep our mind clear and always steer to the right direction. Maybe it is time to slow our pace and look around.
 
 # Conclusion
 First book review in English. Talk about the experience of reading the book, some descriptions of the contents, the most fascinating thing of the book and some reflections after reading it. Still need more practice in writing.
-In the end, I attach the link of [84charingcrossroad.co.uk](http://www.84charingcrossroad.co.uk/), which is a good place to know more about the store in reality though the whole story is real.
+In the end, I attach the link of [84charingcrossroad.co.uk](http://www.84charingcrossroad.co.uk/), which is a good place to know more about the store in reality seems the whole story is real.
 
 # Links
 - [84charingcrossroad.co.uk](http://www.84charingcrossroad.co.uk/)

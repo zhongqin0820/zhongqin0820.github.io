@@ -8,9 +8,9 @@ tags:
 - 修复问题
 ---
 # 前言
-&emsp;&emsp;Mac自从安装了Alfred之后,不知道下载了哪个插件脚本,导致每次打开终端都会提示:You have received a new mail...
-&emsp;&emsp;命令行输入`mail`后会看到好几封发给`local`的消息,提示`Subject:cron...achromatopsia.qs`之类的信息,**应该是某个任务想要开启定时任务却没有权限导致的**.
-&emsp;&emsp;因为一直没有找到解决办法(不知道这个`achromatopsia.qs`是什么鬼),忍了好久,上周终于把它解决了.记录一下.
+Mac自从安装了Alfred之后,不知道下载了哪个插件脚本,导致每次打开终端都会提示:You have received a new mail...
+命令行输入`mail`后会看到好几封发给`local`的消息,提示`Subject:cron...achromatopsia.qs`之类的信息,**应该是某个任务想要开启定时任务却没有权限导致的**.
+因为一直没有找到解决办法(不知道这个`achromatopsia.qs`是什么鬼),忍了好久,上周终于把它解决了.记录一下.
 
 <!-- more -->
 # 解决方案

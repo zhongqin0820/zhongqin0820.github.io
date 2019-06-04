@@ -3,7 +3,7 @@ title: 博客开发
 categories: 网页开发
 tags: 测试
 date: 2017-08-05 19:11:50
-updated: 2019-05-05 15:34:26
+updated: 2019-06-04 19:24:21
 ---
 # 博客正在完善中
 记录博客功能更新日志。
@@ -30,6 +30,7 @@ updated: 2019-05-05 15:34:26
     - ~~vssue~~
 - [x] fix busuanzi_count issues: changed the url, [ref](https://juejin.im/post/5bbc954a5188255c7c657ca5)
 - [x] add auto init issue page by using rss.xml and python: done
+- [x] 2019/06/04: add backlog in the end of when the post gets updated.
 
 ## coming soon
-- [ ] willing to add web ad?
+- [ ] ~~willing to add web ad?~~

@@ -9,12 +9,9 @@ tags:
 - Go
 ---
 # 前言
-Go中线性数据结构没有现成的栈与队列。因此，当被问到使用队列实现栈，或者使用栈实现队列的问题时会变得很尴尬。如：
-- [Leetcode 225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
-- [Leetcode 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
-- [两个栈实现双端队列](https://www.cnblogs.com/zmlctt/p/3985128.html)
+Go中线性数据结构没有现成的栈与队列。因此，当被问到使用队列实现栈，或者使用栈实现队列的问题时会变得很尴尬。如：[Leetcode 225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)、[Leetcode 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)、[两个栈实现双端队列](https://www.cnblogs.com/zmlctt/p/3985128.html)。
 
-针对这个问题，简单做个梳理。法1：借助切片使用类型重定义后的类型添加新方法封装得到的栈/队列。法2：直接使用container/list中的双向链表的封装。建议还是使用后者。
+针对这个问题，简单做个梳理。法1：借助切片使用类型重定义后的类型添加新方法封装得到的栈/队列。法2：直接使用container/list中的双向链表的封装。这里最后使用后者解决问题。
 
 <!-- more -->
 # 使用切片实现栈与队列
