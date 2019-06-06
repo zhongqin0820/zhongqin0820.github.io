@@ -37,6 +37,12 @@ tags:
 - [《经济学人》](https://www.tianfateng.cn/7399.html)资源合辑，搭配音频，阅读*Leaders*部分即可。
 - [gen.lib.rus.ec](http://gen.lib.rus.ec)：搜索并下载感兴趣电子刊物资源。
 
+# 写
+{% blockquote cassidoo http://cassidoo.github.io/writing/2016/11/02/agua-caliente-writing-exercise/ Writing Practice: The Agua Caliente Airport %}
+You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, and you just write.
+{% endblockquote %}
+
+
 # 词法/语法
 ## 书本
 - [英语语法新图解：用思维导图快速学语法](https://book.douban.com/subject/30246892/)
@@ -60,5 +66,6 @@ tags:
 - [【纽约/英语学习】《 We Speak NYC》第一季](https://www.bilibili.com/video/av33128510)
 - [走遍美国](https://pan.baidu.com/s/4kWk4TL1)：可以配合剧本练习
 
-# Backlog
+# Changelog
 - 2019/06/04：补充李咏梅老师系列教程链接，添加多邻国[Streak Hall of Fame](https://duome.eu/anoni15/progress)链接以及调整内容顺序等。
+- 2019/06/05：添加关于写作练习的建议

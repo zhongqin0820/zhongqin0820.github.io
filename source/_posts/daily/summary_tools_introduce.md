@@ -1,7 +1,7 @@
 ---
 title: 工作开发中的一些工具
 date: 2017-11-04 22:08:10
-updated: 2019-05-08 12:12:45
+updated: 2019-06-05 11:54:22
 categories:
 - 其它
 
@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 ## Chrome插件
-浏览器的插件使浏览器的性价比得到提高。因此，当我们想要使用一个浏览器。我们应当要善于利用搜索引擎查询自己的需要对应的各家浏览器的插件都有哪些。或者直接搜索那种别人整理的插件top列表进行安装。好的插件大大提升我们的用户体验和工作效率。
+浏览器的插件使浏览器的性价比得到提高。因此，当我们想要使用一个浏览器。我们应当要善于利用搜索引擎查询自己的需要对应的各家浏览器的插件都有哪些。或者直接搜索那种别人整理的插件推荐列表进行安装。好的插件大大提升我们的用户体验和工作效率。
 
 ### 插件推荐
 
@@ -33,41 +33,48 @@ tags:
 
 ## 编程工具：IDE/编辑器
 无论是使用IDE还是编辑器都应该花心思熟悉快捷键以及搭配插件使用。
-### 用过的IDE
-1. ~~VS2013->VS2017：C、C++ （主要是拿Cocos-2dx写的游戏）、 C# 弃~~
-2. ~~Eclipse：纯粹的Java开发，只用一个Java Swig...弃~~
-3. ~~XCode：C、C++、iOS开发弃~~
-4. IDEA：Node.js项目
-5. PyCharm：Python项目
-6. Goland：Go项目
 
-### 用过的编辑器
-1. Notepad++：win上使用，兼容Matlab文件最好
-2. Sublime Text 3：搭配插件使用
-3. Vim：搭配插件使用，推荐NerdTree + TagBarToggle
-4. ~~Atom：弃~~
-5. ~~VS Code：弃~~
+- 用过的IDE
+    - IDEA：Node.js项目
+    - PyCharm：Python项目
+    - ~~Goland：Go项目 弃~~
+    - ~~VS2013->VS2017：C、C++ （主要是拿Cocos-2dx写的游戏）、 C# 弃~~
+    - ~~Eclipse：纯粹的Java开发，只用一个Java Swig...弃~~
+    - ~~XCode：C、C++、iOS开发弃~~
+
+- 用过的编辑器
+    - Sublime Text 3：搭配插件使用
+    - Vim：终端下，搭配插件使用，推荐NerdTree + TagBarToggle
+    - Notepad++：win上使用，兼容Matlab文件最好
+    - ~~Atom：弃~~
+    - ~~VS Code：弃~~
 
 ## 其他提升效率的工具
-1. Office办公软件：文档编辑
-2. OneNote笔记：三端同步笔记
-3. PhotoShop：抠图练习
-4. ~~百度脑图：免费在线思维导图应用。弃~~
-5. ~~lantern：翻墙工具！GitHub下载。弃~~
-6. XMind：思维导图应用
-7. Alfred/Launchy：前者还配合工作流使用
-8. tmux：终端神器，划分终端窗口
-9. z：终端神器，代替cd命令
+
+- 文档/笔记
+    - Office办公软件：文档编辑
+    - OneNote笔记：三端同步笔记
+    - XMind：思维导图应用
+    - ~~百度脑图：免费在线思维导图应用。弃~~
+- 科学上网
+    - Shadowsocks：需要配合VPS使用，推荐[thatseed](https://www.thatseed.org/)。
+    - ~~lantern：翻墙工具！GitHub下载。弃~~
+- 快捷/文件查找
+    - Alfred/Launchy：前者是Mac平台下的可配合工作流使用，后者是Win平台下的
+    - EasyFind/Everything：前者是Mac平台下的，后者是Win平台下的
+- 终端
+    - Go2Shell：快速从Finder进入终端，可以自定义终端类型，默认系统自带终端
+    - iTerm2：代替系统自带终端
+    - tmux：终端神器，划分终端窗口
+    - z：终端神器，代替cd命令
+- 其它
+    - CheatSheet：长按Command键查看当前软件快捷键
+    - PhotoShop：抠图练习
 
 ## 实用网站
-1. [thatseed](https://www.thatseed.org/)：VPS服务提供商
-2. [bookset](https://bookset.me/)：中文电子书资源
-3. [gen.lib.rus.ec](http://gen.lib.rus.ec/)：英文电子书资源
+- [thatseed](https://www.thatseed.org/)：VPS服务提供商
+- [bookset](https://bookset.me/)：中文电子书资源
+- [gen.lib.rus.ec](http://gen.lib.rus.ec/)：英文电子书资源
 
-## 业务的基础
-互联网从业人员应知基本业务概念。
-1. 业务的对象：2B（to Business）、2C（to Customer）和2G（to Government）
-2. 系统的架构：B/S（Browser/Server）、C/S（Client/Server）
-
-# 结束语
-更新了一波，发现很讨厌之前那种流里流气的博文写作方式。
+## Changelog
+- 2019/06/05：重新排列整理排版

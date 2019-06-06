@@ -9,7 +9,7 @@ updated: 2019-06-04 19:24:21
 记录博客功能更新日志。
 
 <!-- more -->
-## what we have
+## Changelog
 - [x] 样式微调
 - [x] 调整url样式（重命名）
 - [x] 按更新时间排序博客
@@ -30,7 +30,7 @@ updated: 2019-06-04 19:24:21
     - ~~vssue~~
 - [x] fix busuanzi_count issues: changed the url, [ref](https://juejin.im/post/5bbc954a5188255c7c657ca5)
 - [x] add auto init issue page by using rss.xml and python: done
-- [x] 2019/06/04: add backlog in the end of when the post gets updated.
+- [x] 2019/06/04: add changelog in the end of when the post gets updated.
 
-## coming soon
+## TODO
 - [ ] ~~willing to add web ad?~~
