@@ -47,6 +47,6 @@ nav:
 credit:
     total_visits: '本站访客数'
     all_visits: '本站总访问量'
-    people_num: '人次'
-    times: '人'
+    people_num: '人'
+    times: '次'
     total_counts: '博文总字数'
