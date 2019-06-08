@@ -1,16 +1,14 @@
 ---
 title: 一些容易被我忘记的控制台命令以及快捷键
 date: 2017-11-05 19:47:26
-updated: 2019-05-08 12:03:12
+updated: 2019-06-08 21:36:26
 categories:
 - 网页开发
 tags:
 - 开发总结
 ---
-
 ## 前言
 总结一些容易被我忘记的控制台命令，以及面试过程中常问的几个操作/命令。
-
 
 <!-- more -->
 ## 面试常问
@@ -22,7 +20,7 @@ pstree      #a tree of precesses
 kill        #terminate or signal a process
 ```
 
-### 系统资源相关命令
+### 系统资源查看
 系统资源使用情况包括：CPU、内存、磁盘空间、设备...
 
 - [How to Monitor Linux Systems Performance with iostat command](https://www.linuxtechi.com/monitor-linux-systems-performance-iostat-command/)
@@ -32,14 +30,14 @@ kill        #terminate or signal a process
 iostat [-cdx]     #report I/O statistics: cpu,disk,i/o statistics
 
 # Memory related
-free -h     #display free and used memory
+free -h           #display free and used memory
 
 # 查看磁盘空间
-du          #display disk usage statistics
-df          #display free disk space
+du                #display disk usage statistics
+df                #display free disk space
 
 # 设备
-lspci       #list all pci devices
+lspci             #list all pci devices
 
 ```
 
@@ -48,9 +46,11 @@ lspci       #list all pci devices
 # 检查网络连通情况
 ping        #send ICMP ECHO_REQUEST packets to network hosts
 traceroute  #print the route packets take to network host
+dig         #DNS查询情况
 
 # 检查网卡状况
 netstat  [-an]   #show network status
+lsof -i:22       #查看指定端口
 
 # 检查网络配置
 iptables    #filtering packets and NAT
@@ -130,11 +130,13 @@ fg + 后台进程序号     #恢复对应后台进程到前台
 | `()` | 嵌套子表达式 |  |
 
 ## 一些浏览器快捷键
-
-``` console
+```commands
 cmd + 鼠标点击       #在新标签页打开点击的链接
 ```
 
 ## 参考资料
 - [Linux中more和less命令用法](https://www.cnblogs.com/aijianshi/p/5750911.html)
+
+## Backlog
+- 2019/06/08：修改格式内容，添加端口参看命令`lsof -i:22`及`dig`命令。
 

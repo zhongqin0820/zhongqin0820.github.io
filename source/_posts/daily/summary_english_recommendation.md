@@ -1,7 +1,7 @@
 ---
 title: 英语学习资料总结
 date: 2019-04-14 19:40:10
-updated: 2019-06-04 20:54:25
+updated: 2019-06-08 11:00:58
 categories:
 - 其它
 
@@ -22,6 +22,7 @@ tags:
 
 ## 网站/APP
 - [British Council：Sounds Right](https://www.britishcouncil.org/english/business/apps/sounds-right)：建议学习李咏梅老师音标视频，掌握48个音标后再使用。
+- [tophonetics.com](https://tophonetics.com/zh/)：英文文本至国际音标在线转换，强烈推荐。
 
 ## 视频教学
 ### 基础
@@ -69,3 +70,4 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 # Changelog
 - 2019/06/04：补充李咏梅老师系列教程链接，添加多邻国[Streak Hall of Fame](https://duome.eu/anoni15/progress)链接以及调整内容顺序等。
 - 2019/06/05：添加关于写作练习的建议
+- 2019/06/08：添加[tophonetics.com](https://tophonetics.com/zh/)

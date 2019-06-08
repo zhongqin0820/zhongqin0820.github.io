@@ -1,7 +1,7 @@
 ---
 title: 基于Hexo博文生成器的更新时间及其它相关问题
 date: 2019-06-05 13:45:06
-updated: 2019-06-05 14:09:07
+updated: 2019-06-07 15:20:06
 categories:
 - 网页开发
 
@@ -9,13 +9,13 @@ tags:
 - 修复问题
 ---
 # 前言
-使用更新时间作为博客的排序方式，如果对之前文章进行修改，每次都要手动修改元数据中的`updated`字段。使用IDEA自带的live template而不需要安装第三方插件就可以较方便的解决这个问题。
+使用更新时间作为博客的排序方式，如果对之前文章进行修改，每次都要手动修改元数据中的`updated`字段。使用IDEA自带的live template或者Sublime中的自定义插件而不需要安装第三方插件就可以较方便的解决这个问题。
 
-以及解决关于每次使用`hexo new`命令都生成对应文章资源文件夹的问题（修改`_config.yml`下`post_asset_folder: false`即可避免）。
+以及解决关于每次使用`hexo new`命令都生成对应文章资源文件夹的问题（修改根目录下`_config.yml`中的`post_asset_folder: false`即可避免）。
 
 <!-- more -->
 # 解决方法
-## live template
+## IDEA自带的live template
 - [图文教程参考链接](https://www.cnblogs.com/chenfangzhi/p/liveTemplate.html)
 - 文字描述
     - `Preferences/Settings` -> `Editor` -> `Live Templates`
@@ -48,9 +48,36 @@ updated: $date$ $time$
 - No applicable contexts. [Define]().
     - 选择Other后变为：`Applicable in Other`. [Change]().
 
+## Sublime中的自定义插件
+> Sublime也可以通过设计模板替换，但是考虑到直接用插件的方式进行替换更方便，因此选用这种方式。
+
+通过`Tools → New Plugin`新建插件命名为`addCurrentTime.py`，并通过`Preference → Key Bindings - User`绑定插件的快捷键为`"add_current_time"`。
+
+- `addCurrentTime.py`代码
+
+```py
+import sublime
+import sublime_plugin
+import datetime
+
+class AddCurrentTimeCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        self.view.run_command("insert_snippet",
+            {
+                "contents": "updated: %s " % datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            }
+        )
+```
+
+- `"command": "add_current_time"`文本
+
+```json
+{ "keys": ["alt+t"], "command": "add_current_time" }
+```
+
 ## 取消文章资源文件夹
 - 修改`_config.yml`下`post_asset_folder: false`即可避免。
-- 其它内容可以访问[官方文档](https://hexo.io/zh-cn/docs/asset-folders.html)。
+- 其它相关字段说明可以访问[官方文档](https://hexo.io/zh-cn/docs/asset-folders.html)。
 
 # Backlog
 - [ ] 2019/06/05: 使用`hexo new`能够分别指定文件名（文件名由下划线代替而不是短破折号）以及文章的标题
