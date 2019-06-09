@@ -1,7 +1,7 @@
 ---
 title: summary english snippets
 date: 2019-06-08 10:24:32
-updated: 2019-06-08 21:12:13
+updated: 2019-06-09 10:49:48
 categories:
 - 其它
 
@@ -44,8 +44,24 @@ tags:
 > [aɪ] [wɒnt] [tə] [ˌrɛprɪˈzɛnt] [ði] [aɪˈdɪə] [ðət] [jʊ] [ˈrɪəli] [kən] [meɪk] [wɒt] [jʊ] [wɒnt].
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=246)</cite>
 
+# Day 3: Protect Your Dream
+> 1. Don't ever let someone tell you that you can't do something.
+> [dəʊnt] [ˈɛvə] [lɛt] [ˈsʌmwʌn] [tɛl] [jʊ] [ðət] [jʊ] [kɑːnt] [dʊ] [ˈsʌmθɪŋ].
+> 2. Not even me.
+> [nɒt] [ˈiːvən] [miː].
+> 3. You got a dream. You gotta protect it.
+> [jʊ] [gɒt] [ə] [driːm]. [jʊ] [ˈgɒtə] [prəˈtɛkt] [ɪt].
+> 4. When people can't do something themselves, they're gonna tell you that you can't do it.
+> [wɛn] [ˈpiːpl] [kɑːnt] [dʊ] [ˈsʌmθɪŋ] [ðəmˈsɛlvz], [ðeə] [ˈgənə] [tɛl] [jʊ] [ðət] [jʊ] [kɑːnt] [dʊ] [ɪt].
+> 5. You want something, go get it.
+> [jʊ] [wɒnt] [ˈsʌmθɪŋ], [gəʊ] [gɛt] [ɪt].
+> 6. Period.
+> [ˈpɪərɪəd].
+> **Will Smith** --- <cite>[Pursuit of Happiness](https://www.youtube.com/watch?v=pestpidO3zA&t=64)</cite>
+
 # Refercens
 - [tophonetics.com](https://tophonetics.com/zh/)
 
 # Backlog
 - 2019/06/08：add the materials of day 1 & day 2
+- 2019/06/09：add day 3
