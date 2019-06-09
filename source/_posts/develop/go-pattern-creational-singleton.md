@@ -36,7 +36,7 @@ tags:
 # UML描述
 注意，Go语言以包作为管理单位：包内的变量根据首字母大小写**只对包外执行访问控制**。
 
-![type simple struct](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/creational/singleton/pattern/creational_singleton.jpg)
+![type simple struct](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_singleton.jpg)
 
 # 代码实现
 代码实现了完整的过程，由于篇幅限制，这里只贴出`func GetInstance() *Singleton`的细节。同时，代码为每个实现都设计了单线程与多线程的测试用例以说明其问题。
@@ -88,7 +88,7 @@ func GetCheckInstance() *check {
 }
 ```
 
-### once
+### `sync.Once`
 Go中提供了一个`sync.Once`的一次性锁，推荐使用这种方法。
 ```go
 var once sync.Once
