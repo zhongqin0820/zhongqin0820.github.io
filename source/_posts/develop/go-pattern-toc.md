@@ -23,13 +23,13 @@ tags:
 - [《Go design pattern》Tutorials](https://www.bilibili.com/video/av10623920)
 
 ## Blogs
-- [《图说设计模式》](https://design-patterns.readthedocs.io/zh_CN/latest/)
 - [Design Patterns by Svetlin Ralchev](http://blog.ralch.com/categories/design-patterns/)
 - [wiki/Design_Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
 
 ## Publication
 - [《Go语言编程》第3章 面向对象编程](https://book.douban.com/subject/11577300/)
-- [《Head First 设计模式（中文版）》：chap5 单件模式](https://bookset.me/5123.html)
+- [《Head First 设计模式（中文版）》](https://bookset.me/5123.html)
+- [《图说设计模式》](https://design-patterns.readthedocs.io/zh_CN/latest/)
 - [GO DESIGNPATTERNS](http://dinus.ac.id/private_lib/fahri/GO_DESIGN_PATTERNS.pdf)
 - [Evaluating the GO Programming Language with Design Patterns](https://ecs.victoria.ac.nz/foswiki/pub/Main/TechnicalReportSeries/ECSTR11-01.pdf)
 
@@ -69,5 +69,5 @@ tags:
 # TODO
 - [ ] 2019/06/09: Refine the descriptions.
 
-# Backlog
+# Changelog
 - 2019/06/09：Add awesome materials

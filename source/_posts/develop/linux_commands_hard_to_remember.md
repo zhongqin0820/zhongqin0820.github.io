@@ -137,6 +137,6 @@ cmd + 鼠标点击       #在新标签页打开点击的链接
 ## 参考资料
 - [Linux中more和less命令用法](https://www.cnblogs.com/aijianshi/p/5750911.html)
 
-## Backlog
+## Changelog
 - 2019/06/08：修改格式内容，添加端口参看命令`lsof -i:22`及`dig`命令。
 

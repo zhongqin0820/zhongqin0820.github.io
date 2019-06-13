@@ -30,7 +30,7 @@ tags:
 - **常量的自动推导格式不可以使用`:=`，只需要使用`=`**
 - `iota`：常量自动生成器，隔行自动累加`1`，给常量赋值使用，每遇到一个新的iota，则重新从0开始计数。
 - 兼容类型间才能进行类型转换：Go中的布尔类型与整型不兼容
-- `type`关键字给类型起别名：`type 别名 类型名`
+- `type`关键字给类型起别名：`type 别名=类型名`
 - `if`支持初始化语句，初始化语句与判断条件以分号分隔
 - `break`用在`for`;`switch`;`select`中
 
@@ -92,8 +92,9 @@ Line 35: Char 17: undefined: a (solution.go)
 - 类型定义：定义出来的类型与原类型不同，使用时可以进行强制类型转换，Go语言不存在隐式转换，必须显式转换，并且只能在两种相互兼容的类型间转换。
     - `type xxx string`
 
-- 类型别名：区别于类型定义，其扩展的新方法会影响到原类型
+- 类型别名：区别于类型定义，其扩展的新方法会影响到原类型，这两种类型的数据可以互相赋值而不需要进行类型转换
     - `type xxx=string`
+    - Go源码中的类型别名：`type byte = uint8`，`type rune = int32`
 
 - 类型查询：必须是接口才可以进行类型查询，**需要与类型转换及类型断言进行区别。**
     - `instance.(type)`：instance是接口实例，type即关键字。
@@ -106,3 +107,6 @@ Line 35: Char 17: undefined: a (solution.go)
 - [Go中文文档](https://studygolang.com/pkgdoc)
 - [Go学习思维导图](https://www.processon.com/view/link/5a9ba4c8e4b0a9d22eb3bdf0#map)
 - **[build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)**
+
+## Changelog
+- 2019/06/10：添加源码中的类型别名例子

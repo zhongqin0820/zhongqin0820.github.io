@@ -79,5 +79,5 @@ class AddCurrentTimeCommand(sublime_plugin.TextCommand):
 - 修改`_config.yml`下`post_asset_folder: false`即可避免。
 - 其它相关字段说明可以访问[官方文档](https://hexo.io/zh-cn/docs/asset-folders.html)。
 
-# Backlog
+# TODO
 - [ ] 2019/06/05: 使用`hexo new`能够分别指定文件名（文件名由下划线代替而不是短破折号）以及文章的标题
