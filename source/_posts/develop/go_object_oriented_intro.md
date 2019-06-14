@@ -15,7 +15,9 @@ tags:
 <!-- more -->
 # OOP基本概念
 ## 封装
-在Go中使用结构体定义类型，可以对一组属性及方法进行封装。以包为级别的操作权限，大写表示外部可以访问，小写则仅包内可以访问。
+- 在Go中使用结构体定义类型，可以对一组属性及方法进行封装。
+- 以包为级别的操作权限，大写表示外部可以访问，小写则仅包内可以访问。
+- 使用`NewT(parameters)`函数新建对象实例代替类的构造函数
 
 ## 继承
 在Go中没有类的概念，但是结构体可以通过匿名嵌套的方式扩展方法集合以及属性。
@@ -31,7 +33,7 @@ tags:
 - 运行时
     - 虚函数：虚函数表、虚函数指针
 
-在Go中利用接口定义的方法集合，结构体对方法集合进行实现。在运行时，对使用了接口的函数绑定对应的结构体实例，从而达到实现运行时多态的目的。这也被叫做鸭子类型（duck typing）。
+在Go中利用**接口**定义的方法集合，结构体对方法集合进行实现。在运行时，对使用了接口的函数绑定对应的结构体实例，从而达到实现运行时多态的目的。这也被叫做鸭子类型（duck typing）。
 
 ## UML类图
 - 继承关系
@@ -122,6 +124,11 @@ switch instance.(type) {
 
 # 学习资料
 - [《Go语言编程》第3章 面向对象编程](https://book.douban.com/subject/11577300/)
+- ['Golang tutorials series': Object Oriented Programming](https://golangbot.com/learn-golang-series/)
+
+# TODO
+- [ ] 2019/06/13: 什么时候用类型断言实现多态，什么时候用反射？二者之间是否存在关联关系？
 
 # Changelog
 - 2019/06/10：更新UML类图关系及前言描述
+- 2019/06/13：add [Golang tutorials series: Object Oriented Programming](https://golangbot.com/learn-golang-series/)

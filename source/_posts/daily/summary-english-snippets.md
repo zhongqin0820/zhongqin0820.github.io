@@ -1,7 +1,7 @@
 ---
 title: summary english snippets
 date: 2019-06-08 10:24:32
-updated: 2019-06-13 09:00:29
+updated: 2019-06-14 08:54:30
 categories:
 - 其它
 
@@ -128,6 +128,35 @@ tags:
 > [jʊə] [ˈbɛtə] [ðən] [ðæt].
 > **Sylvester Stallone** --- <cite>[Rocky Balboa](https://www.youtube.com/watch?v=D_Vg4uyYwEk&t=112s)</cite>
 
+# Day 8: Will Fight
+> 1. I am William Wallace.
+> [aɪ] [əm] [ˈwɪljəm] [ˈwɒlɪs].
+> 2. And I see a whole army of my countrymen here in defiance of tyranny.
+> [ən] [aɪ] [siː] [ə] [həʊl] [ˈɑːmi] [əv] [maɪ] [ˈkʌntrɪmən] [hɪər] [ɪn] [dɪˈfaɪəns] [əv] [ˈtɪrəni].
+> 3. You've come to fight as free men.
+> [juːv] [kʌm] [tə] [faɪt] [əz] [friː] [mɛn].
+> 4. And free men you are.
+> [ən] [friː] [mɛn] [jʊ] [ɑː].
+> 5. What will do with that freedom?
+> [wɒt] [wɪl] [dʊ] [wɪð] [ðæt] [ˈfriːdəm]?
+> 6. Will you fight?
+> [wɪl] [jʊ] [faɪt]?
+> 7. Fight, and you may die.
+> [faɪt], [ən] [jʊ] [meɪ] [daɪ].
+> 8. Run, and you'll live...at least awhile.
+> [rʌn], [ən] [juːl] [lɪv]...[ət] [liːst] [əˈwaɪl].
+> 9. And dying in your beds many years from now.
+> [ən] [ˈdaɪɪŋ] [ɪn] [jə] [bɛdz] [ˈmɛni] [jɪəz] [frəm] [naʊ].
+> 10. Would you be willing to trade all the days from this day to that?
+> [wəd] [jʊ] [bi] [ˈwɪlɪŋ] [tə] [treɪd] [ɔːl] [ðə] [deɪz] [frəm] [ðɪs] [deɪ] [tə] [ðæt]?
+> 11. For one chance, just for one chance.
+> [fə] [wʌn] [ʧɑːns], [ʤəst] [fə] [wʌn] [ʧɑːns].
+> 12. To come back here and tell our enemies that they may take our lives.
+> [tə] [kʌm] [bæk] [hɪər] [ən] [tɛl] [ˈaʊər] [ˈɛnɪmiz] [ðət] [ðeɪ] [meɪ] [teɪk] [ˈaʊə] [laɪvz].
+> 13. But they'll never take our freedom!
+> [bət] [ðeɪl] [ˈnɛvə] [teɪk] [ˈaʊə] [ˈfriːdəm]!
+> **William Wallace** --- <cite>[Braveheart](https://www.youtube.com/watch?v=TME0xubdHQc&t=21s)</cite>
+
 # Related Tools
 - [tophonetics.com](https://tophonetics.com/zh/)
 - [如何用「回音法」學好英文口說 | 史嘉琳 Karen Chung | TEDxNTUST](https://www.youtube.com/watch?v=sQEWEPIHLzQ&t=864s)
@@ -147,3 +176,4 @@ tags:
 - 2019/06/11：add day 5 & [【echo method】](https://www.youtube.com/watch?v=sQEWEPIHLzQ&t=864s) TED Talk link
 - 2019/06/12：add day 6
 - 2019/06/13：add day 7
+- 2019/06/14：add day 8
