@@ -1,7 +1,7 @@
 ---
 title: Go语言入门总结:面向对象
 date: 2019-05-27 14:58:20
-updated: 2019-06-10 10:26:46
+updated: 2019-06-18 16:19:14
 categories:
 - 计算机基础
 
@@ -10,7 +10,7 @@ tags:
 - 面向对象
 ---
 # 前言
-梳理总结学习Go语言的笔记。关于Go语言中的面向对象编程，包括：OOP基本概念，UML类图以及Go中如何进行OOP。
+梳理总结学习Go语言的笔记。关于Go语言中的面向对象编程，包括：OOP基本概念，UML类图以及在Go中如何进行OOP。添加关于类型查询、类型断言内容的梳理。
 
 <!-- more -->
 # OOP基本概念
@@ -95,11 +95,17 @@ n, _ := f.Write([]byte("data"))
 defer f.Close()
 ```
 
-### 类型查询、类型断言、reflect包
-- 类型查询：接口实例、`type`、`switch case`
+### 类型查询、类型断言
+- 类型查询
 
 ```go
+type instanceType struct {
+    fisrtname string
+    lastname string
+}
+// type 关键字 查询接口变量的具体类型
 var instance interface{} = instanceType{}
+// 注意case之间的条件不可以重复
 switch instance.(type) {
     case int:
         // to do something
@@ -110,25 +116,50 @@ switch instance.(type) {
     default:
         // to do something
 }
+
+// reflect 包 查询接口变量的具体类型
+var getType reflect.Type = reflect.TypeOf(instance)
+var getValue reflect.Value = reflect.ValueOf(instance)
+concreteType := getValue.Type()
 ```
 
 - 类型断言
-    - 定义及初始化接口实例：`var instance interface{} = instanceType{xx,yy}`
-    - 接口实例进行类型断言得到接口中的类型实例：`var value instanceType = instance.(instanceType)`
-    - 类型实例调用：`value.xx`
 
-- reflect包
-    - 定义及初始化接口实例：`var instance interface{} = instanceType{xx,yy}`
-    - 获取接口中的实例的类型：`reflect.TypeOf(instance)`
-    - 获取接口中的实例内容：`reflect.ValueOf(instance)`
+```go
+type instanceType struct {
+    fisrtname string
+    lastname string
+}
+
+// 已知数据类型进行断言
+
+// 定义及初始化接口实例：
+var instance interface{} = instanceType{"xx","yy"}
+// 接口实例进行类型断言得到接口中的类型实例：
+var value instanceType = instance.(instanceType)
+// 类型实例调用（获取具体值）：
+value
+
+// 未知数据类型进行断言(reflect包)
+
+// 获取接口中的实例的类型
+reflect.ValueOf(instance).Type()//或 reflect.TypeOf(instance)
+// 获取接口中的实例内容：
+reflect.ValueOf(instance).Interface()
+
+// 针对结构体内属性的具体类型需要利用迭代得到
+for i := 0; i < reflect.TypeOf(instance).NumField(); i++ {
+    log.Print(reflect.TypeOf(instance).Field(i).Name)
+    log.Print(reflect.TypeOf(instance).Field(i).Type) //或reflect.ValueOf(instance).Field(i).Type()
+    log.Print(reflect.ValueOf(instance).Field(i))
+}
+```
 
 # 学习资料
 - [《Go语言编程》第3章 面向对象编程](https://book.douban.com/subject/11577300/)
 - ['Golang tutorials series': Object Oriented Programming](https://golangbot.com/learn-golang-series/)
 
-# TODO
-- [ ] 2019/06/13: 什么时候用类型断言实现多态，什么时候用反射？二者之间是否存在关联关系？
-
 # Changelog
 - 2019/06/10：更新UML类图关系及前言描述
 - 2019/06/13：add [Golang tutorials series: Object Oriented Programming](https://golangbot.com/learn-golang-series/)
+- 2019/06/18：修改针对接口变量进行类型查询与类型断言部分内容

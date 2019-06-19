@@ -97,6 +97,9 @@ if v,ok:=m[key];!ok{
 func delete(m map[Type]Type1, key Type)
 ```
 
+### 其它
+- Slice、Array、Map的多行书写最后的逗号不可省
+
 ## container包
 包含：heap（接口）、list（结构体）、ring（结构体）
 

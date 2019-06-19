@@ -1,7 +1,7 @@
 ---
 title: summary english snippets
 date: 2019-06-08 10:24:32
-updated: 2019-06-14 08:54:30
+updated: 2019-06-19 08:50:48
 categories:
 - 其它
 
@@ -157,6 +157,123 @@ tags:
 > [bət] [ðeɪl] [ˈnɛvə] [teɪk] [ˈaʊə] [ˈfriːdəm]!
 > **William Wallace** --- <cite>[Braveheart](https://www.youtube.com/watch?v=TME0xubdHQc&t=21s)</cite>
 
+# Day 9: Never Surrender
+> 1. We shall not flag or fail.
+> [wi] [ʃəl] [nɒt] [flæg] [ɔː] [feɪl].
+> 2. We shall go on to the end.
+> [wi] [ʃəl] [gəʊ] [ɒn] [tə] [ði] [ɛnd].
+> 3. We shall fight in France.
+> [wi] [ʃəl] [faɪt] [ɪn] [ˈfrɑːns].
+> 4. We shall fight on the seas and oceans.
+> [wi] [ʃəl] [faɪt] [ɒn] [ðə] [siːz] [ən] [ˈəʊʃənz].
+> 5. We shall fight with growing confidence and growing strengths in the air.
+> [wi] [ʃəl] [faɪt] [wɪð] [ˈgrəʊɪŋ] [ˈkɒnfɪdəns] [ən] [ˈgrəʊɪŋ] [strɛŋθs] [ɪn] [ði] [eə].
+> 6. We shall defend our island, whatever the cost may be.
+> [wi] [ʃəl] [dɪˈfɛnd] [ˈaʊər] [ˈaɪlənd], [wɒtˈɛvə] [ðə] [kɒst] [meɪ] [biː].
+> 7. We shall fight on the beaches.
+> [wi] [ʃəl] [faɪt] [ɒn] [ðə] [ˈbiːʧɪz].
+> 8. We shall fight on the landing grounds.
+> [wi] [ʃəl] [faɪt] [ɒn] [ðə] [ˈlændɪŋ] [graʊndz].
+> 9. We shall fight in the fields and in the streets.
+> [wi] [ʃəl] [faɪt] [ɪn] [ðə] [fiːldz] [ən] [ɪn] [ðə] [striːts].
+> 10. We shall fight in the hills.
+> [wi] [ʃəl] [faɪt] [ɪn] [ðə] [hɪlz].
+> 11. We shall never surrender.
+> [wi] [ʃəl] [ˈnɛvə] [səˈrɛndə].
+> **Winston S Churchill** --- <cite>[The World Wars](https://www.youtube.com/watch?v=E4MEjgKVQPo&t=23s) version & the [Original](https://www.youtube.com/watch?v=MkTw3_PmKtc&t=76s) version</cite>
+
+# Day 10: Without Victory, There is No Survival
+> 1. I would say to the House, as I said to those who have joined the government: "I have nothing to offer but blood, toil, tears and sweat".
+> [aɪ] [wəd] [seɪ] [tə] [ðə] [haʊs], [əz] [aɪ] [sɛd] [tə] [ðəʊz] [huː] [həv] [ʤɔɪnd] [ðə] [ˈgʌvnmənt]: "[aɪ] [həv] [ˈnʌθɪŋ] [tʊ] [ˈɒfə] [bət] [blʌd], [tɔɪl], [teəz] [ən] [swɛt]".
+> 2. We have before us an ordeal of the most grievous kind.
+> [wi] [həv] [bɪˈfɔːr] [əs] [ən] [ɔːˈdiːl] [əv] [ðə] [məʊst] [ˈgriːvəs] [kaɪnd].
+> 3. We have before us many many long months of struggle and of suffering.
+> [wi] [həv] [bɪˈfɔːr] [əs] [ˈmɛni] [ˈmɛni] [lɒŋ] [mʌnθs] [əv] [ˈstrʌgl] [ən] [əv] [ˈsʌfərɪŋ].
+> 4. You ask, what is our policy?
+> [jʊ] [ɑːsk], [wɒt] [s] [ˈaʊə] [ˈpɒlɪsi]?
+> 5. I will say, it is to wage war, by sea, land and air, with all our might and with all the strength that God can give us; to wage war against a monstrous tyranny, never surpassed in the dark and lamentable catalogue of human crime.
+> [aɪ] [wɪl] [seɪ], [ɪt] [s] [tə] [weɪʤ] [wɔː], [baɪ] [siː], [lænd] [ən] [eə], [wɪð] [ɔːl] [ˈaʊə] [maɪt] [ən] [wɪð] [ɔːl] [ðə] [strɛŋθ] [ðət] [gɒd] [kən] [gɪv] [ʌs]; [tə] [weɪʤ] [wɔːr] [əˈgɛnst] [ə] [ˈmɒnstrəs] [ˈtɪrəni], [ˈnɛvə] [sɜːˈpɑːst] [ɪn] [ðə] [dɑːk] [ən] [ˈlæməntəbl] [ˈkætəlɒg] [əv] [ˈhjuːmən] [kraɪm].
+> 6. That is our policy.
+> [ðæt] [s] [ˈaʊə] [ˈpɒlɪsi].
+> 7. You ask, what is our aim?
+> [jʊ] [ɑːsk], [wɒt] [s] [ˈaʊər] [eɪm]?
+> 8. I can answer in one word: victory.
+> [aɪ] [kən] [ˈɑːnsər] [ɪn] [wʌn] [wɜːd]: [ˈvɪktəri].
+> 9. Victory at all costs, victory in spite of all terrors, victory however long and hard the road may be.
+> [ˈvɪktəri] [ət] [ɔːl] [kɒsts], [ˈvɪktəri] [ɪn] [spaɪt] [əv] [ɔːl] [ˈtɛrəz], [ˈvɪktəri] [haʊˈɛvə] [lɒŋ] [ən] [hɑːd] [ðə] [rəʊd] [meɪ] [biː].
+> 10. For without victory, there is no survival.
+> [fə] [wɪˈðaʊt] [ˈvɪktəri], [ðə] [z] [nəʊ] [səˈvaɪvəl].
+> **Winston S Churchill** --- <cite>[The World Wars](https://www.youtube.com/watch?v=htHKbsUKDDw&t=127s) version & the [Original](https://www.youtube.com/watch?v=fKBR0igDPfM&t=120s) version</cite>
+
+# Day 11: It Takes A Strong Man To Save Himself, And A Great Man To Save Another
+> 1. These walls are funny.
+> [ðiːz] [wɔːlz] [ə] [ˈfʌni].
+> 2. First, you hate them, then you get used to them.
+> [fɜːst], [jʊ] [heɪt] [ðɛm], [ðɛn] [jʊ] [gɛt] [juːzd] [tə] [ðɛm].
+> 3. Enough time passes, you depend on them. That's institutionalized.
+> [ɪˈnʌf] [taɪm] [ˈpɑːsɪz], [jʊ] [dɪˈpɛnd] [ɒn] [ðɛm]. [ðæts] [.ɪnstɪ'tjuːʃ(ə)nə.laɪzd].
+> 4. I think it comes down to a simple choice: get busy living or get busy dying.
+> [aɪ] [θɪŋk] [ɪt] [kʌmz] [daʊn] [tʊ] [ə] [ˈsɪmpl] [ʧɔɪs]: [gɛt] [ˈbɪzi] [ˈlɪvɪŋ] [ɔː] [gɛt] [ˈbɪzi] [ˈdaɪɪŋ].
+> 5. In 1966, Andy Dufresne escaped from Shawshank Prison.
+> [ɪn] 1966, [ˈændi] [dyfʁɛːn] [ɪsˈkeɪpt] [frəm] Shawshank [ˈprɪzn].
+> 6. All they found(of him) was a muddy set of prison clothes, a bar of soap, and an old rock hammer damn near worn down to the nub.
+> [ɔːl] [ðeɪ] [faʊnd]([əv] [hɪm]) [wəz] [ə] [ˈmʌdi] [sɛt] [əv] [ˈprɪzn] [kləʊðz], [ə] [bɑːr] [əv] [səʊp], [ən] [ən] [əʊld] [rɒk] [ˈhæmə] [dæm] [nɪə] [wɔːn] [daʊn] [tə] [ðə] [nʌb].
+> 7. I remember thinking it would take a man six hundred years to tunnel through the wall with it. Old Andy did it in less than twenty.
+> [aɪ] [rɪˈmɛmbə] [ˈθɪŋkɪŋ] [ɪt] [wəd] [teɪk] [ə] [mæn] [sɪks] [ˈhʌndrəd] [jɪəz] [tə] [ˈtʌnl] [θruː] [ðə] [wɔːl] [wɪð] [ɪt]. [əʊld] [ˈændi] [dɪd] [ɪt] [ɪn] [lɛs] [ðən] [ˈtwɛnti].
+> **Andy Dufresne** --- <cite>[The Shawshank Redemption](https://www.youtube.com/watch?v=6hB3S9bIaco&t=98s)</cite>
+
+# Day 12: Lay This Brick Perfectly
+> 1. One summer his dad tore down a brick wall in the front of his business and told 12-year-old Will and his 9-year-old brother to rebuild it.
+> [wʌn] [ˈsʌmə] [hɪz] [dæd] [tɔː] [daʊn] [ə] [brɪk] [wɔːl] [ɪn] [ðə] [frʌnt] [əv] [ɪz] [ˈbɪznɪs] [ən] [təʊld] 12-[jɪər]-[əʊld] [wɪl] [ən] [hɪz] 9-[jɪər]-[əʊld] [ˈbrʌðə] [tə] [ˌriːˈbɪld] [ɪt].
+> 2. A job they said was impossible.
+> [ə] [ʤɒb] [ðeɪ] [sɛd] [wəz] [ɪmˈpɒsəbl].
+> 3. It took a year and a half, but they did it.
+> [ɪt] [tʊk] [ə] [jɪər] [ən] [ə] [hɑːf], [bət] [ðeɪ] [dɪd] [ɪt].
+> 4. And he said, "now, don't you ever tell me there's something that you can't do"
+> [ən] [hi] [sɛd], "[naʊ], [dəʊnt] [jʊ] [ˈɛvə] [tɛl] [mi] [ðəz] [ˈsʌmθɪŋ] [ðət] [jʊ] [kɑːnt] [duː]"
+> 5. You don't set out to build a wall.
+> [jʊ] [dəʊnt] [sɛt] [aʊt] [tə] [bɪld] [ə] [wɔːl].
+> 6. You don't say, "I am going to build the biggest, baddest, greatest wall that ever been build".
+> [jʊ] [dəʊnt] [seɪ], "[aɪ] [əm] [ˈgəʊɪŋ] [tə] [bɪld] [ðə] [ˈbɪgɪst], [ˈbædɪst], [ˈgreɪtɪst] [wɔːl] [ðət] [ˈɛvə] [biːn] [bɪld]".
+> 7. You don't start there.
+> [jʊ] [dəʊnt] [stɑːt] [ðeə].
+> 8. You say, "I am gonna lay this brick as perfectly as a brick can be laid".
+> [jʊ] [seɪ], "[aɪ] [əm] [ˈgənə] [leɪ] [ðɪs] [brɪk] [əz] [ˈpɜːfɪktli] [əz] [ə] [brɪk] [kən] [bi] [leɪd]".
+> 9. You do that every single day.
+> [jʊ] [dʊ] [ðət] [ˈɛvri] [ˈsɪŋgl] [deɪ].
+> 10. And soon you have a wall.
+> [ən] [suːn] [jʊ] [həv] [ə] [wɔːl].
+> **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=185s)</cite>
+
+# Day 13: Do What You Need To Do
+> 1. I have a great time with my life, and I want to share it.
+> [aɪ] [həv] [ə] [greɪt] [taɪm] [wɪð] [maɪ] [laɪf], [ən] [aɪ] [wɒnt] [tə] [ʃeər] [ɪt].
+> 2. I love living.
+> [aɪ] [lʌv] [ˈlɪvɪŋ].
+> 3. I think that's infectious, it's something you can't fake.
+> [aɪ] [θɪŋk] [ðæts] [ɪnˈfɛkʃəs], [ɪts] [ˈsʌmθɪŋ] [jʊ] [kɑːnt] [feɪk].
+> 4. Greatness is not this wonderful, esoteric elusive god-like feature that only special people possess.
+> [ˈgreɪtnɪs] [ɪz] [nɒt] [ðɪs] [ˈwʌndəfʊl], [ˌɛsəʊˈtɛrɪk] [ɪˈluːsɪv] [gɒd]-[laɪk] [ˈfiːʧə] [ðət] [ˈəʊnli] [ˈspɛʃəl] [ˈpiːpl] [pəˈzɛs].
+> 5. It's something that truly exists within all of us.
+> [ɪts] [ˈsʌmθɪŋ] [ðət] [ˈtruːli] [ɪgˈzɪsts] [wɪˈðɪn] [ɔːl] [əv] [ʌs].
+> 6. It's very simple.
+> [ɪts] [ˈvɛri] [ˈsɪmpl].
+> 7. This is what I believe, and I'm willing to die for it.
+> [ðɪs] [ɪz] [wɒt] [aɪ] [bɪˈliːv], [ən] [aɪm] [ˈwɪlɪŋ] [tə] [daɪ] [fər] [ɪt].
+> 8. Period.
+> [ˈpɪərɪəd].
+> 9. It's that simple.
+> [ɪts] [ðət] [ˈsɪmpl].
+> 10. I know who I am, I know what I believe, and that's all I need to know.
+> [aɪ] [nəʊ] [huː] [aɪ] [æm], [aɪ] [nəʊ] [wɒt] [aɪ] [bɪˈliːv], [ən] [ðæts] [ɔːl] [aɪ] [niːd] [tə] [nəʊ].
+> 11. From there, you do what you need to do.
+> [frəm] [ðeə], [jʊ] [dʊ] [wɒt] [jʊ] [niːd] [tə] [duː].
+> 12. You know.
+> [jʊ] [nəʊ].
+> 13. I think what happens is we make the situation more complex.
+> [aɪ] [θɪŋk] [wɒt] [ˈhæpənz] [ɪz] [wi] [meɪk] [ðə] [ˌsɪtjʊˈeɪʃən] [mɔː] [ˈkɒmplɛks].
+> **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ)</cite>
+
 # Related Tools
 - [tophonetics.com](https://tophonetics.com/zh/)
 - [如何用「回音法」學好英文口說 | 史嘉琳 Karen Chung | TEDxNTUST](https://www.youtube.com/watch?v=sQEWEPIHLzQ&t=864s)
@@ -177,3 +294,8 @@ tags:
 - 2019/06/12：add day 6
 - 2019/06/13：add day 7
 - 2019/06/14：add day 8
+- 2019/06/15：add day 9: highly recommend [The World Wars](https://www.youtube.com/watch?v=E4MEjgKVQPo&t=23s) version because of the accent of the [Original](https://www.youtube.com/watch?v=MkTw3_PmKtc&t=76s) version.
+- 2019/06/16：add day 10 and do the recap of day 1~4, unlike day 9, the original version of the speech is quite articulate.
+- 2019/06/17：add day 11: can't find out the complete video of the quotes but only the choice part from the trailer clip.
+- 2019/06/18：add day 12
+- 2019/06/19：add day 13

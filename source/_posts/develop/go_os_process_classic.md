@@ -1,7 +1,7 @@
 ---
 title: Go实现经典进程同步问题
 date: 2019-05-29 10:47:11
-updated: 2019-06-13 16:54:29
+updated: 2019-06-18 16:46:27
 categories:
 - 计算机基础
 
@@ -18,10 +18,6 @@ tags:
 - [x] [并发编程导论](https://segmentfault.com/a/1190000018949353)
 - [x] [当我们在谈论高并发的时候究竟在谈什么?](https://segmentfault.com/a/1190000019360335)
 - [x] [怎样理解阻塞非阻塞与同步异步的区别？ - 萧萧的回答 - 知乎](https://www.zhihu.com/question/19732473/answer/241673170)
-
-## Go中相关内容
-- [ ] [也谈goroutine调度器](https://tonybai.com/2017/06/23/an-intro-about-goroutine-scheduler/)
-- [ ] [Goroutine并发调度模型深度解析&手撸一个协程池](https://juejin.im/entry/5b2878c7f265da5977596ae2)
 
 # 基本概念
 ## 临界资源与临界区
@@ -101,33 +97,46 @@ tags:
 - M：OS线程抽象，阻塞类型可以分为两类
     - 用户态阻塞/唤醒
     - 系统调用阻塞
-- P：逻辑调度器，分配执行的上下文环境，每次只可以**随机调度（查找顺序【本地G队列】->【全局G队列】->【其它P的G队列】）**一个runnable的`G` mapping `M`。
-- G：goroutine，即程序中对应`go`关键字部分的内容，维护着执行需要的栈、程序计数器以及所映射M的信息。
+- P：逻辑调度器，P是5状态模型，分配执行的上下文环境，每次只可以**随机调度（查找顺序【本地G队列】->【全局G队列】->【其它P的G队列】）**一个runnable的`G` mapping 一个`M`。
+- G：goroutine，G是7状态模型，即程序中对应`go`关键字部分的内容，维护着执行需要的栈、程序计数器以及所映射M的信息。
     - 引起阻塞的操作：阻塞的系统调用，网络输入，通道操作，sync的原语操作
+    - **每一个G都会由运行时系统根据其实际状况设置不同的状态，其主要状态如下。**
+    - `Gidle` 表示当前G刚被新分配，但还未初始化。
+    - `Grunnable` 表示当前G正在可运行队列中等待运行。
+    - `Grunning` 表示当前G正在运行。
+    - `Gsyscall` 表示当前G正在执行某个系统调用。
+    - `Gwaiting` 表示当前G正在阻塞。
+    - `Gdead` 表示当前G正在闲置。
+    - `Gcopystack` 表示当前G的栈正被移动，移动的原因可能是栈的扩展或收缩。
 
 > 注意，goroutine的调度，需要注意如果涉及使用外部变量，需要传参给内部。
 
 ## 共享内存与消息通信模型
 - 共享内存：利用传统的锁机制
-- 消息通信模型：利用管道，并配合利用锁机制
+- 消息通信模型：利用通道，并配合利用锁机制
+
+## 扩展阅读
+- [Go的线程实现模型](http://www.ituring.com.cn/book/tupubarticle/16048)
+- [也谈goroutine调度器](https://tonybai.com/2017/06/23/an-intro-about-goroutine-scheduler/)
+- [Goroutine并发调度模型深度解析之手撸一个协程池](http://blog.taohuawu.club/article/42)
 
 ## 机制
 ### 锁
 基于共享内存的并发模式下，实现goroutine的同步。涉及：
 - sync
-    - Mutex
-        - Lock()
-        - Unlock()
-    - RWMutex：读者优先
-        - RLock()
-        - RUnlock()
-        - Lock()
-        - Unlock()
-    - WaitGroup：
+    - Mutex struct
+        - `Lock()`
+        - `Unlock()`
+    - RWMutex struct：读者优先
+        - `RLock()
+        - `RUnlock()`
+        - `Lock()`
+        - `Unlock()`
+    - WaitGroup struct：
         - 通过利用计数器，用于等待一批 Go 协程执行结束，可以用于确保多个goroutine 在main.goroutine退出前都能够执行
-        - Add(`int`)
-        - Done()
-        - Wait()
+        - `Add(int)`
+        - `Done()`
+        - `Wait()`
 
 > 注意，如果需要对其修改，需要传指针。
 
@@ -143,13 +152,13 @@ tags:
 
 ### 通道
 - channel的坑
-    - channel必须带数据类型，可以先声明channel类型的变量，但在使用前，需要使用make()对其进行赋值，同时指定缓冲长度，即通道中允许排队的元素个数
+    - channel必须带数据类型，可以先声明channel类型的变量，但在使用前，需要使用`make()`对其进行赋值，同时指定缓冲长度，即通道中允许排队的元素个数
     - 单向通道通常作为函数的参数，在变量声明中是不应该出现单向通道的，因为通道本来就是为了通信而生，只能接收或者只能发送数据的通道是没有意义的。
     - 程序中必须同时有不同的 goroutine 对非缓冲通道进行发送和接收操作，否则会造成死锁。
     - 如果写完需使用`close()`关闭channel，否则利用`for range`形式迭代会死锁
     - 如果想要获取通道内元素的个数，可以直接使用内置函数`len()`
 
-- select 专门用于通道发送和接收操作，看起来和 switch 很相似，但是进行选择和判断的方法完全不同。
+- `select` 专门用于通道发送和接收操作，看起来和 `switch` 很相似，但是进行选择和判断的方法完全不同。
 - 使用非缓冲通道代替传统同步机制（互斥锁等），从而保证goroutine在main.goroutine退出前执行完成。
 
 # 经典同步问题
@@ -169,12 +178,9 @@ tags:
 - 消费者按照生产者生产的顺序往外读，生产者并发生产
 
 # 结束语
-在进行并发编程的时候，需要考虑的问题是，goroutine的调度要把它想象成是同时在进行的。因此，如果没有对管道进行同步控制则每次执行的结果是不同的（不可重现）。
-
-# TODO
-- [ ] 2019/06/11: 关联操作系统的知识与Go源码中的内容。
-- [ ] 2019/06/13: 优化代码部分内容
+在进行并发编程的时候，需要考虑的问题是，goroutine的调度要把它想象成是同时在进行的。因此，如果没有对通道进行同步控制则每次执行的结果是不同的（不可重现）。
 
 # Changelog
 - 2019/06/11：添加针对基础概念的梳理，以及相关参考资料链接
 - 2019/06/13：添加[Linux IO模式及 select、poll、epoll详解](http://blog.taohuawu.club/article/linux-io-select-poll-epoll)。
+- 2019/06/18：修改完善MPG模型描述与添加扩展阅读材料

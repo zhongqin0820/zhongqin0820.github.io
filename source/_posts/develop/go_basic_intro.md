@@ -9,7 +9,7 @@ tags:
 - Go
 ---
 ## 前言
-梳理总结学习Go语言的笔记。
+梳理总结学习Go语言的笔记。包括：书写Go代码注意事项，常量与变量的定义与初始化，以及关于Go中的操作符相关内容。最后介绍了关于type关键字的用处：定义结构体，定义接口，同时对比type关键字用于重定义类型与用于类型别名时的区别，以及介绍接口变量在运行时的具体变量类型查询以及类型断言的相关内容。
 
 <!-- more -->
 ## 代码注意事项
@@ -103,10 +103,9 @@ Line 35: Char 17: undefined: a (solution.go)
     - 类型断言：通过接口实例instance获取对应类型的类型值，instance.(instanceType)
 
 ## 参考学习资料
-- [20小时入门Go语言](https://www.bilibili.com/video/av20432910/)
 - [Go中文文档](https://studygolang.com/pkgdoc)
 - [Go学习思维导图](https://www.processon.com/view/link/5a9ba4c8e4b0a9d22eb3bdf0#map)
-- **[build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)**
 
 ## Changelog
 - 2019/06/10：添加源码中的类型别名例子
+- 2019/06/18：重新组织语言，更新前言描述
