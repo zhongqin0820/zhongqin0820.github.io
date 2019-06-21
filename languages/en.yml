@@ -5,6 +5,8 @@ categories: Categories
 search: Search
 tags: Tags
 tagcloud: Tag Cloud
+resume: Resume
+projects: Projects
 tweets: Tweets
 prev: Prev
 next: Next
@@ -22,7 +24,7 @@ category: Category
 tag: Tag
 connect: 'Connect With Us'
 post_total_count: There are %d posts in total till now.
-read_more: Continue Reading →
+read_more: More
 contents: Contents
 none: None
 donation:
@@ -36,5 +38,15 @@ insight:
     untitled: '(Untitled)'
 article:
     more: 'Read More'
-published: 'Published'
-updated: 'Updated'
+nav:
+    published: 'Published'
+    updated: 'Updated'
+    PViews: 'Read'
+    Words: 'Words'
+    Min: 'Mins'
+credit:
+    total_visits: 'Total Visited'
+    all_visits: 'All Visited'
+    people_num: 'People'
+    times: 'Times'
+links: 'Links Exchange'

@@ -1,0 +1,40 @@
+<article id="<%= post.layout %>-<%= post.slug %>" <% if (!index && is_post() && theme.post_catalog.enable){ %>style="width: 66%; float:left;"<% } %> class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost" >
+    <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+        <%- partial('post/gallery') %>
+        <div class="article-entry" itemprop="articleBody">
+            <% if ( index ){ %>
+            <% if (post.photos != ""){ %>
+            <div class="entry-thumbnail">
+                <a href="<%- url_for(post.path) %>"><img width="250" height="175" src="<%= post.photos[0] %>" class="attachment-thumb-featured size-thumb-featured wp-post-image" alt=""></a>
+            </div>
+            <% } %>
+            <% if (theme.auto_excerpt.enable) { %>
+            <% var br_position = 0 %>
+            <% for (var br_count = 0; br_count < theme.auto_excerpt.lines; br_count++) { %>
+            <% br_position = post.content.indexOf('\n',br_position + 1) %>
+            <% if(br_position < 0) { break } %>
+            <% } %>
+            <% if(br_position > 0) { %>
+            <p><%- post.content.substring(0, br_position + 1) %><p>
+                <% } %>
+                <%} %>
+                <% } else { %>
+                <%- post.content %>
+                <% } %>
+        </div>
+
+        <footer class="entry-meta entry-footer">
+
+            <% if (!index && theme.donate.enable){ %>
+            <%- partial('donate') %>
+            <% } %>
+
+            <% if (!index && post.comments && (theme.gentie_productKey || theme.duoshuo_shortname || theme.disqus_shortname || theme.uyan_uid || theme.wumii || theme.livere_shortname || theme.gitment.enable)){ %>
+            <%- partial('comment', {page: post}) %>
+            <% } %>
+        </footer>
+
+    </div>
+
+
+</article>
