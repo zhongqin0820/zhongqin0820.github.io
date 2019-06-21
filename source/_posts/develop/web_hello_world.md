@@ -3,7 +3,7 @@ title: 博客开发
 categories: 网页开发
 tags: 测试
 date: 2017-08-05 19:11:50
-updated: 2019-06-04 19:24:21
+updated: 2019-06-21 10:57:41
 ---
 # 博客正在完善中
 记录博客功能更新日志。
@@ -31,6 +31,8 @@ updated: 2019-06-04 19:24:21
 - [x] fix busuanzi_count issues: changed the url, [ref](https://juejin.im/post/5bbc954a5188255c7c657ca5)
 - [x] add auto init issue page by using rss.xml and python: done
 - [x] 2019/06/04: add changelog in the end of when the post gets updated.
+- [x] 2019/06/21: add link exchange widget in the sidebar section
+- [x] 2019/06/21: refine the about page
 
 ## TODO
 - [ ] ~~willing to add web ad?~~
