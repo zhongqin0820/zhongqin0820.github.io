@@ -28,7 +28,9 @@ tags:
 - 简单工厂通过一个具体工厂使用依赖一个接口的方法，借助类型判断在运行时绑定特定的具体类型，从而处理创建不同类型实例的细节。
 
 ### UML描述
+<div style="width: 300px; margin: auto">
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_simple.jpg)
+</div>
 
 ### 代码实现
 在Go可以通过重定义`int`进行语义化选项，通过利用`iota`定义类似枚举的语义化自定义类型常量。
@@ -104,7 +106,9 @@ func TestStorage(t *testing.T) {
 - 即定义了一个创建对象的接口，但由子类决定要实例化的产品类是哪一个。将类把实例化推迟到子类。
 
 ### UML描述
+<div style="width: 300px; margin: auto">
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_method.jpg)
+</div>
 
 ### 代码实现
 - 对应UML图实现即可，注意的是，在具体工厂类中返回的是具体的产品类。
@@ -141,7 +145,9 @@ func TestMethod(t *testing.T) {
 - 提供一个接口，用于创建相关或依赖对象的家族，而不需要明确指定具体类（调用者只依赖接口）。
 
 ### UML描述
+<div style="width: 300px; margin: auto">
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_abstract.jpg)
+</div>
 
 ### 代码实现
 - 根据UML描述实现即可，注意抽象工厂方法是对一族对象进行创建。

@@ -31,7 +31,7 @@ updated: 2019-06-21 10:57:41
 - [x] fix busuanzi_count issues: changed the url, [ref](https://juejin.im/post/5bbc954a5188255c7c657ca5)
 - [x] add auto init issue page by using rss.xml and python: done
 - [x] 2019/06/04: add changelog in the end of when the post gets updated.
-- [x] 2019/06/21: add link exchange widget in the sidebar section
+- [x] 2019/06/21: [add link exchange widget](https://www.jianshu.com/p/43eb0819f51a) in the sidebar section
 - [x] 2019/06/21: refine the about page
 
 ## TODO
