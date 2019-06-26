@@ -367,11 +367,11 @@ type Interface interface {
 > 实现了`heap.Interface`的类型才可以调用下面的函数，注意函数的参数
 
 ```go
-func Fix(h Interface, i int)//调整第i个节点元素，需要自己手动指定
-func Init(h Interface)//初始化堆
-func Pop(h Interface) interface{}//弹出堆
-func Push(h Interface, x interface{})//压入堆
-func Remove(h Interface, i int) interface{}//删除第i个节点元素
+func Fix(h Interface, i int)                //调整第i个节点元素，需要自己手动指定
+func Init(h Interface)                      //初始化堆
+func Pop(h Interface) interface{}           //弹出堆
+func Push(h Interface, x interface{})       //压入堆
+func Remove(h Interface, i int) interface{} //删除第i个节点元素
 ```
 
 # 参考资料

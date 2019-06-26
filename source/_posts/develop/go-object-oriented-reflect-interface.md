@@ -25,6 +25,7 @@ Go的类型包括编译期的静态类型与运行时的具体类型。使用<ty
 
 ## 源码分析
 - [golang的interface剖析](https://www.cnblogs.com/qqmomery/p/6298771.html)：总结的十分到位。
+
 ```go
 type iface struct {
     tab  *itab     // 指向itable

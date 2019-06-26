@@ -1,7 +1,7 @@
 ---
 title: Go语言入门总结:基础数据类型
 date: 2019-03-19 11:47:10
-updated: 2019-06-18 15:46:12
+updated: 2019-06-25 10:27:25
 categories:
 - 网页开发
 
@@ -13,7 +13,8 @@ tags:
 
 <!-- more -->
 # 基础数据类型
-基础数据类型是构建更复杂数据结构的基础。go语言的基本数据类型共18个（不包括`error`类型），有必要对其熟练掌握。
+基础数据类型是构建更复杂数据结构的基础。go语言的基本数据类型共【18个】（不包括`error`类型），有必要对其熟练掌握。
+- 源码地址v1.12：[pkg/builtin](https://golang.org/pkg/builtin/)
 
 ## 布尔型`bool`：`1 byte`
 ### 取值
@@ -53,41 +54,45 @@ tags:
 > 或者先转换为`c:=[]byte(s)`在转换为`s2=string(c)`
 
 ### 字符串处理相关源码包
-#### strings
-- 提供了很多操作字符串的简单函数，通常一般的字符串操作需求都可以在这个包中找到。
 
-#### bytes
-- 定义了一些操作 byte slice 的便利操作。因为字符串可以表示为 []byte，因此，bytes 包定义的函数、方法等和 strings 包很类似。
-
-#### strconv
-- 提供了基本数据类型和字符串之间的转换。在 Go 中，没有隐式类型转换，一般的类型转换可以这么做：int32(i)，将 i （比如为 int 类型）转换为 int32，然而，字符串类型和 int、float、bool 等类型之间的转换却没有这么简单。
+|包名|简述|源码地址|
+|:---:|---|:---:|
+|strings|提供操作字符串的函数，一般的字符串操作需求都可以在这个包中找到|[pkg/strings](https://golang.org/pkg/strings/)|
+|bytes|定义了关于字符切片的便利操作。因为字符串可以表示为`[]byte`，因此，bytes 包定义的函数、方法等和 strings 包很类似。|[pkg/bytes](https://golang.org/pkg/bytes/)|
+|strconv|提供了基本数据类型和字符串之间的转换，在 Go 中，没有隐式类型转换，一般的类型转换可以这么做：`int32(i)`，将 `i` （比如为 `int` 类型）转换为 `int32`，然而，字符串类型和`int`、`float`、`bool`等类型之间的转换却没有这么简单。|[pkg/strconv](https://golang.org/pkg/strconv/)|
+|unicode|在标准库 unicode 包及其子包 utf8、utf16中，提供了对 Unicode 相关编码、解码的支持，同时提供了测试 Unicode 码点（Unicode code points）属性的功能。|[pkg/unicode](https://golang.org/pkg/unicode/)|
+|regexp|提供了正则表达式功能，它的语法基于RE2，[regexp/syntax](https://golang.org/pkg/regexp/syntax/)子包进行正则表达式解析。|[pkg/regexp](https://golang.org/pkg/regexp/)|
 
 #### unicode
-- Go 代码使用 UTF-8 编码（且不能带 BOM），同时标识符支持 Unicode 字符。在标准库 unicode 包及其子包 utf8、utf16中，提供了对 Unicode 相关编码、解码的支持，同时提供了测试 Unicode 码点（Unicode code points）属性的功能。
-- 常用，其中ch是rune类型的字符
+- 常用函数，其中ch是rune类型的字符
     - 判断是否为字母： `unicode.IsLetter(ch)`
     - 判断是否为数字： `unicode.IsDigit(ch)`
     - 判断是否为空白符号： `unicode.IsSpace(ch)`
 
-#### regexp
-- 提供了正则表达式功能，它的语法基于 RE2 ，regexp/syntax 子包进行正则表达式解析。
-
 ## 错误类型
-`error`类型可以理解为是`string`的类型定义。底层定义：
+- 源码地址v1.12：[pkg/builtin/#error](https://golang.org/pkg/builtin/#error)
+
+`error`是一个接口类型。底层定义：
+
 ```go
-type error string
+type error interface {
+    Error() string
+}
 ```
 
 ### 产生`error`
-#### 使用`errors.New()`方法
-- 需要引入`errors`包。
+#### 使用`errors.New(string)`方法
+- 需要引入`errors`包，errors包提供一个New方法接收一个string类型返回一个error接口类型。
 
 ```go
+// 直接使用
 var err = errors.New("this is an Error!")
 ```
 
 ##### `errors`包源码
-```
+- 源码地址v1.12：[pkg/errors](https://golang.org/pkg/errors/)，errorString实现了error接口，而errors.New返回该类型实例
+
+```go
 // Package errors implements functions to manipulate errors.
 package errors
 
@@ -97,45 +102,71 @@ type errorString struct {
     s string
 }
 
+func (e *errorString) Error() string {
+    return e.s
+}
 
 // New returns an error that formats as the given text.
 func New(text string) error {
     return &errorString{text}
 }
-
-
-func (e *errorString) Error() string {
-    return e.s
-}
 ```
 
 #### 使用`fmt.Errorf()`方法
+- 源码地址v1.12：[fmt/print.go](https://golang.org/src/fmt/print.go)#L222
 - 需要引入`fmt`包
-```
+
+```go
 var err = fmt.Errorf("%s\n", "this is an another Error!") // 返回的是*errors.errorString 类型
 err.Error() // 返回的是string类型
+
+// Errorf formats according to a format specifier and returns the string
+// as a value that satisfies error.
+func Errorf(format string, a ...interface{}) error {
+    return errors.New(Sprintf(format, a...))
+}
 ```
 
 #### 自定义实现
-- 需要自定义结构体，并实现接口`func Error() string`。
+- 需要自定义结构体也可以通过重定义string类型，并实现接口`func Error() string`。这两种方式，当使用类型重定义时反射的底层类型不一样
 
-```
-type MyError struct {
+```go
+// 自定义结构体
+type MyError1 struct {
     err string
 }
 
 // Error 返回错误说明
-func (m *MyError) Error() string {
+func (m MyError1) Error() string {
     errinfo := fmt.Sprintf("this is an Error no.3: %s ", m.err)
     return errinfo
 }
 
-// 调用
-m := &MyError{err: "My Error!"}
-fmt.Println(m.Error())
+// 重定义string
+type MyError2 string
 
-fmt.Println(reflect.TypeOf(m)) // *main.MyError
-fmt.Println(reflect.TypeOf(m.Error())) // string
+func (e MyError2) Error() string {
+    return string(e)
+}
+
+// 比较
+func TestMyError(t *testing.T) {
+    // 自定义结构体
+    m := MyError1{err: "My Error!"}
+    t.Log(m)                         //this is an Error no.3: My Error!
+    t.Log(m.Error())                 //this is an Error no.3: My Error!
+    t.Log(reflect.TypeOf(m))         //*main.MyError1
+    t.Log(reflect.TypeOf(m).Kind())  //struct
+    t.Log(reflect.TypeOf(m.Error())) //string
+
+    // 重定义
+    var e MyError2 = "this is my error"
+    t.Log(e)                         //this is my error
+    t.Log(e.Error())                 //this is my error
+    t.Log(reflect.TypeOf(e))         //main.MyError2
+    t.Log(reflect.TypeOf(e).Kind())  //string
+    t.Log(reflect.TypeOf(e.Error())) //string
+}
 ```
 
 ### 合理处理`error`
@@ -196,10 +227,13 @@ type XXX=YYY
 
 ## 更多对比
 |内容|type关键字|reflect包|
-|:---:|:---:|:---:|
+|:---:|---|---|
 |类型查询|`instance.(type)`必须配合`switch case`进行判断执行对应操作。|`reflect.TypeOf(instance)`返回Type结构体类型|
 |类型断言|`instance.(instanceType)`返回具体值|`reflect.ValueOf(instance)`返回Value结构体类型|
 
 # 参考资料
 - [《Go并发编程》](https://book.douban.com/subject/27016236/)
 - [https://golang.org/pkg/errors/](https://golang.org/pkg/errors/)
+
+# Changelog
+- 2019/06/25：梳理字符串处理部分内容，更新关于error部分的内容

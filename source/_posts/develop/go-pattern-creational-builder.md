@@ -113,4 +113,8 @@ familyCar.Stop()
 - [《图说设计模式》：建造者模式](https://design-patterns.readthedocs.io/zh_CN/latest/creational_patterns/builder.html)
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns/blob/master/creational/builder.md)
 - [Design Patterns in Golang: The Good, the Bad and the Ugly](http://blog.ralch.com/tutorial/design-patterns/golang-design-patterns/)
+- [Desing Patterns in Golang: Builder](http://blog.ralch.com/articles/design-patterns/golang-builder/)
 - [GO DESIGNPATTERNS](http://dinus.ac.id/private_lib/fahri/GO_DESIGN_PATTERNS.pdf)
+
+# Changelog
+- 2019/06/26：Add [Desing Patterns in Golang: Builder](http://blog.ralch.com/articles/design-patterns/golang-builder/)

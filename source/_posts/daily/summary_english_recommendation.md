@@ -1,7 +1,7 @@
 ---
 title: 英语学习资料总结
 date: 2019-04-14 19:40:10
-updated: 2019-06-13 18:31:16
+updated: 2019-06-25 18:02:59
 categories:
 - 其它
 
@@ -45,8 +45,11 @@ tags:
 You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, and you just write.
 {% endblockquote %}
 
+## 书本
+- William Strunk Jr. [The Elements of Style](https://book.douban.com/subject/1824592/)
+
 ## 网站/APP
-- [grammarly](https://app.grammarly.com/)：拼写，语法检查etc.
+- [Grammarly](https://app.grammarly.com/)：拼写，语法检查etc.
 
 # 词法/语法
 ## 书本
@@ -54,7 +57,7 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 - [《英语新手一看就懂：思维导图学语法》](https://book.douban.com/subject/30845258/)
 
 ## 网站/APP
-- [多邻国](https://duolingo.com)：L1～L5的语法树、卡片式，对应[Streak Hall of Fame](https://duome.eu/anoni15/progress)。
+- [Duolingo](https://duolingo.com)：L1～L5的语法树、卡片式，对应[Streak Hall of Fame](https://duome.eu/anoni15/progress)。
 
 ## 视频教程
 - [【一堂课让你懂得英语语法百分之九十五】](https://www.bilibili.com/video/av47618740): 强烈推荐学习
@@ -78,4 +81,5 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 - 2019/06/08：添加[tophonetics.com](https://tophonetics.com/zh/)
 - 2019/06/10：修正李咏梅老师及走遍美国系列教程失效链接。
 - 2019/06/11：添加史嘉琳老师相应链接
-- 2019/06/13：添加[grammarly](https://app.grammarly.com/)
+- 2019/06/13：添加[Grammarly](https://app.grammarly.com/)
+- 2019/06/25：添加[The Elements of Style](https://book.douban.com/subject/1824592/)

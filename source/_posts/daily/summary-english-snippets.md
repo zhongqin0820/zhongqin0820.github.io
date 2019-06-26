@@ -1,7 +1,7 @@
 ---
 title: summary english snippets
 date: 2019-06-08 10:24:32
-updated: 2019-06-24 10:11:51
+updated: 2019-06-26 09:32:47
 categories:
 - 其它
 
@@ -9,11 +9,11 @@ tags:
 - 课程总结
 ---
 # 前言
-21天暴力突破英语资料汇总。编辑主题带有"`21english`"字样的邮件到[zhong_qin@qq.com](mailto:zhong_qin@qq.com?subject=21english)获取短文材料资源。
-博文内容包括：21天短文练习材料（英文原文对应英音音标）以及对原材料的引用链接；台大史嘉琳教授回音法介绍及其相关资料链接；以及李咏梅老师初中英语系列教程：【音标教学】部分内容的资料链接。
+21天暴力突破英语资料汇总。内容包括：21天短文练习材料（英文原文对应英音音标）以及对原材料的引用链接；台大史嘉琳教授回音法介绍及其[相关资料链接](#Related-Tools)；以及李咏梅老师初中英语系列教程：【音标教学】部分内容的[资料链接](#Related-Tools)。QQ邮箱中转站：[21天暴力突破英语视频材料截图](https://iwx.mail.qq.com/ftn/download?func=3&key=c99b1032f7ca1b24fbe84c32333665627b91773331366562134b07570854525753014f570850554f0254560a1c545003574954070506525a52520754050444620455879698d0ffd6d3eef9daba878dcd9b8cd7b6d7a0fc84bece87a98f181f0b46701bb520957e09b57fb873067db07d857c0015084f&code=6db216eb&k=c99b1032f7ca1b24fbe84c32333665627b91773331366562134b07570854525753014f570850554f0254560a1c545003574954070506525a52520754050444620455879698d0ffd6d3eef9daba878dcd9b8cd7b6d7a0fc84bece87a98f181f0b46701bb520957e09b57fb873067db07d857c0015084f)。
 
 <!-- more -->
-# Day 1: Reach the Goals
+# Day 1
+## Reach the Goals
 > 1. My life has been a trade-off.
 > [maɪ] [laɪf] [həz] [biːn] [ə] [treɪd]-[ɒf].
 > 2. If I wanted to reach the goals I set for myself, I had to get at it and stay at it everyday.
@@ -26,7 +26,7 @@ tags:
 > [aɪ] [wəz] [ˈdrɪvn] [baɪ] [ə] [dɪˈzaɪə] [tʊ] [ˈɔːlweɪz] [bi] [ɒn] [ðə] [tɒp] [əv] [ðə] [hiːp].
 > **Sam Walton** --- <cite>[Sam Walton : Made In America](https://book.douban.com/subject/2189938/)</cite>
 
-# Day 2: Mean Something
+## Mean Something
 > 1. I want to do good.
 > [aɪ] [wɒnt] [tə] [dʊ] [gʊd].
 > 2. I want the world to be better because I was here.
@@ -45,7 +45,7 @@ tags:
 > [aɪ] [wɒnt] [tə] [ˌrɛprɪˈzɛnt] [ði] [aɪˈdɪə] [ðət] [jʊ] [ˈrɪəli] [kən] [meɪk] [wɒt] [jʊ] [wɒnt].
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=246)</cite>
 
-# Day 3: Protect Your Dream
+# Day 2: Protect Your Dream
 > 1. Don't ever let someone tell you that you can't do something.
 > [dəʊnt] [ˈɛvə] [lɛt] [ˈsʌmwʌn] [tɛl] [jʊ] [ðət] [jʊ] [kɑːnt] [dʊ] [ˈsʌmθɪŋ].
 > 2. Not even me.
@@ -60,7 +60,7 @@ tags:
 > [ˈpɪərɪəd].
 > **Will Smith** --- <cite>[Pursuit of Happiness](https://www.youtube.com/watch?v=pestpidO3zA&t=64)</cite>
 
-# Day 4: Good Artists Copy, Great Artists Steal
+# Day 3: Good Artists Copy, Great Artists Steal
 > 1. How do you know what's the right direction?
 > [haʊ] [dʊ] [jʊ] [nəʊ] [wɒts] [ðə] [raɪt] [dɪˈrɛkʃən]?
 > 2. Ultimately it comes down to taste.
@@ -77,7 +77,7 @@ tags:
 > [wi] [həv] [ˈɔːlweɪz] [biːn] [ˈʃeɪmlɪs] [əˈbaʊt] [ˈstiːlɪŋ] [greɪt] [aɪˈdɪəz].
 > **Steve Jobs** --- <cite>[The Lost Interview](https://www.youtube.com/watch?v=TRZAJY23xio&t=3984s)</cite>
 
-# Day 5: Failed Over and Over and Over Again
+# Day 4: Failed Over and Over and Over Again
 > 1. I've missed more than 9,000 shots in my career.
 > [aɪv] [mɪst] [mɔː] [ðæn] 9,000 [ʃɒts] [ɪn] [maɪ] [kəˈrɪə].
 > 2. I've lost almost 300 games.
@@ -90,7 +90,7 @@ tags:
 > [ən] [ðət] [s] [waɪ] [aɪ] [səkˈsiːd].
 > **Michael Jordan** --- <cite>[Failure](https://www.youtube.com/watch?v=JA7G7AV-LT8)</cite>
 
-# Day 6: Pushing Through The Pain
+# Day 5: Pushing Through The Pain
 > 1. As a magician, I try to create images that make people stop and think.
 > [əz] [ə] [məˈʤɪʃən], [aɪ] [traɪ] [tə] [kri(ː)ˈeɪt] [ˈɪmɪʤɪz] [ðət] [meɪk] [ˈpiːpl] [stɒp] [ən] [θɪŋk].
 > 2. I also try to challenge myself to do things that doctors say are not possible.
@@ -107,7 +107,7 @@ tags:
 > [ən] [ðæts] [wɒt] [ˈmæʤɪk] [s] [tə] [miː], [səʊ], [θæŋk] [juː].
 > **David Blaine** --- <cite>How I Held My Breath for 17 Minutes [P1](https://www.youtube.com/watch?v=UX_Ev94t2nc&t=25s)&[P2](https://www.youtube.com/watch?v=UX_Ev94t2nc&t=1188s)</cite>
 
-# Day 7: Hit
+# Day 6: Hit
 > 1. You, me or nobody is gonna hit as hard as life.
 > [jʊ], [mi] [ɔː] [ˈnəʊbədi] [z] [ˈgənə] [hɪt] [əz] [hɑːd] [əz] [laɪf].
 > 2. But it ain't about how hard you hit.
@@ -128,7 +128,7 @@ tags:
 > [jʊə] [ˈbɛtə] [ðən] [ðæt].
 > **Sylvester Stallone** --- <cite>[Rocky Balboa](https://www.youtube.com/watch?v=D_Vg4uyYwEk&t=112s)</cite>
 
-# Day 8: Will Fight
+# Day 7: Will Fight
 > 1. I am William Wallace.
 > [aɪ] [əm] [ˈwɪljəm] [ˈwɒlɪs].
 > 2. And I see a whole army of my countrymen here in defiance of tyranny.
@@ -157,7 +157,7 @@ tags:
 > [bət] [ðeɪl] [ˈnɛvə] [teɪk] [ˈaʊə] [ˈfriːdəm]!
 > **William Wallace** --- <cite>[Braveheart](https://www.youtube.com/watch?v=TME0xubdHQc&t=21s)</cite>
 
-# Day 9: Never Surrender
+# Day 8: Never Surrender
 > 1. We shall not flag or fail.
 > [wi] [ʃəl] [nɒt] [flæg] [ɔː] [feɪl].
 > 2. We shall go on to the end.
@@ -182,7 +182,7 @@ tags:
 > [wi] [ʃəl] [ˈnɛvə] [səˈrɛndə].
 > **Winston S Churchill** --- <cite>[The World Wars](https://www.youtube.com/watch?v=E4MEjgKVQPo&t=23s) version & the [Original](https://www.youtube.com/watch?v=MkTw3_PmKtc&t=76s) version</cite>
 
-# Day 10: Without Victory, There is No Survival
+# Day 9: Without Victory, There is No Survival
 > 1. I would say to the House, as I said to those who have joined the government: "I have nothing to offer but blood, toil, tears and sweat".
 > [aɪ] [wəd] [seɪ] [tə] [ðə] [haʊs], [əz] [aɪ] [sɛd] [tə] [ðəʊz] [huː] [həv] [ʤɔɪnd] [ðə] [ˈgʌvnmənt]: "[aɪ] [həv] [ˈnʌθɪŋ] [tʊ] [ˈɒfə] [bət] [blʌd], [tɔɪl], [teəz] [ən] [swɛt]".
 > 2. We have before us an ordeal of the most grievous kind.
@@ -205,7 +205,7 @@ tags:
 > [fə] [wɪˈðaʊt] [ˈvɪktəri], [ðə] [z] [nəʊ] [səˈvaɪvəl].
 > **Winston S Churchill** --- <cite>[The World Wars](https://www.youtube.com/watch?v=htHKbsUKDDw&t=127s) version & the [Original](https://www.youtube.com/watch?v=fKBR0igDPfM&t=120s) version</cite>
 
-# Day 11: It Takes A Strong Man To Save Himself, And A Great Man To Save Another
+# Day 10: It Takes A Strong Man To Save Himself, And A Great Man To Save Another
 > 1. These walls are funny.
 > [ðiːz] [wɔːlz] [ə] [ˈfʌni].
 > 2. First, you hate them, then you get used to them.
@@ -222,7 +222,7 @@ tags:
 > [aɪ] [rɪˈmɛmbə] [ˈθɪŋkɪŋ] [ɪt] [wəd] [teɪk] [ə] [mæn] [sɪks] [ˈhʌndrəd] [jɪəz] [tə] [ˈtʌnl] [θruː] [ðə] [wɔːl] [wɪð] [ɪt]. [əʊld] [ˈændi] [dɪd] [ɪt] [ɪn] [lɛs] [ðən] [ˈtwɛnti].
 > **Andy Dufresne** --- <cite>[The Shawshank Redemption](https://www.youtube.com/watch?v=6hB3S9bIaco&t=98s)</cite>
 
-# Day 12: Lay This Brick Perfectly
+# Day 11: Lay This Brick Perfectly
 > 1. One summer his dad tore down a brick wall in the front of his business and told 12-year-old Will and his 9-year-old brother to rebuild it.
 > [wʌn] [ˈsʌmə] [hɪz] [dæd] [tɔː] [daʊn] [ə] [brɪk] [wɔːl] [ɪn] [ðə] [frʌnt] [əv] [ɪz] [ˈbɪznɪs] [ən] [təʊld] 12-[jɪər]-[əʊld] [wɪl] [ən] [hɪz] 9-[jɪər]-[əʊld] [ˈbrʌðə] [tə] [ˌriːˈbɪld] [ɪt].
 > 2. A job they said was impossible.
@@ -245,7 +245,7 @@ tags:
 > [ən] [suːn] [jʊ] [həv] [ə] [wɔːl].
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=185s)</cite>
 
-# Day 13: Do What You Need To Do
+# Day 12: Do What You Need To Do
 > 1. I have a great time with my life, and I want to share it.
 > [aɪ] [həv] [ə] [greɪt] [taɪm] [wɪð] [maɪ] [laɪf], [ən] [aɪ] [wɒnt] [tə] [ʃeər] [ɪt].
 > 2. I love living.
@@ -274,7 +274,7 @@ tags:
 > [aɪ] [θɪŋk] [wɒt] [ˈhæpənz] [ɪz] [wi] [meɪk] [ðə] [ˌsɪtjʊˈeɪʃən] [mɔː] [ˈkɒmplɛks].
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ)</cite>
 
-# Day 14: Sickening Work Ethic
+# Day 13: Sickening Work Ethic
 > 1. The separation of talent and skill is one of the greatest misunderstood concepts for people who are trying to excel, who have dreams, who want to do things.
 > [ðə] [ˌsɛpəˈreɪʃən] [əv] [ˈtælənt] [ən] [skɪl] [z] [wʌn] [əv] [ðə] [ˈgreɪtɪst] [ˌmɪsʌndəˈstʊd] [ˈkɒnsɛpts] [fə] [ˈpiːpl] [huː] [ə] [ˈtraɪɪŋ] [tʊ] [ɪkˈsɛl], [huː] [həv] [driːmz], [huː] [wɒnt] [tə] [dʊ] [θɪŋz].
 > 2. Talent you have naturally.
@@ -307,7 +307,7 @@ tags:
 > [ɪts] [ˈrɪəli] [ðət] [ˈsɪmpl].
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=98s)</cite>
 
-# Day 15: Bend Your Universe
+# Day 14: Bend Your Universe
 > 1. Our thoughts, feelings, dreams and ideas are physical in the universe.
 > [ˈaʊə] [θɔːts], [ˈfiːlɪŋz], [driːmz] [ən] [aɪˈdɪəz] [ə] [ˈfɪzɪkəl] [ɪn] [ðə] [ˈjuːnɪvɜːs].
 > 2. If we dream something, if we picture something, and if we commit ourselves to it - that is a physical thrust towards the realization that we send out into the universe.
@@ -334,7 +334,7 @@ tags:
 > [frəm] [ðət] [pɔɪnt] [ɒn], [ðə] [ˈjuːnɪvɜːs] [ɪz] [ˈgənə] [gɛt] [aʊt] [əv] [jə] [weɪ].
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=408s)</cite>
 
-# Day 16: Super Hard
+# Day 15: Super Hard
 > 1. The first is you need to work, if you, depending on how well you want to do.
 > [ðə] [fɜːst] [s] [jʊ] [niːd] [tə] [wɜːk], [ɪf] [juː], [dɪˈpɛndɪŋ] [ɒn] [haʊ] [wɛl] [jʊ] [wɒnt] [tə] [duː].
 > 2. Particularly if you're starting a company, you need to work super hard.
@@ -365,7 +365,7 @@ tags:
 > [ən] [ɪf] [jʊ] [dʊ] [ˈsɪmpl] [mæθ], [seɪ] [laɪk], [ɪf] [ˈsʌmbədi] [ɛls] [ɪz] [ˈwɜːkɪŋ] 50 [ˈaʊəz], [ən] [jʊə] [ˈwɜːkɪŋ] 100, [juːl] [gɛt] [twaɪs] [əz] [mʌʧ] [dʌn] [ɪn] [ðə] [kɔːs] [əv] [ə] [jɪər] [əz] [ði] [ˈʌðə] [ˈkʌmpəni].
 > **Elon Musk** --- <cite>[Work ethics, Inspiration](https://www.youtube.com/watch?v=KNy9FBnbF-Q&t=6s)</cite>
 
-# Day 17: Think Different
+# Day 16: Think Different
 > 1. Here's to the crazy ones.
 > [hɪəz] [tə] [ðə] [ˈkreɪzi] [wʌnz].
 > 2. The misfits.
@@ -394,7 +394,7 @@ tags:
 > [bɪˈkəz] [ðə] [ˈpiːpl] [huː] [ə] [ˈkreɪzi] [ɪˈnʌf] [tə] [θɪŋk] [ðeɪ] [kən] [ʧeɪnʤ] [ðə] [wɜːld], [ɑː] [ðə] [wʌnz] [huː] [duː].
 > **Steve Jobs** --- <cite>[Think Different](https://www.youtube.com/watch?v=GEPhLqwKo6g)</cite>
 
-# Day 18: I Knew I Was Going To Be Rich
+# Day 17: I Knew I Was Going To Be Rich
 > 1. I always knew I was going to be rich.
 > [aɪ] [ˈɔːlweɪz] [njuː] [aɪ] [wəz] [ˈgəʊɪŋ] [tə] [bi] [rɪʧ].
 > 2. I don't think I ever doubted it for a minute.
@@ -413,7 +413,65 @@ tags:
 > [ən] [ðə] [kɪŋ] [ˈrɛdɪli] [əˈgriːd] [tʊ] [ɪt]. [ən] [baɪ] [ðə] [taɪm] [hi] [ˈfɪgəd] [aʊt] [wɒt] [tuː] [tə] [ðiː] 64-[θ] [əˈmaʊntɪd] [tʊ], [hi] [wəz] [ˈgɪvɪŋ] [əˈweɪ] [ði] [ɪnˈtaɪə] [ˈkɪŋdəm].
 > 9. So it's a pretty simple concept, but over time, it accomplished extraordinary things.
 > [səʊ] [ɪts] [ə] [ˈprɪti] [ˈsɪmpl] [ˈkɒnsɛpt], [bət] [ˈəʊvə] [taɪm], [ɪt] [əˈkɒmplɪʃt] [ɪksˈtrɔːdnri] [θɪŋz].
-> **Warren Buffett** --- <cite>[Goodreads quotes](https://www.goodreads.com/quotes/196536-i-always-knew-i-was-going-to-be-rich-i)</cite>
+> **Warren Buffett** --- <cite>[Goodreads quotes](https://www.goodreads.com/quotes/196536-i-always-knew-i-was-going-to-be-rich-i) & [Power of compound interest](https://www.youtube.com/watch?v=wBcGTc4MPG0&t=99s)</cite>
+
+# Day 18: Compound Interest
+> 1. And very early, probably when I was seven or so, I took this book our of the Benson Library, called "A thousand ways to make a 1000".
+> [ən] [ˈvɛri] [ˈɜːli], [ˈprɒbəbli] [wɛn] [aɪ] [wəz] [ˈsɛvn] [ɔː] [səʊ], [aɪ] [tʊk] [ðɪs] [bʊk] [aʊt] [əv] [ðə] [ˈbɛnsən] [ˈlaɪbrəri], [kɔːld] "[ə] [ˈθaʊzənd] [weɪz] [tə] [meɪk] [eɪ] 1000".
+> 2. And one of the ways in this book was having penny weighing machines.
+> [ən] [wʌn] [əv] [ðə] [weɪz] [ɪn] [ðɪs] [bʊk] [wəz] [ˈhævɪŋ] [ˈpɛni] [ˈweɪɪŋ] [məˈʃiːnz].
+> 3. I sat and calculated how much it would cost to buy the first weighing machine, and then how long it would take for the profit from that one to buy another one.
+> [aɪ] [sæt] [ən] [ˈkælkjʊleɪtɪd] [haʊ] [mʌʧ] [ɪt] [wəd] [kɒst] [tə] [baɪ] [ðə] [fɜːst] [ˈweɪɪŋ] [məˈʃiːn], [ən] [ðɛn] [haʊ] [lɒŋ] [ɪt] [wəd] [teɪk] [fə] [ðə] [ˈprɒfɪt] [frəm] [ðət] [wʌn] [tə] [baɪ] [əˈnʌðə] [wʌn].
+> 4. And I would sit there and create those compound interest taxes to figure out how long it would take me to have a weighing machine for every person in the world.
+> [ən] [aɪ] [wəd] [sɪt] [ðeər] [ənd] [kri(ː)ˈeɪt] [ðəʊz] [ˈkɒmpaʊnd] [ˈɪntrɪst] [ˈtæksɪz] [tə] [ˈfɪgər] [aʊt] [haʊ] [lɒŋ] [ɪt] [wəd] [teɪk] [mi] [tə] [həv] [ə] [ˈweɪɪŋ] [məˈʃiːn] [fər] [ˈɛvri] [ˈpɜːsn] [ɪn] [ðə] [wɜːld].
+> 5. I had everybody in the country weighing themselves ten times a day, and me just sitting there like John D.Rockefeller of weighing machines.
+> [aɪ] [həd] [ˈɛvrɪbɒdi] [ɪn] [ðə] [ˈkʌntri] [ˈweɪɪŋ] [ðəmˈsɛlvz] [tɛn] [taɪmz] [ə] [deɪ], [ən] [mi] [ʤəst] [ˈsɪtɪŋ] [ðeə] [laɪk] [ʤɒn] [diː].[ˈrɒkəˌfɛlər] [əv] [ˈweɪɪŋ] [məˈʃiːnz].
+> 6. That allowance when I was little boy was a nickel a week.
+> [ðæt] [əˈlaʊəns] [wɛn] [aɪ] [wəz] [ə] [ˈlɪtl] [bɔɪ] [wəz] [ə] [ˈnɪkl] [ə] [wiːk].
+> 7. But I liked the ideas of having a litter more than a nickel a week to work with.
+> [bət] [aɪ] [laɪkt] [ði] [aɪˈdɪəz] [əv] [ˈhævɪŋ] [ə] [ˈlɪtə] [mɔː] [ðən] [ə] [ˈnɪkl] [ə] [wiːk] [tə] [wɜːk] [wɪð].
+> 8. And I went into business very early.
+> [ən] [aɪ] [wɛnt] [ˈɪntə] [ˈbɪznɪs] [ˈvɛri] [ˈɜːli].
+> 9. I started sell Coca-Cola door to door.
+> [aɪ] [ˈstɑːtɪd] [tə] [sɛl] [ˈkəʊkə]-[ˈkəʊlə] [dɔː] [tə] [dɔː].
+> 10. I sold gum door to door.
+> [aɪ] [səʊld] [gʌm] [dɔː] [tə] [dɔː].
+> 11. I sold "Saturday Evening Post", "Liberty" Magazine, "Ladies Home Journal", you name it.
+> [aɪ] [səʊld] "[ˈsætədeɪ] [ˈiːvnɪŋ] [pəʊst]", "[ˈlɪbəti]" [ˌmægəˈziːn], "[ˈleɪdɪz] [həʊm] [ˈʤɜːnl]", [jʊ] [neɪm] [ɪt].
+> 12. I think I enjoyed the game almost right from the start.
+> [aɪ] [θɪŋk] [aɪ] [ɪnˈʤɔɪd] [ðə] [geɪm] [ˈɔːlməʊst] [raɪt] [frəm] [ðə] [stɑːt].
+> 13. But I like being my own boss.
+> [bət] [aɪ] [laɪk] [ˈbiːɪŋ] [maɪ] [əʊn] [bɒs].
+> 14. That's one thing I liked about delivering papers.
+> [ðæts] [wʌn] [θɪŋ] [aɪ] [laɪkt] [əˈbaʊt] [dɪˈlɪvərɪŋ] [ˈpeɪpəz].
+> 15. I could arrange the route I wanted.
+> [aɪ] [kəd] [əˈreɪnʤ] [ðə] [ruːt] [aɪ] [ˈwɒntɪd].
+> 16. Nobody was bothering me at 5:00 or 6:00 in the morning.
+> [ˈnəʊbədi] [wəz] [ˈbɒðərɪŋ] [mi] [æt] 5:00 [ɔː] 6:00 [ɪn] [ðə] [ˈmɔːnɪŋ].
+> 17. I was delivering 500 papers a day.
+> [aɪ] [wəz] [dɪˈlɪvərɪŋ] 500 [ˈpeɪpəz] [ə] [deɪ].
+> 18. And I made a penny a paper, but in terms of compounding, that penny has turned into something else.
+> [ən] [aɪ] [meɪd] [ə] [ˈpɛni] [ə] [ˈpeɪpə], [bət] [ɪn] [tɜːmz] [əv] [kəmˈpaʊndɪŋ], [ðæt] [ˈpɛni] [həz] [tɜːnd] [ˈɪntə] [ˈsʌmθɪŋ] [ɛls].
+> **Warren Buffett** --- <cite>[Power of compound interest ](https://www.youtube.com/watch?v=wBcGTc4MPG0)</cite>
+
+# Day 19: Method of Learning
+> 1. Alfred North Whitehead said it one time that "the rapid advance of civilization came only when man invented the method of invention".
+> [ˈælfrəd] [nɔːθ] [ˈhwaɪtˌhed] [sɛd] [ɪt] [wʌn] [taɪm] [ðæt] "[ðə] [ˈræpɪd] [ədˈvɑːns] [əv] [ˌsɪvɪlaɪˈzeɪʃən] [keɪm] [ˈəʊnli] [wɛn] [mæn] [ɪnˈvɛntɪd] [ðə] [ˈmɛθəd] [əv] [ɪnˈvɛnʃən]".
+> 2. And of course, he was referring to the huge growth of GDP per capita and all the other good things that we now take for granted which started a few hundred years ago and before that all was stasis.
+> [ən] [əv] [kɔːs], [hi] [wəz] [rɪˈfɜːrɪŋ] [tə] [ðə] [hjuːʤ] [grəʊθ] [əv] [ʤiː-diː-piː] [pɜː] [ˈkæpɪtə] [ən] [ɔːl] [ði] [ˈʌðə] [gʊd] [θɪŋz] [ðət] [wi] [naʊ] [teɪk] [fə] [ˈgrɑːntɪd] [wɪʧ] [ˈstɑːtɪd] [ə] [fjuː] [ˈhʌndrəd] [jɪəz] [əˈgəʊ] [ən] [bɪˈfɔː] [ðət] [ɔːl] [wəz] [ˈsteɪsɪs].
+> 3. So if civilization can progress only when it invents the method of invention, you can progress only when you learn the method of learning.
+> [səʊ] [ɪf] [ˌsɪvɪlaɪˈzeɪʃən] [kən] [prəʊˈgrɛs] [ˈəʊnli] [wɛn] [ɪt] [ɪnˈvɛnts] [ðə] [ˈmɛθəd] [əv] [ɪnˈvɛnʃən], [jʊ] [kən] [prəʊˈgrɛs] [ˈəʊnli] [wɛn] [jʊ] [lɜːn] [ðə] [ˈmɛθəd] [əv] [ˈlɜːnɪŋ].
+> 4. I was very lucky.
+> [aɪ] [wəz] [ˈvɛri] [ˈlʌki].
+> 5. I came to law school having learned the method of learning and nothing has served me better in my long life than continuous learning.
+> [aɪ] [keɪm] [tə] [lɔː] [skuːl] [ˈhævɪŋ] [lɜːnt] [ðə] [ˈmɛθəd] [əv] [ˈlɜːnɪŋ] [ən] [ˈnʌθɪŋ] [həz] [sɜːvd] [mi] [ˈbɛtər] [ɪn] [maɪ] [lɒŋ] [laɪf] [ðən] [kənˈtɪnjʊəs] [ˈlɜːnɪŋ].
+> 6. And if you take Warren Buffett and watched him with a time clock, I would say half of all the time he spends is sitting on his ass and reading.
+> [ən] [ɪf] [jʊ] [teɪk] [ˈwɒrən] ['bʌfit] [ən] [wɒʧt] [ɪm] [wɪð] [ə] [taɪm] [klɒk], [aɪ] [wəd] [seɪ] [hɑːf] [əv] [ɔːl] [ðə] [taɪm] [hi] [spɛndz] [ɪz] [ˈsɪtɪŋ] [ɒn] [ɪz] [æs] [ən] [ˈriːdɪŋ].
+> 7. And a big chunk of the rest of the time is spent talking one on one, either on the telephone or personally, with highly gifted people whom he trusts and who trust him.
+> [ən] [ə] [bɪg] [ʧʌŋk] [əv] [ðə] [rɛst] [əv] [ðə] [taɪm] [z] [spɛnt] [ˈtɔːkɪŋ] [wʌn] [ɒn] [wʌn], [ˈaɪðər] [ɒn] [ðə] [ˈtɛlɪfəʊn] [ɔː] [ˈpɜːsnəli], [wɪð] [ˈhaɪli] [ˈgɪftɪd] [ˈpiːpl] [huːm] [hi] [trʌsts] [ən] [huː] [trʌst] [hɪm].
+> 8. In other words, it looks quite academic, all this worldly success.
+> [ɪn] [ˈʌðə] [wɜːdz], [ɪt] [lʊks] [kwaɪt] [ˌækəˈdɛmɪk], [ɔːl] [ðɪs] [ˈwɜːldli] [səkˈsɛs].
+> **Charlie Munger** --- <cite>[Speech at USC - May 2007](https://www.youtube.com/watch?v=zRKzJlydWO8&list=PLjlCynNt59MEHrGRzEVfpTWvOVglfTLy_&t=143s)</cite>
 
 # Related Tools
 - [tophonetics.com](https://tophonetics.com/zh/)
@@ -429,20 +487,22 @@ tags:
 - 每天十分钟即可，但一定要是每天都练。
 
 # Changelog
-- 2019/06/08：add the materials of day 1 & day 2
-- 2019/06/09：add day 3
-- 2019/06/10：add day 4: quite hard to pick out the original material
-- 2019/06/11：add day 5 & [【echo method】](https://www.youtube.com/watch?v=sQEWEPIHLzQ&t=864s) TED Talk link
-- 2019/06/12：add day 6
-- 2019/06/13：add day 7
-- 2019/06/14：add day 8
-- 2019/06/15：add day 9: highly recommend [The World Wars](https://www.youtube.com/watch?v=E4MEjgKVQPo&t=23s) version because of the accent of the [Original](https://www.youtube.com/watch?v=MkTw3_PmKtc&t=76s) version.
-- 2019/06/16：add day 10 and do the recap of day 1~4, unlike day 9, the original version of the speech is quite articulate.
-- 2019/06/17：add day 11: can't find out the complete video of the quotes but only the choice part from the trailer clip.
-- 2019/06/18：add day 12
-- 2019/06/19：add day 13
-- 2019/06/20：add day 14: almost give up...
-- 2019/06/21：add day 15
-- 2019/06/22：add day 16 & add [【李咏梅老师初中英语系列教程】：音标教学](https://www.bilibili.com/video/av29219586/)
-- 2019/06/23：add day 17: highly recommend
-- 2019/06/24：add day 18: not recommend
+- 2019/06/08：add the materials of quote 1 & quote 2
+- 2019/06/09：add quote 3
+- 2019/06/10：add quote 4: quite hard to pick out the original material
+- 2019/06/11：add quote 5 & [【echo method】](https://www.youtube.com/watch?v=sQEWEPIHLzQ&t=864s) TED Talk link
+- 2019/06/12：add quote 6
+- 2019/06/13：add quote 7
+- 2019/06/14：add quote 8
+- 2019/06/15：add quote 9: highly recommend [The World Wars](https://www.youtube.com/watch?v=E4MEjgKVQPo&t=23s) version because of the accent of the [Original](https://www.youtube.com/watch?v=MkTw3_PmKtc&t=76s) version.
+- 2019/06/16：add quote 10 and do the recap of quote 1~4, unlike quote 9, the original version of the speech is quite articulate.
+- 2019/06/17：add quote 11: can't find out the complete video of the quotes but only the choice part from the trailer clip.
+- 2019/06/18：add quote 12
+- 2019/06/19：add quote 13
+- 2019/06/20：add quote 14: almost give up...
+- 2019/06/21：add quote 15
+- 2019/06/22：add quote 16 & add [【李咏梅老师初中英语系列教程】：音标教学](https://www.bilibili.com/video/av29219586/)
+- 2019/06/23：add quote 17: highly recommend
+- 2019/06/24：add quote 18
+- 2019/06/25：add quote 19 & rearrange the materials
+- 2019/06/26：add quote 20 & the [full speech](https://www.youtube.com/watch?v=L6Cy7UwsRPQ&list=PLjlCynNt59MEHrGRzEVfpTWvOVglfTLy_&t=249s) with the [lyrics](https://genius.com/Charlie-munger-usc-law-commencement-speech-annotated).

@@ -10,7 +10,6 @@ tags:
 ---
 # 前言
 Go中线性数据结构没有现成的栈与队列。因此，当被问到使用队列实现栈，或者使用栈实现队列的问题时会变得很尴尬。如：[Leetcode 225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)、[Leetcode 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)、[两个栈实现双端队列](https://www.cnblogs.com/zmlctt/p/3985128.html)。
-
 针对这个问题，简单做个梳理。法1：借助切片使用类型重定义后的类型添加新方法封装得到的栈/队列。法2：直接使用container/list中的双向链表的封装。这里最后使用后者解决问题。
 
 <!-- more -->
@@ -57,43 +56,43 @@ func (q *MyQueue) Front() int {
 func (q *MyQueue) Empty() bool { return len(*q) == 0 }
 ```
 
-## 使用`container/list`
+# 使用`container/list`
 - list是一个双向链表ADT，可以使用这个特性，模拟为栈和队列。
 
 ```go
 type Element struct {
-    next, prev *Element  // 上一个元素和下一个元素
-    list *List  // 元素所在链表
-    Value interface{}  // 元素
+next, prev *Element    // 上一个元素和下一个元素
+list       *List       // 元素所在链表
+Value      interface{} // 元素
 }
 
 func (e *Element) Next() *Element
 func (e *Element) Prev() *Element
 
 type List struct {
-    root Element  // 链表的根元素
-    len  int      // 链表的长度
+root Element // 链表的根元素
+len  int     // 链表的长度
 }
 
 func New() *List
-func (l *List) Back() *Element   // 最后一个元素
-func (l *List) Front() *Element  // 第一个元素
-func (l *List) Init() *List  // 链表初始化
-func (l *List) InsertAfter(v interface{}, mark *Element) *Element // 在某个元素后插入
-func (l *List) InsertBefore(v interface{}, mark *Element) *Element  // 在某个元素前插入
-func (l *List) Len() int // 在链表长度
-func (l *List) MoveAfter(e, mark *Element)  // 把e元素移动到mark之后
-func (l *List) MoveBefore(e, mark *Element)  // 把e元素移动到mark之前
-func (l *List) MoveToBack(e *Element) // 把e元素移动到队列最后
-func (l *List) MoveToFront(e *Element) // 把e元素移动到队列最头部
-func (l *List) PushBack(v interface{}) *Element  // 在队列最后插入元素
-func (l *List) PushBackList(other *List)  // 在队列最后插入接上新队列
-func (l *List) PushFront(v interface{}) *Element  // 在队列头部插入元素
-func (l *List) PushFrontList(other *List) // 在队列头部插入接上新队列
-func (l *List) Remove(e *Element) interface{} // 删除某个元素
+func (l *List) Back() *Element                                     // 最后一个元素
+func (l *List) Front() *Element                                    // 第一个元素
+func (l *List) Init() *List                                        // 链表初始化
+func (l *List) InsertAfter(v interface{}, mark *Element) *Element  // 在某个元素后插入
+func (l *List) InsertBefore(v interface{}, mark *Element) *Element // 在某个元素前插入
+func (l *List) Len() int                                           // 在链表长度
+func (l *List) MoveAfter(e, mark *Element)                         // 把e元素移动到mark之后
+func (l *List) MoveBefore(e, mark *Element)                        // 把e元素移动到mark之前
+func (l *List) MoveToBack(e *Element)                              // 把e元素移动到队列最后
+func (l *List) MoveToFront(e *Element)                             // 把e元素移动到队列最头部
+func (l *List) PushBack(v interface{}) *Element                    // 在队列最后插入元素
+func (l *List) PushBackList(other *List)                           // 在队列最后插入接上新队列
+func (l *List) PushFront(v interface{}) *Element                   // 在队列头部插入元素
+func (l *List) PushFrontList(other *List)                          // 在队列头部插入接上新队列
+func (l *List) Remove(e *Element) interface{}                      // 删除某个元素
 ```
 
-### 栈
+## 栈
 - 单向进出（使用`PushBack`压栈，使用`Back`获取压栈的元素），**后进先出**。
 
 ```go
@@ -111,10 +110,9 @@ stack.Remove(stack.Back())
 
 // 判断是否为空
 stack.Len() != 0
-
 ```
 
-### 队列
+## 队列
 - 尾进头出（使用`PushBack`进队列，使用`Front`获取队头的元素），先进先出
 
 ```go
@@ -137,14 +135,14 @@ queue.Len() != 0
 # 面试问题
 ## 切片的特点与基本操作
 - 声明/初始化
-    - var s []int   // 声明/定义
-    - var s []int = []int{} //声明并初始化
-    - var s = []int{} //声明并初始化，自动类型推导
-    - s := []int{}  //声明并初始化，自动类型推导，短变量声明**不可以用于全局变量**
+    - `var s []int`   // 声明/定义
+    - `var s []int = []int{}` //声明并初始化
+    - `var s = []int{}` //声明并初始化，自动类型推导
+    - `s := []int{}`  //声明并初始化，自动类型推导，短变量声明**不可以用于全局变量**
 
 - 切片操作
-    - s = s[i:] //等价删除i之前的数据，不包括下标i，i=1删除开头，i=len(n)删除整个切片
-    - s = s[:j] //等价删除j之后的数据，包括下标j，j=len(n)-1删除末尾，j=0删除整个切片
+    - `s = s[i:]` //等价删除i之前的数据，不包括下标i，i=1删除开头，i=len(n)删除整个切片
+    - `s = s[:j]` //等价删除j之后的数据，包括下标j，j=len(n)-1删除末尾，j=0删除整个切片
 
 ## 一个队列实现栈
 - [Leetcode 225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)

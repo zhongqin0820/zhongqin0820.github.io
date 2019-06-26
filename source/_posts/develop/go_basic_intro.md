@@ -8,16 +8,16 @@ categories:
 tags:
 - Go
 ---
-## 前言
+# 前言
 梳理总结学习Go语言的笔记。包括：书写Go代码注意事项，常量与变量的定义与初始化，以及关于Go中的操作符相关内容。最后介绍了关于type关键字的用处：定义结构体，定义接口，同时对比type关键字用于重定义类型与用于类型别名时的区别，以及介绍接口变量在运行时的具体变量类型查询以及类型断言的相关内容。
 
 <!-- more -->
-## 代码注意事项
+# 代码注意事项
 - Go语言以包作为管理单位：包内的变量**根据首字母大小写**对包外执行访问控制。
 - 每个文件必须先声明所属包。
 - **程序必须有一个`main`包**，包含一个唯一的`main()`函数，其作为`go build`的入口。
 
-### 其它
+## 其它
 - 数据类型的作用是告诉编译器以多大的内存存储变量
 - 多个变量输出，倾向使用格式化输出
     - `%v`：自动匹配格式输出
@@ -34,17 +34,17 @@ tags:
 - `if`支持初始化语句，初始化语句与判断条件以分号分隔
 - `break`用在`for`;`switch`;`select`中
 
-## 变量
-### 变量声明
+# 变量
+## 变量声明
 变量的声明也叫做定义；**但是对于函数，函数的定义是关于函数声明的实现！**二者不同。
 - `var 变量名 类型`
 
-### 变量初始化
+## 变量初始化
 - `var 变量名 类型 = 值`
 - `var 变量名 = 值`：**通过初始化的值确定类型**
 - `变量 := 值`：**通过初始化的值确定类型**，`:=`为短变量声明符。**不可以用于全局变量**
 
-## 常量
+# 常量
 在程序编译阶段就确定下来的值，而在运行时无法改变该值。**常量的声明/定义与初始化是在一起的。**否则报错。
 
 ```output
@@ -57,30 +57,30 @@ Line 35: Char 17: undefined: a (solution.go)
 - `const 常量名 = 值`
 - `const 常量名 类型 = 值`
 
-## 运算符
+# 运算符
 平级时从左往右进行运算
 
-### 算术运算符
+## 算术运算符
 - 对于`++`、`--`，**只有后置运算符**，没有前置运算符。
 
-### 关系运算符
+## 关系运算符
 运算值只能是`bool`类型，`true`或`false`。
 
-### 逻辑运算符
+## 逻辑运算符
 - `!`：非
 - `&&`：与
 - `||`：或
 
-### 位运算符
+## 位运算符
 按位进行操作，注意逻辑运算符与位运算符的不同（符号表示以及操作的对象）。
 
-### 赋值运算符
+## 赋值运算符
 - `=`：Go中可以进行多变量赋值操作
 
-### 其它运算符
+## 其它运算符
 - 通道操作符：`<-`，在函数参数定义处可以对通道数据流向进行限制，其它时候的限制无意义。
 
-## type关键字
+# type关键字
 - 结构体定义：区分于类型定义于类型别名
     - `type xxx struct {}`
     - 属于类型定义的子集，类型定义还可以是对已有数据类型的重定义，扩展方法集合不会影响到原类型。
@@ -102,10 +102,56 @@ Line 35: Char 17: undefined: a (solution.go)
     - 类型转换：Go中只有显性类型转换，并且只能在两种相互兼容的类型间转换
     - 类型断言：通过接口实例instance获取对应类型的类型值，instance.(instanceType)
 
-## 参考学习资料
+# 常用内置函数
+- 源码地址v1.12：[pkg/builtin](https://golang.org/pkg/builtin/)
+
+```go
+// 切片操作相关
+func append(slice []Type, elems ...Type) []Type
+func copy(dst, src []Type) int
+
+// 通道关闭
+func close(c chan<- Type)
+// 字典操作
+func delete(m map[Type]Type1, key Type)
+
+// 获取长度
+func cap(v Type) int
+func len(v Type) int
+
+// make是新建slice，map，chan使用，返回变量实例，new返回类型指针
+func make(t Type, size ...IntegerType) Type
+func new(Type) *Type
+
+// 与error相关
+func panic(v interface{})
+func recover() interface{}
+
+// 打印
+func print(args ...Type)
+func println(args ...Type)
+
+// 与内置类型ComplexType相关操作
+func complex(r, i FloatType) ComplexType
+func imag(c ComplexType) FloatType
+func real(c ComplexType) FloatType
+```
+
+# 常见错误
+- [7 common mistakes in Go and when to avoid them](https://www.youtube.com/watch?v=29LLRKIL_TI) by Steve Francia (Docker)
+    - 接口是对方法的抽象，是面向行为编程，传参数时可以利用接口作参数增强系统的可扩展性
+    - io.Reader/io.Writer的重要性
+    - 接口是可以组合的，应该要最小化责任范围，不需要"广播接口"
+    - 方法和函数的区别，方法是基于某个类型的状态转移
+    - 指针/值接收者，只有方法涉及值的修改才使用指针接收者
+    - Errors/Strings，error也是一个类型（静态类型）
+    - 线程安全：sync/channel
+
+# 参考学习资料
 - [Go中文文档](https://studygolang.com/pkgdoc)
 - [Go学习思维导图](https://www.processon.com/view/link/5a9ba4c8e4b0a9d22eb3bdf0#map)
 
-## Changelog
+# Changelog
 - 2019/06/10：添加源码中的类型别名例子
 - 2019/06/18：重新组织语言，更新前言描述
+- 2019/06/25：添加关于内置函数部分内容以及添加关于[7 common mistakes in Go and when to avoid them](https://www.youtube.com/watch?v=29LLRKIL_TI) by Steve Francia (Docker)

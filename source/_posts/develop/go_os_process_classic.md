@@ -1,11 +1,12 @@
 ---
 title: Go实现经典进程同步问题
 date: 2019-05-29 10:47:11
-updated: 2019-06-18 16:46:27
+updated: 2019-06-24 21:31:48
 categories:
 - 计算机基础
 
 tags:
+- Go
 - 学习总结
 ---
 # 前言
@@ -151,6 +152,14 @@ tags:
 > 调用方便，调用时传地址，与锁机制在技术上相近。
 
 ### 通道
+- 源码地址v1.12：[src/runtime/chan.go](https://golang.org/src/runtime/chan.go)
+- [GopherCon 2017: Kavya Joshi - Understanding Channels](https://www.youtube.com/watch?v=KBZlN0izeiY)
+    - hchan：buf（环形队列），lock，recvx，sendx，【recvq，sendq】与并发操作相关
+    - sudoq：双向链表结构，元素是goroutine
+    - 每次读/写操作都需要使用`lock`加锁
+    - goroutine阻塞：向满的channel写/从空的channel读
+    - goroutine唤醒：空的channel中被写入数据/满的channel中被取走数据【利用sudog数据结构，直接互相读/写值】
+
 - channel的坑
     - channel必须带数据类型，可以先声明channel类型的变量，但在使用前，需要使用`make()`对其进行赋值，同时指定缓冲长度，即通道中允许排队的元素个数
     - 单向通道通常作为函数的参数，在变量声明中是不应该出现单向通道的，因为通道本来就是为了通信而生，只能接收或者只能发送数据的通道是没有意义的。
@@ -184,3 +193,4 @@ tags:
 - 2019/06/11：添加针对基础概念的梳理，以及相关参考资料链接
 - 2019/06/13：添加[Linux IO模式及 select、poll、epoll详解](http://blog.taohuawu.club/article/linux-io-select-poll-epoll)。
 - 2019/06/18：修改完善MPG模型描述与添加扩展阅读材料
+- 2019/06/24：添加在channel中的MPG模型执行过程

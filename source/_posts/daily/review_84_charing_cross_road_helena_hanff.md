@@ -37,4 +37,4 @@ In the end, I attach the link of [84charingcrossroad.co.uk](http://www.84charing
 - [84charingcrossroad.co.uk](http://www.84charingcrossroad.co.uk/)
 
 # Changelog
-- 2019/06/23：Fix some typos via Grammarly and didn't change the update time due to some reasons
+- 2019/06/23：Fix some typos via Grammarly and don't change the update time due to its irrelevance to the content

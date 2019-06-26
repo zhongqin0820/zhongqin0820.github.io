@@ -31,4 +31,4 @@ Unfortunately, I still suck at writing, I know the words are in my mind but I ju
 - [Wonder by R.J Palacio: a review](https://www.telegraph.co.uk/culture/books/children_sbookreviews/9099174/Wonder-by-R.J-Palacio-review.html)
 
 # Changelog
-- 2019/06/23：Fix some typos via Grammarly and didn't change the update time due to some reasons
+- 2019/06/23：Fix some typos via Grammarly and don't change the update time due to its irrelevance to the content

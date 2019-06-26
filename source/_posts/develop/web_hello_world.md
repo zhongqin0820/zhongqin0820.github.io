@@ -3,13 +3,13 @@ title: 博客开发
 categories: 网页开发
 tags: 测试
 date: 2017-08-05 19:11:50
-updated: 2019-06-21 10:57:41
+updated: 2019-06-24 10:57:41
 ---
 # 博客正在完善中
 记录博客功能更新日志。
 
 <!-- more -->
-## Changelog
+# Changelog
 - [x] 样式微调
 - [x] 调整url样式（重命名）
 - [x] 按更新时间排序博客
@@ -33,6 +33,7 @@ updated: 2019-06-21 10:57:41
 - [x] 2019/06/04: add changelog in the end of when the post gets updated.
 - [x] 2019/06/21: [add link exchange widget](https://www.jianshu.com/p/43eb0819f51a) in the sidebar section
 - [x] 2019/06/21: refine the about page
+- [x] 2019/06/24: correct rss feed by modifying _config.yml
 
-## TODO
+# TODO
 - [ ] ~~willing to add web ad?~~
