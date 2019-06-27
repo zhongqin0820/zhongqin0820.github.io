@@ -8,16 +8,16 @@ categories:
 tags:
 - 课程总结
 ---
-### 前言
+# 前言
 从八月开始，断断续续学习这门课程。从一开始Coursera上乔治亚理工的CV课和CP课继而到UCF的CV课。算是入门了这门课程，为以后的研究工作打下了一些基础。虽然，我的数学基础在很大程度上限制着我的吸收消化。但是，始终相信，有志者事竟成这个道理。
 课程资源地址：[UCF-CAP 5415 - Computer Vision](http://crcv.ucf.edu/courses/CAP5415/Fall2012/)
 学习过程中，可以参照课程日程表安排学习时间。适当的加强强度。
 
 <!--more-->
-### 课程内容
+# 课程内容
 整门课内容设计较为合理，作为重实现轻理论(少数学细节推导，乔治亚理工的课程较侧重于数学细节)大军中的一员，接受度良好。在课程主页上还有参考资料(免费，开放下载)以及CV领域的顶刊顶会的官网链接等信息。
 
-#### Lecture1 CV Introduction
+## Lecture1 CV Introduction
 第一课是关于计算机视觉中基础知识的介绍以及整个课程会接触到的内容的学习。了解计算机视觉所研究的是从二维图像中得到三维世界的语意信息。
 
 ![The Ability of Computer to See](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/1%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E9%A2%86%E5%9F%9F.png)
@@ -36,8 +36,7 @@ tags:
 
 ![CV Application](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/4CV%20Applicatioin.png)
 
-#### Lecture2 Filtering
-
+## Lecture2 Filtering
 第二节课是CV领域最最基础的一个概念--滤波(Filtering)。我的[第一篇博文](https://cvblogs.cn/2017/08/11/theory/image_processing_operation1/)，翻译的就是整理关于滤波操作的知识。
 首先，当你拿到一张图像，一定要区分清楚它究竟是:
 1. 二值的(Binary)
@@ -67,10 +66,10 @@ tags:
 
 由于之前的文章已经梳理过，这里不再赘述。
 
-#### Matlab Tutorial
+## Matlab Tutorial
 作为课程的辅助章节，本节内容介绍Matlab的基本使用，作为Matlab的简单入门还是很有必要学习的。助教教授的内容都很实用。(对于没有接触过Matlab的人来说，通过学习本节可以完成基本编程任务。推荐观看。另外，斯坦福的吴恩达教授也在其机器学习视频中教授过Matlab的简单操作使用。也可以参考学习。)
 
-### 结束语
+# 结束语
 虽然在onenote上针对每节课都已经做了笔记，但是发现，自己只是将教授PPT中的内容摘抄了出来。这里借助博客<u>简单梳理一下这门课中学习到的内容</u>(事实上，其中的每一课都值得另起一篇去详细介绍)，顺便提升自己的写作能力总结能力。
 写博客真是一项锻炼能力的活，花了一个半小时才写完两节课的简单梳理总结。这进度我也是醉了！看来，以后应该利用碎片化的闲暇时间一点点完成。否则太占用学习时间了！
 作为基础知识的简单入门，第一节课还是很不错的。至少罗列的那些应用光是看那些演示视频，想到自己也有机会去实现。光想想就能振奋人心。第二节结束。目前，我们已经了解了一些基本知识和基本运算(Matlab由库函数实现，推荐使用。)

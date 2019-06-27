@@ -8,17 +8,16 @@ categories:
 tags:
 - 实验报告
 ---
-### 前言
+# 前言
 本篇博文是孟宁老师的[Mooc网课](https://mooc.study.163.com/course/USTC-1000002006#/info)的实验报告内容。实验主要是关于字符串的处理，需要对字符串函数熟悉，可以减少自己造轮子。<u>非常有意义的实验！</u>
 
 <!--more-->
-
-### 实验内容
+# 实验内容
 设计实现一个迷你命令行解析小程序。
 
 ![实验效果](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/2017-09-23%2023-47-38%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
-### 实验代码
+# 实验代码
 重新看自己的代码，发现写的还是很糟糕的。例如，函数没有采用驼峰式等。等到下回有机会改进把。
 ```c
 /*************************************************************************
@@ -53,12 +52,12 @@ int main()
         gets(cmd);
         if(strcmp(cmd,"help") == 0)
         {
-        	PrintHelp();
+            PrintHelp();
         }
         else if(strcmp(cmd,"quit") == 0)
         {
-        	printf("bye~\n");
-        	exit(0);
+            printf("bye~\n");
+            exit(0);
         }
         else if(strcmp(cmd,"clear") == 0)
         {
@@ -66,15 +65,15 @@ int main()
         }
         else if(strstr(cmd,"hello") != NULL)
         {
-        	printf("你好,%s\n",cmd);
+            printf("你好,%s\n",cmd);
         }
         else if(strcmp(cmd,"null") == 0)
         {
-        	printf("null\n");
+            printf("null\n");
         }
         else if(strstr(cmd,"whois") != NULL)
         {
-        	printf("me\n");
+            printf("me\n");
         }
         else
         {
@@ -84,8 +83,6 @@ int main()
     return 0;
 }
 ```
-### 课程链接
-[软件工程（C编码实践篇）](https://mooc.study.163.com/course/USTC-1000002006#/info)
 
-### 结束语
-其实上周就开始做了，但是还是太懒了..最近又忙，看了第三课老师的讲解，发现自己还是想简单了。另外，代码到底用tab还是空格对于程序美观真的很重要..
+# 课程链接
+[软件工程（C编码实践篇）](https://mooc.study.163.com/course/USTC-1000002006#/info)

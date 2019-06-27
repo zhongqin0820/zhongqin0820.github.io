@@ -7,6 +7,7 @@ categories:
 
 tags:
 - Go
+- 经典算法
 ---
 # 前言
 Go中线性数据结构没有现成的栈与队列。因此，当被问到使用队列实现栈，或者使用栈实现队列的问题时会变得很尴尬。如：[Leetcode 225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)、[Leetcode 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)、[两个栈实现双端队列](https://www.cnblogs.com/zmlctt/p/3985128.html)。

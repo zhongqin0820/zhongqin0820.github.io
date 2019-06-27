@@ -1,7 +1,7 @@
 ---
 title: summary english snippets
 date: 2019-06-08 10:24:32
-updated: 2019-06-26 09:32:47
+updated: 2019-06-27 08:59:52
 categories:
 - 其它
 
@@ -12,8 +12,7 @@ tags:
 21天暴力突破英语资料汇总。内容包括：21天短文练习材料（英文原文对应英音音标）以及对原材料的引用链接；台大史嘉琳教授回音法介绍及其[相关资料链接](#Related-Tools)；以及李咏梅老师初中英语系列教程：【音标教学】部分内容的[资料链接](#Related-Tools)。QQ邮箱中转站：[21天暴力突破英语视频材料截图](https://iwx.mail.qq.com/ftn/download?func=3&key=c99b1032f7ca1b24fbe84c32333665627b91773331366562134b07570854525753014f570850554f0254560a1c545003574954070506525a52520754050444620455879698d0ffd6d3eef9daba878dcd9b8cd7b6d7a0fc84bece87a98f181f0b46701bb520957e09b57fb873067db07d857c0015084f&code=6db216eb&k=c99b1032f7ca1b24fbe84c32333665627b91773331366562134b07570854525753014f570850554f0254560a1c545003574954070506525a52520754050444620455879698d0ffd6d3eef9daba878dcd9b8cd7b6d7a0fc84bece87a98f181f0b46701bb520957e09b57fb873067db07d857c0015084f)。
 
 <!-- more -->
-# Day 1
-## Reach the Goals
+## Day 1: Reach the Goals
 > 1. My life has been a trade-off.
 > [maɪ] [laɪf] [həz] [biːn] [ə] [treɪd]-[ɒf].
 > 2. If I wanted to reach the goals I set for myself, I had to get at it and stay at it everyday.
@@ -26,7 +25,7 @@ tags:
 > [aɪ] [wəz] [ˈdrɪvn] [baɪ] [ə] [dɪˈzaɪə] [tʊ] [ˈɔːlweɪz] [bi] [ɒn] [ðə] [tɒp] [əv] [ðə] [hiːp].
 > **Sam Walton** --- <cite>[Sam Walton : Made In America](https://book.douban.com/subject/2189938/)</cite>
 
-## Mean Something
+## Day 1: Mean Something
 > 1. I want to do good.
 > [aɪ] [wɒnt] [tə] [dʊ] [gʊd].
 > 2. I want the world to be better because I was here.
@@ -473,6 +472,21 @@ tags:
 > [ɪn] [ˈʌðə] [wɜːdz], [ɪt] [lʊks] [kwaɪt] [ˌækəˈdɛmɪk], [ɔːl] [ðɪs] [ˈwɜːldli] [səkˈsɛs].
 > **Charlie Munger** --- <cite>[Speech at USC - May 2007](https://www.youtube.com/watch?v=zRKzJlydWO8&list=PLjlCynNt59MEHrGRzEVfpTWvOVglfTLy_&t=143s)</cite>
 
+# Day 20: Change Mindset Change Brain
+> 1. Just the words 'yet' or 'not yet', we're finding, give kids greater confidence, give them a path into the future that creates greater persistence.
+> [ʤəst] [ðə] [wɜːdz] [jɛt] [ɔː] [nɒt] [jɛt], [wɪə] [ˈfaɪndɪŋ], [gɪv] [kɪdz] [ˈgreɪtə] [ˈkɒnfɪdəns], [gɪv] [ðəm] [ə] [pɑːθ] [ˈɪntə] [ðə] [ˈfjuːʧə] [ðət] [kri(ː)ˈeɪts] [ˈgreɪtə] [pəˈsɪstəns].
+> 2. And we can actually change students' mindsets.
+> [ən] [wi] [kən] [ˈækʧʊəli] [ʧeɪnʤ] [ˈstjuːdənts] [ˈmaɪndsɛts].
+> 3. In one study, we taught them that every time they push out of their comfort zone to learn something new and difficult, the neurons in their brain can form new, stronger connections, and over time they can get smarter.
+> [ɪn] [wʌn] [ˈstʌdi], [wi] [tɔːt] [ðəm] [ðət] [ˈɛvri] [taɪm] [ðeɪ] [pʊʃ] [aʊt] [əv] [ðeə] [ˈkʌmfət] [zəʊn] [tə] [lɜːn] [ˈsʌmθɪŋ] [njuː] [ən] [ˈdɪfɪkəlt], [ðə] [ˈnjʊərɒnz] [ɪn] [ðeə] [breɪn] [kən] [fɔːm] [njuː], [ˈstrɒŋgə] [kəˈnɛkʃənz], [ən] [ˈəʊvə] [taɪm] [ðeɪ] [kən] [gɛt] [ˈsmɑːtə].
+> 4. Look what happened.
+> [lʊk] [wɒt] [ˈhæpənd].
+> 5. In this study, students who were not taught this growth mindset continued to show declining grades over this difficult school transition, but those who were taught this lesson showed a sharp rebound in their grades.
+> [ɪn] [ðɪs] [ˈstʌdi], [ˈstjuːdənts] [huː] [wə] [nɒt] [tɔːt] [ðɪs] [grəʊθ] [ˈmaɪndsɛt] [kənˈtɪnju(ː)d] [tə] [ʃəʊ] [dɪˈklaɪnɪŋ] [greɪdz] [ˈəʊvə] [ðɪs] [ˈdɪfɪkəlt] [skuːl] [trænˈsɪʒən], [bət] [ðəʊz] [huː] [wə] [tɔːt] [ðɪs] [ˈlɛsn] [ʃəʊd] [ə] [ʃɑːp] [rɪˈbaʊnd] [ɪn] [ðeə] [greɪdz].
+> 6. We have shown this now, this kind of improvement, with thousands and thousands of kids, especially struggling students.
+> [wi] [həv] [ʃəʊn] [ðɪs] [naʊ], [ðɪs] [kaɪnd] [əv] [ɪmˈpruːvmənt], [wɪð] [ˈθaʊzəndz] [ən] [ˈθaʊzəndz] [əv] [kɪdz], [ɪsˈpɛʃəli] [ˈstrʌglɪŋ] [ˈstjuːdənts].
+> **Carol Dweck** --- <cite>[The power of believing that you can improve](https://www.youtube.com/watch?v=_X0mgOOSpLU&t=325s)</cite>
+
 # Related Tools
 - [tophonetics.com](https://tophonetics.com/zh/)
 - [【李咏梅老师初中英语系列教程】：音标教学](https://www.bilibili.com/video/av29219586/)：熟练掌握48个音标
@@ -506,3 +520,4 @@ tags:
 - 2019/06/24：add quote 18
 - 2019/06/25：add quote 19 & rearrange the materials
 - 2019/06/26：add quote 20 & the [full speech](https://www.youtube.com/watch?v=L6Cy7UwsRPQ&list=PLjlCynNt59MEHrGRzEVfpTWvOVglfTLy_&t=249s) with the [lyrics](https://genius.com/Charlie-munger-usc-law-commencement-speech-annotated).
+- 2019/06/27：add quote 21

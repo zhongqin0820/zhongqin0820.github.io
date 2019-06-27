@@ -8,12 +8,12 @@ categories:
 tags:
 - 课程总结
 ---
-### 前言
+# 前言
 这篇博文是本人学习UCF计算机视觉公开课的课程知识梳理系列文章的第二篇。本篇博文主要介绍[边缘检测](https://zh.wikipedia.org/wiki/%E8%BE%B9%E7%BC%98%E6%A3%80%E6%B5%8B)章节的内容。
 
 <!--more-->
-### 课程内容
-#### 相关先导知识
+# 课程内容
+## 相关先导知识
 边缘一般是指图像在某一局部强度剧烈变化的区域。强度变化一般有两种情况(横轴表示空间变化，纵轴表示灰度变化，虚线表示边缘)：
 
 ![阶跃变化：向亮渐变的过程](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E4%B8%80%E9%98%B6%E5%AF%BC%E6%95%B0)
@@ -29,29 +29,29 @@ tags:
 由于边缘检测的算法主要是<b>基于图像强度</b>(采用差分的方法来进行计算)的一阶和二阶导数。
 但导数通常对噪声敏感，因此必须采用滤波器来改善与噪声有关的边缘检测器的性能。常见的滤波方法主要有<b>高斯滤波</b>，即采用离散化的高斯函数产生一组<b>归一化</b>的高斯核。
 
-#### 一般边缘检测过程
+## 一般边缘检测过程
 1. 滤波：改善与噪声有关的边缘检测器的性能
 2. 增强：将图像灰度点邻域强度值有显著变化的点凸显出来(可通过计算梯度幅值来确定)
 3. 检测：常用的方法是通过阈值化方法来检测
 
-#### 边缘检测器介绍(Edge Detector)
+## 边缘检测器介绍(Edge Detector)
 课程中讲述到的检测器包括：
 ![边缘检测器分类](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E8%BE%B9%E7%BC%98%E6%A3%80%E6%B5%8B%E5%99%A8%E5%88%86%E7%B1%BB.png)
 
-##### Prewitt and Sobel Edge Detector
+### Prewitt and Sobel Edge Detector
 属于离散微分算子 (discrete differentiation operator)。利用差分求出$x,y$方向上的梯度，求解梯度的大小，阈值化梯度的大小找到边缘。
 
-###### Prewitt算子
+#### Prewitt算子
 结合了差分运算与邻域平均的方法。其卷积模板如下：
 
 ![Prewitt Operator](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/Prewitt%E6%A3%80%E6%B5%8B%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
-###### Sobel算子
+#### Sobel算子
 与prewitt算子类似，但考虑到了相邻不同像素点的影响程度是不同的，所以采用加权平均。
 
 ![Sobel Operator](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/Sobel%E6%A3%80%E6%B5%8B%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
-##### Marr Hildreth Edge Detector-LoG
+### Marr Hildreth Edge Detector-LoG
 基本步骤：
 1. 用高斯器滤波原图像去除噪声
 2. 拉普拉斯滤波后的图像(求$x,y$二阶导)
@@ -69,7 +69,7 @@ LoG计算：不同计算方法，时间复杂度不同
 
 由于 Laplacian使用了图像梯度，它内部的代码其实是调用了 Sobel 算子的。
 
-##### Canny
+### Canny
 是一种求最优边缘检测的一套方法。是一种<b>先平滑再求导</b>的方法。
 最优边缘检测的三个主要评价标准：
 1. <b>低错误率</b>: 标识出尽可能多的实际边缘，同时尽可能的减少噪声产生的误报。
@@ -80,39 +80,39 @@ LoG计算：不同计算方法，时间复杂度不同
 
 特别注意第4步！排除非边缘像素， 仅仅保留了一些细线条(候选边缘).
 
-#### 程序实现
+## 程序实现
 ```matlab
-    i = imread('lena.png');%读入原图像
-    A = fspecial('gaussian');%高斯滤波器
-    i = filter2(A, i) / 255;%高斯滤波并归一化(/255)
-    figure;
-    imshow(i);%显示图像
-    imwrite(i,'lena_0.jpg');%保存图像
-    %prewitt方法
-    a = edge(i, 'prewitt');
-    figure;
-    imshow(a);
-    imwrite(a,'lena_1.jpg');
-    %sobel方法
-    a = edge(i, 'sobel');
-    figure;
-    imshow(a);
-    imwrite(a,'lena_2.jpg');
-    %marr hildreth方法(LoG)
-    a = edge(i, 'log');
-    figure;
-    imshow(a);
-    imwrite(a,'lena_3.jpg');
-    %canny方法
-    a = edge(i, 'canny');
-    figure;
-    imshow(a);
-    imwrite(a,'lena_4.jpg');
+i = imread('lena.png');%读入原图像
+A = fspecial('gaussian');%高斯滤波器
+i = filter2(A, i) / 255;%高斯滤波并归一化(/255)
+figure;
+imshow(i);%显示图像
+imwrite(i,'lena_0.jpg');%保存图像
+%prewitt方法
+a = edge(i, 'prewitt');
+figure;
+imshow(a);
+imwrite(a,'lena_1.jpg');
+%sobel方法
+a = edge(i, 'sobel');
+figure;
+imshow(a);
+imwrite(a,'lena_2.jpg');
+%marr hildreth方法(LoG)
+a = edge(i, 'log');
+figure;
+imshow(a);
+imwrite(a,'lena_3.jpg');
+%canny方法
+a = edge(i, 'canny');
+figure;
+imshow(a);
+imwrite(a,'lena_4.jpg');
 ```
 
-### 引用
+# 引用
 1. [边缘检测算法](http://blog.csdn.net/xiahn1a/article/details/42141429)
 2. [【OpenCV入门教程之十二】OpenCV边缘检测：Canny算子,Sobel算子,Laplace算子,Scharr滤波器合辑]()
 
-### 结束语
+# 结束语
 一如既往，写文章对于我真的是一件万分困难的事情，基本上只能达到通顺的要求。翻来覆去也就只能用那几个markdown语法。排版也不甚美观。但我相信，坚持下去，总有一天，我能写出自己的内容。

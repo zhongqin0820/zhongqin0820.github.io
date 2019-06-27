@@ -8,13 +8,11 @@ categories:
 tags:
 - 课程总结
 ---
-### 前言
+# 前言
+这篇博文是本人学习UCF计算机视觉公开课的课程知识梳理系列文章的第四篇。SIFT、HOG特征检测属于局部特征检测。
 
-### 课程内容
-这类特征检测属于斑点检测。
-
-<!--more-->
-### 学习资料
+<!-- more -->
+# 学习资料
 - SIFT部分
     1. [SIFT特征提取分析](http://blog.csdn.net/abcjennifer/article/details/7639681/)
     2. [SIFT算法详解](http://blog.csdn.net/pi9nc/article/details/23302075)
@@ -30,5 +28,5 @@ tags:
     5. [HOG：从理论到OpenCV实践](http://www.cnblogs.com/zhazhiqiang/p/3595266.html)
     6. [Histogram of Oriented Gridients(HOG) 方向梯度直方图](http://www.cnblogs.com/hrlnw/archive/2013/08/06/2826651.html)
 
-### 结束语
+# 结束语
 虽然跟着教程学习完了所有的内容，但是发现整理博客真的是一件工作量浩大的工作。后续不准备再更新了。
