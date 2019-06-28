@@ -1,7 +1,7 @@
 ---
 title: 博客开发
 categories: 网页开发
-tags: 测试
+tags: 修复问题
 date: 2017-08-05 19:11:50
 updated: 2019-06-24 10:57:41
 ---
@@ -34,6 +34,7 @@ updated: 2019-06-24 10:57:41
 - [x] 2019/06/21: [add link exchange widget](https://www.jianshu.com/p/43eb0819f51a) in the sidebar section
 - [x] 2019/06/21: refine the about page
 - [x] 2019/06/24: correct rss feed by modifying _config.yml
+- [x] 2019/06/28: replace the donation, since it is irrelevance to the site, not change the update time
 
 # TODO
 - [ ] ~~willing to add web ad?~~

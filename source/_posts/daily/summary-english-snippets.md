@@ -1,7 +1,7 @@
 ---
-title: summary english snippets
+title: 英语学习：21天暴力突破英语资料汇总
 date: 2019-06-08 10:24:32
-updated: 2019-06-27 08:59:52
+updated: 2019-06-28 09:25:29
 categories:
 - 其它
 
@@ -9,7 +9,7 @@ tags:
 - 课程总结
 ---
 # 前言
-21天暴力突破英语资料汇总。内容包括：21天短文练习材料（英文原文对应英音音标）以及对原材料的引用链接；台大史嘉琳教授回音法介绍及其[相关资料链接](#Related-Tools)；以及李咏梅老师初中英语系列教程：【音标教学】部分内容的[资料链接](#Related-Tools)。QQ邮箱中转站：[21天暴力突破英语视频材料截图](https://iwx.mail.qq.com/ftn/download?func=3&key=c99b1032f7ca1b24fbe84c32333665627b91773331366562134b07570854525753014f570850554f0254560a1c545003574954070506525a52520754050444620455879698d0ffd6d3eef9daba878dcd9b8cd7b6d7a0fc84bece87a98f181f0b46701bb520957e09b57fb873067db07d857c0015084f&code=6db216eb&k=c99b1032f7ca1b24fbe84c32333665627b91773331366562134b07570854525753014f570850554f0254560a1c545003574954070506525a52520754050444620455879698d0ffd6d3eef9daba878dcd9b8cd7b6d7a0fc84bece87a98f181f0b46701bb520957e09b57fb873067db07d857c0015084f)。
+博文内容包括：21天短文练习材料（英文原文对应英音音标）以及对原材料的对照引用链接；台大史嘉琳教授回音法介绍及其[相关资料链接](#Related-Tools)；李咏梅老师初中英语系列教程：【音标教学】部分内容的[资料链接](#Related-Tools)。视频材料截图：[QQ邮箱中转站](https://www.one-tab.com/page/UhskoQbdRuKP8ShztfJLQw)。视频学习地址：[B站](https://www.bilibili.com/video/av52801124)。
 
 <!-- more -->
 ## Day 1: Reach the Goals
@@ -487,6 +487,41 @@ tags:
 > [wi] [həv] [ʃəʊn] [ðɪs] [naʊ], [ðɪs] [kaɪnd] [əv] [ɪmˈpruːvmənt], [wɪð] [ˈθaʊzəndz] [ən] [ˈθaʊzəndz] [əv] [kɪdz], [ɪsˈpɛʃəli] [ˈstrʌglɪŋ] [ˈstjuːdənts].
 > **Carol Dweck** --- <cite>[The power of believing that you can improve](https://www.youtube.com/watch?v=_X0mgOOSpLU&t=325s)</cite>
 
+# Day 21: Grit Is The Key To Success
+> 1. So I left the classroom, and I went to graduate school to become a psychologist.
+> [səʊ] [aɪ] [lɛft] [ðə] [ˈklɑːsrʊm], [ən] [aɪ] [wɛnt] [tə] [ˈgrædjʊət] [skuːl] [tə] [bɪˈkʌm] [ə] [saɪˈkɒləʤɪst].
+> 2. I started studying kids and adults in all kinds of super challenging settings, and in every study, my question was, who is successful here and why?
+> [aɪ] [ˈstɑːtɪd] [ˈstʌdiɪŋ] [kɪdz] [ən] [ˈædʌlts] [ɪn] [ɔːl] [kaɪndz] [əv] [ˈs(j)uːpə] [ˈʧælɪnʤɪŋ] [ˈsɛtɪŋz], [ənd] [ɪn] [ˈɛvri] [ˈstʌdi], [maɪ] [ˈkwɛsʧən] [wɒz], [huː] [z] [səkˈsɛsfʊl] [hɪər] [ən] [waɪ]?
+> 3. My research team and I went to West Point Military Academy.
+> [maɪ] [rɪˈsɜːʧ] [tiːm] [ən] [aɪ] [wɛnt] [tə] [wɛst] [pɔɪnt] [ˈmɪlɪtəri] [əˈkædəmi].
+> 4. We tried to predict which cadets would stay in military training and which would drop out.
+> [wi] [traɪd] [tə] [prɪˈdɪkt] [wɪʧ] [kəˈdɛts] [wəd] [steɪ] [ɪn] [ˈmɪlɪtəri] [ˈtreɪnɪŋ] [ən] [wɪʧ] [wəd] [drɒp] [aʊt].
+> 5. We went to the National Spelling Bee and tried to predict which children would advance farthest in competition.
+> [wi] [wɛnt] [tə] [ðə] [ˈnæʃənl] [ˈspɛlɪŋ] [biː] [ən] [traɪd] [tə] [prɪˈdɪkt] [wɪʧ] [ˈʧɪldrən] [wəd] [ədˈvɑːns] [ˈfɑːðɪst] [ɪn] [ˌkɒmpɪˈtɪʃən].
+> 6. We studied rookie teachers working in really tough neighbourhoods, asking which teachers are still going to be here in teaching by the end of the school year, and of those, who will be the most effective at improving learning outcomes for their students?
+> [wi] [ˈstʌdɪd] [ˈrʊki] [ˈtiːʧəz] [ˈwɜːkɪŋ] [ɪn] [ˈrɪəli] [tʌf] [ˈneɪbəhʊdz], [ˈɑːskɪŋ] [wɪʧ] [ˈtiːʧəz] [ə] [stɪl] [ˈgəʊɪŋ] [tə] [bi] [hɪər] [ɪn] [ˈtiːʧɪŋ] [baɪ] [ði] [ɛnd] [əv] [ðə] [skuːl] [jɪə], [ən] [əv] [ðəʊz], [huː] [wɪl] [bi] [ðə] [məʊst] [ɪˈfɛktɪv] [ət] [ɪmˈpruːvɪŋ] [ˈlɜːnɪŋ] [ˈaʊtkʌmz] [fə] [ðeə] [ˈstjuːdənts]?
+> 7. We partnered with private companies, asking, which of these salespeople is going to keep their jobs?
+> [wi] [ˈpɑːtnəd] [wɪð] [ˈpraɪvɪt] [ˈkʌmpəniz], [ˈɑːskɪŋ], [wɪʧ] [əv] [ðiːz] [ˈseɪlzˌpiːpl] [z] [ˈgəʊɪŋ] [tə] [kiːp] [ðeə] [ʤɒbz]?
+> 8. And who's going to earn the most money?
+> [ən] [huːz] [ˈgəʊɪŋ] [tʊ] [ɜːn] [ðə] [məʊst] [ˈmʌni]?
+> 9. In all those very different contexts, one characteristic emerged as a significant predictor of success.
+> [ɪn] [ɔːl] [ðəʊz] [ˈvɛri] [ˈdɪfrənt] [ˈkɒntɛksts], [wʌn] [ˌkærɪktəˈrɪstɪk] [ɪˈmɜːʤd] [əz] [ə] [sɪgˈnɪfɪkənt] [prɪˈdɪktər] [əv] [səkˈsɛs].
+> 10. And it wasn't social intelligence.
+> [ən] [ɪt] [wɒznt] [ˈsəʊʃəl] [ɪnˈtɛlɪʤəns].
+> 11. It wasn't good looks, physical health, and it wasn't IQ.
+> [ɪt] [wɒznt] [gʊd] [lʊks], [ˈfɪzɪkəl] [hɛlθ], [ən] [ɪt] [wɒznt] [aɪ-kjuː].
+> 12. It was grit.
+> [ɪt] [wəz] [grɪt].
+> 13. Grit is passion and perseverance for very long-term goals.
+> [grɪt] [s] [ˈpæʃən] [ən] [ˌpɜːsɪˈvɪərəns] [fə] [ˈvɛri] [ˈlɒŋtɜːm] [gəʊlz].
+> 14. Grit is having stamina.
+> [grɪt] [s] [ˈhævɪŋ] [ˈstæmɪnə].
+> 15. Grit is sticking with your future, day in, day out, not just for the week, not just for the month, but for years, and working really hard to make that future a reality.
+> [grɪt] [s] [ˈstɪkɪŋ] [wɪð] [jə] [ˈfjuːʧə], [deɪ] [ɪn], [deɪ] [aʊt], [nɒt] [ʤəst] [fə] [ðə] [wiːk], [nɒt] [ʤəst] [fə] [ðə] [mʌnθ], [bət] [fə] [jɪəz], [ən] [ˈwɜːkɪŋ] [ˈrɪəli] [hɑːd] [tə] [meɪk] [ðət] [ˈfjuːʧər] [ə] [ri(ː)ˈælɪti].
+> 16. Grit is living life like it's a marathon, not a sprint.
+> [grɪt] [s] [ˈlɪvɪŋ] [laɪf] [laɪk] [ɪts] [ə] [ˈmərəθən], [nɒt] [ə] [sprɪnt].
+> **Angela Lee Duckworth** --- <cite>[Grit: The power of passion and perseverance](https://www.youtube.com/watch?v=H14bBuluwB8&t=108s)</cite>
+
 # Related Tools
 - [tophonetics.com](https://tophonetics.com/zh/)
 - [【李咏梅老师初中英语系列教程】：音标教学](https://www.bilibili.com/video/av29219586/)：熟练掌握48个音标
@@ -521,3 +556,4 @@ tags:
 - 2019/06/25：add quote 19 & rearrange the materials
 - 2019/06/26：add quote 20 & the [full speech](https://www.youtube.com/watch?v=L6Cy7UwsRPQ&list=PLjlCynNt59MEHrGRzEVfpTWvOVglfTLy_&t=249s) with the [lyrics](https://genius.com/Charlie-munger-usc-law-commencement-speech-annotated).
 - 2019/06/27：add quote 21
+- 2019/06/28：add quote 22

@@ -1,7 +1,7 @@
 ---
-title: 英语学习资料总结
+title: 英语学习：资料总结
 date: 2019-04-14 19:40:10
-updated: 2019-06-25 18:02:59
+updated: 2019-06-28 10:06:25
 categories:
 - 其它
 
@@ -14,10 +14,11 @@ tags:
 <!--more-->
 # 听
 ## 网站/APP
-- [CastBox](https://castbox.fm/)：收听有声读物，推荐频道：[Luke's English Podcast](https://teacherluke.co.uk/)
+- [CastBox](https://castbox.fm/)：收听有声读物或广播节目，推荐频道：[Luke's English Podcast](https://teacherluke.co.uk/)
+- [LibriVox](https://librivox.org/)：收听有声读物，经典书籍基本能够在这上面找到对应的有声读物版本
 
 # 说
-## 书本
+## 书本/文字资料
 - [《赖世雄【美语英标】书本》](https://book.douban.com/subject/2977637/)
 - [【美式英语】史嘉琳 回音法教学资料](http://homepage.ntu.edu.tw/~karchung/miniconversations/MC.htm)
 
@@ -35,9 +36,9 @@ tags:
 - [【美式英语】史嘉琳 英語語音學 (含發音練習) ](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S102/1)
 - [【英式英语】田朝霞 英语语音基础与朗读技巧（全30讲）](https://www.bilibili.com/video/av22981167)
 
-# 阅读
+# 读
 ## 网站/APP
-- [《经济学人》](https://www.tianfateng.cn/7399.html)资源合辑，搭配音频，阅读*Leaders*部分即可。
+- [田间小站](https://www.tianfateng.cn/7399.html)：《经济学人》资源合辑，搭配音频，阅读*Leaders*部分即可。
 - [gen.lib.rus.ec](http://gen.lib.rus.ec)：搜索并下载感兴趣电子刊物资源。
 
 # 写
@@ -45,24 +46,23 @@ tags:
 You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, and you just write.
 {% endblockquote %}
 
-## 书本
+## 书本/文字资料
 - William Strunk Jr. [The Elements of Style](https://book.douban.com/subject/1824592/)
 
 ## 网站/APP
-- [Grammarly](https://app.grammarly.com/)：拼写，语法检查etc.
+- [Grammarly](https://app.grammarly.com/)：拼写，简单语法检查etc.
 
 # 词法/语法
-## 书本
-- [《英语语法新图解：用思维导图快速学语法》](https://book.douban.com/subject/30246892/)
-- [《英语新手一看就懂：思维导图学语法》](https://book.douban.com/subject/30845258/)
+## 书本/文字资料
+- [《英语语法新图解：用思维导图快速学语法》](https://book.douban.com/subject/30246892/)或[《英语新手一看就懂：思维导图学语法》](https://book.douban.com/subject/30845258/)：择一即可
 
 ## 网站/APP
-- [Duolingo](https://duolingo.com)：L1～L5的语法树、卡片式，对应[Streak Hall of Fame](https://duome.eu/anoni15/progress)。
+- [Duolingo](https://duolingo.com)：L1～L5的语法树、卡片式；对应[Streak Hall of Fame](https://duome.eu/)，对应个人[学习进度](https://duome.eu/anoni15/progress)，对应个人[数据面板](https://duome.eu/anoni15/)。
 
 ## 视频教程
 - [【一堂课让你懂得英语语法百分之九十五】](https://www.bilibili.com/video/av47618740): 强烈推荐学习
 
-# 其他资源
+# 其他
 ## 剧集
 - [【糟糕的历史】：1-5季](https://search.bilibili.com/pgc?keyword=%E7%B3%9F%E7%B3%95%E7%9A%84%E5%8E%86%E5%8F%B2)
 - [【鬼屋欢乐送】：第1季](https://search.bilibili.com/all?keyword=%E9%AC%BC%E5%B1%8B%E6%AC%A2%E4%B9%90%E9%80%81)
@@ -83,3 +83,4 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 - 2019/06/11：添加史嘉琳老师相应链接
 - 2019/06/13：添加[Grammarly](https://app.grammarly.com/)
 - 2019/06/25：添加[The Elements of Style](https://book.douban.com/subject/1824592/)
+- 2019/06/28：添加[LibriVox](https://librivox.org/)以及调整内容格式
