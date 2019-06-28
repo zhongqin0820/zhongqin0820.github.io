@@ -156,12 +156,14 @@ facebook_sdk:
 cnzz_siteid: 1263278368
 
 # donation button
+# donation button
 donate:
     enable: true
-    message: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!'
-    wechatImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/mm_facetoface_collect_qrcode_1532340710502.png
-    alipayImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/1532340773616.jpg
-
+    message1: '因为有你与我的付出，这个世界才如此的美好～'
+    message: '如果觉得我的文章对您有用，请随意打赏/支持下列公益项目!'
+    message2: '您的支持将鼓励我继续创作!'
+    wechatImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/donate/wechat.png
+    alipayImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/donate/alipay.png
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 #baidu_push: true

@@ -3,7 +3,7 @@
 <%- js('js/vdonate') %>
 <script>
 var a = new Donate({
-  title: '<%- theme.donate.message %>', // 可选参数，打赏标题
+  title: '<%- theme.donate.message1 %><br><%- theme.donate.message %><br><%- theme.donate.message2 %>', // 可选参数，打赏标题
   btnText: '<%= __('donation.button_text') %>', // 可选参数，打赏按钮文字
   el: document.getElementById('donation_div'),
   wechatImage: '<%- theme.donate.wechatImage %>',
