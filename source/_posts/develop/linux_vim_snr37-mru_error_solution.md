@@ -14,6 +14,7 @@ Error detected while processing function <SNR>37_MRU_LoadList:
 line 4:
 ...
 ```
+
 找了很久终于在stack overflow上找到[解决方案](https://stackoverflow.com/questions/15397567/vim-error-detected-while-processing-function-snr37-mru-loadlist)，备记一下。
 
 <!-- more -->

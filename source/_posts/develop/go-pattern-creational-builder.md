@@ -3,11 +3,10 @@ title: Go实现创建型模式：建造者模式
 date: 2019-06-14 15:19:58
 updated: 2019-06-24 12:42:23
 categories:
-- 计算机基础
+- 设计模式
 
 tags:
 - Go
-- 设计模式
 ---
 # 前言
 建造者/生成器模式，封装一个类型的构造过程，并允许按多个步骤构造。主要将其区别于工厂模式的一步构造出一族实例。本文中样例代码来自[tmrts/go-patterns](https://github.com/tmrts/go-patterns/blob/master/creational/builder.md)的补充修改完善。同时提供对样例代码的UML描述。

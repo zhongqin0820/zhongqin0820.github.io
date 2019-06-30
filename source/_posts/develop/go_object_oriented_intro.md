@@ -1,5 +1,5 @@
 ---
-title: Go语言入门总结:面向对象
+title: Go语言入门总结：面向对象
 date: 2019-05-27 14:58:20
 updated: 2019-06-24 11:44:44
 categories:

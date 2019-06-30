@@ -17,7 +17,7 @@ tags:
 # Main
 This is a book that you will be anxious to read it earlier. I cannot appreciate more about it. William Strunk JR. summarizes briefly but wisely the essential rules of good writing with rich explanation in plain text. It points out sharply what is bad then tells us mildly what good should be. It makes you reflect on yourselves. There are mainly 18 rules from it, each of them worths referring to over and over again.
 
-The quotation above is an excerpt I highly appreciate from the book's review at the back of it. There are books with reviews on them that tend to exaggerate their contents. But this book is totally different; I think it is far beyond the comment. For me, it needs to be read and worths my reading again and again. And I'm trying to apply them in action. Hopefully, that will helps my writing to some extent.
+The quotation above is an excerpt I highly appreciate from the book's review at the back cover. There are books with reviews on them that tend to exaggerate their contents. But this book is totally different; I think it is far beyond the comment. For me, it needs to be read and worths my reading again and again. And I'm trying to apply them in action. Hopefully, that will helps my writing to some extent.
 
 # Others
 Due to its length (almost 50 pages), I consider it as a pamphlet rather than a book. After reading it, I am a little bit of curiosity about its audiobook version. Here I attach it in the [Links](#Links) section. Hopefully, it will help someone who reads this post.

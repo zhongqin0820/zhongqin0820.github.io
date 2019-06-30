@@ -9,7 +9,7 @@ tags:
 - 课程总结
 ---
 # 前言
-博文内容包括：21天短文练习材料（英文原文对应英音音标）以及对原材料的对照引用链接；台大史嘉琳教授回音法介绍及其[相关资料链接](#Related-Tools)；李咏梅老师初中英语系列教程：【音标教学】部分内容的[资料链接](#Related-Tools)。视频材料截图：[QQ邮箱中转站](https://www.one-tab.com/page/UhskoQbdRuKP8ShztfJLQw)。视频学习地址：[B站](https://www.bilibili.com/video/av52801124)。
+内容包括：21天短文练习材料（英文原文对应英音音标）以及对原材料的对照引用链接；台大史嘉琳教授回音法介绍及其[相关资料链接](#Related-Tools)；李咏梅老师初中英语系列教程：【音标教学】部分内容的[资料链接](#Related-Tools)。视频材料截图：[QQ邮箱中转站](https://www.one-tab.com/page/UhskoQbdRuKP8ShztfJLQw)。视频学习地址：[B站](https://www.bilibili.com/video/av52801124)。
 
 <!-- more -->
 ## Day 1: Reach the Goals

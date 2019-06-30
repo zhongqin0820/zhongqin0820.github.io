@@ -1,9 +1,9 @@
 ---
-title: 医学影像技术概述:X-ray、CT、MRI
+title: 医学影像技术概述：X-ray、CT、MRI
 date: 2017-10-31 08:36:18
 updated: 2017-10-31 08:36:18
 categories:
-- 医学影像计算
+- 机器学习
 
 tags:
 - 课程总结

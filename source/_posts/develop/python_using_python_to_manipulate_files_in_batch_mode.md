@@ -1,9 +1,9 @@
 ---
-title: python之批处理命名文件
+title: 使用Python批处理命名文件
 date: 2017-11-07 13:53:10
 updated: 2017-11-07 13:53:10
 categories:
-- 网页开发
+- 其它
 
 tags:
 - Python
@@ -28,11 +28,12 @@ tags:
 #coding=utf-8
 import os
 dirf = "/Users/Zoking/Downloads/graffle"#文件所在目录
-indwx = "0"								#删除的内容标志，需要区别
-for file in os.listdir(dirf):			#列出dirf目录下的所有文件
-    if file.find(indwx) == 0:			#找到需要删除的位置
-        nfile = file[3:len(file)]		#切片
-        os.rename(os.path.join(dirf,file),os.path.join(dirf,nfile))#重命名文件rename(旧，新)
+indwx = "0"                              #删除的内容标志，需要区别
+for file in os.listdir(dirf):            #列出dirf目录下的所有文件
+    if file.find(indwx) == 0:            #找到需要删除的位置
+        nfile = file[3:len(file)]        #切片
+        #重命名文件rename(旧，新)
+        os.rename(os.path.join(dirf,file),os.path.join(dirf,nfile))
 ```
 
 # 文件基本操作知识梳理

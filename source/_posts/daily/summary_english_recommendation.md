@@ -1,7 +1,7 @@
 ---
 title: 英语学习：资料总结
 date: 2019-04-14 19:40:10
-updated: 2019-06-28 10:06:25
+updated: 2019-06-30 11:26:39
 categories:
 - 其它
 
@@ -59,6 +59,17 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 ## 网站/APP
 - [Duolingo](https://duolingo.com)：L1～L5的语法树、卡片式；对应[Streak Hall of Fame](https://duome.eu/)，对应个人[学习进度](https://duome.eu/anoni15/progress)，对应个人[数据面板](https://duome.eu/anoni15/)。
 
+### 有道背单词
+- 主要基于【有道背单词】进行搭建生词管理生态：管理生词本，背记单词等
+- 法1：在【有道背单词】手动创建/输入生词本
+- 法2：基于【Alfred】的工作流，自动选取单词添加到生词本中
+    - [workflow](https://github.com/whyliam/whyliam.workflows.youdao)
+    - 注册【有道云应用】+【翻译实例服务】绑定
+        - 修改`youdao id`与`key`
+        - 添加`youdao 网易云账号`和`密码`：要求与有道背单词中的账号一致
+    - [解决selectiono in macOS不起作用](https://www.alfredforum.com/topic/11665-selection-in-macos-doesnt-work-in-apps/?do=findComment&comment=61141)
+    - 缺点：依赖苹果应用生态
+
 ## 视频教程
 - [【一堂课让你懂得英语语法百分之九十五】](https://www.bilibili.com/video/av47618740): 强烈推荐学习
 
@@ -84,3 +95,4 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 - 2019/06/13：添加[Grammarly](https://app.grammarly.com/)
 - 2019/06/25：添加[The Elements of Style](https://book.douban.com/subject/1824592/)
 - 2019/06/28：添加[LibriVox](https://librivox.org/)以及调整内容格式
+- 2019/06/30：添加基于【有道背单词】APP搭建单词管理生态

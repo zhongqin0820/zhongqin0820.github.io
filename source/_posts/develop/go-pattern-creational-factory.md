@@ -3,11 +3,10 @@ title: Go实现创建型模式：工厂模式
 date: 2019-06-09 10:51:03
 updated: 2019-06-14 12:35:48
 categories:
-- 计算机基础
+- 设计模式
 
 tags:
 - Go
-- 设计模式
 ---
 # 前言
 按照耦合的粒度分为：简单工厂模式/静态工厂模式，工厂方法模式，抽象工厂模式。使用UML对示例代码进行描述，同时提供对应模式的简单分析，完整示例代码：[creational/factory](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/creational/factory)。

@@ -1,5 +1,5 @@
 ---
-title: Go语言入门总结:工作空间
+title: Go语言入门总结：工作空间
 date: 2018-07-10 16:41:10
 updated: 2018-07-10 16:41:10
 categories:
