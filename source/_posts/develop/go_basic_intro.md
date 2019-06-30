@@ -3,7 +3,7 @@ title: Go语言入门总结：变量定义与运算符
 date: 2018-07-02 11:17:10
 updated: 2018-07-02 11:17:10
 categories:
-- 网页开发
+- Go语言入门
 
 tags:
 - Go

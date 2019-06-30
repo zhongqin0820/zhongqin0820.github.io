@@ -13,6 +13,12 @@ tags:
 
 <!-- more -->
 # 动态规划分类
+## 一维关系
+- 选
+- 不选
+
+## 二维关系
+- 行是元素列表，列是容量的范围
 
 # 分析
 - 重叠子问题
@@ -22,3 +28,8 @@ tags:
 # 结束语
 
 # 参考资料
+## CrashCourse
+- [动态规划 (第1讲)](https://www.bilibili.com/video/av16544031)
+- [动态规划 (第2讲)](https://www.bilibili.com/video/av18512769)
+
+## Blogs

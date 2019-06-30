@@ -33,6 +33,10 @@ tags:
 
 `https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/`
 
+限制图片大小：
+<div style="width: 300px; margin: auto">
+</div>
+
 1、首行缩进
 &emsp;&emsp;
 
