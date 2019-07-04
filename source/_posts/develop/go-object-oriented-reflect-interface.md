@@ -1,13 +1,12 @@
 ---
-title: Go语言入门总结：面向对象之接口与反射
+title: Go语言入门总结：接口与反射
 date: 2019-06-18 10:15:50
 updated: 2019-06-27 11:22:39
 categories:
-- 计算机基础
+- Go语言入门
 
 tags:
 - Go
-- 面向对象
 ---
 # 前言
 梳理总结学习Go语言的笔记。关于结构体的基础知识，以及关于接口与反射的进一步知识的梳理。
@@ -92,7 +91,7 @@ herb := herbivore{
 - 当我们需要对接收者的值进行修改时，应该使用对应的指针类型。
 
 # 接口
-接口是一组方法签名的集合。结构体通过实现接口定义的方法，配合接口可以实现OOP中的运行时多态。
+接口是一组方法签名的集合。结构体通过实现接口定义的方法，配合接口可以实现OOP中的运行时多态。通过定义一个空接口（相当于any type）可以一定程度实现范型编程，不过接口的实际值只有在运行时才知道。
 
 ## 类型系统
 Go的类型包括编译期的静态类型与运行时的具体类型。使用`type value`对表示。
@@ -131,13 +130,14 @@ Golang语言实现了反射，反射机制建立在类型系统之上，在运�
 ## 接口变量到反射对象
 反射对象包括：
 - `reflect.Type`：可以通过`reflect.TypeOf(接口变量)`得到
-- `reflect.Value`：可以通过`reflect.ValueOf(接口变量)`得到
+- `reflect.Value`：可以通过`reflect.ValueOf(接口变量)`得到；
+    - `reflect.Value.Type()`可以返回对应接口变量实例的类型`reflect.Type`
 
 ## 反射对象到接口变量值
 - 可以通过`reflect.ValueOf(接口变量).Interface()`得到
 
 ## 对内容进行修改
-- 想要对接口变量值进行修改，需要传入接口变量的地址
+- 想要对接口变量值进行修改，需要传入**接口变量的地址**
 - 可以通过`reflect.ValueOf(&接口变量).Elem().Canset()`进行判断
 
 ## 针对结构体内容
@@ -153,6 +153,7 @@ func (v Value) Method(i int) Value
 func (v Value) MethodByName(name string) Value
 func (v Value) NumField() int
 func (v Value) NumMethod() int
+func (v Value) Type() Type
 ```
 
 # 参考资料
@@ -164,3 +165,4 @@ func (v Value) NumMethod() int
 
 # Changelog
 - 2019/06/27：添加结构体部分的内容
+- 2019/07/04：添加`reflect.Value.Type()`

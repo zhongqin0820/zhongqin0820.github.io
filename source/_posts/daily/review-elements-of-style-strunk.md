@@ -3,7 +3,7 @@ title: After reading The Elements of Style
 date: 2019-06-26 10:27:36
 updated: 2019-06-26 14:07:13
 categories:
-- 其它
+- 英语学习
 
 tags:
 - 读书笔记

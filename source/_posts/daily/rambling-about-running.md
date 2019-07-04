@@ -1,9 +1,9 @@
 ---
-title: After Having Run 1 Million Meters:A Milestone
+title: After Having Run 1 Million Meters：A Milestone
 date: 2019-06-18 23:36:25
 updated: 2019-06-18 23:36:25
 categories:
-- 其它
+- 英语学习
 
 tags:
 - 写作练习

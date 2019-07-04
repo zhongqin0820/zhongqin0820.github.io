@@ -3,7 +3,7 @@ title: After reading 84,Charing Cross Road
 date: 2019-04-10 12:40:11
 updated: 2019-04-16 16:12:12
 categories:
-- 其它
+- 英语学习
 
 tags:
 - 读书笔记

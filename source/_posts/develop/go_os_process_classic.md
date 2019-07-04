@@ -7,6 +7,7 @@ categories:
 
 tags:
 - Go
+- 经典算法
 ---
 # 前言
 梳理总结Go中的并发模型，并使用Go实现包括：读-写者问题、哲学家问题、生产-消费者问题。
@@ -52,7 +53,7 @@ tags:
         - `Lock()`
         - `Unlock()`
     - `type RWMutex struct`：读者优先
-        - `RLock()
+        - `RLock()`
         - `RUnlock()`
         - `Lock()`
         - `Unlock()`
@@ -61,8 +62,27 @@ tags:
         - `Add(int)`
         - `Done()`
         - `Wait()`
+    - `type Once struct`：Once是只执行一次动作的对象
+    - `type Cond struct`：用来控制某个条件下，goroutine 进入等待时期，等待信号到来，然后重新启动
 
 > 注意，如果需要对其修改，需要传指针。
+
+### 临时对象池
+- [`sync`包](https://golang.google.cn/pkg/sync/)
+- `sync.Pool`：当多个 goroutine 都需要创建同一个对象的时候，如果 goroutine 过多，可能导致对象的创建数目剧增。 而对象又是占用内存的，进而导致的就是内存回收的 GC 压力徒增。造成“并发大－占用内存大－ GC 缓慢－处理并发能力降低－并发更大”这样的恶性循环。
+
+```go
+type Pool struct {
+    // 可选参数New指定一个函数在Get方法可能返回nil时来生成一个值
+    // 该参数不能在调用Get方法时被修改
+    New func() interface{}
+    // 包含隐藏或非导出字段
+}
+// Get方法从池中选择任意一个item，删除其在池中的引用计数，并提供给调用者。
+func (p *Pool) Get() interface{}
+// Put方法将x放入池中。
+func (p *Pool) Put(x interface{})
+```
 
 ### 原子操作
 - [`sync/atomic`包](https://golang.google.cn/pkg/sync/atomic/)
@@ -147,3 +167,4 @@ func TestClassic(t *testing.T) {
 # Changelog
 - 2019/06/18：修改完善MPG模型描述与添加扩展阅读材料
 - 2019/06/24：添加在channel中的MPG模型执行过程
+- 2019/07/01：添加Cond与Once的内容，以及关于临时对象池的内容
