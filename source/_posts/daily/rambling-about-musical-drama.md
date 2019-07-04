@@ -1,5 +1,5 @@
 ---
-title: Rambling about The Musical
+title: Rambling About The Musical
 date: 2019-07-02 17:23:31
 updated: 2019-07-04 14:17:41
 categories:
@@ -28,7 +28,7 @@ But less attention doesn't mean it is different from other forms of entertainmen
 If you are in search of some classic musical, here are some from my personal collection.
 
 ### English(UK)
-#### [Les Misérables](https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables_(musical))
+#### [Les Misérables](https://www.bilibili.com/video/av746517)
 - Favourite Discography: [All of them](https://www.bilibili.com/video/av746517) worthed your time to listen to.
 - Reason: Will have a different understanding of the original novel each time.
 
@@ -44,7 +44,7 @@ Though there are more songs worth recommending. I select one from them as a hit.
 - Reason: The melody and the lyrics. It quite worths watching in [full HD](https://www.bilibili.com/video/av17494566)
 
 ### Englsh(USA)
-#### [Legally Blonde](https://en.wikipedia.org/wiki/Legally_Blonde_(musical))
+#### [Legally Blonde](https://www.bilibili.com/video/av30528949)
 - Favourite Discography: "[There! Right There!](https://www.bilibili.com/video/av30600383)" – Elle, Callahan, Emmett, Brooke, Vivienne, Warner, Enid, Judge, Nikos, Carlos and Company
 - Reason: This song worths listening due to its sense of humour.
 
