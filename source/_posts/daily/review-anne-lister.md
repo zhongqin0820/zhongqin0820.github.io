@@ -47,8 +47,17 @@ As a computer science student, I originally thought with the help of OCR, could 
 - Website: [annelister.co.uk](https://www.annelister.co.uk/)
 - BBC: [Revealing Anne Lister](https://www.bilibili.com/video/av24483831)
 - Description of her era: [Georgian](https://en.wikipedia.org/wiki/Georgian_era) on Wikipedia page
+- Twitter follow list
+    - [Ann Walker Memorial](https://twitter.com/memorial_ann)
+    - [Shibden Hall](https://twitter.com/ShibdenHall)
 
-### Reviews
+## Further Reading
+- [The Adventures of Anne Lister in Scotland](http://curioustravellers.ac.uk/en/the-adventures-of-anne-lister-in-scotland/)
+- [【1822】 Anne Lister's diary, tour of North Wales 11-27 July 1822](https://editions.curioustravellers.ac.uk/pages/show.html?document=0023.xml)
+- [Rebecca Woods “The Life and Loves of Anne Lister”](https://www.bbc.co.uk/news/resources/idt-sh/the_life_and_loves_of_anne_lister)
+- [West Yorkshire Archive Service online exhibition on Lister’s diaries.](https://wyascatablogue.wordpress.com/exhibitions/anne-lister/anne-lister-an-introduction/)
+
+## Reviews
 - [the secret diaries of miss anne lister: thoughts & review](https://medium.com/@netherprxnce/the-secret-diaries-of-miss-anne-lister-thoughts-review-41558b1107f4)
 
 ### Location
@@ -74,26 +83,28 @@ At 10¾, Miss Rawson (Catherine) & Miss Crackenthorpe… called & staid ½ hour,
 
 摘录来自: Helena Whitbread. “The Secret Diaries Of Miss Anne Lister。” Apple Books.
 
+## Note
+“1821
+1. Cliff Hill and Crow Nest – two of the properties forming part of the Walker estate in Lightcliffe, adjacent to the Shibden estate. In 1830, Ann Walker became co-heiress, along with her sister Elizabeth, to the estate. In 1834, Ann moved in to Shibden Hall to live with Anne Lister as her wife. See ‘The Walkers of Crow Nest’, in Female Fortune: Land, Gender and Authority by Jill Liddington, River Orams Press, 1988 (pp.27–38).”
+
+摘录来自: Helena Whitbread. “The Secret Diaries Of Miss Anne Lister。” Apple Books.
+
 # 1822
 “Tuesday 18 June [Halifax]
 Dined at 5¼, and at 6¼ off in the gig to Crownest, to take a walk with Miss Ann Walker, having talked of it ever since my walk with her last year. Only her sister & herself at home. They could not both leave the house & Miss Ann Walker & I were tête-à-tête… Very civil, etc, but she is a stupid vulgar girl. Indeed, I scarce know which of the party is the least vulgar & I have no intention of taking more walks, or letting the acquaintance go one jot further. I asked her to come to Shibden & walk in our valley & here I hope the thing will end.”
 
 摘录来自: Helena Whitbread. “The Secret Diaries Of Miss Anne Lister。” Apple Books.
 
-# Note
-“1821
-1. Cliff Hill and Crow Nest – two of the properties forming part of the Walker estate in Lightcliffe, adjacent to the Shibden estate. In 1830, Ann Walker became co-heiress, along with her sister Elizabeth, to the estate. In 1834, Ann moved in to Shibden Hall to live with Anne Lister as her wife. See ‘The Walkers of Crow Nest’, in Female Fortune: Land, Gender and Authority by Jill Liddington, River Orams Press, 1988 (pp.27–38).”
-
-摘录来自: Helena Whitbread. “The Secret Diaries Of Miss Anne Lister。” Apple Books.
-
+## Note
 "1822
 “9. Ann Walker – at this point, Anne Lister had no deep interest in her young neighbour. A decade later, however, there was a dramatic shift in Anne Lister’s attitude towards her. [See n.1.]”
 
 摘录来自: Helena Whitbread. “The Secret Diaries Of Miss Anne Lister。” Apple Books.
 
+
 # Interests
 ## what were her diaries all about
-- [ ] 2019/06/30: how did she write it? the way, the content
+- [ ] 2019/06/30: how did she write it? the way, the content.
 - [ ] 2019/06/30: how did she encode the letter? who did she share the alphbet?
 
 ## Related to Ann Walker
@@ -102,3 +113,53 @@ Dined at 5¼, and at 6¼ off in the gig to Crownest, to take a walk with Miss An
 ## Map
 - [ ] 2019/06/30: reading while maintaining the sharing google map: "[Fantasic Anne Lister: Where She Had Been](https://www.google.com/maps/d/edit?hl=en&mid=1zTkajatR7OgMHKJovySa4usPcxNJPgGg&ll=53.05619030552258%2C-2.5491907273475363&z=6)"
 - [ ] 2019/06/30: reading while maintaining the sharing google map: "[Anne Lister & Her Time](https://www.google.com/maps/d/edit?hl=en&mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ&ll=53.73532976043602%2C-1.7774499080886699&z=10)"
+- 2019/07/07：<iframe src="https://www.google.com/maps/d/embed?mid=1zTkajatR7OgMHKJovySa4usPcxNJPgGg&hl=en" width="640" height="480"></iframe>
+
+## The author Angela Steidele
+Not until I read chapter "Isabella, Mariana and Miss Vallance 1819-1822" that I realize, the author is a german, and the original book was translate from genman to english by the translator Katy Derbyshire.
+
+According to the description from the google books page, "Angela Steidele has written several books about LGBTQ+ lives in the eighteenth and nineteenth centuries. Love Story: Adele Schopenhauer and Sibylle Mertens was shortlisted for the NDR Kultur non-fiction prize. She won the Gleim Literature Prize for In Men's Clothes, her biography of Catharina Linck, and the Bavarian Book Prize for her novel Rosenstengel. Angela Steidele lives in Cologne."
+
+- 2019/07/06：this book is for those who want to know the timeliine of her life and some of her details with her lovers and also her travels across the european land. but the author is quite criticize anne lister that after reading you will piss off as mad as me at the time.
+
+## the book by whitebread
+- 2019/07/06：it turns out that this book more worths reading if you're curious about her early life in detail. it is more mild and cozy to read.
+
+# Highlights
+##
+This lament became a refrain over the course of autumn 1819. “I felt a sinking at my heart this afternoon. [...] I left all alone, none to love, to turn to, or to speak to. All will be dreary & forlorn. Oh, that I had a fit companion to dote on, to beguile the tedious hours. But I must study & never think of love & all the sweet endearments of life.”
+
+摘录来自: Steidele, Angela. “Gentleman Jack。” Apple Books.
+
+##
+“As persistent and tough as she was, she had always tended to overestimate herself. In the Lake District, at the Great Saint Bernhard Pass, on Monte Perdido, on Vignemale, and most recently on the frozen Volga, Anne Lister had challenged fate. Mr Duffin had been proved right: her mind wore her body out.”
+
+摘录来自: Steidele, Angela. “Gentleman Jack。” Apple Books.
+
+## comment from the suthor
+“first she seduced me, then she betrayed me. What I liked even more than Anne Lister’s astoundingly open way of speaking about her desire was her certainty of herself: her desire was an expression of her nature, and that was that.”
+
+摘录来自: Steidele, Angela. “Gentleman Jack。” Apple Books.
+
+##
+“ Ann Walker proved just as brave as Anne Lister by moving in with her and sitting in the front pew with her at church. Despite anonymous marriage announcements ridiculing Captain Tom Lister and Ann Walker, the two women laid the foundation stone for the Northgate Hotel together, clearly a couple – an emancipatory milestone in the history of women loving women.”
+
+摘录来自: Steidele, Angela. “Gentleman Jack。” Apple Books.
+
+
+# Portrait
+- [The Reluctant Bride](https://www.wikiart.org/en/auguste-toulmouche/the-reluctant-bride-1866)
+
+# Update
+- 2019/07/06：after nearly one month of research, it turns out that she is as vile as her times far beyound my imagination. feel very furious that I wasted so much time on a jerk. she is so terrible as a financial agent and also horrible as a lover. everything croped since age 1833. poor and miserable ann walker.
+- 2019/07/06：read a post in douban, regret that i cannot donate for [anne walker memorial](https://www.gofundme.com/f/ann-walker-memorial?member=2470096) project because i have no credit visa card.
+- 2019/07/06：I think i get a lister fever...
+- 2019/07/07：finished reading finally
+
+# Horrible Anne Lister
+Is she really that bad?
+## Fantastic Lister
+
+
+## Villainous Lister
+
