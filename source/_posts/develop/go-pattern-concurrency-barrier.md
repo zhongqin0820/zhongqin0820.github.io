@@ -26,7 +26,7 @@ Barrier模式也叫同步屏障模式，属于一种实现同步操作的并发�
 # 示意图
 通过实现一个HTTP GET返回结果的收集器来熟悉该模式。大致示意图如下，其中实线表示一个请求`makeRequest(chan<- barrierResp, string)`，虚线表示返回结果通道`<-chan barrierResp`。
 
-该示例中，主协程`main.goroutine`开启两个子协程处理请求，并共用一个通道返回处理结果。
+该示例中，主协程`r1.goroutine`开启两个子协程`r2.goroutine`与`r3.goroutine`处理请求，并通过一个公共通道返回处理结果。
 
 <div style="width: 300px; margin: auto">
 ![示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/concurrency_barrier.png)
