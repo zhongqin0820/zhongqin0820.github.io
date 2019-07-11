@@ -18,14 +18,24 @@ tags:
 词性也叫词类，英语单词根据其词义、句法作用和形式特征进行分类，可以分成十个大类。再根据是否可以构成句子的一个成分将十大类分为实词与虚词。
 
 ### 实词
-|中文|英文|缩写|作用|分类|举例|
-|:---:|:---:|:---:|:---|:---|:---|
-|[名词](https://www.hjenglish.com/cixing/mingciyingyu/)|noun|n.|表示人或事物的名称|可数，不可数|student 学生|
-|[代词](https://www.hjenglish.com/cixing/yingyudaici/)|pronoun|pron.|代替名词的词|人称代词，物主代词<br>反身代词，相互代词<br>指示代词，疑问代词<br>关系代词，连接代词<br>**不定代词**|you 你|
-|[形容词](https://www.hjenglish.com/cixing/yyxrc/)|adjective|adj.|修饰名词等，说明事物或人的性质<br>或特征的词<br>位置不一定都放在名词前面|性质形容词<br>叙述形容词|happy 高兴的|
-|[副词](https://www.hjenglish.com/cixing/yingyufuci/)|adverb|adv.|主要用来修饰动词，形容词，副词<br>或整个句子|时间副词，地点副词，程度副词<br>方式副词，频度副词|quickly 迅速地|
-|[动词](https://www.hjenglish.com/cixing/dongciyingyu/)|verb|v.|表示动作或状态|行为动词（及物，不及物）<br>系动词（be），助动词和情态动词|cut 砍，割|
-|[数词](https://www.hjenglish.com/cixing/yysc/)|numeral|num.|表示数目，表示顺序|基数词，序数词|three 三|
+- [名词](https://www.hjenglish.com/cixing/mingciyingyu/)；noun；n.
+    - 表示人或事物的名称
+    - 可数，不可数
+- [代词](https://www.hjenglish.com/cixing/yingyudaici/)；pronoun；pron.
+    - 代替名词的词
+    - 人称代词，物主代词，反身代词，相互代词，指示代词，疑问代词，关系代词，连接代词，**不定代词**
+- [形容词](https://www.hjenglish.com/cixing/yyxrc/)；adjective；adj.
+    - 修饰名词等，说明事物或人的性质或特征的词位置不一定都放在名词前面
+    - 性质形容词，叙述形容词
+- [副词](https://www.hjenglish.com/cixing/yingyufuci/)；adverb；adv.
+    - 主要用来修饰动词，形容词，副词或整个句子
+    - 时间副词，地点副词，程度副词方式副词，频度副词
+- [动词](https://www.hjenglish.com/cixing/dongciyingyu/)；verb；v.
+    - 表示动作或状态
+    - 行为动词（及物，不及物），系动词（be），助动词和情态动词
+- [数词](https://www.hjenglish.com/cixing/yysc/)；numeral；num.
+    - 表示数目，表示顺序
+    - 基数词，序数词
 
 ### 虚词
 |中文|英文|缩写|作用|分类|举例|
@@ -142,4 +152,5 @@ tags:
 # Changelog
 - 2019/07/01: 完成词法部分内容以及部分语法部分内容
 - 2019/07/03：添加部分语法内容：时态/语态，非谓语，三个特殊句式
-- 2019/07/04：完善文章内容衔接。
+- 2019/07/04：完善文章内容衔接
+- 2019/07/06：修改词法实词表格为列表形式

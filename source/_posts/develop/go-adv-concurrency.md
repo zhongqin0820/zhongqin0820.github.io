@@ -92,14 +92,21 @@ func (p *Pool) Put(x interface{})
     - `func Notify(c chan<- os.Signal, sig ...os.Signal)`
     - `func Stop(c chan<- os.Signal)`
 
-## channel
-channel是基于消息通信的同步方式。
+## 通道
+### 操作
+```go
+ch := make(chan int, 1) // 创建
+ch <- 1                 // 发送
+<-ch                    // 接收
+close(ch)               // 关闭
+```
+
 ### channel的原理
-- 在对channel原理进行讲解前，应该需要对Go的并发协程模型（MPG模型/两级线程模型）有一定的认识，channel的数据传递优化依赖于该模型
 - 源码地址v1.12：[src/runtime/chan.go](https://golang.org/src/runtime/chan.go)
+- 《浅谈 Go 语言实现原理》：[3.4 Channel](https://draveness.me/golang/datastructure/golang-channel.html)
 - [GopherCon 2017: Kavya Joshi - Understanding Channels](https://www.youtube.com/watch?v=KBZlN0izeiY)
-    - hchan：buf（环形队列），lock，recvx，sendx，【recvq，sendq】与并发操作相关
-    - sudoq：双向链表结构，元素是goroutine
+    - hchan：buf与recvx，sendx（组成环形队列），lock（进行对管道的读写控制），【recvq，sendq】与并发操作相关（当对管道的读/写发生阻塞时）
+    - sudoq：【recvq，sendq】的元素类型，组成双向链表结构，元素是阻塞goroutine
     - 每次读/写操作都需要使用`lock`加锁
     - `goroutine阻塞`：向满的channel写/从空的channel读
     - `goroutine唤醒`：空的channel中被写入数据/满的channel中被取走数据【利用sudog数据结构，直接互相读/写值】
@@ -110,7 +117,7 @@ channel是基于消息通信的同步方式。
 - 程序中必须同时有不同的 goroutine 对非缓冲通道进行发送和接收操作，否则会造成死锁。
 - 如果写完需使用`close()`关闭channel，否则利用`for range`形式迭代会死锁
 - 如果想要获取通道内元素的个数，可以直接使用内置函数`len()`
-- `select` 专门用于通道发送和接收操作，看起来和 `switch` 很相似，但是进行选择和判断的方法完全不同，`select`是随机选择就绪的通道，`switch`是根据条件判断进行选择。
+- `select` 专门用于通道发送和接收操作，看起来和 `switch` 很相似，但是进行选择和判断的方法完全不同，`select`判断所有表达式是否符合，当有多个表达式符合时，从中随机选择就绪的通道；`switch`是根据条件判断从上到下进行按序选择。
 - 使用非缓冲通道代替传统同步机制（互斥锁等），从而保证`goroutine`在`main.goroutine`退出前执行完成。
 
 ### channel常用代码思想
@@ -130,7 +137,7 @@ func Do() <-chan int {
     return a
 }
 
-// 使用for range读取值，等待组的引入是为了保证多个gorountine的执行完整
+// 使用for range读取值，sync.WaitGroup的引入是为了保证多个gorountine的执行完整
 func TestClassic(t *testing.T) {
     var wg sync.WaitGroup = sync.WaitGroup{}
     wg.Add(1)
@@ -153,6 +160,7 @@ func TestClassic(t *testing.T) {
     - [pkg/os/exec](https://golang.google.cn/pkg/os/exec/)
     - [pkg/os/signal](https://golang.google.cn/pkg/os/signal/)
 - 《浅谈 Go 语言实现原理》
+    - [3.4 Channel](https://draveness.me/golang/datastructure/golang-channel.html)
     - [5.1 上下文 Context](https://draveness.me/golang/concurrency/golang-context.html)
     - [5.2 同步原语与锁](https://draveness.me/golang/concurrency/golang-sync-primitives.html)
 - 《Go语言标准库》
@@ -163,6 +171,4 @@ func TestClassic(t *testing.T) {
 
 # Changlog
 - 2019/07/01：基本完善内容格式
-
-# TODO
-- [ ] 2019/07/01：添加针对channel于goroutine的底层模型（MPG）的原理分析
+- 2019/07/08：添加针对channel于goroutine的底层模型的原理分析，《浅谈 Go 语言实现原理》[3.4 Channel](https://draveness.me/golang/datastructure/golang-channel.html)

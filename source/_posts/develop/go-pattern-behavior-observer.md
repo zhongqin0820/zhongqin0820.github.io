@@ -1,11 +1,12 @@
 ---
 title: Go实现行为型模式：观察者模式
 date: 2019-07-03 16:33:27
-updated: 2019-07-03 16:33:27
+updated: 2019-07-11 11:36:58
 categories:
-- 设计模式
+- 软件模式
 
 tags:
+- 设计模式
 - Go
 ---
 # 前言
@@ -30,7 +31,7 @@ tags:
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/behavior_observer.png)
 </div>
 
-# 代码实现
+# 样例代码
 ## 定义部分
 - [接口定义部分完整代码](https://github.com/zhongqin0820/coding-playground/blob/master/go/pattern/behaviroal/observer/observer.go)
 
@@ -118,4 +119,4 @@ t.Run("Notify", func(t *testing.T) {
     - zhenbianshu/DesignPattern：[src/observer](https://github.com/zhenbianshu/DesignPattern/tree/master/src/observer)
 
 # Changelog
-- 2019/07/03：第一版内容
+- 2019/07/11：第一版内容

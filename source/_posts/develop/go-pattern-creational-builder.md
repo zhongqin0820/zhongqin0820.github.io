@@ -3,9 +3,10 @@ title: Go实现创建型模式：建造者模式
 date: 2019-06-14 15:19:58
 updated: 2019-06-24 12:42:23
 categories:
-- 设计模式
+- 软件模式
 
 tags:
+- 设计模式
 - Go
 ---
 # 前言
@@ -38,7 +39,7 @@ tags:
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_builder.png)
 </div>
 
-# 代码实现
+# 样例代码
 本例为[tmrts/go-patterns](https://github.com/tmrts/go-patterns/blob/master/creational/builder.md)中创建者模式的细节实现。直接利用`func NewBuilder(b Builder) Builder`方法代替了上面的`type Manufactor struct`的封装。完整代码请访问：[creational/builder/car*](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/creational/builder)部分内容。
 
 ## 接口部分

@@ -163,6 +163,10 @@ func (v Value) Type() Type
 - [【翻译】反射的规则](https://studygolang.com/articles/1010)
 - [【原文】The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
 
+# 扩展阅读
+- 《浅谈 Go 语言实现原理》：[2.2 接口](https://draveness.me/golang/basic/golang-interface.html)
+
 # Changelog
 - 2019/06/27：添加结构体部分的内容
 - 2019/07/04：添加`reflect.Value.Type()`
+- 2019/07/06：添加《浅谈 Go 语言实现原理》扩展阅读

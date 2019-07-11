@@ -9,7 +9,7 @@ tags:
 - 课程总结
 ---
 # 前言
-总结/备忘/分享英语学习资料，包括听、说（侧重英音资料收集）、读、写（词法/语法）以及其它学习材料。
+总结/备忘/分享英语学习资料，包括听、说（侧重英音资料收集）、读、写、词法/语法以及其它学习材料。
 
 <!--more-->
 # 听
@@ -54,6 +54,7 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 
 # 词法/语法
 ## 书本/文字资料
+- [英语学习：语法入门](https://cvblogs.cn/2019/07/01/daily/summary-english-lexical-and-grammar/)
 - [《英语语法新图解：用思维导图快速学语法》](https://book.douban.com/subject/30246892/)或[《英语新手一看就懂：思维导图学语法》](https://book.douban.com/subject/30845258/)：择一即可
 
 ## 网站/APP

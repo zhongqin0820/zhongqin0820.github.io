@@ -3,9 +3,10 @@ title: Go实现创建型模式：工厂模式
 date: 2019-06-09 10:51:03
 updated: 2019-06-14 12:35:48
 categories:
-- 设计模式
+- 软件模式
 
 tags:
+- 设计模式
 - Go
 ---
 # 前言
@@ -31,7 +32,7 @@ tags:
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_simple.jpg)
 </div>
 
-### 代码实现
+### 样例代码
 在Go可以通过重定义`int`进行语义化选项，通过利用`iota`定义类似枚举的语义化自定义类型常量。
 ```go
 type StorageType int
@@ -109,7 +110,7 @@ func TestStorage(t *testing.T) {
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_method.jpg)
 </div>
 
-### 代码实现
+### 样例代码
 - 对应UML图实现即可，注意的是，在具体工厂类中返回的是具体的产品类。
 
 ```go
@@ -148,7 +149,7 @@ func TestMethod(t *testing.T) {
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_abstract.jpg)
 </div>
 
-### 代码实现
+### 样例代码
 - 根据UML描述实现即可，注意抽象工厂方法是对一族对象进行创建。
 
 ### 总结及分析

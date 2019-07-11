@@ -3,9 +3,10 @@ title: Go实现创建型模式：单例模式
 date: 2019-06-07 17:04:15
 updated: 2019-06-09 13:37:25
 categories:
-- 设计模式
+- 软件模式
 
 tags:
+- 设计模式
 - Go
 ---
 # 前言
@@ -39,7 +40,7 @@ tags:
 ![type simple struct](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_singleton.jpg)
 </div>
 
-# 代码实现
+# 样例代码
 代码实现了完整的过程，由于篇幅限制，这里只贴出`func GetInstance() *Singleton`的细节。同时，代码为每个实现都设计了单线程与多线程的测试用例以说明其问题。
 **[完整代码](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/creational/singleton)**
 

@@ -3,9 +3,10 @@ title: Go实现创建型模式：原型模式
 date: 2019-06-26 14:18:24
 updated: 2019-06-26 22:28:01
 categories:
-- 设计模式
+- 软件模式
 
 tags:
+- 设计模式
 - Go
 ---
 # 前言
@@ -35,7 +36,7 @@ tags:
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_prototype.png)
 </div>
 
-# 代码
+# 样例代码
 ## 实现部分
 
 ```go
