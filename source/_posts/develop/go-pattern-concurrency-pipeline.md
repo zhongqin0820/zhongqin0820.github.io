@@ -46,7 +46,7 @@ func LaunchPipeline(amount int) int {
 }
 ```
 
-- 以步骤2为例：通过在函数内部开启一个goroutine执行一个匿名函数，并返回一个`<-chan type`通道。
+- 以步骤2为例：通过在函数内部开启一个goroutine执行一个匿名函数，并返回一个`<-chan int`通道。
 
 ```go
 func power(in <-chan int) <-chan int {
@@ -64,7 +64,7 @@ func power(in <-chan int) <-chan int {
 ```
 
 ## 测试代码
-使用表格测试
+使用表驱动测试
 ```go
 func TestLaunchPipeline(t *testing.T) {
     //  a table of tests
