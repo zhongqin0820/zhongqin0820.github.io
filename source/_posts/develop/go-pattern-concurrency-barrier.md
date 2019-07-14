@@ -33,7 +33,7 @@ Barrier模式也叫同步屏障模式，属于一种实现同步操作的并发�
 </div>
 
 # 样例代码
-- [完整代码](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/concurrency/barrier)
+- 完整代码参见[Github](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/concurrency/barrier)
 
 ## 代码实现
 ```go

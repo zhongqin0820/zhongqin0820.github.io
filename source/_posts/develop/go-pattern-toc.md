@@ -14,9 +14,12 @@ tags:
 <!-- more -->
 # 参考资料
 ## Tools related
-- ~~[分析go项目源码,采用plantuml自动生成uml类图](https://studygolang.com/articles/9719)~~
-- ~~[plantuml.com/class-diagram](http://plantuml.com/class-diagram)~~
-- [UML入门系列文章](https://www.cnblogs.com/wolf-sun/p/UML-collaboration-diagram.html)
+- 设计模式
+    - ~~[分析go项目源码,采用plantuml自动生成uml类图](https://studygolang.com/articles/9719)~~
+    - ~~[plantuml.com/class-diagram](http://plantuml.com/class-diagram)~~
+    - [UML入门系列文章](https://www.cnblogs.com/wolf-sun/p/UML-collaboration-diagram.html)
+- 并发模式
+    - [go tool trace](https://github.com/divan/gotrace)
 
 ## Tutorials
 - [《Go design pattern》配套视频教程](https://www.bilibili.com/video/av10623920)
@@ -31,20 +34,25 @@ tags:
 - 并发模式
     - [go/wiki/LearnConcurrency](https://github.com/golang/go/wiki/LearnConcurrency)
     - [Go Concurrency Patterns: Pipelines and cancellation](https://blog.golang.org/pipelines)
+    - [Visualizing Concurrency in Go](https://divan.dev/posts/go_concurrency_visualize/)
 
 ## Publication
-- [《Go语言编程》第3章 面向对象编程](https://book.douban.com/subject/11577300/)
-- [《Head First 设计模式（中文版）》](https://bookset.me/5123.html)
-- [《图说设计模式》](https://design-patterns.readthedocs.io/zh_CN/latest/)
-- [《Evaluating the GO Programming Language with Design Patterns》](https://ecs.victoria.ac.nz/foswiki/pub/Main/TechnicalReportSeries/ECSTR11-01.pdf)
+- 设计模式
+    - [《Go语言编程》第3章 面向对象编程](https://book.douban.com/subject/11577300/)
+    - [《Head First 设计模式（中文版）》](https://bookset.me/5123.html)
+    - [《图说设计模式》](https://design-patterns.readthedocs.io/zh_CN/latest/)
+    - [《Evaluating the GO Programming Language with Design Patterns》](https://ecs.victoria.ac.nz/foswiki/pub/Main/TechnicalReportSeries/ECSTR11-01.pdf)
+- 并发模式
+    - [Concurrency in Go](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/)
+    - [Concurrency in Go 中文笔记](https://www.kancloud.cn/mutouzhang/go/596804)
 
 ## Related Repos
 - [tmrts/go-patterns](https://github.com/tmrts/go-patterns)：除了经典设计模式，还包括其它应用模式：Synchronization Patterns，Concurrency Patterns，Messaging Patterns，Stability Patterns，Profiling Patterns，Idioms，Anti-Patterns...
-- [senghoo/golang-design-pattern](https://github.com/senghoo/golang-design-pattern)：实现了《研磨设计模式》中的23种设计模式
-- [ismayilmalik/golang-design-patterns](https://github.com/ismayilmalik/golang-design-patterns)：Implementation of design patterns in Golang
-- [HCLAC/DesignPattern](https://github.com/HCLAC/DesignPattern): 实现了《大话设计模式》中的23种设计模式
 - [silsuer/golang-design-patterns](https://github.com/silsuer/golang-design-patterns)：带博文描述
+- [senghoo/golang-design-pattern](https://github.com/senghoo/golang-design-pattern)：实现了《研磨设计模式》中的23种设计模式
+- [HCLAC/DesignPattern](https://github.com/HCLAC/DesignPattern): 实现了《大话设计模式》中的23种设计模式
 - [zhenbianshu/DesignPattern](https://github.com/zhenbianshu/DesignPattern)：较为完整实现了23种设计模式
+- [ismayilmalik/golang-design-patterns](https://github.com/ismayilmalik/golang-design-patterns)：Implementation of design patterns in Golang
 
 # 设计模式
 ## 设计基础
@@ -110,3 +118,4 @@ tags:
 - 2019/06/29：Add a related repo: [HCLAC/DesignPattern](https://github.com/HCLAC/DesignPattern)
 - 2019/07/10：Add design basics & principles
 - 2019/07/11：Refactor & Add concurrency patterns
+- 2019/07/12：Add concurrency related resources

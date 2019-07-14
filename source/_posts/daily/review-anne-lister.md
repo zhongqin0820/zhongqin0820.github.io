@@ -10,15 +10,15 @@ tags:
 - 写作练习
 ---
 # Introduction
-After I finished watching the HBO series [Gentleman Jack](https://www.imdb.com/title/tt7211618/), I couldn't help myself to know more about her deeply and thoroughly. During the time, I was reading the famous Wuthering Heights written by Emily Brontë, the writer who lived near Anne at the time. Apparently, it perplexed me that why Anne Lister was so different from the female characters under Emily Brontë's and what if Emily had met Anne, will it influence her writing of Wuthering Heights? Other things that I'm interested in are the kind of geek style codebook and how does the decoding process work? And also the pleasure of peep one's diaries after her death that the writer has no idea about it will be published. Of the most importance, I want to know the history during that period since I'm a big fan of horrible histories.
+After I finished watching the hit HBO series [Gentleman Jack](https://www.imdb.com/title/tt7211618/), I couldn't help myself to want to know more about Anne Lister deeply and thoroughly. During the time, I was reading the famous Wuthering Heights written by Emily Brontë, the writer who lived near Anne at the time. Apparently, it perplexed me that why Anne Lister was so different from the female characters under Emily Brontë's and what if Emily had met Anne, will it influence her writing of Wuthering Heights? Other things that I'm interested in are the kind of geek style codebook and how does the decoding process work? And also the pleasure of peeping one's diaries that the writer has no idea about it. Of the most importance, I want to know the history during that period since I'm a big fan of horrible histories.
 
 <!-- more -->
 # Preliminary
 ## What interests you?
-Before you start reading, you need to ask yourself, what are your interests? Is the detail of her daily routines? Is the detail of her diary writing technique or contents? Is the detail of her 'kisses' with her many lovers? Is the detail of her geek style code things? Is the detail of her life after marrying Ann? You may have your own answers. Most of mine were answered by Steidele Angela in her book.
+Before you start reading, you need to ask yourself, what are your interests? Is the detail of her daily routines that interests you? the diary writing technique or contents? the 'kisses' with her many lovers? the geek style codebook? the life after marrying Ann? You may have your own answers. Most of mine were answered by Steidele Angela in her book.
 
 ## Pick one
-After a while of searching and sorting the materials. On the [Resources](#Resources) section, I selected some useful items out of the massive materials, that I discovered on the internet, including a documentary which I think is necessary to know more about her and four recent publications about her and Anne's life in her diaries; and some other miscellaneous related to her.
+After a while of searching and sorting the materials. On the [Resources](#Resources) section, I selected some useful items out of the massive materials, that I discovered on the internet, including a documentary which I think is necessary to know more about her and four recent publications about her and Anne's life in her diaries; and some other miscellaneous that related to her.
 
 ### Steidele Angela “Gentleman Jack”
 And among four of them, I highly recommend the second one, which written by Angela Steidele, named [Gentleman Jack: A biography of Anne Lister, Regency Landowner, Seducer and Secret Diarist](https://www.goodreads.com/book/show/40054063-gentleman-jack), published in 2018.
@@ -36,7 +36,7 @@ And the author of the book also commented at the end of her book:
 ### Helena Whitbread “The Secret Diaries Of Miss Anne Lister”
 I think this book is a decode version of Anne Lister's diaries and it turns out a good example of writing a diary with a comparison of E.B. White's [One Man's Meat](https://www.goodreads.com/book/show/10813.One_Man_s_Meat).
 
-But what I am interested the most is not her routine details since I am not a good summary maker and I want a full analysis of her life from her birth to her death. That is why I didn't pick up this book due to its Chronological range; though it definitely worths reading. This feeling became stronger after I finished reading the one from Steidele Angela.
+But what I am interested the most is not her routine details since I am not a good summary maker and I want someone to make a full analysis of her life from her birth to her death for me. That is why I didn't pick up this book due to its chronological range; though it definitely worths reading. This feeling became stronger after I finished reading the one from Steidele Angela.
 
 Using the keyword search, you can easily refer to some of the details interest you the most in “The Secret Diaries Of Miss Anne Lister”. Here are the excerpts about Anne met Ann before 1832 in it.
 
@@ -51,11 +51,11 @@ Using the keyword search, you can easily refer to some of the details interest y
     - Dined at 5¼, and at 6¼ off in the gig to Crownest, to take a walk with Miss Ann Walker, having talked of it ever since my walk with her last year. Only her sister & herself at home. They could not both leave the house & Miss Ann Walker & I was tête-à-tête… Very civil, etc, but she is a stupid vulgar girl. Indeed, I scarce know which of the party is the least vulgar & I have no intention of taking more walks or letting the acquaintance go one jot further. I asked her to come to Shibden & walk in our valley & here I hope the thing will end.”
 
 ## Supplementary
-This section is based on Steidele Angela book. But some may also helpful since it relates to Anne.
+This section is based on Steidele Angela book. But some of them may also helpful since it relates to Anne.
 
 First thing first, reading “Prologue: Deciphering Anne Lister’s Diaries” & “Epilogue: Reading Anne Lister’s writing” will give you a clear clue about the motivation of this book and how the book was arranged. And from "Timeline" combining with the content, you can easily sort out the timeline of Anne's whole life. That will give you more concrete abstract of what will happen in this book or once happened in Anne's life.
 
-During the reading, I also maintain a sharing google map which records most of her travel routes and I named it as "[Fantastic Anne Lister: Where She Had Been](https://www.google.com/maps/d/edit?hl=en&mid=1zTkajatR7OgMHKJovySa4usPcxNJPgGg&ll=53.05619030552258%2C-2.5491907273475363&z=6)" with a metaphor reference of the movie "Fantastic Beasts and Where to Find Them". Taking a peep of it may give you some clues about where she had been in her whole life. And also with the selected items in the left panel, you can easily tell how many places she had been before she met Ann and how many places she had been with Ann.
+During the reading, I also maintain a sharing google map which records most of her travel routes and I named it as "[Fantastic Anne Lister: Where She Had Been](https://www.google.com/maps/d/edit?hl=en&mid=1zTkajatR7OgMHKJovySa4usPcxNJPgGg&ll=53.05619030552258%2C-2.5491907273475363&z=6)" with a reference of the movie "Fantastic Beasts and Where to Find Them". Taking a look at it may give you some clues about where she had been in her whole life. And also with the selected items in the left panel, you can easily tell how many places she had been before she met Ann and how many places she had been with Ann.
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1zTkajatR7OgMHKJovySa4usPcxNJPgGg&hl=en" width="640" height="480"></iframe>
 
@@ -73,7 +73,7 @@ By the way, I also maintained a google map about them "[Anne Lister & Her Time](
 Reading the content written by a real existed person at the time, when you're familiar with and interested at, is a really enjoyable experience. It will give you another viewpoint about the historical events, e.g., the repeal of the Corn Laws in 1819 and the July Revolution in 1830.
 
 ## Anne Lister
-Back to Anne, when I read the book, sometimes she makes me piss off and if I could I would tear her into pieces and shout at her in her face "You monster, jerk, villain...! You bloody hell Troy...! Look what you have done...". But there are also many times I find out she is as lovable as ever I thought and want to wish her all well.
+Back to Anne, when I read the book, sometimes she makes me piss off and if I could I would tear her into pieces and shout at her in her face "You monster, jerk, villain...! You bloody hell Tory...! Look what you have done...". But there are also many times I find out she is as lovable as ever I thought and want to wish her all well.
 
 The emotions about her are quite complex and always not settled, I think this is because I overestimated her at the very beginning that I considered her as a perfect person but soon find out the gap is a little bit of large. But just as the lines that Fantine sang in the 'Les Miserables' musical, "Is there anyone here. Who can swear before God. She has nothing to fear? She has nothing to hide?". She didn't choose to expose herself before us, it is us that choose her.
 
@@ -110,7 +110,7 @@ Seeing the well-known places even nowadays that she had been at her time in the 
 [![Places made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/tour-map.png)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
-I quite understand her unwillingness of coming back home when they were in Russian. As a role of the husband in their relationship, she is afraid of losing Ann like losing her many lovers again and facing all the pressure and responsibilities from mental and physical. In 1839, she is already 48 years old and her aunt who she can talk to has already died in 1836.
+I quite understand her unwillingness of coming back home when they were in Russia. As a role of the husband in their relationship, she is afraid of losing Ann like losing her many lovers again and facing all the pressure and responsibilities from mental and physical. In 1839, she is already 48 years old and her aunt who she can talk to has already died in 1836.
 > Neither politics nor business life, neither her studies nor love had brought her success, happiness or satisfaction. To evade the realisation that she had failed at everything she set her hand to, she took flight one last time: "My love of travel is as great as ever."
 > **Steidele Angela** --- <cite>[Gentleman Jack: A biography of Anne Lister, Regency Landowner, Seducer and Secret Diarist](https://www.goodreads.com/book/show/40054063-gentleman-jack)</cite>
 
@@ -128,13 +128,13 @@ The tears just come out of my eyes when I read about what Ann Walker suffered an
 > Ann Walker proved just as brave as Anne Lister by moving in with her and sitting in the front pew with her at church. Despite anonymous marriage announcements ridiculing Captain Tom Lister and Ann Walker, the two women laid the foundation stone for the Northgate Hotel together, clearly a couple – an emancipatory milestone in the history of women loving women.
 > **Steidele Angela** --- <cite>[Gentleman Jack: A biography of Anne Lister, Regency Landowner, Seducer and Secret Diarist](https://www.goodreads.com/book/show/40054063-gentleman-jack)</cite>
 
-Although “Ann Walker’s parental home no longer exists; its grounds have been converted to a golf course.” and “Only the old estate wall remains from the days when Anne Lister was such a frequent visitor.”, from the map below, you can easily tell in geography that they are just at a distance of 3km.
+Although “Ann Walker’s parental home no longer exists; its grounds have been converted to a golf course.” and “Only the old estate wall remains from the days when Anne Lister was such a frequent visitor.”, from the map below, you can easily tell in geography that they are just at a short distance of 3km.
 
 <div style="width: 300px; margin: auto">
 [![Shibden Hall and Lightcliffe made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/shibden-lightcliff.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
-Like I said earlier in this post, it is Ann Walker who compained her been to many places.
+Like I said earlier in this post, it is Ann Walker who companied her been to many places.
 <div style="width: 300px; margin: auto">
 [![Places they have been together made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/tour-with-ann.png)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
@@ -179,7 +179,9 @@ Like I said earlier in this post, it is Ann Walker who compained her been to man
 
 # The End
 In my limited reading experiences, this is the first time I read about nonfiction that related to the LGBT+ group. I have gained much more than I have said in this post.
+
 From my reading logs, it costs me nearly one month to finish reading the book and 3 days to cover this post. All in all, I hope it will be helpful to those who come across this post.
 
 # Changelog
 - 2019/07/09：First edition
+- 2019/07/12：Fix typos

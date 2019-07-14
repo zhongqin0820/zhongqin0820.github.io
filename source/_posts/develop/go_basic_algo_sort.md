@@ -6,8 +6,8 @@ categories:
 - 计算机基础
 
 tags:
-- Go
 - 经典算法
+- Go
 ---
 # 前言
 使用Go语言实现常见经典排序算法以及总结Go中内置的排序算法实现。完整代码参见[Github repo](https://github.com/zhongqin0820/coding-playground/tree/master/go/test/sorts)。
