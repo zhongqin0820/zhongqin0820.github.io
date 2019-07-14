@@ -22,7 +22,7 @@ Workers Pool模式也叫作Thread Pool模式/线程池模式。在Go的实现简
 
 如下图所示，借助管道可以很方便实现该模式。每个worker中的job可以通过[Pipeline模式](https://cvblogs.cn/2019/07/08/develop/go-pattern-concurrency-pipeline)实现。
 <div style="width: 300px; margin: auto">
-![流程图](concurrency_worker1.png)
+![流程图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/concurrency_worker1.png)
 </div>
 
 ## 关键点
@@ -35,7 +35,7 @@ Workers Pool模式也叫作Thread Pool模式/线程池模式。在Go的实现简
 
 # 示意图
 <div style="width: 300px; margin: auto">
-![UML](concurrency_worker2.png)
+![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/concurrency_worker2.png)
 </div>
 
 # 样例代码
@@ -146,7 +146,6 @@ wg.Wait()
 - 其它代码实现
     - [Jeffail/tunny](https://github.com/Jeffail/tunny)：a goroutine pool for Go
     - [goinggo/work](https://github.com/goinggo/work)：manages a pool of routines to perform work
-    - PacktPublishing/Go-Design-Patterns：[Chapter09](https://github.com/PacktPublishing/Go-Design-Patterns/tree/master/Chapter09)
 
 # Changelog
 - 2019/07/14：第一版内容
