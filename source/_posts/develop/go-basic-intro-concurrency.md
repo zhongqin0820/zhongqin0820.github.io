@@ -130,7 +130,7 @@ println(c.value)
 ```
 
 ## 通道
-但在Go中更优雅的方式是使用顺序通讯机制，即Communication Sequence Protocol（CSP）模型；Go内置`chan`结构实现该模型，使用内置`make`函数创建对应`chan T`变量；需要特别注意的是，如使用`for range`读通道数据需要在对其写结束后使用`close()`对其进行手动关闭。
+但在Go中更惯用的方式是使用顺序通讯机制，即Communication Sequence Protocol（CSP）模型；Go内置`chan`结构实现该模型，使用内置`make`函数创建对应`chan T`变量；需要特别注意的是，如使用`for range`读通道数据需要在对其写结束后使用`close()`对其进行手动关闭。
 
 ### 单个协程单个无缓冲通道
 针对单个协程打印的例子，可以使用单个无缓冲通道对其进行实现。

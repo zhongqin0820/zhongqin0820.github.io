@@ -15,8 +15,9 @@ tags:
 <!-- more -->
 # Go中的并发模型
 属于两级线程模型，一个KSE（Kernel Scheduling Entity）即系统线程，对应n个用户级线程即MPG模型中的M，一个M通过一个P可以调度m个G。即，KSE:M=1:n（涉及操作系统调度器），M:P:G=1:1:m（涉及goroutine调度器）。因此，KSE:G=n:m。
-
+<div style="width: 300px; margin: auto">
 ![调度模型](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/go/goroutine.png)
+</div>
 
 ## MPG模型
 - M：OS线程抽象，阻塞类型可以分为两类

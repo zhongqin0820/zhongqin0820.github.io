@@ -351,7 +351,9 @@ func Search(n int, f func(int) bool) int
     - `func SearchStrings(a []string, x string) int`
 
 ## container/heap 包
-> Package heap provides heap operations for any type that implements `heap.Interface`. 考虑到继承sort.Interface接口的三个方法，因此，定义一个堆需要实现五个方法。**属于最小堆**。
+> Package heap provides heap operations for any type that implements `heap.Interface`.
+> 考虑到堆接口匿名嵌套sort.Interface接口（包含三个方法），因此，定义一个实现堆接口的结构体需要实现五个方法。
+> **默认为最小堆**。
 
 ```go
 type Interface interface {

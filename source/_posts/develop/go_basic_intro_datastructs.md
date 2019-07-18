@@ -30,9 +30,10 @@ a := [LEN]type{}        // 短变量声明，仅可作用于局部
 
 ## 操作
 ### `for range`表达式
-- 用于数组`array`、哈希结构`map`元素的读
+- 用于数组`array`、切片`slice`、哈希结构`map`元素的读
     - `range`表达式遍历有两个返回值，第一个是索引下标/键值，第二个是元素的值
 - 用于通道`chan`元素的读
+    - `range`得到的内容是按照`FIFO`的元素
     - 使用`range`读通道元素前需要关闭通道，否则会阻塞/panic
 
 ### 索引下标
@@ -47,8 +48,14 @@ for i:=0;i<len(s);i++ {
 **数组是定长的，而切片则是不定长的。前者是值拷贝，后者通过传递地址实现引用拷贝**
 
 # 切片`slice`
-三种创建方式： 基于底层数组创建，直接创建，或者 `make()` 函数创建a。`slice`是对底层数组的抽象和控制。它包含 `Go`需要对底层数组管理的三种元数据，分别是：
-- 源码地址v1.12：[pkg/reflect/#SliceHeader](https://golang.org/pkg/reflect/#SliceHeader)
+- 三种创建方式：
+    - 基于底层数组创建：`aSlice := aArray[:]`
+    - 直接创建：`aSlice := []Type{}`
+    - 使用`make()` 函数创建：`aSlice := make([]Type,0,CAPSIZE)`
+
+- `slice`是对底层数组的抽象和控制。
+    - 源码地址v1.12：[pkg/reflect/#SliceHeader](https://golang.org/pkg/reflect/#SliceHeader)
+    - 它包含 `Go`需要对底层数组管理的三种元数据，分别是：
 
 ```go
 type SliceHeader struct {
@@ -156,7 +163,9 @@ func delete(m map[Type]Type1, key Type)
 包含：heap（接口）、list（结构体）、ring（结构体）
 
 ## container/heap
-> Package heap provides heap operations for any type that implements `heap.Interface`. 考虑到继承sort.Interface接口的三个方法，因此，定义一个堆需要实现五个方法。**属于最小堆**。
+> Package heap provides heap operations for any type that implements `heap.Interface`.
+> 考虑到堆接口匿名嵌套sort.Interface接口（包含三个方法），因此，定义一个实现堆接口的结构体需要实现五个方法。
+> **默认为最小堆**。
 
 ```go
 type Interface interface {

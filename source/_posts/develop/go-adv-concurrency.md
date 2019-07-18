@@ -47,8 +47,8 @@ func (c *Cmd) StdoutPipe() (io.ReadCloser, error)
 - `os.Exit(code int)`
 
 # 同步
-在并发编程中，同步是在最大化利用CPU资源时，同时保证执行单位（线程/进程）互斥访问临街资源的目的。线程/进程通信是达到同步的手段。
-在Go的并发模型中，最小的执行单位是`goroutine`，使用`go`关键字开启一个新的协程。`goroutine`是非常轻量的，除了给它分配**栈空间（4k）**，它所占用的内存空间是微乎其微的。Go倾向使用基于**管道channel的消息通信模型**代替传统的基于**共享内存的锁机制**进行协同操作。
+在并发编程中，同步是在最大化利用CPU资源时，同时保证执行单位（线程/进程）互斥访问临界资源的目的。线程/进程通信是达到同步的手段。
+在Go的并发模型中，最小的执行单位是协程（`goroutine`），使用`go`关键字开启一个新的协程。`goroutine`是非常轻量的，除了给它分配**栈空间（4k）**，它所占用的内存空间是微乎其微的。Go倾向使用基于**管道channel的消息通信模型**代替传统的基于**共享内存的锁机制**进行协同操作。
 
 ## sync包
 - [pkg/sync](https://golang.google.cn/pkg/sync/)；提供了互斥锁这类的基本的同步原语
@@ -58,33 +58,40 @@ func (c *Cmd) StdoutPipe() (io.ReadCloser, error)
 type Locker interface
 // Once是只执行一次动作的对象
 type Once struct
-func (o *Once) Do(f func())
+    func (o *Once) Do(f func())
 // 互斥锁
 type Mutex struct
-func (m *Mutex) Lock()
-func (m *Mutex) Unlock()
+    func (m *Mutex) Lock()
+    func (m *Mutex) Unlock()
 // 读写锁
 type RWMutex struct
-func (rw *RWMutex) Lock()
-func (rw *RWMutex) Unlock()
-func (rw *RWMutex) RLock()
-func (rw *RWMutex) RUnlock()
-func (rw *RWMutex) RLocker() Locker
+    func (rw *RWMutex) Lock()
+    func (rw *RWMutex) Unlock()
+    func (rw *RWMutex) RLock()
+    func (rw *RWMutex) RUnlock()
+    func (rw *RWMutex) RLocker() Locker
 // Cond实现了一个条件变量，一个线程集合地，供线程等待或者宣布某事件的发生。
 type Cond struct
-func NewCond(l Locker) *Cond
-func (c *Cond) Broadcast()
-func (c *Cond) Signal()
-func (c *Cond) Wait()
+    func NewCond(l Locker) *Cond
+    func (c *Cond) Broadcast()
+    func (c *Cond) Signal()
+    func (c *Cond) Wait()
 // 等待组，对多个goroutine的管理
 type WaitGroup struct
-func (wg *WaitGroup) Add(delta int)
-func (wg *WaitGroup) Done()
-func (wg *WaitGroup) Wait()
+    func (wg *WaitGroup) Add(delta int)
+    func (wg *WaitGroup) Done()
+    func (wg *WaitGroup) Wait()
 // 临时对象池，需要实现一个对象的New func() interface{}签名
 type Pool struct
-func (p *Pool) Get() interface{}
-func (p *Pool) Put(x interface{})
+    func (p *Pool) Get() interface{}
+    func (p *Pool) Put(x interface{})
+// 线程安全Map
+type Map
+    func (m *Map) Delete(key interface{})
+    func (m *Map) Load(key interface{}) (value interface{}, ok bool)
+    func (m *Map) LoadOrStore(key, value interface{}) (actual interface{}, loaded bool)
+    func (m *Map) Range(f func(key, value interface{}) bool)
+    func (m *Map) Store(key, value interface{})
 ```
 
 - [pkg/sync/atomic](https://golang.google.cn/pkg/sync/atomic/)：提供了底层的原子性内存原语，这对于同步算法的实现很有用
@@ -97,7 +104,7 @@ func (p *Pool) Put(x interface{})
 ```go
 ch := make(chan int, 1) // 创建
 ch <- 1                 // 发送
-<-ch                    // 接收
+v, ok := <-ch           // 接收
 close(ch)               // 关闭
 ```
 
