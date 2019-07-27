@@ -14,19 +14,32 @@ tags:
 
 <!-- more -->
 # Go中的并发模型
-属于两级线程模型，一个KSE（Kernel Scheduling Entity）即系统线程，对应n个用户级线程即MPG模型中的M，一个M通过一个P可以调度m个G。即，KSE:M=1:n（涉及操作系统调度器），M:P:G=1:1:m（涉及goroutine调度器）。因此，KSE:G=n:m。
+属于两级线程模型，一个KSE（Kernel Scheduling Entity）即系统线程，对应n个用户级线程即MPG模型中的M，一个M通过一个P可以调度m个G。即，KSE:M=1:n（涉及操作系统调度器），M:P:G=1:1:m（涉及goroutine调度器）。因此，KSE:G=n:m（内核空间:用户空间）。
 <div style="width: 300px; margin: auto">
 ![调度模型](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/go/goroutine.png)
 </div>
 
 ## MPG模型
+可以看作轻量级"线程"，运行在用户控件，属于非抢占式多任务处理，由协程主动交出控制权。
+
+### M
 - M：OS线程抽象，阻塞类型可以分为两类
     - 用户态阻塞/唤醒
     - 系统调用阻塞
-- P：逻辑调度器，P是5状态模型，分配执行的上下文环境，每次只可以**随机调度（查找顺序【本地G队列】->【全局G队列】->【其它P的G队列】）**一个runnable的`G` mapping 一个`M`。
+
+### P
+- P：逻辑调度器，P是5状态模型，分配执行的上下文环境，每次只可以**随机调度（查找顺序【本地G队列】->【全局G队列】->【其它P的G队列】）**一个`Grunnable`的`G`映射一个`M`。
+
+### G
 - G：goroutine，G是7状态模型，即程序中对应`go`关键字部分的内容，维护着执行需要的栈、程序计数器以及所映射M的信息。
-    - 引起阻塞的操作：阻塞的系统调用，网络输入，通道操作，sync的原语操作
-    - **每一个G都会由运行时系统根据其实际状况设置不同的状态，其主要状态如下。**
+- 引起阻塞的操作（Goroutine切换点）：阻塞的系统调用，网络输入，通道操作，sync的原语操作；
+    - runtime.Gosched()
+    - 函数调用（有时）
+    - I/O，select
+    - channel
+    - 等待锁等操作
+
+- **每一个G都会由运行时系统根据其实际状况设置不同的状态，其主要状态如下。**
     - `Gidle` 表示当前G刚被新分配，但还未初始化。
     - `Grunnable` 表示当前G正在可运行队列中等待运行。
     - `Grunning` 表示当前G正在运行。
