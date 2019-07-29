@@ -77,6 +77,14 @@ Line 35: Char 17: undefined: a (solution.go)
 ## 赋值运算符
 - `=`：Go中可以进行多变量赋值操作
 
+```go
+// 解释以下操作
+var num int     // 定义/声明整型变量
+var ptr *int    // 定义/声明整型指针变量
+num = 10        // 赋值10到变量num
+ptr = &num      // 将指针指向变量num的内存地址
+```
+
 ## 其它运算符
 - 通道操作符：`<-`，在函数参数定义处可以对通道数据流向进行限制，其它时候的限制无意义。
 
@@ -137,6 +145,16 @@ func imag(c ComplexType) FloatType
 func real(c ComplexType) FloatType
 ```
 
+- `make()`函数使用：
+
+```go
+// 以下的例子说明通过make命令创建的缓冲区被分配了一块内存后
+buffer := make(map[int]int, 1024)
+// 通过在运行时对其进行赋nil启动垃圾回收机制
+buffer = nil
+//
+```
+
 # 常见错误
 - [7 common mistakes in Go and when to avoid them](https://www.youtube.com/watch?v=29LLRKIL_TI) by Steve Francia (Docker)
     - 接口是对方法的抽象，是面向行为编程，传参数时可以利用接口作参数增强系统的可扩展性
@@ -155,3 +173,4 @@ func real(c ComplexType) FloatType
 - 2019/06/10：添加源码中的类型别名例子
 - 2019/06/18：重新组织语言，更新前言描述
 - 2019/06/25：添加关于内置函数部分内容以及添加关于[7 common mistakes in Go and when to avoid them](https://www.youtube.com/watch?v=29LLRKIL_TI) by Steve Francia (Docker)
+- 2019/07/22：补充赋值操作部分经典面试题，`make()`函数使用如何进行垃圾回收

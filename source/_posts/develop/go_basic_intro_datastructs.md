@@ -124,7 +124,8 @@ s = make([]type, 0, CAPSIZE)
     - [golang map源码详解](https://juejin.im/entry/5a1e4bcd6fb9a045090942d8)
 
 ## 声明/定义与初始化
-- map的键值不可以是引用类型，即`slice`，`chan`，`function` 和 包含 `slice` 的 `struct` 类型不可以作为 `map` 的键，否则会编译错误，如当我们尝试定义`var a map[map[int]int]string`时，会报错：`invalid map key type map[int]int`。
+- map的键值类型不可以是`slice`，`chan`，`function` 和 包含这些类型 的 `struct` 不可以作为 `map` 的键，否则会编译错误，如当我们尝试定义`var a map[map[int]int]string`时，会报错：`invalid map key type map[int]int`。
+- map的键可以是：**`bool`, 数字，`string`, 指针, `channel`** , 还可以是只 包含前面几个类型的 **接口, 结构体, 数组**
 - map类型的变量在声明/定义后，还需要对其进行初始化才可以进行操作。否则报错：`assignment to entry in nil map`。**使用`make`或者字面值是创建`map`惯用的方法。**
 - 需要注意，使用多行字面量对其进行初始化或者赋值时，最后一行的逗号不可省略。
 
@@ -260,3 +261,4 @@ func (r *Ring) Unlink(n int) *Ring     // 从当前元素开始，删除n个元�
 - 2019/06/25：修正格式，添加map部分的源码理解资料链接
 - 2019/06/27：完善格式以及文章内容，使结构更加清晰
 - 2019/07/06：添加《浅谈 Go 语言实现原理》扩展阅读
+- 2019/07/24：修改map的键值的类型

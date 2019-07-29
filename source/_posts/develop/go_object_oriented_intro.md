@@ -67,8 +67,9 @@ tags:
     - 关联(Association)：是一种拥有的关系，它使一个类知道另一个类的属性和方法。如：企鹅关联气候；注：在最终代码中，关联对象通常是以成员变量的形式实现的
 - 使用关系
     - 依赖(Dependency)：是一种使用的关系，即一个类的实现需要另一个类的协助，所以要尽量不使用双向的互相依赖。如：动物类的`新陈代谢(氧气 x, 水 y)`依赖氧气类与水类
-
+<div style="width: 300px; margin: auto">
 ![类图关系实例](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E7%B1%BB%E5%9B%BE%E5%85%B3%E7%B3%BB.png)
+</div>
 
 # Go中的OOP实例
 最简单的就是实现一个[工厂方法](https://github.com/tmrts/go-patterns/blob/master/creational/factory.md)：

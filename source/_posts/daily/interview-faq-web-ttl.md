@@ -30,8 +30,9 @@ tags:
     - 断开连接：FIN_1(FIN_WAIT_1)，CLOSE_WAIT，FIN_2(FIN_WAIT_2)；LAST_ACK，TIME_WAIT；CLOSED
 
 ## 状态描述
-
+<div style="width: 300px; margin: auto">
 ![TCP状态转换图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/tcp_states.png)
+</div>
 
 |状态|描述|
 |:----:|:----:|

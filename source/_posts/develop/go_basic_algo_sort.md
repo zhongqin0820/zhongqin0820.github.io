@@ -1,7 +1,7 @@
 ---
 title: Go实现经典算法问题：排序
 date: 2019-03-08 17:24:10
-updated: 2019-06-14 18:25:51
+updated: 2019-07-22 21:52:04
 categories:
 - 计算机基础
 
@@ -10,16 +10,15 @@ tags:
 - Go
 ---
 # 前言
-使用Go语言实现常见经典排序算法以及总结Go中内置的排序算法实现。完整代码参见[Github repo](https://github.com/zhongqin0820/coding-playground/tree/master/go/test/sorts)。
-实现包括常见的比较类排序算法：冒泡、选择、插入、希尔、归并、快排、堆排序。以及较为非比较类排序算法：计数排序、基数排序、桶排序算法。以及其它排序算法：TreeSort、TimSort、CubeSort。
-
+使用Go语言实现常见经典排序算法以及总结Go中内置的排序算法实现。
+实现包括常见的比较类排序算法：冒泡、选择、插入、希尔、归并、快排、堆排序。以及较为常见的非比较类排序算法：计数排序、基数排序、桶排序算法。完整代码参见[Github](https://github.com/zhongqin0820/coding-playground/tree/master/go/test/sorts)。
+<div style="width: 300px; margin: auto">
 ![不同排序算法时间复杂度对比图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/algo_sorting_time_comparision.png)
+</div>
 
 <!-- more -->
 # 排序
 排序算法的目的是**使无序的序列有序**。在分析时间复杂度时，使用**平均时间复杂度**（即大$O$法）。
-
-> 面试时会侧重"大"数据的考察：如，对海量文件进行排序（归并排序）、海量数据的Top K个元素解（堆排序，或利用快排的partition部分的特性）。
 
 ## 比较排序
 
@@ -33,7 +32,7 @@ func Defensive(a []int) bool {
 }
 ```
 
-### 冒泡排序：$ O(n^2) $
+### 冒泡排序：$ O(n^2) $ 稳定
 可以将序列分为两个部分：无序|有序。按照某种约定，可以将大的放到后面，也可以将小的放到后面。但是一旦一轮之后，后面有序的部分都已经是最值了。**因此，对于有序的部分可以不需要再进行比较**。[动画解释](https://www.bilibili.com/video/av41042841/?p=7)
 
 ```go
@@ -55,8 +54,11 @@ func BubleSort(s []int, flag bool) {
 
 ```
 
-### 选择排序：$ O(n^2) $
+### 选择排序：$ O(n^2) $ 不稳定
 序列被分为两个部分：有序|无序。排序的过程即在无序的序列中找出最值放在有序部分末尾。类似，玩扑克时抓完所有牌（未排序）但是我们已经知道所有的牌，可以挑出自己想要的牌（无序中的最值），进行对牌的归档的过程。但是，在实现的过程中，我们可以考虑无序部分的第一个是key,在后续无序部分如果找到满足值大于（小于）它的，就交换这两个值。一轮之后，key就变为无序部分的最值了。[动画解释](https://www.bilibili.com/video/av41042841/?p=10)
+- 不稳定的例子：1,2,2,3,1
+    - i=0时，{有序区},{无序区}：{1},{2,2',3,1}
+    - i=1时，{有序区},{无序区}：{1,1},{2',3,2}出现在前的2与在后的2'顺序调换。
 
 ```go
 func SelectSort(a []int, flag bool) {
@@ -87,7 +89,7 @@ func SelectSort(a []int, flag bool) {
 
 > 个人区分选择与插入的办法仅供参考：选择最值，插入有序。
 
-### 插入排序：$ O(n^2) $
+### 插入排序：$ O(n^2) $ 稳定
 序列被分为两个部分：有序|无序。排序的过程即总是选择无序的第一个元素插入有序部分的合适位置。类似，玩扑克时，边抓牌（无序第一张），边往手上排好序的牌中插入的过程。[动画解释](https://www.bilibili.com/video/av41042841/?p=1)
 
 ```go
@@ -110,8 +112,11 @@ func InsertSort( a []int, flag bool) {
 }
 ```
 
-#### 希尔排序：$O \left ( n log \left ( n \right ) ^2  \right )$
-是对简单插入排序的一种改进。[动画解释](https://www.bilibili.com/video/av41042841/?p=9)。
+#### 希尔排序：$O \left ( n log \left ( n \right ) ^2  \right )$ 不稳定
+是对简单插入排序的一种改进。`gap`逐级递减到1即最后回归到最朴素的插入排序。[动画解释](https://www.bilibili.com/video/av41042841/?p=9)。
+- 不稳定的例子：5,1,1',5'；
+- 当gap=2时，得到的有序序列为：1',1,5,5'；可以看到顺序被改变
+
 ```go
 func ShellSort(a []int, flag bool) {
     if Defensive(a) {
@@ -153,7 +158,7 @@ $$ \therefore log_2 \left ( n! \right ) \approx n log \left ( n \right ) $$
 
 即我们的时间复杂度：$ O\left ( n log \left ( n \right ) \right ) $
 
-### 归并排序：$ O\left ( n log \left ( n \right ) \right ) $
+### 归并排序：$ O\left ( n log \left ( n \right ) \right ) $ 稳定
 利用分治（Divided-Conquer）的思想进行排序。[动画解释](https://www.bilibili.com/video/av41042841/?p=3)
 ```go
 func MergeSort(s []int, flag bool) []int {
@@ -196,8 +201,11 @@ func Merge(a, b []int, flag bool) (ret []int) {
 }
 ```
 
-### 快速排序：$ O\left ( n log \left ( n \right ) \right ) $
+### 快速排序：$ O\left ( n log \left ( n \right ) \right ) $ 不稳定
 利用i，pivot，j之间的关系进行快速排序。[动画解释](https://www.bilibili.com/video/av41042841/?p=6)
+- 不稳定例子：4,3,3',3^,5；当pivot=3'时，本来在其后的3^被置换到前面
+- 得到的有序序列：3,3^,3',4,5，可以看到前后顺序被改变
+
 ```go
 func QuickSort(s []int, flag bool) {
     if Defensive(s) {
@@ -232,10 +240,15 @@ func QuickSort(s []int, flag bool) {
 }
 ```
 
-### 堆排序：$ O\left ( n log \left ( n \right ) \right ) $
+### 堆排序：$ O\left ( n log \left ( n \right ) \right ) $ 不稳定
 - 利用堆结构（近似完全二叉树）进行排序，利用了大根堆（或小根堆）堆顶记录的值最大（或最小）这一特征。
 - 其中，构造堆的时间复杂度是$ O \left ( n \right ) $，每次调整堆的复杂度为$ log n $，共需要调整 $ n-1 $ 次；因此总的时间复杂为：$ O \left ( n log n \right ) $。
 - [动画解释](https://www.bilibili.com/video/av41042841/?p=2)。其它参考资料[参阅](https://blog.csdn.net/m0_38132420/article/details/78611340)。
+- 不稳定的例子：可以发现排序后相同大小元素的顺序与原始数据不一致
+
+<div style="width: 300px; margin: auto">
+![unstable heap sort](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/go/basic_sort_heapsort.png)
+</div>
 
 ```go
 // 调整堆的时间复杂度是 log n
@@ -290,15 +303,161 @@ func HeapSort(a []int, flag bool) {
 以上排序算法属于比较类排序算法，即通过比较来决定元素间的相对次序，由于其时间复杂度不能突破$ O\left ( n log \left ( n \right ) \right ) $，因此也称为非线性时间比较类排序。
 
 ## 非比较排序
-### 计数排序：$O \left ( n+k \right )$
-计数排序不是基于比较的排序算法，其核心在于**将输入的数据值转化为键存储在额外开辟的数组空间中**。 作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。[动画解释](https://www.bilibili.com/video/av41042841/?p=5)。
+### 计数排序：$O \left ( n+k \right )$ 稳定
+其核心在于**将输入的数据值转化为键存储在额外开辟的数组空间中**。 作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。[动画解释](https://www.bilibili.com/video/av41042841/?p=5)。
 - 当k不是很大并且序列比较集中时，计数排序是一个很有效的排序算法。
 
-### 桶排序：$O \left ( n+k \right )$
-[动画解释](https://www.bilibili.com/video/av41042841/?p=8)
+```go
+func CountingSort(a []int, flag bool) {
+    if Defensive(a) {
+        return
+    }
+    // step 1: find the min & max of a
+    min, max, n := a[0], a[0], len(a)
+    // step 2: generates a map range [min, max]
+    m := map[int]int{a[0]: 1}
+    for i := 1; i < n; i++ {
+        if a[i] > max {
+            max = a[i]
+        }
+        if a[i] < min {
+            min = a[i]
+        }
+        m[a[i]]++
+    }
+    // step 3: reassign
+    if !flag { // small -> big
+        for i, j := min, 0; i <= max; i++ {
+            if lenk, ok := m[i]; ok {
+                for k := 0; k < lenk; k++ {
+                    a[j] = i
+                    j++
+                }
+            }
+        }
+    } else { // big->small
+        for i, j := max, 0; i >= min; i-- {
+            if lenk, ok := m[i]; ok {
+                for k := 0; k < lenk; k++ {
+                    a[j] = i
+                    j++
+                }
+            }
+        }
+    }
+}
+```
 
-### 基数排序：$O \left ( n \times k \right )$
+### 基数排序：$O \left ( n \times k \right )$ 稳定
 [动画解释](https://www.bilibili.com/video/av41042841/?p=4)，其它参考资料[参阅](https://blog.csdn.net/m0_38132420/article/details/78627096)。
+
+```go
+func RadixSort(a []int, flag bool) {
+    if Defensive(a) {
+        return
+    }
+    // step 1: find max & its highest bits
+    max, bits, n := a[0], 0, len(a)
+    for i := 1; i < n; i++ {
+        if max < a[i] {
+            max = a[i]
+        }
+    }
+    for temp := max; temp != 0; temp /= 10 {
+        bits++
+    }
+    //
+    for i, j, k, radix := 0, 0, 0, 1; i < bits; i++ {
+        buckets := new([10]int)
+        tmp := make([]int, n, n)
+        // step 2: map into buckets
+        for j = 0; j < n; j++ {
+            k = (a[j] / radix) % 10
+            buckets[k]++
+        }
+        // step 3: counting sort
+        for j = 1; j < 10; j++ {
+            buckets[j] = buckets[j-1] + buckets[j]
+        }
+        for j = n - 1; j >= 0; j-- {
+            k = (a[j] / radix) % 10
+            tmp[buckets[k]-1] = a[j]
+            buckets[k]--
+        }
+        // step 4: reassign
+        for j = 0; j < n; j++ {
+            a[j] = tmp[j]
+        }
+        radix = radix * 10
+    }
+    // big -> small
+    if flag {
+        for i := 0; i < n/2; i++ {
+            a[i], a[n-i-1] = a[n-i-1], a[i]
+        }
+    }
+}
+```
+
+### 桶排序：$O \left ( n+k \right )$ 稳定
+桶排序是一种数据分流的思想，[动画解释](https://www.bilibili.com/video/av41042841/?p=8)。
+
+```go
+func BucketSort(a []int, flag bool) {
+    if Defensive(a) {
+        return
+    }
+    n, m := len(a), map[int][]int{}
+    // step 1: find the min & max of a
+    min, max := a[0], a[0]
+    for i := 1; i < n; i++ {
+        if a[i] > max {
+            max = a[i]
+        }
+        if a[i] < min {
+            min = a[i]
+        }
+    }
+    buckets := max - min
+    // step 2: maps the a[i] into different buckets
+    for i := 0; i < n; i++ {
+        m[(a[i]/buckets)%buckets] = append(m[(a[i]/buckets)%buckets], a[i])
+    }
+    // step 3: collects the buffered buckets
+    for k := 0; k < buckets; k++ {
+        if _, ok := m[k]; ok {
+            // step 4: sorted each buckets
+            if !flag { // small -> big
+                sort.Slice(m[k], func(i, j int) bool {
+                    return m[k][i] < m[k][j]
+                })
+            } else { // big -> small
+                sort.Slice(m[k], func(i, j int) bool {
+                    return m[k][i] > m[k][j]
+                })
+            }
+        }
+    }
+    // step 5: merge each bucket
+    if !flag {
+        for i, j := 0, 0; i <= buckets; i++ {
+            if _, ok := m[i]; ok {
+                for k := 0; k < len(m[i]); k, j = k+1, j+1 {
+                    a[j] = m[i][k]
+                }
+            }
+        }
+    } else {
+        for i, j := buckets, 0; i >= 0; i-- {
+            if _, ok := m[i]; ok {
+                for k := 0; k < len(m[i]); k, j = k+1, j+1 {
+                    a[j] = m[i][k]
+                }
+            }
+        }
+    }
+}
+```
 
 ## 其它排序
 ### TreeSort
@@ -307,7 +466,7 @@ func HeapSort(a []int, flag bool) {
 
 # 使用Go中的排序算法
 - sort：根据实际数据自动选择高效的排序算法（插入排序、归并排序、堆排序和快速排序）。
-    - 对基本数据类型切片（[]int切片、[]float64切片和[]string切片）的排序支持
+    - 对基本数据类型切片（`[]int`切片、`[]float64`切片和`[]string`切片）的排序支持
     - 判断基本数据类型切片是否已经排好序
     - 对排好序的数据集合逆序
     - 基本数据元素查找：**使用查找算法的前提是，数据已经排好序**
@@ -381,7 +540,11 @@ func Remove(h Interface, i int) interface{} //删除第i个节点元素
 - [[译] 排序算法入门 — GO 语言实现](http://blog.studygolang.com/2017/07/sorting-algorithms-primer/)
 - [bigocheatsheet](http://bigocheatsheet.com/)
 
-# TODO
-- [ ] 2019/06/14: 完成非比较排序部分
-- [ ] 2019/06/14: 完成其它排序方法部分
-- [ ] 2019/06/14: 面试中遇到的大数据问题总结分析
+
+[//]: # (TODO:Zoking:2019/07/27)
+[//]: # (- [ ] 2019/07/22: 其他排序算法实现，桶排序问题)
+[//]: # (DUE:Zoking:2019/08/10)
+
+# Changelog
+- 2019/07/22：添加不稳定排序算法（选择排序，希尔排序，快速排序，堆排序）的分析例子
+- 2019/07/22：添加非比较排序算法实现

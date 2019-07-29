@@ -22,7 +22,9 @@ tags:
 ## 动机
 相比一开始就给出关于主动学习的正式定义，我想利用一个简单的例子来使你更好的了解为什么主动学习能够起作用会更有助于你的理解。
 
+<div style="width: 300px; margin: auto">
 ![classification](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1518178638/al-eg_pbwzob.png)
+</div>
 
 上图摘自([这篇文章](http://burrsettles.com/pub/settles.activelearning.pdf))中，可以看出，最左侧的图中有两个聚类中心，分别是绿色与红色的聚类。精明的读者会知道这是一个分类任务，你希望创建一个“决策边界”（在这种情况下，它只是一条线），将绿色和红色的形状分开。但是，你可以假设你不知道数据点的标签（红色或绿色），并且试图找到每个点的标签的代价是非常昂贵的。因此，你会想要对一小部分的点进行采样并找到那些标签，并使用这些标记的数据点作为分类器的训练数据。
 
@@ -51,17 +53,23 @@ tags:
 ### Membership Query Synthesis(成员查询综合)
 这是一个宽泛的术语，简单的意思是学习器(Learner)生成/构建一个实例（来自一些基础的自然分布）。例如，如果数据是数字的图片，学习者将创建一个与数字类似的图像（它可能被旋转或不被包括的某个数字），并且这个创建的图像被发送给用户(Oracle)来标记。
 
+<div style="width: 300px; margin: auto">
 ![merbership query synthesis illustration](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1518178638/membership_wzptzh.png)
+</div>
 
 ### Stream-Based Selective Sampling(基于流的采样)
 在这个设置中，你假设获得一个未标记的实例是十分容易的。基于这个假设，每次选择一个未标记的实例，并允许学习器决定是否想查询实例的标签，或者基于它的信息含量(informativeness)拒绝它。其中，使用查询策略确定实例的信息含量（参见下一节）。按照上面的描述，你将从一组未标记的图像中选择一个图像，确定它是否需要被标记或丢弃，然后重复这个过程。
 
+<div style="width: 300px; margin: auto">
 ![stream based selective sampling](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1518178638/stream_kdlsz2.png)
+</div>
 
 ### Pool-Based sampling(基于池的采样)
 与基于流的采样策略一致，此设置假定存在一个拥有大量未标记数据的池。然后根据信息量度量从池中选择实例。**该度量被应用到池中的所有实例**（或者池非常大时，应用在它的一些子集上），**然后在其中选择最翔实(信息量最大)的实例。**这是主动学习研究中最常见的场景。接着使用前两个场景中的例子，所有未标记的数字图像将被排序，然后将选择最佳（最翔实的）实例并请求用户(Oracle)其标签。
 
+<div style="width: 300px; margin: auto">
 ![pool based sampling](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1518178638/pool_guqwfe.png)
+</div>
 
 ## Query Strategies(问询策略)
 主动学习器和被动学习器之间的主要或关键区别是，主动学习是基于过去的查询和来自这些查询的响应（标签）来查询实例。如前所述，所有的主动学习场景都需要引入某种关于未标记实例的信息量度量的准则。在这一节中，我将阐释常见课题中三种流行的问询策略方法。由于其使用概率进行衡量，所以也被叫做不确定采样。(希望获得更多关于闻讯策略和更深入的主动学习内容，通常我会推荐你阅读[这个调研文献](http://burrsettles.com/pub/settles.activelearning.pdf))

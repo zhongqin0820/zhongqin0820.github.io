@@ -20,7 +20,9 @@ tags:
 
 <font color=#0099ff>线性滤波</font>通常是：将模版覆盖区域内的元素，以模版中对应位置元素为权值，进行累加。与卷积操作类似的，还有一种数学操作叫做协相关(cross-correlatioin)，<u>它们都可以看作是基于矩阵内积的操作</u>。具有<font color=#0099ff>平移不变性(shift-invariant)</font>。
 
+<div style="width: 300px; margin: auto">
 ![Cross-Correlation](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/cross-correlation%E6%96%87%E5%AD%97%E8%A7%A3%E9%87%8A.png)
+</div>
 
 <font color=#0099ff>二者的区别：</font><u>卷积和协相关的差别是，卷积需要先对滤波矩阵进行<font color=#0099ff>180度的翻转</font>，但如果矩阵是对称的，那么两者就没有什么差别了</u>。实际上，在信号处理领域，卷积有广泛的意义，而且有其严格的数学定义，但在这里不关注这个。2D卷积需要4个嵌套循环(4-double loop)，所以它并不快，除非我们使用很小的卷积核。这里一般使用3x3或者5x5。而且，<u>对于滤波器，也有一定的规则要求</u>：
 
@@ -38,69 +40,97 @@ tags:
 ## 什么都不做
 滤波器矩阵所有元素之和为1，保证滤波前后图像的亮度保持不变。这个滤波器啥也没有做，得到的图像和原图是一样的。因为只有中心点的值是1。邻域点的权值都是0，对滤波后的取值没有任何影响。
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.25.png)
+</div>
 
 ## 图像锐化滤波器(Sharpness Filter)
 图像的锐化和边缘检测很像，首先找到边缘，然后把边缘加到原来的图像上面，这样就强化了图像的边缘，使图像看起来更加锐利了。这两者操作统一起来就是锐化滤波器了，<u>也就是在边缘检测滤波器的基础上，再在中心的位置加1，这样滤波后的图像就会和原始的图像具有同样的亮度了，但是会更加锐利。</u>
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.44.png)
+</div>
 
 我们把核加大，就可以得到更加精细的锐化效果
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.52.png)
+</div>
 
 下面的滤波器会更强调边缘。
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.56.05.png)
+</div>
 
 主要是<u>强调图像的细节</u>。最简单的3x3的锐化滤波器如下：
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.53.58.png)
+</div>
 
 实际上是计算当前点和周围点的差别，然后将这个差别加到原来的位置上。另外，<u>中间点的权值要比所有的权值和大于1，意味着这个像素要保持原来的值。</u>
 
 ## 边缘检测(Edge Detection)
 我们要找水平的边缘：<u>需要注意的是，这里矩阵的元素和是0，所以滤波后的图像会很暗</u>，只有边缘的地方是有亮度的。
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.59.54.png)
+</div>
 
 相当于做差分(differencing)，求导的离散版本，有向前差分(forward differencing)，向后差分(backward differencing)，中心差分(central differencing)。
 
 下面的滤波器可以找到垂直方向的边缘，这里像素上和下的像素值都使用
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.08.09.png)
+</div>
 
 再下面这个滤波器可以找到45度的边缘：取-2不为了什么，只是为了让矩阵的元素和为0而已。
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.10.30.png)
+</div>
 
 那下面这个滤波器就可以检测所有方向的边缘。
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.17.38.png)
+</div>
 
 为了检测边缘，我们需要在图像对应的方向计算梯度。用下面的卷积核来卷积图像，就可以了。但在实际中，这种简单的方法<u>会把噪声也放大</u>了。另外，需要注意的是，<u>矩阵所有的值加起来要是0</u>。
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.21.07.png)
+</div>
 
 ## 浮雕(Embossing Filter)
 浮雕滤波器可以给图像一种3D阴影的效果。只要将中心一边的像素减去另一边的像素就可以了。这时候，像素值有可能是负数，我们将负数当成阴影，将正数当成光，然后我们<u>对结果图像加上128的偏移</u>。这时候，图像大部分就变成灰色了。
 
 下面是45度的浮雕滤波器
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.25.28.png)
+</div>
 
 只要加大滤波器，就可以得到更加夸张的效果了
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.27.12.png)
+</div>
 
 ## 均值模糊(Box Filter/Averaging)
 我们可以将当前像素和它的四邻域的像素一起取平均，然后再除以5，或者直接在滤波器的5个地方取0.2的值即可，如下图
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.29.23.png)
+</div>
 
 可以看到，这个模糊还是比较温柔的，我们可以把滤波器变大，这样就会变得粗暴了：<u>注意要将和再除以13.</u>
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.33.28.png)
+</div>
 
 如果你想要更模糊的效果，加大滤波器的大小即可。或者对图像应用<u>多次模糊</u>也可以。
 
@@ -112,7 +142,9 @@ tags:
 
 这个效果就好像，摄像机是从左上角移动的右下角。
 
+<div style="width: 300px; margin: auto">
 ![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.41.32.png)
+</div>
 
 # 自己手写的卷积函数
 虽然Matlab已经封装了一个函数con2()作卷积操作，但是还是要自己手写一下加深理解。下面是[UCF计算机视觉网课](http://crcv.ucf.edu/courses/CAP5415/Fall2012/)的作业。4层循环。因为<u>边缘效应</u>通常情况下需要补0。还是Matlab新手，代码一点都不elegant，没有借鉴意义。

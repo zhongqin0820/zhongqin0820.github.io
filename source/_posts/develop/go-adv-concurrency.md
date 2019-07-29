@@ -9,7 +9,7 @@ tags:
 - Go
 ---
 # 前言
-学习使用包括`context`，`os`，`os/exec`，`sync`，`sync/atmoic`，`os/signal`等在内的多个标准库。
+学习使用包括`os`，`os/exec`，`runtime`，`sync`，`sync/atmoic`，`os/signal`，`context`等在内的多个标准库。
 
 <!-- more -->
 # 进程管理
@@ -46,41 +46,53 @@ func (c *Cmd) StdoutPipe() (io.ReadCloser, error)
 ## 销毁进程
 - `os.Exit(code int)`
 
-# 同步
-在并发编程中，同步是在最大化利用CPU资源时，同时保证执行单位（线程/进程）互斥访问临界资源的目的。线程/进程通信是达到同步的手段。
-在Go的并发模型中，最小的执行单位是协程（`goroutine`），使用`go`关键字开启一个新的协程。`goroutine`是非常轻量的，除了给它分配**栈空间（4k）**，它所占用的内存空间是微乎其微的。Go倾向使用基于**管道channel的消息通信模型**代替传统的基于**共享内存的锁机制**进行协同操作。
+# Goroutine
+在并发编程中，同步是在最大化利用CPU资源时，同时保证执行单位（线程/进程）互斥访问临界资源的目的。线程/进程通信机制是达到同步的手段。
+在Go的并发调度模型中，最小的执行单位是协程（`goroutine`），使用`go`关键字开启一个新的协程。`goroutine`是非常轻量的，除了给它分配**栈空间（4k）**，它所占用的内存空间是微乎其微的。
+Go倾向使用基于**管道channel的消息通信模型**代替传统的基于**共享内存的锁机制**进行协同操作。
 
 ## sync包
 - [pkg/sync](https://golang.google.cn/pkg/sync/)；提供了互斥锁这类的基本的同步原语
 
+- 锁机制
 ```go
 // Locker接口代表一个可以加锁和解锁的对象
 type Locker interface
-// Once是只执行一次动作的对象
-type Once struct
-    func (o *Once) Do(f func())
+
 // 互斥锁
 type Mutex struct
     func (m *Mutex) Lock()
     func (m *Mutex) Unlock()
 // 读写锁
 type RWMutex struct
-    func (rw *RWMutex) Lock()
+    func (rw *RWMutex) Lock()           // 写锁
     func (rw *RWMutex) Unlock()
-    func (rw *RWMutex) RLock()
+    func (rw *RWMutex) RLock()          // 读锁
     func (rw *RWMutex) RUnlock()
     func (rw *RWMutex) RLocker() Locker
+```
+
+- 其它操作
+```go
 // Cond实现了一个条件变量，一个线程集合地，供线程等待或者宣布某事件的发生。
+// Cond需要配合锁机制使用
 type Cond struct
     func NewCond(l Locker) *Cond
-    func (c *Cond) Broadcast()
-    func (c *Cond) Signal()
-    func (c *Cond) Wait()
+    func (c *Cond) Broadcast()          // 发送通知（广播）
+    func (c *Cond) Signal()             // 发送通知（单发）
+    func (c *Cond) Wait()               // 等待通知
+// Once是只执行一次动作的对象
+type Once struct
+    func (o *Once) Do(f func())
 // 等待组，对多个goroutine的管理
 type WaitGroup struct
     func (wg *WaitGroup) Add(delta int)
     func (wg *WaitGroup) Done()
     func (wg *WaitGroup) Wait()
+```
+
+- 资源管理
+```go
 // 临时对象池，需要实现一个对象的New func() interface{}签名
 type Pool struct
     func (p *Pool) Get() interface{}
@@ -99,66 +111,6 @@ type Map
     - `func Notify(c chan<- os.Signal, sig ...os.Signal)`
     - `func Stop(c chan<- os.Signal)`
 
-## 通道
-### 操作
-```go
-ch := make(chan int, 1) // 创建
-ch <- 1                 // 发送
-v, ok := <-ch           // 接收
-close(ch)               // 关闭
-```
-
-### channel的原理
-- 源码地址v1.12：[src/runtime/chan.go](https://golang.org/src/runtime/chan.go)
-- 《浅谈 Go 语言实现原理》：[3.4 Channel](https://draveness.me/golang/datastructure/golang-channel.html)
-- [GopherCon 2017: Kavya Joshi - Understanding Channels](https://www.youtube.com/watch?v=KBZlN0izeiY)
-    - hchan：buf与recvx，sendx（组成环形队列），lock（进行对管道的读写控制），【recvq，sendq】与并发操作相关（当对管道的读/写发生阻塞时）
-    - sudoq：【recvq，sendq】的元素类型，组成双向链表结构，元素是阻塞goroutine
-    - 每次读/写操作都需要使用`lock`加锁
-    - `goroutine阻塞`：向满的channel写/从空的channel读
-    - `goroutine唤醒`：空的channel中被写入数据/满的channel中被取走数据【利用sudog数据结构，直接互相读/写值】
-
-### channel的坑
-- channel必须带数据类型，可以先声明channel类型的变量，但在使用前，需要使用`make()`对其进行赋值，同时指定缓冲长度，即通道中允许排队的元素个数
-- 单向通道通常作为函数的参数，在变量声明中是不应该出现单向通道的，因为通道本来就是为了通信而生，只能接收或者只能发送数据的通道是没有意义的。
-- 程序中必须同时有不同的 goroutine 对非缓冲通道进行发送和接收操作，否则会造成死锁。
-- 如果写完需使用`close()`关闭channel，否则利用`for range`形式迭代会死锁
-- 如果想要获取通道内元素的个数，可以直接使用内置函数`len()`
-- `select` 专门用于通道发送和接收操作，看起来和 `switch` 很相似，但是进行选择和判断的方法完全不同，`select`判断所有表达式是否符合，当有多个表达式符合时，从中随机选择就绪的通道；`switch`是根据条件判断从上到下进行按序选择。
-- 使用非缓冲通道代替传统同步机制（互斥锁等），从而保证`goroutine`在`main.goroutine`退出前执行完成。
-
-### channel常用代码思想
-```go
-// 下列程序实现了并发的读/写
-// Do()包装一个匿名函数的goroutine对通道进行写操作，调用返回一个发送通道
-func Do() <-chan int {
-    var a chan int = make(chan int)
-    i := 0
-    go func() {
-        for ; i < 5; i++ {
-            a <- i
-        }
-        // 发送完毕，需要关闭该通道
-        close(a)
-    }()
-    return a
-}
-
-// 使用for range读取值，sync.WaitGroup的引入是为了保证多个gorountine的执行完整
-func TestClassic(t *testing.T) {
-    var wg sync.WaitGroup = sync.WaitGroup{}
-    wg.Add(1)
-    go func() {
-        for v := range Do() {
-            log.Println(v)
-        }
-        wg.Done()
-    }()
-    wg.Wait()
-    t.Log()
-}
-```
-
 # 学习资料
 - 源码地址
     - [pkg/context](https://golang.google.cn/pkg/context/)
@@ -176,6 +128,11 @@ func TestClassic(t *testing.T) {
     - [16.2 sync/atomic - 原子操作](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter16/16.02.md)
     - [16.3 os/signal - 信号](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example/blob/master/chapter16/16.03.md)
 
+[//]: # (TODO:Zoking:2019/07/25)
+[//]: # (待添加context和runtime包相关内容)
+[//]: # (DUE:2019/08/10)
+
 # Changlog
 - 2019/07/01：基本完善内容格式
 - 2019/07/08：添加针对channel于goroutine的底层模型的原理分析，《浅谈 Go 语言实现原理》[3.4 Channel](https://draveness.me/golang/datastructure/golang-channel.html)
+- 2019/07/25：将channel部分内容移除，重新划分`sync`包内容

@@ -1,7 +1,7 @@
 ---
 title: 英语学习：资料总结
 date: 2019-04-14 19:40:10
-updated: 2019-06-30 11:26:39
+updated: 2019-07-28 23:05:07
 categories:
 - 英语学习
 
@@ -25,6 +25,7 @@ tags:
 ## 网站/APP
 - [British Council：Sounds Right](https://www.britishcouncil.org/english/business/apps/sounds-right)：建议可以先学习李咏梅老师音标视频，掌握48个音标后再使用。
 - [tophonetics.com](https://tophonetics.com/zh/)：英文文本至国际音标在线转换，强烈推荐。
+- [conversationexchange.com](https://www.conversationexchange.com/)：一个相对靠谱的找语伴网站
 
 ## 视频教学
 ### 基础
@@ -35,11 +36,19 @@ tags:
 ### 进阶
 - [【美式英语】史嘉琳 英語語音學 (含發音練習) ](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S102/1)
 - [【英式英语】田朝霞 英语语音基础与朗读技巧（全30讲）](https://www.bilibili.com/video/av22981167)
+- [【走遍美国】](https://www.bilibili.com/video/av11376675/)：可以配合剧本练习
 
 # 读
 ## 网站/APP
 - [田间小站](https://www.tianfateng.cn/7399.html)：《经济学人》资源合辑，搭配音频，阅读*Leaders*部分即可。
 - [gen.lib.rus.ec](http://gen.lib.rus.ec)：搜索并下载感兴趣电子刊物资源。
+
+## 视频教学
+- 文学基础
+    - [【上海外国语大学】英语短篇小说](https://www.bilibili.com/video/av25357215)
+    - [【苏州大学公开课】英语经典美文：从培根到伍尔芙【文学】](https://www.bilibili.com/video/av8729512)
+- 欧洲历史
+    - [【糟糕的历史】：1-5季](https://search.bilibili.com/pgc?keyword=%E7%B3%9F%E7%B3%95%E7%9A%84%E5%8E%86%E5%8F%B2)
 
 # 写
 {% blockquote cassidoo http://cassidoo.github.io/writing/2016/11/02/agua-caliente-writing-exercise/ Writing Practice: The Agua Caliente Airport %}
@@ -51,6 +60,9 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 
 ## 网站/APP
 - [Grammarly](https://app.grammarly.com/)：拼写，简单语法检查etc.
+
+## 视频教程
+- [ielts-simon.com](https://ielts-simon.com/)的[B站合辑](https://www.bilibili.com/video/av7692222)
 
 # 词法/语法
 ## 书本/文字资料
@@ -74,19 +86,6 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 ## 视频教程
 - [【一堂课让你懂得英语语法百分之九十五】](https://www.bilibili.com/video/av47618740): 强烈推荐学习
 
-# 其他
-## 剧集
-- [【糟糕的历史】：1-5季](https://search.bilibili.com/pgc?keyword=%E7%B3%9F%E7%B3%95%E7%9A%84%E5%8E%86%E5%8F%B2)
-- [【鬼屋欢乐送】：第1季](https://search.bilibili.com/all?keyword=%E9%AC%BC%E5%B1%8B%E6%AC%A2%E4%B9%90%E9%80%81)
-
-## 文学
-- [【上海外国语大学】英语短篇小说](https://www.bilibili.com/video/av25357215)
-- [【苏州大学公开课】英语经典美文：从培根到伍尔芙【文学】](https://www.bilibili.com/video/av8729512)
-
-## 生活用语
-- [【纽约/英语学习】《 We Speak NYC》第一季](https://www.bilibili.com/video/av33128510)
-- [【走遍美国】](https://www.bilibili.com/video/av11376675/)：可以配合剧本练习
-
 # Changelog
 - 2019/06/04：补充李咏梅老师系列教程链接，添加多邻国[Streak Hall of Fame](https://duome.eu/anoni15/progress)链接以及调整内容顺序等。
 - 2019/06/05：添加关于写作练习的建议
@@ -97,3 +96,5 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 - 2019/06/25：添加[The Elements of Style](https://book.douban.com/subject/1824592/)
 - 2019/06/28：添加[LibriVox](https://librivox.org/)以及调整内容格式
 - 2019/06/30：添加基于【有道背单词】APP搭建单词管理生态
+- 2019/07/27：添加[ielts-simon.com](https://ielts-simon.com/)的[B站合辑](https://www.bilibili.com/video/av7692222)
+- 2019/07/28：调整内容排版&添加找语伴网站[conversationexchange.com](https://www.conversationexchange.com/)，删除[【鬼屋欢乐送】：第1季](https://search.bilibili.com/all?keyword=%E9%AC%BC%E5%B1%8B%E6%AC%A2%E4%B9%90%E9%80%81)链接
