@@ -1,0 +1,55 @@
+home: Home
+archives: Archives
+about: About
+categories: Categories
+search: Search
+tags: Tags
+tagcloud: Tag Cloud
+resume: Resume
+projects: Projects
+tweets: Tweets
+prev: Prev
+next: Next
+comment: Comments
+archive_a: Archives
+archive_b: "Archives: %s"
+page: Page %d
+recent_posts: Recent Posts
+newer: Newer
+older: Older
+share: Share
+theme_by: Powered by
+rss_feed: RSS Feed
+category: Category
+tag: Tag
+connect: 'Connect Me'
+post_total_count: There are %d posts in total till now.
+read_more: More
+contents: Contents
+none: None
+donation:
+    button_text: '打赏公益项目'
+insight:
+    hint: 'Type something...'
+    posts: 'Posts'
+    pages: 'Pages'
+    categories: 'Categories'
+    tags: 'Tags'
+    untitled: '(Untitled)'
+article:
+    more: 'Read More'
+nav:
+    published: 'Published'
+    updated: 'Updated'
+    PViews: ' Read'
+    Words: ' Words'
+    Min: ' Mins'
+credit:
+    total_visits: 'Total Visited'
+    all_visits: 'All Visited'
+    people_num: 'People'
+    times: 'Times'
+    total_counts: 'Total Words'
+    licenses_discription: 'Text is available under'
+    licenses: 'Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License'
+links: 'Links Exchange'

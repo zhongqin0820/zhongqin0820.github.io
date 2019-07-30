@@ -1178,7 +1178,7 @@ body.search .page .entry-footer {
 /* FOOTER
 ----------------------------------------------- */
 .site-footer {
-	padding: 0 0 18px 0;
+	padding: 0 0 5px 0;
 	color: #999;
 	font-size: .9em;
 	background: #16171b;
@@ -1198,6 +1198,10 @@ body.search .page .entry-footer {
 	margin:0 auto;
 	text-align:center;
 	}
+.site-licenses {
+	margin:0 auto;
+	text-align:center;
+}
 
 /* RESPONSIVE SUPPORT
 ----------------------------------------------- */
@@ -1270,6 +1274,7 @@ body.search .page .entry-footer {
 		text-align: center;
 		}
 	.site-footer .site-info,
+	.site-footer .site-licenses,
 	.site-footer .site-credit {
 		float: none;
 		}

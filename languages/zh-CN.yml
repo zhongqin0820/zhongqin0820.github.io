@@ -50,4 +50,6 @@ credit:
     people_num: '人'
     times: '次'
     total_counts: '博文总字数'
+    licenses_discription: '本站内容遵循'
+    licenses: '署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
 links: '友情链接'

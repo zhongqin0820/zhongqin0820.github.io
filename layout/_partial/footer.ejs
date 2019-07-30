@@ -4,23 +4,30 @@
   <% } %>
 
   <div class="clearfix container">
-      <div class="site-info" >
-	      &copy; <%= theme.since %>-<%= date(new Date(), 'YYYY') %> <%= config.title || config.author %> All Rights Reserved.
-          <span>
-              <%= __('theme_by') %> <a href="https://hexo.io/" target="_blank">HEXO</a>
-          </span>
+      <div class="site-licenses">
+          <% if (theme.licenses) { %>
+              <%= __('credit.licenses_discription')%>:<a href=<%= theme.licenses%> target="_blank"><%= __('credit.licenses')%></a>
+              </span>
+          <% } %>
       </div>
 
       <div class="site-credit">
           <% if (theme.busuanzi_analytics) { %>
-          <span id="busuanzi_container_site_uv">
+              <span id="busuanzi_container_site_uv">
               <%= __('credit.total_visits')%>:<span id="busuanzi_value_site_uv"> </span><%= __('credit.people_num')%>
-              <%= __('credit.all_visits')%>:<span id="busuanzi_value_site_pv"> </span><%= __('credit.times')%>
+                  <%= __('credit.all_visits')%>:<span id="busuanzi_value_site_pv"> </span><%= __('credit.times')%>
             </span>
           <% } %>
           <% if (theme.total_count){%>
-                <%= __('credit.total_counts')%>:<span ><%= totalcount(site)%> <%= __('nav.Words')%></span>
+              <%= __('credit.total_counts')%>:<span ><%= totalcount(site)%> <%= __('nav.Words')%></span>
           <%}%>
+      </div>
+
+      <div class="site-info" >
+          &copy; <%= theme.since %> - <%= date(new Date(), 'YYYY') %> <%= config.title || config.author %> All Rights Reserved.
+          <span>
+              <%= __('theme_by') %> <a href="https://hexo.io/" target="_blank">HEXO</a>
+          </span>
       </div>
   </div>
 </footer>
