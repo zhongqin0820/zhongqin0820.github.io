@@ -3,7 +3,7 @@ title: 博客开发
 categories: 其它
 tags: 修复问题
 date: 2017-08-05 19:11:50
-updated: 2019-07-27 18:04:14
+updated: 2019-07-30 15:35:58
 ---
 # 博客正在完善中
 记录博客功能更新日志。
@@ -38,6 +38,7 @@ updated: 2019-07-27 18:04:14
 - [x] 2019/06/30: stash some posts, especially those with useless/irrelevance information
 - [x] 2019/07/27: put the #TODO section in the backend & fix tag page issues
 - [x] 2019/07/28: add [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license & hide the cv & projects pages
+- [x] 2019/07/30: add a site stats widget found in [revolvermaps](https://www.revolvermaps.com/)
 
 [//]: # (TODO:Zoking:2019/07/27)
 [//]: # (- ~~willing to add web ad?~~ )

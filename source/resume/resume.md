@@ -1,4 +1,5 @@
 ---
+title: resume in chinese
 date: 2019-05-03 21:47:12
 updated: 2019-05-06 12:56:36
 comments: false
