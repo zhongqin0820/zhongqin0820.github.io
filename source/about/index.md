@@ -1,7 +1,7 @@
 ---
 title: about me
 date: 2017-08-13 17:23:33
-updated: 2019-07-30 16:12:14
+updated: 2019-08-10 14:51:54
 comments: true
 layout: about
 ---
@@ -12,10 +12,11 @@ layout: about
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=98s)</cite>
 
 # Self-assessment
-**An active internet node idles in reality.** 
+- **An active internet node idles in reality.**
+- **Loquacious online but reticent offline.** 
 
 # Contacts
-Feel free to contact me via [Email](mailto:zhongq26@mail2.sysu.edu.cn?subject=CVBlogs|What can I help you?) or just leave a comment below if you have any problem with the posts.
+Feel free to contact me via [Email](mailto:zhongq26@mail2.sysu.edu.cn?subject=CVBlogs|What can I help you?) but I would prefer you to leave comments under the specific post that you have a doubt about.
 You can also find me at [Github](http://github.com/zhongqin0820). 
 
 # Stats

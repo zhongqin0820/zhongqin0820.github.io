@@ -9,9 +9,31 @@ tags:
 - 课程总结
 ---
 # 前言
-总结/备忘/分享英语学习资料，包括听、说（侧重英音资料收集）、读、写、词法/语法以及其它学习材料。
+总结/备忘/分享英语学习资料，包括基础的词法/语法相关资料，以及与听、说（侧重英音资料收集）、读、写相关的学习材料。
 
 <!--more-->
+# 词法/语法
+## 书本/文字资料
+- [英语学习：语法入门](https://cvblogs.cn/2019/07/01/daily/summary-english-lexical-and-grammar/)
+- [《英语语法新图解：用思维导图快速学语法》](https://book.douban.com/subject/30246892/)或[《英语新手一看就懂：思维导图学语法》](https://book.douban.com/subject/30845258/)：择一即可
+
+## 网站/APP
+- [Duolingo](https://duolingo.com)：L1～L5的语法树、卡片式；对应[Streak Hall of Fame](https://duome.eu/)，对应个人[学习进度](https://duome.eu/anoni15/progress)，对应个人[数据面板](https://duome.eu/anoni15/)。
+
+### 有道背单词
+- 主要基于【有道背单词】进行搭建生词管理生态：管理生词本，背记单词等
+- 法1：在【有道背单词】手动创建/输入生词本
+- 法2：基于【Alfred】的工作流，自动选取单词添加到生词本中
+    - [workflow](https://github.com/whyliam/whyliam.workflows.youdao)
+    - 注册【有道云应用】+【翻译实例服务】绑定
+        - 修改`youdao id`与`key`
+        - 添加`youdao 网易云账号`和`密码`：要求与有道背单词中的账号一致
+    - [解决selectiono in macOS不起作用](https://www.alfredforum.com/topic/11665-selection-in-macos-doesnt-work-in-apps/?do=findComment&comment=61141)
+    - 缺点：依赖苹果应用生态
+
+## 视频教程
+- [【一堂课让你懂得英语语法百分之九十五】](https://www.bilibili.com/video/av47618740): 强烈推荐学习
+
 # 听
 ## 网站/APP
 - [CastBox](https://castbox.fm/)：收听有声读物或广播节目，推荐频道：[Luke's English Podcast](https://teacherluke.co.uk/)
@@ -63,28 +85,6 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 
 ## 视频教程
 - [ielts-simon.com](https://ielts-simon.com/)的[B站合辑](https://www.bilibili.com/video/av7692222)
-
-# 词法/语法
-## 书本/文字资料
-- [英语学习：语法入门](https://cvblogs.cn/2019/07/01/daily/summary-english-lexical-and-grammar/)
-- [《英语语法新图解：用思维导图快速学语法》](https://book.douban.com/subject/30246892/)或[《英语新手一看就懂：思维导图学语法》](https://book.douban.com/subject/30845258/)：择一即可
-
-## 网站/APP
-- [Duolingo](https://duolingo.com)：L1～L5的语法树、卡片式；对应[Streak Hall of Fame](https://duome.eu/)，对应个人[学习进度](https://duome.eu/anoni15/progress)，对应个人[数据面板](https://duome.eu/anoni15/)。
-
-### 有道背单词
-- 主要基于【有道背单词】进行搭建生词管理生态：管理生词本，背记单词等
-- 法1：在【有道背单词】手动创建/输入生词本
-- 法2：基于【Alfred】的工作流，自动选取单词添加到生词本中
-    - [workflow](https://github.com/whyliam/whyliam.workflows.youdao)
-    - 注册【有道云应用】+【翻译实例服务】绑定
-        - 修改`youdao id`与`key`
-        - 添加`youdao 网易云账号`和`密码`：要求与有道背单词中的账号一致
-    - [解决selectiono in macOS不起作用](https://www.alfredforum.com/topic/11665-selection-in-macos-doesnt-work-in-apps/?do=findComment&comment=61141)
-    - 缺点：依赖苹果应用生态
-
-## 视频教程
-- [【一堂课让你懂得英语语法百分之九十五】](https://www.bilibili.com/video/av47618740): 强烈推荐学习
 
 # Changelog
 - 2019/06/04：补充李咏梅老师系列教程链接，添加多邻国[Streak Hall of Fame](https://duome.eu/anoni15/progress)链接以及调整内容顺序等。
