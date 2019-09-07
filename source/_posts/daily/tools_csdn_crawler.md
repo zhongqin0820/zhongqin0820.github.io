@@ -1,5 +1,5 @@
 ---
-title: 杂谈:爬CSDN数据
+title: 杂谈：爬CSDN数据
 date: 2019-05-08 16:33:45
 updated: 2019-05-08 21:42:24
 categories:
