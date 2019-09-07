@@ -1,0 +1,52 @@
+---
+title: web开发之性能分析火焰图
+date: 2017-11-12 22:05:10
+updated: 2017-11-12 22:05:10
+categories:
+- 网页开发
+
+tags:
+- Node.js
+---
+# 前言
+以下内容基本摘自[阮一峰的网络博客-如何读懂火焰图篇](http://www.ruanyifeng.com/blog/2017/09/flame-graph.html)，只做个人学习笔记用。
+
+<!-- more -->
+# `perf`命令
+Linux 系统原生提供的性能分析工具，会返回 CPU 正在执行的函数名以及调用栈（stack）。
+通常，它的执行频率是 99Hz（每秒99次），如果99次都返回同一个函数名，那就说明 CPU 这一秒钟都在执行同一个函数，可能存在性能问题。
+```bash
+sudo perf record -F 99 -p 13204 -g -- sleep 30
+```
+上面的代码中，`perf record`表示记录，`-F 99`表示每秒99次，`-p 13204`是进程号，即对哪个进程进行分析，`-g`表示记录调用栈，`sleep 30`则是持续30秒。
+运行后会产生一个庞大的文本文件。如果一台服务器有16个 CPU，每秒抽样99次，持续30秒，就得到 47,520 个调用栈($ 16 \times 99 \times 30 = 47,520 $)，长达几十万甚至上百万行。
+为了便于阅读，`perf record`命令可以统计每个调用栈出现的百分比，然后从高到低排列。
+```bash
+sudo perf report -n -- stdio
+```
+**由于是文本文件极其不易阅读所以才有了火焰图。**
+
+# 火焰图
+火焰图是基于 `perf` 结果产生的 SVG 图片，用来展示 CPU 的调用栈。
+`y 轴`表示调用栈，每一层都是一个函数。调用栈越深，火焰就越高，**顶部就是正在执行的函数**，下方都是它的父函数。
+`x 轴`表示抽样数，如果一个函数在 x 轴占据的宽度越宽，就表示它被抽到的次数多，即执行的时间越长。
+**注意，x 轴不代表时间，而是所有的调用栈合并后，按字母顺序排列的。**
+
+**火焰图就是看顶层的哪个函数占据的宽度最大。只要有"平顶"（plateaus），就表示该函数可能存在性能问题。**
+
+# `Node 应用`的火焰图
+```bash
+perf record -F 99 -p 'pgrep -n node' -g -- sleep 30
+```
+[具体的操作过程参考此教程](http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html)
+
+# 浏览器的火焰图
+Chrome 浏览器可以生成页面脚本的火焰图，用来进行 CPU 分析。
+打开开发者工具，切换到 `Performance 面板`。然后，点击`"录制"按钮`，开始记录数据。这时，可以在页面进行各种操作，然后`停止"录制"`。
+浏览器的火焰图与标准火焰图有两点差异：
+1. 它是倒置的（即调用栈最顶端的函数在最下方）；
+2. x 轴是时间轴，而不是抽样次数。
+
+# 补充学习资料
+- [node.js Flame Graphs on Linux](http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html)
+- [Kernel Recipes 2017 - Perf in Netflix - Brendan Gregg](https://www.youtube.com/watch?v=UVM3WX8Lq2k)

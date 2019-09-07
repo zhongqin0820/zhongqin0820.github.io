@@ -12,7 +12,7 @@ package.json
 scaffolds/
 themes/
 # don't sync drfts but stash some early posts
-source/_drafts/
-!source/_drafts/daily/
-!source/_drafts/develop/
-!source/_drafts/theory/
+source/_drafts/*
+!/source/_drafts/daily/
+!/source/_drafts/develop/
+!/source/_drafts/theory/
