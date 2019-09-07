@@ -1,5 +1,5 @@
 ---
-title: linux之ssh命令
+title: Linux之ssh命令
 date: 2017-12-08 20:12:12
 updated: 2017-12-08 20:12:12
 categories:

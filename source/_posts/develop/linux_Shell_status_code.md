@@ -1,5 +1,5 @@
 ---
-title: linux之Shell命令的状态码
+title: Linux之Shell命令的状态码
 date: 2017-11-08 21:59:10
 updated: 2019-05-08 12:00:11
 categories:

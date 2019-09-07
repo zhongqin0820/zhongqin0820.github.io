@@ -1,5 +1,5 @@
 ---
-title: linux之Shell脚本入门
+title: Linux之Shell脚本入门
 date: 2019-05-08 12:20:12
 updated: 2019-05-08 12:20:12
 categories:
@@ -150,7 +150,7 @@ function jump()
 - 开头：`#!/bin/sh`指定用来执行该文件的程序
 - 注释：`#`后为注释
 - 变量：所有的变量都由字符串组成，定义变量`=`左右不可以有空格
-- `exit`：退出程序，后跟不同状态码具有不同意义，参考[linux之Shell命令的状态码](https://cvblogs.cn/2017/11/08/develop/linux_Shell_status_code/)
+- `exit`：退出程序，后跟不同状态码具有不同意义，参考[Linux之Shell命令的状态码](https://cvblogs.cn/2017/11/08/develop/linux_Shell_status_code/)
 - 执行脚本：需要确保具有执行权限（`chmod +x filename.sh`），使用`filename.sh`执行
 
 # 学习资料

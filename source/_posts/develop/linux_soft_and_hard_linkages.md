@@ -1,5 +1,5 @@
 ---
-title: linux之软链接与硬链接
+title: Linux之软链接与硬链接
 date: 2017-12-08 15:18:22
 updated: 2017-12-08 15:18:22
 categories:

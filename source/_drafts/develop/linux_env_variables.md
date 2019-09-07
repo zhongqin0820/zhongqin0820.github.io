@@ -1,5 +1,5 @@
 ---
-title: linux之环境变量
+title: Linux之环境变量
 date: 2017-11-10 17:27:26
 updated: 2017-11-10 17:27:26
 categories:
