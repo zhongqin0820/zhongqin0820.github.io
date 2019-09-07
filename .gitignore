@@ -11,4 +11,8 @@ package-lock.json
 package.json
 scaffolds/
 themes/
-source/_drafts/stash/
+# don't sync drfts but stash some early posts
+source/_drafts/
+!source/_drafts/daily/
+!source/_drafts/develop/
+!source/_drafts/theory/
