@@ -1,7 +1,7 @@
 ---
 title: 工作开发中的一些工具推荐
 date: 2017-11-04 22:08:10
-updated: 2019-07-02 21:45:48
+updated: 2019-09-02 13:37:33
 categories:
 - 其它
 
@@ -31,9 +31,7 @@ tags:
 - `intitle`：指定标题中带有的关键字；如：`a tale of two cities intitle:dickens`
 
 ## 实用网站
-- [thatseed](https://www.thatseed.org/)：VPS服务提供商
 - [gen.lib.rus.ec](http://gen.lib.rus.ec/)：英文电子书资源
-- [bookset](https://bookset.me/)：中文电子书资源
 
 # 阅读生态搭建相关工具
 - ~~Calibre：本地图书管理，可以管理由其它阅读媒介导出的图书笔记等。弃，偶尔使用~~
@@ -66,7 +64,7 @@ tags:
     - XMind：思维导图应用
     - ~~百度脑图：免费在线思维导图应用。弃~~
 - 科学上网
-    - Shadowsocks：需要配合VPS使用，推荐[thatseed](https://www.thatseed.org/)。
+    - Shadowsocks：需要配合VPS使用
     - ~~lantern：翻墙工具！GitHub下载。弃~~
 - 快捷/文件查找
     - Alfred/Launchy：前者是Mac平台下的可配合工作流使用，后者是Win平台下的
@@ -76,6 +74,7 @@ tags:
     - iTerm2：代替系统自带终端
     - tmux：终端神器，划分终端窗口
     - z：终端神器，代替cd命令
+    - rsync：本地与远程服务器之间同步文件
 - 其它
     - 时间块：时间/效率管理软件
     - CheatSheet：长按Command键查看当前软件快捷键
@@ -94,11 +93,29 @@ tags:
 - 用过的编辑器
     - Sublime Text 3：搭配插件使用
     - Vim：终端下，搭配插件使用，推荐NerdTree + TagBarToggle
-    - Notepad++：win上使用，兼容Matlab文件最好
+    - Notepad++：Win上使用，兼容Matlab文件最好
     - ~~Atom：弃~~
     - ~~VS Code：弃~~
+
+## 实用的代码片段
+```sh
+# 统计代码行数
+find . "(" -name "*.py" ")" -print | xargs wc -l
+
+# 统计git的提交情况
+git log --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }'
+
+# 带点Geek风格的社交账号公开方式
+# Step 1: 通过草料二维码获得微信二维码本身的链接: <your social link>
+# Step 2: 通过qrencode将链接文字通过base64加密: <corresponding ciphertext>
+qrencode -t ASCIIi <your social link> | gzip | base64
+# Step 3: 将加密后的密文解析生成二维码
+echo <corresponding ciphertext> | base64 --decode | gzip -d
+# 扫码时需要耐心等待
+```
 
 # Changelog
 - 2019/06/05：重新排列整理排版
 - 2019/06/30：重新排版，添加英语学习的索引以及对阅读生态搭建相关工具方面的整理
 - 2019/07/02：添加时间块APP
+- 2019/09/02：添加rsync，[实用的代码片段](#实用的代码片段)，删除 ~~[thatseed](https://www.thatseed.org/)：VPS服务提供商；凉凉于2019年8月~~，删除~~[bookset](https://bookset.me/)：中文电子书资源；凉凉于2019年6月~~~

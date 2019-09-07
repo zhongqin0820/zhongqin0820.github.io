@@ -28,7 +28,7 @@ tags:
     - 注册【有道云应用】+【翻译实例服务】绑定
         - 修改`youdao id`与`key`
         - 添加`youdao 网易云账号`和`密码`：要求与有道背单词中的账号一致
-    - [解决selectiono in macOS不起作用](https://www.alfredforum.com/topic/11665-selection-in-macos-doesnt-work-in-apps/?do=findComment&comment=61141)
+    - [解决selection in macOS不起作用](https://www.alfredforum.com/topic/11665-selection-in-macos-doesnt-work-in-apps/?do=findComment&comment=61141)
     - 缺点：依赖苹果应用生态
 
 ## 视频教程

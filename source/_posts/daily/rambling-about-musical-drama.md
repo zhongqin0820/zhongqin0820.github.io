@@ -1,7 +1,7 @@
 ---
 title: Rambling About The Musical
 date: 2019-07-02 17:23:31
-updated: 2019-07-04 14:17:41
+updated: 2019-09-02 17:18:55
 categories:
 - 英语学习
 
@@ -25,7 +25,7 @@ Then for the musical, simply, the musical is a drama mixed evenly with dialogues
 But less attention doesn't mean it is different from other forms of entertainment. As far as I'm concerned, watching or listening to a musical is the same as watching a soap opera. They have no differences; moreover as a note to myself, should not have those kinds of superiority or prejudice or bring them into the mind and not even ask for what it can bring. All we need to do is enjoy it in relax.
 
 ## Personal Recommendation
-If you are in search of some classic musical, here are some from my personal collection.
+If you are in search of some classic musicals, here are some from my personal collection.
 
 ### English(UK)
 #### [Les Misérables](https://www.bilibili.com/video/av746517)
@@ -33,7 +33,7 @@ If you are in search of some classic musical, here are some from my personal col
 - Reason: Will have a different understanding of the original novel each time.
 
 ### French
-There are tons of the classics have been adapted into fabulous musical in French, mainly the [Dove Attia](https://en.wikipedia.org/wiki/Dove_Attia) team.
+There are tons of the classics have been adapted into fabulous musical in French, mainly from the [Dove Attia](https://en.wikipedia.org/wiki/Dove_Attia) team.
 #### [1789, Les Amants de la Bastille](https://en.wikipedia.org/wiki/1789:_Les_Amants_de_la_Bastille)
 Though there are more songs worth recommending. I select one from them as a hit.
 - Favorite Discography: "[Au Palais royal / Les prostituées](https://www.bilibili.com/video/av18398562/)" (David Ban) - 3:27
@@ -43,20 +43,34 @@ Though there are more songs worth recommending. I select one from them as a hit.
 - Favourite Discography: [Tous pour un](https://www.bilibili.com/video/av57797074) - Olivier Dion, David Ban, Damien Sargue
 - Reason: The melody and the lyrics. It quite worths watching in [full HD](https://www.bilibili.com/video/av17494566)
 
+#### [Roméo et Juliette](https://www.bilibili.com/video/av20127728)
+- Favourite Discography: "[Vérone](https://www.bilibili.com/video/av8851453/)" - Gérard Presgurvic 
+- Reason: Every love story has its settle.
+- Others: [soundtrack album](https://www.xiami.com/album/417577)
+
 ### Englsh(USA)
 #### [Legally Blonde](https://www.bilibili.com/video/av30528949)
 - Favourite Discography: "[There! Right There!](https://www.bilibili.com/video/av30600383)" – Elle, Callahan, Emmett, Brooke, Vivienne, Warner, Enid, Judge, Nikos, Carlos and Company
 - Reason: This song worths listening due to its sense of humour.
+
+#### [Hamilton](https://www.bilibili.com/video/av4783224)
+- Favourite Discography: "[Satisfied](https://www.bilibili.com/video/av54022140/)" - Original Broadway Cast of Hamilton / Renee Elise Goldsberry
+- Reason: The softest part of his life. The original EP is produced by Sia, Queen Latifah, Miguel.
+- Others: ['My Shot' Hamilton - ASL via Sarah Tubert](https://www.bilibili.com/video/av12154405/)
 
 # Conclusion
 I first came across to musical at the time when I casually listen to the Les Misérables soundtracks album at iTunes. I am fascinated at it and it caught me when the song “Do you hear the people sing?” has been played. How shook the melody is and how heartening of the lyrics conveyed to me. I felt I got understand and got a power of running away from the secular world and it brings me back to the ever-changing 1800s. Freedom is nothing but all I can ask and want.
 
 But not until recently, I have started to make my mind to establish a whole knowledge structural about musical. As I dig more about it, I love more about it; this is why this post of a recommendation and sharing be published. If you also love music, you gotta have a try. Some of them may change yours as well as my stereotype of musical.
 
+For those not been introduced, after listening to many of them, I find that only those adapted from classics or history interest me.
+
 # Links
 - Wiki page: [Musical theatre](https://en.wikipedia.org/wiki/Musical_theatre)
 - [List of Tony Award- and Olivier Award-winning musicals](https://en.wikipedia.org/wiki/List_of_Tony_Award-_and_Olivier_Award-winning_musicals)
+- [A clearer explanation in Chinese](https://www.bilibili.com/video/av60168220): 
 
 # Changelog
 - 2019/07/02：Add "Les Misérables", "1789, Les Amants de la Bastille", "Legally Blonde"
 - 2019/07/04：Add "Les 3 Mousquetaires"
+- 2019/09/02：Update [Conclusion](#Conclusion) & Add [A clearer explanation in Chinese](https://www.bilibili.com/video/av60168220) & [Hamilton](https://www.bilibili.com/video/av4783224) & [Roméo et Juliette](https://www.bilibili.com/video/av20127728)
