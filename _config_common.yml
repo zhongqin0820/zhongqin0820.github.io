@@ -9,10 +9,6 @@ menu:
   Categories: /categories
   Tags: /tags
   About: /about
-  Resume: /resume/resume.html
-  Projects: /projects
-
-#rss: /atom.xml
 
 since: 2017
 
@@ -23,8 +19,8 @@ keywords: ""
 favicon: css/images/favicon.ico
 
 auto_excerpt:
-    enable: true
-    lines: 2
+  enable: true
+  lines: 2
 # Put your avatar.jpg into `hexo-site/themes/hiero/source/` directory.
 # url is target link (E.g. `url: https://hexo.io/logo.svg` or `url: css/images/mylogo.jpg`)
 avatar:
@@ -55,34 +51,29 @@ fancybox: true
 # Sidebar
 sidebar: left
 widgets:
-- recent_posts
-- category
-- tag
-- tagcloud
-- archive
-- social
+  - recent_posts
+  - category
+  - tagcloud
+  - archive
+  - tag
+  - social
+  - links
 
 # Social Links
 # Key is the name of FontAwsome icon.
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
-  Github: https://github.com/zhongqin0820
-#  Weibo:
-#  Twitter:
-#  Facebook:
-#  Google-plus:
-#  Instagram:
-#  Pinterest:
-#  Flickr:
-  rss: /atom.xml
-  email: zhongq26@mail2.sysu.edu.cn
+  Github:
+  email:
+  rss:
+  duolingo:
 
 
 # Search
 search:
-    insight: true # you need to install `hexo-generator-json-content` before using Insight Search
-    swiftype: # enter swiftype install key here
-    baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+  swiftype: # enter swiftype install key here
+  baidu: false # you need to disable other search engines to use Baidu search, options: true, false
 
 
 # 阅读更多
@@ -93,19 +84,19 @@ excerpt_link: Read More
 gentie_productKey: #your-gentie-product-key
 duoshuo_shortname:
 disqus_shortname:
-livere_shortname: #MTAyMC8yOTk4NS82NTUw
+livere_shortname:
 uyan_uid:
 wumii:
 #gitment: true
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
-    enable: true
-    githubID: zhongqin0820
-    repo: zhongqin0820.github.io
-    ClientID: xxxxx
-    ClientSecret: xxxxxxxxx
-    lazy: false
+  enable: true
+  githubID:
+  repo:
+  ClientID:
+  ClientSecret:
+  lazy: false
 
 # Code Highlight theme
 # Available value:
@@ -128,8 +119,8 @@ show_count: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification: "google-site-verification: xxxxxxxxxx.html"
-baidu_site_verification: "xxxx"
+google_site_verification:
+baidu_site_verification:
 qihu_site_verification:
 
 # Miscellaneous
@@ -156,14 +147,13 @@ facebook_sdk:
 cnzz_siteid: 1263278368
 
 # donation button
-# donation button
 donate:
-    enable: true
-    message1: '因为有你与我的付出，这个世界才如此的美好～'
-    message: '如果觉得我的文章对您有用，请随意打赏/支持下列公益项目!'
-    message2: '您的支持将鼓励我继续创作!'
-    wechatImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/donate/wechat.png
-    alipayImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/donate/alipay.png
+  enable: true
+  message1: '因为有你与我的付出，这个世界才如此的美好～'
+  message: '如果觉得我的文章对您有用，请随意打赏/支持下列公益项目!'
+  message2: '您的支持将鼓励我继续创作!'
+  wechatImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/donate/wechat.png
+  alipayImage: https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/donate/alipay.png
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 #baidu_push: true
@@ -172,3 +162,6 @@ donate:
 word_count: true
 read_count: true
 total_count: true
+
+# footer
+licenses: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh

@@ -1203,6 +1203,24 @@ body.search .page .entry-footer {
 	text-align:center;
 }
 
+.duolingo {
+	display: block;
+	text-indent: -9999px;
+	width: 45px;
+	height: 45px;
+	background: url(images/owl-standard.svg);
+	background-size: 45px 45px;
+}
+
+.duolingo:hover {
+	display: block;
+	text-indent: -9999px;
+	width: 45px;
+	height: 45px;
+	background: url(images/owl-happy.svg);
+	background-size: 45px 45px;
+}
+
 /* RESPONSIVE SUPPORT
 ----------------------------------------------- */
 @media screen and (max-width: 960px) {
