@@ -8,7 +8,7 @@ public/
 .idea
 _config.yml
 package-lock.json
-package.json
+#package.json
 scaffolds/
 themes/
 # don't sync drfts but stash some early posts
