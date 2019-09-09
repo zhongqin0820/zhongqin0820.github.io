@@ -37,6 +37,7 @@ tags:
 注意，Go语言以包作为管理单位：包内的变量根据首字母大小写**只对包外执行访问控制**。
 
 <div style="width: 300px; margin: auto">
+
 ![type simple struct](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_singleton.jpg)
 </div>
 

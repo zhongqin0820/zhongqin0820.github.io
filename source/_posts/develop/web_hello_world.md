@@ -10,6 +10,7 @@ updated: 2019-09-07 12:43:15
 
 <!-- more -->
 # Changelog
+- [x] 2019/09/09: fix images & equation failed rendering issues
 - [x] 2019/09/07: fix rss order_by issue by `npm install hexo-generator-feed@2.0.0` & change duolingo icon by adding a hover feature & flip the logs(sort by descending the date) 
 - [x] 2019/09/02: add [Duolingo social icon](https://www.v2ex.com/static/img/social_duolingo.png), directed to [duome.eu](https://duome.eu/anoni15) stats; change [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) order_by updated
 - [x] 2019/07/30: add a site stats widget found in [revolvermaps](https://www.revolvermaps.com/)

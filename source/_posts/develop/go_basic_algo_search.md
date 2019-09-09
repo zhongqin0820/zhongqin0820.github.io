@@ -13,6 +13,7 @@ tags:
 使用Go语言实现常见查找算法。包括：顺序查找，插值查找（二分查找、插值查找、斐波那契查找），树表查找（二叉树、红黑树，B树，B+树）以及哈希查找。
 完整代码参阅[Github repo](https://github.com/zhongqin0820/coding-playground/tree/master/go/test/sorts)。
 <div style="width: 300px; margin: auto">
+
 ![时间复杂度对比图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/big_O_cheat.png)
 </div>
 

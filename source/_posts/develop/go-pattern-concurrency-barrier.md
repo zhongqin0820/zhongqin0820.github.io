@@ -29,6 +29,7 @@ Barrier模式也叫同步屏障模式，属于一种实现同步操作的并发�
 该示例中，主协程`r1.goroutine`开启两个子协程`r2.goroutine`与`r3.goroutine`处理请求，并通过一个公共通道返回处理结果。
 
 <div style="width: 300px; margin: auto">
+
 ![示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/concurrency_barrier.png)
 </div>
 

@@ -28,11 +28,13 @@ tags:
 当我们对图片做卷积时，我们是对两个维度做了卷积（即图片的宽和高方向）。我们混合两个桶中的内容：第一个桶是输入的图片（可以看作是三个像素矩阵组成，因为图像是由RGB三通道组成的；每个像素矩阵中元素的值：0～255）。第二个桶中是卷积核，一个独立的由浮点数组成的矩阵。（可以将它的大小以及模式看作是一个如何混合两个桶中信息的指导方式）。输出的结果在深度学习中被叫做特征图像(feature map)。每个通道都会产生一个特征图像。
 
 <div style="width: 300px; margin: auto">
+
 ![用一个边缘算子与图像做卷积操作的过程](https://i1.wp.com/timdettmers.com/wp-content/uploads/2015/03/convolution.png)
 </div>
 
 现在，我们演示卷积是如何混合两份信息。一种方法是利用输入图像采样一个小块做卷积操作--我们用100X100的图像，以及3X3的核。因此，我们可以同时采样3X3个像素点（和核做点乘）。最终得到的是一个中心值。当采样完一个地方（3X3）就向一个方向移动一个像素点。循环往复。当所有的像素都被计算后操作才停止。下面的动图展示了卷积操作的一个过程。
 <div style="width: 300px; margin: auto">
+
 ![目标图片一个像素点的计算过程](https://i2.wp.com/timdettmers.com/wp-content/uploads/2015/03/aa-convolution-02.gif)
 </div>
 如你所见，为了保证与原图像有同样的密度一致性，这里通常还有一个正则化的过程。
@@ -44,6 +46,7 @@ tags:
 
 作者的同事Jannek Thomas用Sobel算子（它的定义与前面的那个那个边缘算子差不多）预处理了数据，得到了重要的边缘信息。这也是为什么卷积操作也叫做滤波。边缘信息的提取对于形状信息的获得非常有帮助。
 <div style="width: 300px; margin: auto">
+
 ![上面是提取完边缘信息后的图像](https://i1.wp.com/timdettmers.com/wp-content/uploads/2015/03/autoencoder_fashion_features_and_results.png)
 </div>
 更深入的：很多的核产生很多的特征图像（map）。例如：锐化图像的，模糊图像的。

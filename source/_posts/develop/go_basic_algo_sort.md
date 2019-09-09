@@ -13,6 +13,7 @@ tags:
 使用Go语言实现常见经典排序算法以及总结Go中内置的排序算法实现。
 实现包括常见的比较类排序算法：冒泡、选择、插入、希尔、归并、快排、堆排序。以及较为常见的非比较类排序算法：计数排序、基数排序、桶排序算法。完整代码参见[Github](https://github.com/zhongqin0820/coding-playground/tree/master/go/test/sorts)。
 <div style="width: 300px; margin: auto">
+
 ![不同排序算法时间复杂度对比图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/algo_sorting_time_comparision.png)
 </div>
 
@@ -247,6 +248,7 @@ func QuickSort(s []int, flag bool) {
 - 不稳定的例子：可以发现排序后相同大小元素的顺序与原始数据不一致
 
 <div style="width: 300px; margin: auto">
+
 ![unstable heap sort](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/go/basic_sort_heapsort.png)
 </div>
 

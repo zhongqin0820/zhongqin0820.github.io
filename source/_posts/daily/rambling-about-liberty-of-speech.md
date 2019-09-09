@@ -21,6 +21,7 @@ Naive as I always am, I took his words out of context and commented vulgarly at 
 
 But, I don't realize the song as a theme song sang in the parade will be banned in the mainland after a few days later. It shocked me. In the beginning, I considered it is the stream provider issues, but after I have googled it I eventually have to admit that it is the government decision to ban the song. 
 <div style="width: 300px; margin: auto">
+
 ![Do you hear the people sing?](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/rambling/the-song.jpg)
 </div>
 

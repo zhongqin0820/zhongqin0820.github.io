@@ -28,6 +28,7 @@ Pipeline模式也叫作流水线模式。它将消息分发给多个工作协程
 - 求和平方并返回结果
 
 <div style="width: 300px; margin: auto">
+
 ![示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/concurrency_pipeline.png)
 </div>
 

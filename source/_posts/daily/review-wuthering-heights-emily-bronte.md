@@ -53,6 +53,7 @@ This review takes me almost 3 to 4 days to finish it, though it still not good e
 From the genealogy, you could easily distinguish the characters and how the story is constructed above it. The two intruders, mainly Heathcliff, are like a stone falling into the peace water, promotes the development of the plots of the novel.
 
 <div style="width: 300px; margin: auto">
+
 ![Genealogy of Wuthering Heights](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/genealogy-wuthering-heights.jpg)
 </div>
 

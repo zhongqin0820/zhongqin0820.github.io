@@ -32,6 +32,7 @@ Future模式也叫做Future & Promise 模式，属于一种实现异步调用的
 在下面的示意图中，`r2.goroutine`异步调用执行，如果没有错误，则会开启一个新协程接着执行`Success()`中的嵌套Future，否则直接通过调用`Fail()`结束执行。
 
 <div style="width: 300px; margin: auto">
+
 ![示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/concurrency_future.png)
 </div>
 

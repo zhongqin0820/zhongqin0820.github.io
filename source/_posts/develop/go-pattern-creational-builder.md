@@ -36,6 +36,7 @@ tags:
 - 在客户端代码中，无须关心产品对象的具体组装过程，只需【确定具体建造者的类型】即可，建造者模式将复杂对象的构建与对象的表现分离开来，这样使得同样的构建过程可以创建出不同的表现。
 
 <div style="width: 300px; margin: auto">
+
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_builder.png)
 </div>
 

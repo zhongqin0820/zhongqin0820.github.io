@@ -33,6 +33,7 @@ tags:
 # UML描述
 
 <div style="width: 300px; margin: auto">
+
 ![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_prototype.png)
 </div>
 

@@ -66,6 +66,7 @@ Steidele Angela made a bold assumption in her book that Emily clearly wrote Anne
 By the way, I also maintained a google map about them "[Anne Lister & Her Time](https://www.google.com/maps/d/edit?hl=en&mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ&ll=53.73532976043602%2C-1.7774499080886699&z=10)". The Brontë is at a distance of nearly 14 kilometres. Click the image and you can find more details.
 
 <div style="width: 300px; margin: auto">
+
 [![Shibden Hall and Parsonage made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/shibden-parsonage.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
@@ -92,6 +93,7 @@ And another thing that interests me is how does she maintain her body? Is that y
 > **Steidele Angela** --- <cite>[Gentleman Jack: A biography of Anne Lister, Regency Landowner, Seducer and Secret Diarist](https://www.goodreads.com/book/show/40054063-gentleman-jack)</cite>
 
 <div style="width: 300px; margin: auto">
+
 [![Shibden Hall and Ripponden made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/shibden-rippon.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
@@ -107,6 +109,7 @@ At last, what does her diary covered? Obviously, there are many 'kisses' and man
 Seeing the well-known places even nowadays that she had been at her time in the map, the admiration of her courageous naturally from my heart.
 
 <div style="width: 300px; margin: auto">
+
 [![Places made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/tour-map.png)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
@@ -131,11 +134,13 @@ The tears just come out of my eyes when I read about what Ann Walker suffered an
 Although “Ann Walker’s parental home no longer exists; its grounds have been converted to a golf course.” and “Only the old estate wall remains from the days when Anne Lister was such a frequent visitor.”, from the map below, you can easily tell in geography that they are just at a short distance of 3km.
 
 <div style="width: 300px; margin: auto">
+
 [![Shibden Hall and Lightcliffe made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/shibden-lightcliff.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
 Like I said earlier in this post, it is Ann Walker who companied her been to many places.
 <div style="width: 300px; margin: auto">
+
 [![Places they have been together made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/tour-with-ann.png)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 

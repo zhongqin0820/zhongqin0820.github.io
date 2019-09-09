@@ -23,6 +23,7 @@ tags:
 相比一开始就给出关于主动学习的正式定义，我想利用一个简单的例子来使你更好的了解为什么主动学习能够起作用会更有助于你的理解。
 
 <div style="width: 300px; margin: auto">
+
 ![classification](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1518178638/al-eg_pbwzob.png)
 </div>
 
@@ -54,6 +55,7 @@ tags:
 这是一个宽泛的术语，简单的意思是学习器(Learner)生成/构建一个实例（来自一些基础的自然分布）。例如，如果数据是数字的图片，学习者将创建一个与数字类似的图像（它可能被旋转或不被包括的某个数字），并且这个创建的图像被发送给用户(Oracle)来标记。
 
 <div style="width: 300px; margin: auto">
+
 ![merbership query synthesis illustration](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1518178638/membership_wzptzh.png)
 </div>
 
@@ -61,6 +63,7 @@ tags:
 在这个设置中，你假设获得一个未标记的实例是十分容易的。基于这个假设，每次选择一个未标记的实例，并允许学习器决定是否想查询实例的标签，或者基于它的信息含量(informativeness)拒绝它。其中，使用查询策略确定实例的信息含量（参见下一节）。按照上面的描述，你将从一组未标记的图像中选择一个图像，确定它是否需要被标记或丢弃，然后重复这个过程。
 
 <div style="width: 300px; margin: auto">
+
 ![stream based selective sampling](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1518178638/stream_kdlsz2.png)
 </div>
 
@@ -68,6 +71,7 @@ tags:
 与基于流的采样策略一致，此设置假定存在一个拥有大量未标记数据的池。然后根据信息量度量从池中选择实例。**该度量被应用到池中的所有实例**（或者池非常大时，应用在它的一些子集上），**然后在其中选择最翔实(信息量最大)的实例。**这是主动学习研究中最常见的场景。接着使用前两个场景中的例子，所有未标记的数字图像将被排序，然后将选择最佳（最翔实的）实例并请求用户(Oracle)其标签。
 
 <div style="width: 300px; margin: auto">
+
 ![pool based sampling](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1518178638/pool_guqwfe.png)
 </div>
 

@@ -12,6 +12,7 @@ tags:
 
 当前时间：2017年11月7日，此方法适用所有终端平台[Mac Win Linux]，只不过略有不同(例如一些文件的位置，但是还是能够在网上找到的)，由于笔者手头需要安装在Mac下，因此以Mac为例子讲解。
 <div style="width: 300px; margin: auto">
+
 ![镇楼](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2003.48.30.png)
 </div>
 
@@ -26,6 +27,7 @@ tags:
     - `Finder-->应用程序-->XMind-->右键-->包内容-->Contents-->Eclipse`
    
     <div style="width: 300px; margin: auto">
+
     ![如果一切顺利](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2004.25.05.png)
     </div>
 
@@ -37,6 +39,7 @@ tags:
     - 选择在Finder中打开
 
     <div style="width: 300px; margin: auto">
+
     ![如果一切顺利](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2004.19.15.png)
     </div>
 
