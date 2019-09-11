@@ -145,7 +145,7 @@ queue.Len() != 0
     - `s = s[i:]` //等价删除i之前的数据，不包括下标i，i=1删除开头，i=len(n)删除整个切片
     - `s = s[:j]` //等价删除j之后的数据，包括下标j，j=len(n)-1删除末尾，j=0删除整个切片
 
-## 一个队列实现栈
+## 两个队列实现栈
 - [Leetcode 225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
 - 解决思路
     - 队列q1负责入栈
@@ -272,8 +272,8 @@ func (this *MyQueue) Empty() bool {
 - [问题描述](https://www.cnblogs.com/zmlctt/p/3985128.html)
 - 解决思路
     - 类似两个栈实现队列
-    - 栈s1：压入/弹出队尾
-    - 栈s2：压入/弹出队头
+    - 栈s1：压入/弹出队尾，为空时操作s2
+    - 栈s2：压入/弹出队头，为空时操作s1
 
 ```go
 import "container/list"
@@ -282,86 +282,70 @@ type MyDeQueue struct {
     s2 *list.List
 }
 
-
 /** Initialize your data structure here. */
 func Constructor() MyDeQueue {
-    return MyDeQueue{ s1: list.New(), s2: list.New() }
+    return MyDeQueue{s1: list.New(), s2: list.New()}
 }
 
-
 /** Push element x to the front of queue. */
-func (this *MyDeQueue) PushFront(x int)  {
+func (this *MyDeQueue) PushFront(x int) {
     this.s2.PushBack(x)
 }
 
+/** Push element x to the back of queue. */
+func (this *MyDeQueue) PushBack(x int) {
+    this.s1.PushBack(x)
+}
+
+/** Get the front element. */
+func (this *MyDeQueue) Front() int {
+    if this.Empty() {
+        return -1
+    }
+    if this.s2.Len() == 0 {
+        return this.Back()
+    }
+    res := this.s2.Back().Value.(int)
+    return res
+}
+
+/** Get the back element. */
+func (this *MyDeQueue) Back() int {
+    if this.Empty() {
+        return -1
+    }
+    if this.s1.Len() == 0 {
+        return this.Front()
+    }
+    res := this.s1.Back().Value.(int)
+    return res
+}
 
 /** Removes the element from the front of queue and returns that element. */
 func (this *MyDeQueue) PopFront() int {
-    if this.s2.Len() == 0 {
-        for ;this.s1.Len()!=0; {
-            this.s2.PushBack(this.s1.Remove(this.s1.Back()))
-        }
+    if this.Empty() {
+        return -1
     }
     if this.s2.Len() == 0 {
-        return -1
+        return this.PopBack()
     }
     res := this.s2.Back().Value.(int)
     this.s2.Remove(this.s2.Back())
     return res
 }
 
-
-/** Push element x to the back of queue. */
-func (this *MyDeQueue) PushBack(x int)  {
-    this.s1.PushBack(x)
-}
-
-
 /** Removes the element from the back of queue and returns that element. */
 func (this *MyDeQueue) PopBack() int {
-    if this.s1.Len() == 0 {
-        for;this.s2.Len()!=0; {
-            this.s1.PushBack(this.s2.Remove(this.s2.Back()))
-        }
+    if this.Empty() {
+        return -1
     }
     if this.s1.Len() == 0 {
-        return -1
+        return this.PopFront()
     }
     res := this.s1.Back().Value.(int)
     this.s1.Remove(this.s1.Back())
     return res
 }
-
-
-/** Get the front element. */
-func (this *MyDeQueue) Front() int {
-    if this.s2.Len() == 0 {
-        for ;this.s1.Len()!=0; {
-            this.s2.PushBack(this.s1.Remove(this.s1.Back()))
-        }
-    }
-    if this.s2.Len() == 0 {
-        return -1
-    }
-    res := this.s2.Back().Value.(int)
-    return res
-}
-
-
-/** Get the back element. */
-func (this *MyDeQueue) Back() int {
-    if this.s1.Len() == 0 {
-        for;this.s2.Len()!=0; {
-            this.s1.PushBack(this.s2.Remove(this.s2.Back()))
-        }
-    }
-    if this.s1.Len() == 0 {
-        return -1
-    }
-    res := this.s1.Back().Value.(int)
-    return res
-}
-
 
 /** Returns whether the queue is empty. */
 func (this *MyDeQueue) Empty() bool {
@@ -371,3 +355,9 @@ func (this *MyDeQueue) Empty() bool {
 
 # 结束语
 掌握对数据结构的定义与封装实现。以及标准库的使用与熟悉。
+
+## 学习资料
+- [CS-Notes/notes/算法 - 栈和队列.md](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%AE%97%E6%B3%95%20-%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97.md)
+
+# Changelog
+- 2019/09/11：修正部分拼写错误，修改[两个栈实现双端队列](#两个栈实现双端队列)的实现，添加[CS-Notes/notes/算法 - 栈和队列.md](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%AE%97%E6%B3%95%20-%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97.md)

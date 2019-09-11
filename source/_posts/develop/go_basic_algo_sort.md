@@ -537,7 +537,8 @@ func Push(h Interface, x interface{})       //压入堆
 func Remove(h Interface, i int) interface{} //删除第i个节点元素
 ```
 
-# 参考资料
+# 学习资料
+- [CS-Notes/notes/算法 - 排序.md](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%AE%97%E6%B3%95%20-%20%E6%8E%92%E5%BA%8F.md)
 - [十大经典排序算法（动图演示）](https://www.cnblogs.com/onepixel/p/7674659.html)
 - [[译] 排序算法入门 — GO 语言实现](http://blog.studygolang.com/2017/07/sorting-algorithms-primer/)
 - [bigocheatsheet](http://bigocheatsheet.com/)
@@ -550,3 +551,4 @@ func Remove(h Interface, i int) interface{} //删除第i个节点元素
 # Changelog
 - 2019/07/22：添加不稳定排序算法（选择排序，希尔排序，快速排序，堆排序）的分析例子
 - 2019/07/22：添加非比较排序算法实现
+- 2019/09/11：添加[CS-Notes/notes/算法 - 排序.md](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%AE%97%E6%B3%95%20-%20%E6%8E%92%E5%BA%8F.md)
