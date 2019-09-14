@@ -149,7 +149,7 @@ queue.Len() != 0
 - [Leetcode 225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)
 - 解决思路
     - 队列q1负责入栈
-    - 队列q2负责辅助出栈，将队列q1倒到q2直到剩下最后一个元素，弹出q1中最后一个元素。将q2中的东西倒回q2。
+    - 队列q2负责辅助出栈，将队列q1倒到q2直到剩下最后一个元素，弹出q1中最后一个元素。将q2中的元素倒回q1。
 
 ```go
 import "container/list"
@@ -209,7 +209,7 @@ func (this *MyStack) Empty() bool {
 - [Leetcode 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 - 解决思路
     - 栈s1负责元素入队列
-    - 栈s2负责出队列，当栈s2为空时将栈s1中的元素倒到栈s2中。
+    - 栈s2负责辅助出队列，当栈s2为空时将栈s1中的元素倒到栈s2中。
 
 ```go
 import "container/list"
