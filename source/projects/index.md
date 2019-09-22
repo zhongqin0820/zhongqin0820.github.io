@@ -1,30 +1,55 @@
 ---
 title: projects
 date: 2019-05-03 21:52:12
-updated: 2019-05-06 14:17:36
+updated: 2019-09-22 12:27:26
 comments: false
 layout: projects
 ---
-# 实习项目：告警系统(2个月)
-- 时间：2017年11月、2018年7月
+# 个人项目：AddMeDouban（Go）
+- 时间：2019.8-至今
+
+## 描述
+基于豆瓣的交友平台，通过IP得到对应的地理信息，用户可以通过指定性别属性以及年龄段和地理信息来搜索用
+户
 
 ## 所用技术
-- 涉及硬件raspberry pi的环境搭建、告警生态系统搭建、以及核心业务系统实现。
+- 后端：Web框架Gin，鉴权使用JWT，数据库使用MongoDB，设置的数据保留策略为一天
+- 前端：Bootstrap，JQuery，HTML，CSS，ECharts.js
+- 部署：利用Gitlab-CI结合Heroku进行自动化部署
+- 在线地址：[https://lezen1.herokuapp.com](https://lezen1.herokuapp.com)
+
+# 个人项目：2a-sieve-4db（Python）
+- 时间：2019.8-至今
+
+## 描述
+从豆瓣用户中过滤得到和自己具有一定匹配度（共同喜好）的用户。 项目具备较完善的文档。
+
+## 所用技术
+- 网页解析相关的内容：BeautifulSoup以及正则表达式；
+- 数据存储：SQLite
+- 部署：Docker以及Shell脚本和项目配置相关模块configparser
+- 项目地址：[https://github.com/zhongqin0820/2a-sieve-4db](https://github.com/zhongqin0820/2a-sieve-4db)
+
+# 实习项目：告警系统(2个月)
+- 时间：2018年7月
+
+## 所用技术
+- 涉及硬件Raspberry Pi的环境搭建、告警生态系统搭建、以及核心业务系统实现。
 
 ### 外部系统搭建
 #### 硬件raspberry pi的环境搭建
-- raspberry pi（采集IoT数据）
-- python 3（采集IoT数据，并使用requests模块发送至influxdb）
+- Raspberry Pi（采集IoT数据）
+- Python 3（采集IoT数据，并使用requests模块发送至influxdb）
 
 #### 告警生态系统搭建
-- grafana v5（数据绘制面板）
-- influxdb v1.7（时序型数据库）
+- Grafana v5（数据绘制面板）
+- InfluxDB v1.7（时序型数据库）
 
 ### 核心业务系统实现
 - ~~nginx~~：由于部署在云平台[heroku](https://www.heroku.com)，所以实际未使用。
-- node.js v8
-- mongodb v3
-- docker（自动化部署）
+- Node.js v8
+- MongoDB v3
+- Docker（自动化部署）
 
 ## 实现细节
 下面是整个系统的示意图，点击查看大图。
@@ -33,16 +58,16 @@ layout: projects
 </div>
 
 ### 外部系统
-#### 硬件平台raspberry pi
+#### 硬件平台Raspberry Pi
 [代码及相关说明地址](https://github.com/XiaoguTech/rta-simulator/tree/master/iot)。
-搭建硬件数据采集平台，并使用python处理数据后，利用requests模块发送至influxdb。功能包括：
+搭建硬件数据采集平台，并使用Python处理数据后，利用requests模块发送至InfluxDB。功能包括：
 - 硬件搭建：主要涉及使用组件的接线问题
 - 数据采集：根据使用模块数据的传输位置读取数据（所用DS18B20通过总线传输数据，查询手册找到对应的地址）
-- 数据发送：可以使用requests模块将数据发送给influxdb所在服务器
+- 数据发送：可以使用requests模块将数据发送给InfluxDB所在服务器
 
-#### influxdb与grafana
-[代码及相关说明地址](https://github.com/XiaoguTech/rta-simulator)：包括一些配置修改。部署时，在修改部分配置下，使用其docker file构建得到docker image后运行容器实例。
-- 主要根据influxdb中的数据，拉取数据进行绘制，为了能够公开访问图表，使用匿名组织画图
+#### InfluxDB与Grafana
+[代码及相关说明地址](https://github.com/XiaoguTech/rta-simulator)：包括一些配置修改。部署时，在修改部分配置下，使用其Docker file构建得到Docker image后运行容器实例。
+- 主要根据InfluxDB中的数据，拉取数据进行绘制，为了能够公开访问图表，使用匿名组织画图
 
 ### 告警业务系统
 - 基于[OpenKB](https://github.com/mrvautin/openKB)进行再开发得到。项目代码地址：[Github](https://github.com/XiaoguTech/rta-monitor)。
@@ -50,7 +75,7 @@ layout: projects
     - 告警展示与推送： 可以查看不同分类下的数据监控信息以及自动获取报警推送和查看对应报警的解决方案文章。
     - 添加告警平台组织的管理
     - 添加告警平台组织下用户的管理
-    - 添加告警面板与告警帮助文章的管理：主要是grafana对应panel链接和OpenKB中帮助文档的关联管理
+    - 添加告警面板与告警帮助文章的管理：主要是Grafana对应panel链接和OpenKB中帮助文档的关联管理
 
 ## 其它
 在完成上述系统搭建之余，完成关于了90%的[Grafana汉化工作](https://github.com/XiaoguTech/grafana)，很可惜没能坚持完成。

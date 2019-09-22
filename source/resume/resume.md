@@ -1,23 +1,23 @@
 ---
 title: resume in chinese
 date: 2019-05-03 21:47:12
-updated: 2019-05-06 12:56:36
+updated: 2019-09-22 12:16:54
 comments: false
 layout: resume
 ---
 # 钟琴
 - 电子邮箱: [zhongq26@mail2.sysu.edu.cn](mailto:zhongq26@mail2.sysu.edu.cn)
 - [CV in English](https://cvblogs.cn/resume/resume_en.html)
-- [**PDF 版本下载**](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/resume/13202052146%E9%92%9F%E7%90%B4.pdf)
+- [**PDF 版本下载**](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/resume/中山大学-硕士-钟琴-13202052146.pdf)
 
 # 个人技能
 ## 专业技能
-- 机器学习：熟悉
 - Web开发：熟悉
+- 数据结构与算法：熟悉
 - 网络爬虫：了解
 - 并发编程：了解
 - CI/CD：了解
-- 数据结构与算法：熟悉
+- 机器学习：熟悉
 
 ## 技术产品
 - 机器学习框架
@@ -56,22 +56,20 @@ layout: resume
 # 教育背景
 ## 研究生阶段
 - 广东，广州，中山大学（2018-至今）
-- 计算机技术
+- 工程（计算机技术）（4.2/5.0）
 - **研究方向**：机器学习（半监督学习、字典学习、主动学习）
 
 ### 获奖情况
-- 1次三等奖学金
+- 1次二等，1次三等奖学金
 
 ## 本科阶段
 - 辽宁，沈阳，东北大学（2014-2018）
 - 计算机科学与工程（3.8/5.0）
 
 ### 获奖情况
-- 1次一等奖学金，3次二等奖学金，3次国家励志奖学金
-- 1次优秀团员，2次优秀团员标兵，1次优秀大学生荣誉称号
+- 1次一等奖学金，3次二等奖学金
 
 # 论文发表
-
 - Yang M., **Zhong Q.**, Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshop. **In Progress**
 
-- **Zhong Q.**, Yang M., Zhang T. (2018) Semi supervised Dictionary Active Learning for Pattern Classification. PRCV 2018. [**Link**](https://link.springer.com/chapter/10.1007/978-3-030-03338-5_47).
+- **Zhong Q.**, Yang M., Zhang T. (2018) Semi supervised Dictionary Active Learning for Pattern Classification. PRCV. [**Link**](https://link.springer.com/chapter/10.1007/978-3-030-03338-5_47).
