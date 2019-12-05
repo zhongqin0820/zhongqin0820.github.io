@@ -150,10 +150,12 @@ cmd + shift + h     #进入Home目录
 cmd + shift + a     #进入Application目录
 ```
 
-# 参考资料
+# 学习资料
 - [Linux中more和less命令用法](https://www.cnblogs.com/aijianshi/p/5750911.html)
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)：较为简要，依旧需要自己去多动手练习
+- [nohup 详解](https://www.cnblogs.com/jinxiao-pu/p/9131057.html)：挂起当前进程
 
 # Changelog
 - 2019/06/08：修改格式内容，添加端口参看命令`lsof -i:22`及`dig`命令。
 - 2019/07/30：添加ack，以及item2中与console 屏幕相关的一些操作和一些Finder相关快捷键
-
+- 2019/10/17：添加[jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)

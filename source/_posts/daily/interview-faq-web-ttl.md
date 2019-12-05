@@ -62,6 +62,7 @@ tags:
 ### 问题
 - 为什么不是两次握手：第三次握手存在的意义是为了避免由于网络时延引起的A超时重传，旧的连接请求被B接收导致B建立两个连接的情况。
 - 太多SYN_RCVD的分析及解决方法：后文提到，首先描述为什么出现这个状态，再分析可能出现大量该状态的原因并对应的解决办法。
+- [握手过程协商了什么内容](https://www.baidu.com)：如最大窗口值、是否使用窗口扩大选项和时间戳选项以及服务质量等
 
 ## 四次挥手
 ### 描述
@@ -251,11 +252,10 @@ sysctl -w net.ipv4.tcp_syncookies=1        #启用使用syncookies
 sysctl -w net.ipv4.tcp_synack_retries=1    #降低syn重试次数
 ```
 
-# 参考资料
+# 学习资料
 - [IP头，TCP头，UDP头，MAC帧头定义](https://www.cnblogs.com/li-hao/archive/2011/12/07/2279912.html)
 - [解决 Linux 下 TIME_WAIT 和 CLOSE_WAIT 过多的问题](https://blog.minhow.com/2018/04/15/linux/solve-time-and-close-wait/)
 - [对服务器上出现大量的SYN_RCVD状态的TCP连接的问题分析](https://daviswang.iteye.com/blog/819176)
 - [TCP CLOSE_WAIT 过多解决方案](https://blog.51cto.com/jin771998569/1688253)
 
-# TODO
-- [ ] 2019/06/08: 需要完成iptables与ifconfig的使用说明
+[//]: # (- [ ] 2019/06/08: 需要完成iptables与ifconfig的使用说明)

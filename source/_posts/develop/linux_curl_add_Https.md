@@ -9,7 +9,7 @@ tags:
 - Linux
 ---
 # 前言
-系统时Ubuntu 16.04 今天有需要使用`curl`命令`down`一些`https`的内容。提示`Protocol https not supported or disabled in libcurl`。用`curl -V`一看发现支持的协议果然缺了`https`...上网查了一些资料，历经坎坷。总算最后解决了问题。整理备忘一下。
+今天有需要使用`curl`命令`down`一些`https`的内容。提示`Protocol https not supported or disabled in libcurl`。用`curl -V`一看发现支持的协议果然缺了`https`...上网查了一些资料，历经坎坷。总算最后解决了问题。整理备忘一下。
 
 <!-- more -->
 # openssl

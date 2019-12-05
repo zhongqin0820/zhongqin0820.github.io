@@ -52,7 +52,11 @@ docker volume create
 # 结束语
 关于Docker的使用需要通过实际的项目去熟悉，如果只是知道一些概念会造成自己已经学会，但真正到使用的时候依旧无法手写Dockerfile...
 
-# 参考链接
+# 学习资料
+- [Docker命令行详解](http://www.ha97.com/5741.html)：简洁明了，清晰易懂，推荐学习
 - [Docker入门教程](http://www.docker.org.cn/book/docker/what-is-docker-16.html)
 - [docker-compose.yml 配置文件编写详解](https://blog.csdn.net/qq_36148847/article/details/79427878)
 - [使用docker-compose 大杀器来部署服务 上](https://www.cnblogs.com/neptunemoon/p/6512121.html)
+
+# Changelog
+- 2019/10/18：添加[Docker命令行详解](http://www.ha97.com/5741.html)

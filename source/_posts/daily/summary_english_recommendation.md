@@ -38,6 +38,7 @@ tags:
 ## 网站/APP
 - [CastBox](https://castbox.fm/)：收听有声读物或广播节目，推荐频道：[Luke's English Podcast](https://teacherluke.co.uk/)
 - [LibriVox](https://librivox.org/)：收听有声读物，经典书籍基本能够在这上面找到对应的有声读物版本
+- [lit2go](https://etc.usf.edu/lit2go/)：相较[LibriVox](https://librivox.org/)，提供分类描述以及文字与在线收听功能
 
 # 说
 ## 书本/文字资料
@@ -64,6 +65,8 @@ tags:
 ## 网站/APP
 - [田间小站](https://www.tianfateng.cn/7399.html)：《经济学人》资源合辑，搭配音频，阅读*Leaders*部分即可。
 - [gen.lib.rus.ec](http://gen.lib.rus.ec)：搜索并下载感兴趣电子刊物资源。
+- [testyourvocab](http://testyourvocab.com/)：通过测试得到你的单词量；通常情况下，大学生母语者单词量约2万～3万
+- [wordcounters](http://wordcounters.com/index.jsp)：查询书籍的单词量；通常情况下，原文书一页约250字。
 
 ## 视频教学
 - 文学基础
@@ -98,3 +101,4 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 - 2019/06/30：添加基于【有道背单词】APP搭建单词管理生态
 - 2019/07/27：添加[ielts-simon.com](https://ielts-simon.com/)的[B站合辑](https://www.bilibili.com/video/av7692222)
 - 2019/07/28：调整内容排版&添加找语伴网站[conversationexchange.com](https://www.conversationexchange.com/)，删除[【鬼屋欢乐送】：第1季](https://search.bilibili.com/all?keyword=%E9%AC%BC%E5%B1%8B%E6%AC%A2%E4%B9%90%E9%80%81)链接
+- 2019/11/16：添加[lit2go](https://etc.usf.edu/lit2go/)、[testyourvocab](http://testyourvocab.com/)及[wordcounters](http://wordcounters.com/index.jsp)

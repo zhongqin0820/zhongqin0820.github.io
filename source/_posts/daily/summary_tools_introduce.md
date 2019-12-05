@@ -1,7 +1,7 @@
 ---
 title: 工作开发中的一些工具推荐
 date: 2017-11-04 22:08:10
-updated: 2019-09-02 13:37:33
+updated: 2019-10-04 17:40:44
 categories:
 - 其它
 
@@ -32,6 +32,7 @@ tags:
 
 ## 实用网站
 - [gen.lib.rus.ec](http://gen.lib.rus.ec/)：英文电子书资源
+- [mvyxws.com](https://www.mvyxws.com/)：医学微视，中国医学科学院健康科普研究中心监制的全分类医学科普视频
 
 # 阅读生态搭建相关工具
 - ~~Calibre：本地图书管理，可以管理由其它阅读媒介导出的图书笔记等。弃，偶尔使用~~
@@ -119,3 +120,4 @@ echo <corresponding ciphertext> | base64 --decode | gzip -d
 - 2019/06/30：重新排版，添加英语学习的索引以及对阅读生态搭建相关工具方面的整理
 - 2019/07/02：添加时间块APP
 - 2019/09/02：添加rsync，[实用的代码片段](#实用的代码片段)，删除 ~~[thatseed](https://www.thatseed.org/)：VPS服务提供商；凉凉于2019年8月~~，删除~~[bookset](https://bookset.me/)：中文电子书资源；凉凉于2019年6月~~~
+- 2019/10/04：添加[医学微视](https://www.mvyxws.com/)

@@ -135,6 +135,9 @@ CDN服务商一般会提供基于文件后缀、目录多个维度来指定CDN�
 
 ## 缓存相关面试问题集锦
 - [缓存相关面试问题总结 - （一）、（二）](https://blog.csdn.net/box_clf/article/category/8431461)
+- [一个经典面试题：如何保证缓存与数据库的双写一致性？](https://zhuanlan.zhihu.com/p/66462064)：这个问题值得思考
+- [高并发和大流量解决方案--数据库缓存](https://www.cnblogs.com/xiaoliwang/p/9327073.html)
+- [数据库缓存的几种方式](https://www.cnblogs.com/hadley/p/9557596.html)
 
 # Changelog
 - 2019/09/11：第一版内容

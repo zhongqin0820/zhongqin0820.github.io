@@ -1,5 +1,5 @@
 ---
-title: 知识梳理：哈希
+title: 知识梳理：哈希相关
 date: 2019-09-23 23:02:28
 updated: 2019-09-24 20:34:55
 categories:
@@ -9,13 +9,15 @@ tags:
 - 学习总结
 ---
 # 前言
-梳理总结哈希相关的基础概念。包括专有名词的解释：`hash 函数`，`hash 地址`，`hash 查找表`，`hash 表`；常见的`hash 函数`以及如何解决`hash 碰撞`的问题；简单介绍了`hash 的应用`以及关于hash从数据结构上会问的面试题。很多大数据面试题都可以利用hash的思想进行分治大任务，主要的思想是利用了通过`再hash`的输入输出数据分布一致性，且相同的内容会被hash到一台机器而不同内容会被分流到不同机器的特性，再在各台机器上对其进行处理，最后归并结果，从而起到分流的目的。
+梳理总结哈希相关的基础概念。包括专有名词的解释：`hash 函数`，`hash 地址`（`hash code`），`hash 查找表`，`hash 表`；常见的`hash 函数`以及如何解决`hash 碰撞`的问题；简单介绍了`hash 的应用`以及关于hash从数据结构上会问的面试题。很多大数据面试题都可以利用hash的思想进行分治大任务，主要的思想是利用了通过`再hash`的输入输出数据分布一致性，且相同的内容会被hash到一台机器而不同内容会被分流到不同机器的特性，再在各台机器上对其进行处理，最后归并结果，从而起到分流的目的。
 
 <!-- more -->
 # hash
 ## 专有名词
 - hash 函数：是一种**压缩映射**，输入空间远大于输出空间，不同的输入可能会hash成相同的输出
     - 公式：$$ 固定长度输出 = hash(任意长度的输入) $$
+    - [time33算法](https://www.cnblogs.com/napoleon_liu/articles/1911571.html)：`hash(i) = hash(i-1) * 33 + str[i]` 
+- hash 地址：也被叫做hash code，是hash 函数的输出，一个好的hash 函数得到的hash code应该尽可能随机分布到hash 空间（hash函数对应的值域）。
 - hash map：也叫做hash表，为与hash查找表作区分，将使用hash map来作说明。hash map是一种以`键-值(key-value)`存储数据的结构，我们只要输入待查找的值即`key`，即可查找到其对应的值`value`。
     - 如果所有的`key`都是整数，那么就可以使用一个简单的无序数组来实现：将`key`作为索引，值即为其对应的值，这样就可以快速访问任意键的值。
     - 这是对于简单的`key`的情况，我们将其扩展到可以处理更加复杂的类型的`key`（如`字符串`等）的时候就需要利用到`hash函数`得到对应的`key`。
@@ -65,7 +67,7 @@ $$ \alpha = \frac{填入表中的元素个数}{散列表的长度} $$
 - RC4
 
 #### 消息认证码
-MAC, Mesasge Authentication Code；需要配合单向哈希实现，需要避免"重放攻击"的影响。
+MAC, Message Authentication Code；需要配合单向哈希实现，需要避免"重放攻击"的影响。
 
 ### 非对称加密
 利用的是余数的特点，加密时：`密文 = 明文 ** E mod N`，则`明文 = 密文 ** D mod N`
@@ -93,7 +95,7 @@ MAC, Mesasge Authentication Code；需要配合单向哈希实现，需要避免
 - 并发下载的文件在下载完成后需要将文件块进行组装，在组装时校验文件块是否完整/正确。
 
 ## hash函数
-hash函数是设计一个hash查找表的关键，hash查找表决定hash map的查找效率。
+hash函数是设计一个hash查找表的关键，一个好的hash函数映射相近输入得到的输出（即：hash code）应该是尽可能随机的，hash查找表决定hash map的查找效率。
 
 ## 分布式场景
 ### 一致性hash
@@ -121,7 +123,13 @@ hash函数是设计一个hash查找表的关键，hash查找表决定hash map的
 - 《浅谈 Go 语言实现原理》：[3.2 哈希表](https://draveness.me/golang/datastructure/golang-hashmap.html)
 - [由浅入深聊聊Golang的map](https://blog.csdn.net/u011957758/article/details/82846609)
 
-数据结构：hash查找表使用的是基于位图的思想，先得到key所在的bucket，然后使用tophash通过高八位的topbits获得带查询的键值对在bucket中的具体位置，解决碰撞的方法是"拉链法"。
+数据结构：hash查找表使用的是基于位图的思想，先得到key所在的bucket，然后使用tophash通过高八位的topbits获得待查询的键值对在bucket中的具体位置，解决碰撞的方法是"拉链法"。
+
+### Golang中map的扩容缩容过程
+
+## Redis中的渐进式哈希原理
+Redis作为键值类型的数据库，底层实现利用的是hash map，涉及扩容，缩容操作。
+- [redis渐进式rehash机制](https://www.cnblogs.com/williamjie/p/11205593.html)
 
 # 参考资料
 - [【算法】理解哈希算法 hash 和常见应用](https://blog.csdn.net/sscc_learning/article/details/88658511)
@@ -132,3 +140,4 @@ hash函数是设计一个hash查找表的关键，hash查找表决定hash map的
 
 # Changelog
 - 2019/09/24：第一版内容
+- 2019/10/18：添加[Redis中的渐进式哈希原理](#Redis中的渐进式哈希原理)
