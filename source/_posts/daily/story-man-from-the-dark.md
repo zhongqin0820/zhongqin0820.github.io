@@ -1,5 +1,5 @@
 ---
-title: story of the man from the dark
+title: story of man from the dark
 date: 2019-10-13 10:35:53
 updated: 2019-11-24 16:18:18
 categories:

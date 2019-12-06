@@ -1,7 +1,7 @@
 ---
 title: resume in english
 date: 2019-05-03 21:47:12
-updated: 2019-05-06 14:02:36
+updated: 2019-09-22 12:16:54
 comments: false
 layout: resume
 ---
@@ -40,8 +40,8 @@ layout: resume
 
 - Used
     - Matlab: One year
-    - C++: A half year
-    - Java: A half year
+    - C++: Six Months
+    - Java: Six Months
     - Node.js（JavaScript）: Three months
     - HTML 5: Three months
     - CSS 3: Three months
@@ -60,6 +60,7 @@ layout: resume
 - Major Researches: Machine Learning(Semi-supervised Learning, Dictionary Learning, Active Learning)
 
 ### Awards
+- Second-class scholarship: Once
 - Third-class scholarship: Once
 
 ## Bachelor of Science
@@ -69,7 +70,6 @@ layout: resume
 ### Awards
 - First-class scholarship: Once
 - Second-class scholarship: Three times
-- National encouragement scholarship: Three times
 - Honorary title of outstanding university student: Once
 
 # Publications
