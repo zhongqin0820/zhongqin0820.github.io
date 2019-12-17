@@ -1,14 +1,13 @@
 ---
 title: resume in chinese
 date: 2019-05-03 21:47:12
-updated: 2019-09-22 12:16:54
+updated: 2019-12-17 20:18:54
 comments: false
 layout: resume
 ---
 # 钟琴
 - 电子邮箱: [zhongq26@mail2.sysu.edu.cn](mailto:zhongq26@mail2.sysu.edu.cn)
 - [CV in English](https://cvblogs.cn/resume/resume_en.html)
-- [**PDF 版本下载**](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/resume/中山大学-硕士-钟琴-13202052146.pdf)
 
 # 个人技能
 ## 专业技能
@@ -23,12 +22,10 @@ layout: resume
 - 机器学习框架
     - PyTorch：了解并使用过
     - TensorFlow：了解并使用过
-
 - 数据库产品
     - MySQL：了解并使用过
     - MongoDB：了解并使用过
     - InfluxDB：了解并使用过
-
 - 其它
     - Docker：了解底层实现、熟悉配置及使用
     - Grafana：熟悉配置及使用
@@ -70,6 +67,5 @@ layout: resume
 - 1次一等奖学金，3次二等奖学金
 
 # 论文发表
-- Yang M., **Zhong Q.**, Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshop. **In Progress**
-
+- Yang M., **Zhong Q.**, Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshops. [**Link**](https://dblp.org/rec/html/conf/icmcs/YangZCHL19)
 - **Zhong Q.**, Yang M., Zhang T. (2018) Semi supervised Dictionary Active Learning for Pattern Classification. PRCV. [**Link**](https://link.springer.com/chapter/10.1007/978-3-030-03338-5_47).

@@ -1,7 +1,7 @@
 ---
 title: resume in english
 date: 2019-05-03 21:47:12
-updated: 2019-09-22 12:16:54
+updated: 2019-12-17 20:17:40
 comments: false
 layout: resume
 ---
@@ -11,33 +11,30 @@ layout: resume
 
 # Skills I mastered
 ## Specialized Skills
-- Machine Learning: Familiar
-- Web development: Familiar
-- Crawler: Known
-- Concurrent Programming: Known
-- CI/CD: Known
-- Data Structure and Algorithm: Familiar
+- Web development: Skilled
+- Data Structure and Algorithm: Skilled
+- Crawler: Common
+- Concurrent Programming: Common
+- CI/CD: Common
+- Machine Learning: Skilled
 
-## Techniques
+## Specialized Frameworks
 - ML frameworks
-    - PyTorch: Known and Used
-    - TensorFlow: Known and Used
-
+    - PyTorch: Common and Used
+    - TensorFlow: Common and Used
 - DB products
-    - MySQL: Known and Used
-    - MongoDB: Known and Used
-    - InfluxDB: Known and Used
-
+    - MySQL: Common and Used
+    - MongoDB: Common and Used
+    - InfluxDB: Common and Used
 - Others
-    - Grafana: Familiar and Used
-    - Docker: Known and Used
+    - Grafana: Skilled and Used
+    - Docker: Common and Used
     - Cocos2dX: Used
 
 ## Programming Languages
-- Familiar
+- Skilled
     - Python: One and a half year
     - Golang: One year
-
 - Used
     - Matlab: One year
     - C++: Six Months
@@ -73,7 +70,5 @@ layout: resume
 - Honorary title of outstanding university student: Once
 
 # Publications
-
-- Yang M., **Zhong Q.**, Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshop. **In Progress**
-
+- Yang M., **Zhong Q.**, Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshops. [**Link**](https://dblp.org/rec/html/conf/icmcs/YangZCHL19)
 - **Zhong Q.**, Yang M., Zhang T. (2018) Semi supervised Dictionary Active Learning for Pattern Classification. PRCV 2018. [**Link**](https://link.springer.com/chapter/10.1007/978-3-030-03338-5_47).
