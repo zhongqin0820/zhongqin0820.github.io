@@ -9,7 +9,7 @@ tags:
 - 写作练习
 ---
 # Introduction
-I made up this story when I suffered the loss of chasing a job offer in the 2019's season of on-campus recruitment. At the very beginning, the first conversation was written before I got a job opportunity and the remains were after I received three job offers. Thus, this story might not quite consistent in the feelings.
+I made up this story when I suffered the loss of chasing a job offer in the 2019's season of on-campus hiring. At the very beginning, the first conversation was written before I got a job opportunity and the remains were after I received three job offers. Thus, this story might not quite consistent in the feelings.
 
 Spoiler: the whole story is mainly about a small talk between me and a man who said that he was I but from a parallel space-time and 15 years older than me. Obviously, the narrator isn't the true me in reality. I share this story because it's funny when you review your naive but pretending profound thought when you were suffering some difficulties that you considered you cannot conquer at a young age. Hope you'll also enjoy this made-up story with fun.
 
@@ -64,6 +64,8 @@ Suddenly, a strong white light came into my eyes without precognition before I c
 - 2019/10/29：First edition.
 - 2019/11/20：Modify the tense. As a note, the past tense is commonly used in a story. Second edition.
 - 2019/11/24：Grammar checking. Third edition.
+
+[//]: # (- 2019/12/09：Change recruitment to hiring.)
 
 ## Lines in Maleficent
 - 2019/11/23：At my first edition, I made up the story somewhat like the same as this unexpected clip below which I came across in *Maleficent*.
