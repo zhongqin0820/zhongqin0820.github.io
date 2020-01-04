@@ -3,14 +3,14 @@ title: 博客开发
 categories: 其它
 tags: 修复问题
 date: 2017-08-05 19:11:50
-updated: 2020-01-04 21:42:01
+updated: 2020-01-04 22:49:45
 ---
 # 博客正在完善中
 记录博客功能更新日志。
 
 <!-- more -->
 # Changelog
-- [x] 2020/01/04: Remove cnzz related snippet & setting.
+- [x] 2020/01/04: Remove cnzz related snippet & setting. Add copyright template.
 - [x] 2019/12/06: Add AdSense ads plugin for testing the function.
 - [x] 2019/09/09: fix images & equation failed rendering issues
 - [x] 2019/09/07: fix rss order_by issue by `npm install hexo-generator-feed@2.0.0` & change duolingo icon by adding a hover feature & flip the logs(sort by descending the date) 
