@@ -1,7 +1,7 @@
 ---
 title: 一些容易被我忘记的控制台命令以及快捷键
 date: 2017-11-05 19:47:26
-updated: 2019-07-30 21:37:44
+updated: 2020-02-14 21:08:16
 categories:
 - 网页开发
 tags:
@@ -154,8 +154,11 @@ cmd + shift + a     #进入Application目录
 - [Linux中more和less命令用法](https://www.cnblogs.com/aijianshi/p/5750911.html)
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)：较为简要，依旧需要自己去多动手练习
 - [nohup 详解](https://www.cnblogs.com/jinxiao-pu/p/9131057.html)：挂起当前进程
+- [The Unix Workbench](https://www.coursera.org/learn/unix)：推荐学习
+    - [seankross/the-unix-workbench](https://github.com/seankross/the-unix-workbench):  A Book for Anyone to Get Started with Unix [http://seankross.com/the-unix-workbench/](https://seankross.com/the-unix-workbench/)
 
 # Changelog
 - 2019/06/08：修改格式内容，添加端口参看命令`lsof -i:22`及`dig`命令。
 - 2019/07/30：添加ack，以及item2中与console 屏幕相关的一些操作和一些Finder相关快捷键
 - 2019/10/17：添加[jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+- 2020/02/14：添加[seankross/the-unix-workbench](https://github.com/seankross/the-unix-workbench)、[The Unix Workbench](https://www.coursera.org/learn/unix)
