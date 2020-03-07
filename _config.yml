@@ -93,7 +93,7 @@ deploy:
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm') }}"
   repo:
     github: git@github.com:zhongqin0820/zhongqin0820.github.io.git
-  branch: test
+  branch: master
 exclude:
   - images/**
 
