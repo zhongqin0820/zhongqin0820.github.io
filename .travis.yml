@@ -1,0 +1,44 @@
+sudo: false
+language: node_js
+node_js:
+  - 10 # use nodejs v10 LTS
+cache: npm
+branches:
+  only:
+    - source-articles # build source branch only
+env:
+  global:
+    - GITHUB_TOKEN: "${GITHUB_TOKEN}"
+    - EMAIL: "${EMAIL}"
+    - SUB_EMAIL: "${SUB_EMAIL}"
+    - USERNAME: "${USERNAME}"
+    - GIT_CLIENT: "${GIT_CLIENT}"
+    - GIT_SECRET: "${GIT_SECRET}"
+    - UA: "${UA}"
+before_install:
+  - git clone -b theme-hiero-config https://github.com/${USERNAME}/${USERNAME}.github.io.git themes/hiero
+  - cd ./themes/hiero
+  - cp _config_common.yml _config.yml
+  - sed -in-place -e "s/Github:/Github:\ https:\/\/github.com\/${USERNAME}/" _config.yml
+  - sed -in-place -e "s/email:/email:\ ${EMAIL}/" _config.yml
+  - sed -in-place -e "s/\ \ rss:/\ \ rss:\ \/atom.xml/" _config.yml
+  - sed -in-place -e "s/duolingo:/duolingo:\ https:\/\/duome.eu\/anoni15/" _config.yml
+  - sed -in-place -e "s/githubID:/githubID:\ ${USERNAME}/" _config.yml
+  - sed -in-place -e "s/repo:/repo:\ ${USERNAME}.github.io/" _config.yml
+  - sed -in-place -e "s/ClientID:/ClientID:\ ${GIT_CLIENT}/" _config.yml
+  - sed -in-place -e "s/ClientSecret:/ClientSecret:\ ${GIT_SECRET}/" _config.yml
+  - sed -in-place -e "s/google_analytics:/google_analytics:\ \"${UA}\"/" _config.yml
+  - sed -in-place -e "s/wechatImage:/wechatImage:\ https:\/\/raw.githubusercontent.com\/${USERNAME}\/${USERNAME}.github.io\/source-articles\/source\/images\/site\/donate\/wechat.png/" _config.yml
+  - sed -in-place -e "s/alipayImage:/alipayImage:\ https:\/\/raw.githubusercontent.com\/${USERNAME}\/${USERNAME}.github.io\/source-articles\/source\/images\/site\/donate\/alipay.png/" _config.yml
+  - cd ../../
+  - npm install -g hexo-cli
+install:
+  - npm install
+script:
+  - hexo generate
+after_success:
+  - git config --global user.name '${USERNAME}'
+  - git config --global user.email '${SUB_EMAIL}'
+  - sed -in-place -e "s/git@/https:\/\/${GITHUB_TOKEN}@/" _config.yml
+  - sed -in-place -e "s/github.com:${USERNAME}/github.com\/${USERNAME}/" _config.yml
+  - hexo deploy

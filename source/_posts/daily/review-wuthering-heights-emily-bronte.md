@@ -54,7 +54,7 @@ From the genealogy, you could easily distinguish the characters and how the stor
 
 <div style="width: 300px; margin: auto">
 
-![Genealogy of Wuthering Heights](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/genealogy-wuthering-heights.jpg)
+![Genealogy of Wuthering Heights](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/review/genealogy-wuthering-heights.jpg)
 </div>
 
 ## Links

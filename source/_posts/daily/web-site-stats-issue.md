@@ -12,7 +12,7 @@ tags:
 最近想要绑定新的域名，因为不想备案，而国内不备案的主机只要有https不备案也可以访问，加之一直用的cloudflare的服务，非常方便。一直以来，都觉得这个网站应该只有爬虫或者搜索引擎会访问。但是，居然在cloudflare的数据统计处看到有10k+的SSL请求/月。好迷的数据。
 <div style="width: 300px; margin: auto">
 
-![cloudflare stat](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/tools/cloudflare-stat.png)
+![cloudflare stat](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/tools/cloudflare-stat.png)
 </div>
 
 <!-- more -->

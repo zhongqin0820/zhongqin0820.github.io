@@ -30,7 +30,7 @@ Barrier模式也叫同步屏障模式，属于一种实现同步操作的并发�
 
 <div style="width: 300px; margin: auto">
 
-![示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/concurrency_barrier.png)
+![示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/pattern/concurrency_barrier.png)
 </div>
 
 # 样例代码

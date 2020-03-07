@@ -20,21 +20,21 @@ tags:
 ## Lecture1 CV Introduction
 第一课是关于计算机视觉中基础知识的介绍以及整个课程会接触到的内容的学习。了解计算机视觉所研究的是从二维图像中得到三维世界的语意信息。
 
-![The Ability of Computer to See](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/1%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E9%A2%86%E5%9F%9F.png)
+![The Ability of Computer to See](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/1%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E9%A2%86%E5%9F%9F.png)
 
 在这个过程中，常常将图像当作一个函数$f \left ( x , y \right ) $,它是一个离散的关于像素点的函数。常用一个矩阵表示一张图像，其元素是0(黑)～255(白)的灰度值。分辨率则是由图像的像素长宽确定(屏幕的分辨率通常是固定的，但是可以向下调整，分辨率越高图像越细腻)。还介绍了图片的格式(不同的格式只是压缩编码的方式不同)。也介绍了视频的基本属性。依照人眼的构造，视频帧数每秒30帧就可以达到流畅的基本要求。
 现今的射影设备都是基于孔洞模型(Pin Hole)进行射影变换。
 
-![Pin Hole Model](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/2Pin%20Hole%20Model.png)
+![Pin Hole Model](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/2Pin%20Hole%20Model.png)
 
 三维空间中的点$(x,y,z)$通过镜片投影到图像平面上的点$\left ( x,y\right )$。
 由以上这个模型，我们就很容易想到：应该如何通过二维图像恢复被摄物体在三维世界中的几何信息呢？
 
-![三维重构理论](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/3%E4%BB%8E%E4%BA%8C%E7%BB%B4%E5%9B%BE%E5%83%8F%E6%81%A2%E5%A4%8D%E4%B8%89%E7%BB%B4%E4%BF%A1%E6%81%AF.png)
+![三维重构理论](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/3%E4%BB%8E%E4%BA%8C%E7%BB%B4%E5%9B%BE%E5%83%8F%E6%81%A2%E5%A4%8D%E4%B8%89%E7%BB%B4%E4%BF%A1%E6%81%AF.png)
 
 这里不再细展开。以及，CV的应用有哪些：
 
-![CV Application](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/4CV%20Applicatioin.png)
+![CV Application](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/4CV%20Applicatioin.png)
 
 ## Lecture2 Filtering
 第二节课是CV领域最最基础的一个概念--滤波(Filtering)。我的[第一篇博文](https://cvblogs.cn/2017/08/11/theory/image_processing_operation1/)，翻译的就是整理关于滤波操作的知识。
@@ -50,19 +50,19 @@ tags:
 
 因为这些值元素的存在，引入一个图像直方图去直观描述它的比重信息。
 
-![直方图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/5%E7%9B%B4%E6%96%B9%E5%9B%BE.png)
+![直方图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/5%E7%9B%B4%E6%96%B9%E5%9B%BE.png)
 
 由于各种内外界不稳定因素的干扰，图像并不总是"干净"的,总是有这样那样的噪声(通常高频信息是噪声-变化明显，变现的特征就是高频信息)。噪声叠加原图像得到被污染后的图像。(高斯噪声即噪声的分布符合高斯分布！)
 
-![噪声来源](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/6%E5%99%AA%E5%A3%B0%E6%9D%A5%E6%BA%90.png)
+![噪声来源](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/6%E5%99%AA%E5%A3%B0%E6%9D%A5%E6%BA%90.png)
 
 接着为引入滤波的概念，介绍了基本的数学运算：求导(Derivative，包括连续的和离散的即查分：向前、向后、中心，接着从一维引申到二维（图像是一个二维矩阵），接着提到了相关(Correlation)以及卷积(Convolution))以及求均值(Average/Mean)。
 
-![求导(梯度)](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/7%E4%BA%8C%E7%BB%B4%E6%B1%82%E5%AF%BC%28%E6%A2%AF%E5%BA%A6%29.png)并且，还提到了掩膜(Mask)的概念。
+![求导(梯度)](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/7%E4%BA%8C%E7%BB%B4%E6%B1%82%E5%AF%BC%28%E6%A2%AF%E5%BA%A6%29.png)并且，还提到了掩膜(Mask)的概念。
 
 高斯分布的重要意义：
 
-![高斯属性](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/8%E9%AB%98%E6%96%AF%E6%A8%A1%E5%9E%8B%E5%B1%9E%E6%80%A7.png)
+![高斯属性](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/8%E9%AB%98%E6%96%AF%E6%A8%A1%E5%9E%8B%E5%B1%9E%E6%80%A7.png)
 
 由于之前的文章已经梳理过，这里不再赘述。
 

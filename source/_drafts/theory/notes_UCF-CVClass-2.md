@@ -16,9 +16,9 @@ tags:
 ## 相关先导知识
 边缘一般是指图像在某一局部强度剧烈变化的区域。强度变化一般有两种情况(横轴表示空间变化，纵轴表示灰度变化，虚线表示边缘)：
 
-![阶跃变化：向亮渐变的过程](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E4%B8%80%E9%98%B6%E5%AF%BC%E6%95%B0)
+![阶跃变化：向亮渐变的过程](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E4%B8%80%E9%98%B6%E5%AF%BC%E6%95%B0)
 
-![屋顶变化：由暗到亮再变暗的过程](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E4%BA%8C%E9%98%B6%E5%AF%BC%E6%95%B0)
+![屋顶变化：由暗到亮再变暗的过程](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E4%BA%8C%E9%98%B6%E5%AF%BC%E6%95%B0)
 
 边缘检测的任务：找到具有阶跃变化或者屋顶变化的像素点的集合。
 最直观的想法就是<b>求微分</b>。
@@ -36,7 +36,7 @@ tags:
 
 ## 边缘检测器介绍(Edge Detector)
 课程中讲述到的检测器包括：
-![边缘检测器分类](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E8%BE%B9%E7%BC%98%E6%A3%80%E6%B5%8B%E5%99%A8%E5%88%86%E7%B1%BB.png)
+![边缘检测器分类](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E8%BE%B9%E7%BC%98%E6%A3%80%E6%B5%8B%E5%99%A8%E5%88%86%E7%B1%BB.png)
 
 ### Prewitt and Sobel Edge Detector
 属于离散微分算子 (discrete differentiation operator)。利用差分求出$x,y$方向上的梯度，求解梯度的大小，阈值化梯度的大小找到边缘。
@@ -44,12 +44,12 @@ tags:
 #### Prewitt算子
 结合了差分运算与邻域平均的方法。其卷积模板如下：
 
-![Prewitt Operator](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/Prewitt%E6%A3%80%E6%B5%8B%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![Prewitt Operator](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/Prewitt%E6%A3%80%E6%B5%8B%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 #### Sobel算子
 与prewitt算子类似，但考虑到了相邻不同像素点的影响程度是不同的，所以采用加权平均。
 
-![Sobel Operator](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/Sobel%E6%A3%80%E6%B5%8B%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![Sobel Operator](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/Sobel%E6%A3%80%E6%B5%8B%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 ### Marr Hildreth Edge Detector-LoG
 基本步骤：
@@ -57,7 +57,7 @@ tags:
 2. 拉普拉斯滤波后的图像(求$x,y$二阶导)
 3. 找到零点(边缘点)，重复步骤2直到全部找到
 
-![求梯度与拉普拉斯符号的区别](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E6%A2%AF%E5%BA%A6%E7%AC%A6%E5%8F%B7%E5%92%8C%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E7%AC%A6%E5%8F%B7%E7%9A%84%E5%8C%BA%E5%88%AB.png)
+![求梯度与拉普拉斯符号的区别](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E6%A2%AF%E5%BA%A6%E7%AC%A6%E5%8F%B7%E5%92%8C%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E7%AC%A6%E5%8F%B7%E7%9A%84%E5%8C%BA%E5%88%AB.png)
 
 laplacian算子是一些使用二阶微分的算子，实际上就是梯度的散度(可以利用DoG近似求解LoG降低算法时间复杂度的数量级?可以增强对比度！)
 
@@ -65,7 +65,7 @@ LoG计算：不同计算方法，时间复杂度不同
  1. 一个2D laplacian算子$O\left ( n^{2}\right )$
  2. 四个1D的算子组合而成$O\left (4n\right )$
 
-![LoG算子](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/LoG%20Operator)
+![LoG算子](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/LoG%20Operator)
 
 由于 Laplacian使用了图像梯度，它内部的代码其实是调用了 Sobel 算子的。
 
@@ -76,7 +76,7 @@ LoG计算：不同计算方法，时间复杂度不同
 2. <b>高定位性</b>: 标识出的边缘要与图像中的实际边缘尽可能接近。
 3. <b>最小响应</b>: 图像中的边缘只能标识一次，并且可能存在的图像噪声不应标识为边缘。
 
-![Canny算法求解步骤](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/Canny%E7%AE%97%E6%B3%95%E6%B1%82%E8%A7%A3%E6%AD%A5%E9%AA%A4.png)
+![Canny算法求解步骤](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/Canny%E7%AE%97%E6%B3%95%E6%B1%82%E8%A7%A3%E6%AD%A5%E9%AA%A4.png)
 
 特别注意第4步！排除非边缘像素， 仅仅保留了一些细线条(候选边缘).
 

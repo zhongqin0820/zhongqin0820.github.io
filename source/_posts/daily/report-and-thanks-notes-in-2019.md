@@ -20,7 +20,7 @@ In finance management, I restart investing in ETF with not much money. So far, I
 
 <div style="width: 300px; margin: auto">
 
-![screenshot 2019 fund earnings rate](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/report/2019-fund-earnings-rate.jpg)
+![screenshot 2019 fund earnings rate](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/report/2019-fund-earnings-rate.jpg)
 </div>
 Moreover, I have found there is an obvious key factor floats the market this year that is the relationship between our country and the United States. It's funny that every time the stock line drops, investors cursed that it's Trump that tweets stupid words again. All the deals are done in AliPay and as a heavy user of their products, I use it to record my step counts and get-up time records as well as play Ant Forest by collecting green energies :) which I have to admit that all the things are stupid but they quite relieve my anxieties.
 
@@ -28,7 +28,7 @@ Another habit I built that relieves my anxiety is learning Spanish in [Duolingo]
 
 <div style="width: 300px; margin: auto">
 
-![screenshot 2019/12/24 Duolingo Stats](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/report/2019-duome-stats-12-24.jpg)
+![screenshot 2019/12/24 Duolingo Stats](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/report/2019-duome-stats-12-24.jpg)
 </div>
 
 About books, I still use [Douban](http://douban.com/) as my main online reading logs manager but I also start using Goodreads to store those in English and here is my [Year in Books](https://www.goodreads.com/user/year_in_books/2019/89404830).
@@ -43,7 +43,7 @@ Firstly, I have done badly in health management. Shame on myself that I declared
 
 <div style="width: 300px; margin: auto">
 
-![2019/12/21 in WildHiker Group Photo](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/report/2019-wildhiker-12-21.jpg)
+![2019/12/21 in WildHiker Group Photo](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/report/2019-wildhiker-12-21.jpg)
 </div>
 
 Secondly, I have no new publications and no new works done in this year. This is another shame on me. Though I have tried hard the outcomes are not good. Its cause is the negative feedback in the cycle and I resist to do study works in my mind. Hope things will change in the new year or the next days.

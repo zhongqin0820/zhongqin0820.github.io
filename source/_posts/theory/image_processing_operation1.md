@@ -22,7 +22,7 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![Cross-Correlation](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/cross-correlation%E6%96%87%E5%AD%97%E8%A7%A3%E9%87%8A.png)
+![Cross-Correlation](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/cross-correlation%E6%96%87%E5%AD%97%E8%A7%A3%E9%87%8A.png)
 </div>
 
 <font color=#0099ff>二者的区别：</font><u>卷积和协相关的差别是，卷积需要先对滤波矩阵进行<font color=#0099ff>180度的翻转</font>，但如果矩阵是对称的，那么两者就没有什么差别了</u>。实际上，在信号处理领域，卷积有广泛的意义，而且有其严格的数学定义，但在这里不关注这个。2D卷积需要4个嵌套循环(4-double loop)，所以它并不快，除非我们使用很小的卷积核。这里一般使用3x3或者5x5。而且，<u>对于滤波器，也有一定的规则要求</u>：
@@ -43,7 +43,7 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.25.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.25.png)
 </div>
 
 ## 图像锐化滤波器(Sharpness Filter)
@@ -51,28 +51,28 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.44.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.44.png)
 </div>
 
 我们把核加大，就可以得到更加精细的锐化效果
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.52.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.50.52.png)
 </div>
 
 下面的滤波器会更强调边缘。
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.56.05.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.56.05.png)
 </div>
 
 主要是<u>强调图像的细节</u>。最简单的3x3的锐化滤波器如下：
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.53.58.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.53.58.png)
 </div>
 
 实际上是计算当前点和周围点的差别，然后将这个差别加到原来的位置上。另外，<u>中间点的权值要比所有的权值和大于1，意味着这个像素要保持原来的值。</u>
@@ -82,7 +82,7 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.59.54.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2014.59.54.png)
 </div>
 
 相当于做差分(differencing)，求导的离散版本，有向前差分(forward differencing)，向后差分(backward differencing)，中心差分(central differencing)。
@@ -91,28 +91,28 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.08.09.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.08.09.png)
 </div>
 
 再下面这个滤波器可以找到45度的边缘：取-2不为了什么，只是为了让矩阵的元素和为0而已。
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.10.30.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.10.30.png)
 </div>
 
 那下面这个滤波器就可以检测所有方向的边缘。
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.17.38.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.17.38.png)
 </div>
 
 为了检测边缘，我们需要在图像对应的方向计算梯度。用下面的卷积核来卷积图像，就可以了。但在实际中，这种简单的方法<u>会把噪声也放大</u>了。另外，需要注意的是，<u>矩阵所有的值加起来要是0</u>。
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.21.07.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.21.07.png)
 </div>
 
 ## 浮雕(Embossing Filter)
@@ -122,14 +122,14 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.25.28.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.25.28.png)
 </div>
 
 只要加大滤波器，就可以得到更加夸张的效果了
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.27.12.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.27.12.png)
 </div>
 
 ## 均值模糊(Box Filter/Averaging)
@@ -137,14 +137,14 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.29.23.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.29.23.png)
 </div>
 
 可以看到，这个模糊还是比较温柔的，我们可以把滤波器变大，这样就会变得粗暴了：<u>注意要将和再除以13.</u>
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.33.28.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.33.28.png)
 </div>
 
 如果你想要更模糊的效果，加大滤波器的大小即可。或者对图像应用<u>多次模糊</u>也可以。
@@ -159,7 +159,7 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.41.32.png)
+![](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/cv/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-08-13%2015.41.32.png)
 </div>
 
 # 自己手写的卷积函数

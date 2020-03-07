@@ -67,7 +67,7 @@ By the way, I also maintained a google map about them "[Anne Lister & Her Time](
 
 <div style="width: 300px; margin: auto">
 
-[![Shibden Hall and Parsonage made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/shibden-parsonage.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
+[![Shibden Hall and Parsonage made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/review/shibden-parsonage.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
 ## Histories
@@ -94,7 +94,7 @@ And another thing that interests me is how does she maintain her body? Is that y
 
 <div style="width: 300px; margin: auto">
 
-[![Shibden Hall and Ripponden made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/shibden-rippon.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
+[![Shibden Hall and Ripponden made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/review/shibden-rippon.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
 Also, what did she do during the day?
@@ -110,7 +110,7 @@ Seeing the well-known places even nowadays that she had been at her time in the 
 
 <div style="width: 300px; margin: auto">
 
-[![Places made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/tour-map.png)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
+[![Places made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/review/tour-map.png)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
 I quite understand her unwillingness of coming back home when they were in Russia. As a role of the husband in their relationship, she is afraid of losing Ann like losing her many lovers again and facing all the pressure and responsibilities from mental and physical. In 1839, she is already 48 years old and her aunt who she can talk to has already died in 1836.
@@ -135,13 +135,13 @@ Although “Ann Walker’s parental home no longer exists; its grounds have been
 
 <div style="width: 300px; margin: auto">
 
-[![Shibden Hall and Lightcliffe made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/shibden-lightcliff.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
+[![Shibden Hall and Lightcliffe made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/review/shibden-lightcliff.jpeg)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
 Like I said earlier in this post, it is Ann Walker who companied her been to many places.
 <div style="width: 300px; margin: auto">
 
-[![Places they have been together made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/review/tour-with-ann.png)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
+[![Places they have been together made by google map](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/review/tour-with-ann.png)](https://www.google.com/maps/d/embed?mid=1kBAsUzFg86dp8cpL-apd0iXbyn8OGHNZ)
 </div>
 
 # Resources

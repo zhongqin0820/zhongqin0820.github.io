@@ -13,7 +13,7 @@ The title of this post is quite a pitfall in order to expand its influence. But 
 This post is mainly about me rambling about what I thought or felt after I finished having run 1,000k in the latest five years (i.e., 2014~2019). And selected out my favourite workout in each year for commemoration.
 <div style="width: 300px; margin: auto">
 
-![The day I finished having run 1000K](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/nrc/1000k.jpg)
+![The day I finished having run 1000K](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/nrc/1000k.jpg)
 </div>
 
 
@@ -31,7 +31,7 @@ The day I finished having run 1,000k.
 
 <div style="width: 300px; margin: auto">
 
-![2019.jpg](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/nrc/2019.jpg)
+![2019.jpg](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/nrc/2019.jpg)
 </div>
 
 ## 2018, Central Park, Shenyang
@@ -39,7 +39,7 @@ Having suffered a lot in 2018, I decided to come back to run in that summer. Thi
 
 <div style="width: 300px; margin: auto">
 
-![2018](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/nrc/2018.jpg)
+![2018](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/nrc/2018.jpg)
 </div>
 
 ## 2017, Northeastern University, Shenyang
@@ -47,7 +47,7 @@ My first half marathon. Nothing special that day as I can remember.
 
 <div style="width: 300px; margin: auto">
 
-![2017.jpg](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/nrc/2017.jpg)
+![2017.jpg](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/nrc/2017.jpg)
 </div>
 
 ## 2016, Hometown, Fuan
@@ -55,7 +55,7 @@ Once ran with one of my friends at there.
 
 <div style="width: 300px; margin: auto">
 
-![2016](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/nrc/2016.jpg)
+![2016](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/nrc/2016.jpg)
 </div>
 
 ## 2015, Northeastern University, Shenyang
@@ -63,7 +63,7 @@ Seeing the running route makes me quite feel contented, though I totally forget 
 
 <div style="width: 300px; margin: auto">
 
-![2015](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/nrc/2015.jpg)
+![2015](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/nrc/2015.jpg)
 </div>
 
 ## 2014, Hometown, Fuan

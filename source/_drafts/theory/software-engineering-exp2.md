@@ -15,7 +15,7 @@ tags:
 # 实验内容
 设计实现一个迷你命令行解析小程序。
 
-![实验效果](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/2017-09-23%2023-47-38%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![实验效果](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/theory/se/2017-09-23%2023-47-38%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 # 实验代码
 重新看自己的代码，发现写的还是很糟糕的。例如，函数没有采用驼峰式等。等到下回有机会改进把。

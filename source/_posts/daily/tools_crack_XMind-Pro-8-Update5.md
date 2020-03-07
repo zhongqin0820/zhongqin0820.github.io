@@ -13,7 +13,7 @@ tags:
 当前时间：2017年11月7日，此方法适用所有终端平台[Mac Win Linux]，只不过略有不同(例如一些文件的位置，但是还是能够在网上找到的)，由于笔者手头需要安装在Mac下，因此以Mac为例子讲解。
 <div style="width: 300px; margin: auto">
 
-![镇楼](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2003.48.30.png)
+![镇楼](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/tools/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2003.48.30.png)
 </div>
 
 <!-- moew -->
@@ -28,7 +28,7 @@ tags:
    
     <div style="width: 300px; margin: auto">
 
-    ![如果一切顺利](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2004.25.05.png)
+    ![如果一切顺利](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/tools/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2004.25.05.png)
     </div>
 
 3. 在XMind.ini 文末追加 `-javaagent:/Applications/XMind.app/Contents/Eclipse/XMindCrack.jar`
@@ -40,7 +40,7 @@ tags:
 
     <div style="width: 300px; margin: auto">
 
-    ![如果一切顺利](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2004.19.15.png)
+    ![如果一切顺利](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/tools/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-11-07%2004.19.15.png)
     </div>
 
     - 下拉找到hosts,拷贝到其他地方用文本编辑器打开，对照着文件前面的格式，末尾追加`:127.0.0.1         www.xmind.net`

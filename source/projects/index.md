@@ -59,7 +59,7 @@ layout: projects
 ## 实现细节
 下面是整个系统的示意图，点击查看大图。
 
-<div style="width: 300px; margin: auto">![系统示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/projects_illustration.png)
+<div style="width: 300px; margin: auto">![系统示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/site/project/projects_illustration.png)
 </div>
 
 ### 外部系统
@@ -187,7 +187,7 @@ layout: projects
 - 如果选中的素材是加成素材：则添加一次移动机会
 - 每次消除完之后必须移动一个素材。
 
-<div style="width: 300px; margin: auto">![消除规则示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/help_tip2.png)
+<div style="width: 300px; margin: auto">![消除规则示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/site/project/help_tip2.png)
 </div>
 
 ### 挑战
@@ -207,7 +207,7 @@ layout: projects
 - 关于界面：介绍游戏信息
 
 以下是页面跳转示意图：
-<div style="width: 300px; margin: auto">![游戏页面跳转示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/page_goto.png)
+<div style="width: 300px; margin: auto">![游戏页面跳转示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/site/project/page_goto.png)
 </div>
 
 

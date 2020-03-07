@@ -30,7 +30,7 @@ tags:
 ### UML描述
 <div style="width: 300px; margin: auto">
 
-![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_simple.jpg)
+![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/pattern/creational_factory_simple.jpg)
 </div>
 
 ### 样例代码
@@ -109,7 +109,7 @@ func TestStorage(t *testing.T) {
 ### UML描述
 <div style="width: 300px; margin: auto">
 
-![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_method.jpg)
+![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/pattern/creational_factory_method.jpg)
 </div>
 
 ### 样例代码
@@ -149,7 +149,7 @@ func TestMethod(t *testing.T) {
 ### UML描述
 <div style="width: 300px; margin: auto">
 
-![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_factory_abstract.jpg)
+![UML](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/pattern/creational_factory_abstract.jpg)
 </div>
 
 ### 样例代码

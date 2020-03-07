@@ -18,21 +18,21 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![点击声音图标](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E4%BF%AE%E5%A4%8D%E5%A3%B0%E5%9C%BA%E9%97%AE%E9%A2%98.png)
+![点击声音图标](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/tools/%E4%BF%AE%E5%A4%8D%E5%A3%B0%E5%9C%BA%E9%97%AE%E9%A2%98.png)
 </div>
 
 2. 按照顺序修复
 
 <div style="width: 300px; margin: auto">
 
-![按照顺序修复](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E4%BF%AE%E5%A4%8D%E5%A3%B0%E5%9C%BA%E8%99%9A%E7%A9%BA%E9%97%AE%E9%A2%98.png)
+![按照顺序修复](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/tools/%E4%BF%AE%E5%A4%8D%E5%A3%B0%E5%9C%BA%E8%99%9A%E7%A9%BA%E9%97%AE%E9%A2%98.png)
 </div>
 
 3. 最后还需要关闭录音设备，否则还是会导致**杜比音效自动关闭**影响音效！
 
 <div style="width: 300px; margin: auto">
 
-![杜比音效自动关闭](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E4%BF%AE%E5%A4%8D%E6%9D%9C%E6%AF%94%E9%9F%B3%E6%95%88%E8%87%AA%E5%8A%A8%E5%85%B3%E9%97%AD.png)
+![杜比音效自动关闭](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/tools/%E4%BF%AE%E5%A4%8D%E6%9D%9C%E6%AF%94%E9%9F%B3%E6%95%88%E8%87%AA%E5%8A%A8%E5%85%B3%E9%97%AD.png)
 </div>
 
 # 结束语

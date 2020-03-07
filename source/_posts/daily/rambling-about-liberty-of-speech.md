@@ -22,7 +22,7 @@ Naive as I always am, I took his words out of context and commented vulgarly at 
 But, I don't realize the song as a theme song sang in the parade will be banned in the mainland after a few days later. It shocked me. In the beginning, I considered it is the stream provider issues, but after I have googled it I eventually have to admit that it is the government decision to ban the song. 
 <div style="width: 300px; margin: auto">
 
-![Do you hear the people sing?](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/rambling/the-song.jpg)
+![Do you hear the people sing?](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/rambling/the-song.jpg)
 </div>
 
 What's wrong will it be with a song? Among all the interview videos I watched, they mentioned about human rights, the liberty of speech frequently. I don't quite take the notion of it since I was occupied by other boring things, with the spare time I have now, I decided to figure it out. But unfortunately, I was interrupted again that the family has completed their transactions eventually and left; there are another two more people wait after me during my wondering. Thus, I buy my drink and leave quickly to back to my office. Still confused, up to the stairs, I decide not to open the coke as a self-imposed dedicate to the liberty of drinking. I drink as I want.

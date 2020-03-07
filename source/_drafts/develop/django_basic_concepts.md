@@ -17,7 +17,7 @@ tags:
 [http://www.runoob.com/django/django-first-app.html](http://www.runoob.com/django/django-first-app.html)
 
 # Web框架介绍
-![一般的web框架](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/django1.jpg)
+![一般的web框架](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/python/django1.jpg)
 
 其它基于python的web框架，如tornado、flask、webpy都是在这个范围内进行增删裁剪的。例如tornado用的是自己的异步非阻塞“wsgi”，flask则只提供了最精简和基本的框架。Django则是直接使用了WSGI，并实现了大部分功能
 
@@ -28,7 +28,7 @@ tags:
 - MTV: 有些WEB框架觉得MVC的字面意思很别扭，就给它改了一下。view不再是HTML相关，而是主业务逻辑了，相当于控制器。html被放在Templates中，称作模板，于是MVC就变成了MTV。这其实就是一个文字游戏，和MVC本质上是一样的，换了个名字和叫法而已，换汤不换药。
 
 # Django模型组织
-![Django模型组织](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/django2.jpg)
+![Django模型组织](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/python/django2.jpg)
 
 ## 我们学Django学的是什么？
 
@@ -46,9 +46,9 @@ tags:
 
 
 # Django项目目录结构
-![xiaogu_django项目结构.png](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/django3.png)
+![xiaogu_django项目结构.png](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/python/django3.png)
 
-![目录结构](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/django4.png)
+![目录结构](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/python/django4.png)
 
 **所有的APP共享项目资源**
 

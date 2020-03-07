@@ -38,7 +38,7 @@ tags:
 
 <div style="width: 300px; margin: auto">
 
-![type simple struct](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/pattern/creational_singleton.jpg)
+![type simple struct](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/pattern/creational_singleton.jpg)
 </div>
 
 # 样例代码

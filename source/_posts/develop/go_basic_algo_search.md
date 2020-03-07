@@ -14,7 +14,7 @@ tags:
 完整代码参阅[Github repo](https://github.com/zhongqin0820/coding-playground/tree/master/go/test/sorts)。
 <div style="width: 300px; margin: auto">
 
-![时间复杂度对比图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/big_O_cheat.png)
+![时间复杂度对比图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/go/big_O_cheat.png)
 </div>
 
 <!-- more -->

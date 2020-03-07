@@ -57,7 +57,7 @@ Markdown利用隐藏URL的特性，本身只要是形容`[...]: # (...)`格式�
 通过预览源码，我们可以看到只显示了对应注释中的TODO而不会显示标题中的TODO，这里我额外定义了一个`DUE`字段对`TODO`进行期限声明，方便后续管理。
 <div style="width: 300px; margin: auto">
 
-![Markdown源码](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/tools/source.png)
+![Markdown源码](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/daily/tools/source.png)
 </div>
 
 ## TODO

@@ -25,7 +25,7 @@ tags:
 # 示意图
 <div style="width: 300px; margin: auto">
 
-![Pipeline](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/go/algo-external-sort.png)
+![Pipeline](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/go/algo-external-sort.png)
 </div>
 
 # 样例代码

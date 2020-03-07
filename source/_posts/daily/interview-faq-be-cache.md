@@ -112,7 +112,7 @@ CDN服务商一般会提供基于文件后缀、目录多个维度来指定CDN�
 ### HTTP缓存机制
 <div style="width: 300px; margin: auto">
 
-![HTTP缓存示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/interview/cache-http.png)
+![HTTP缓存示意图](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/daily/interview/cache-http.png)
 </div>
 
 #### 浏览器缓存的分类

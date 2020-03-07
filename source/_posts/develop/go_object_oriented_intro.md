@@ -69,7 +69,7 @@ tags:
     - 依赖(Dependency)：是一种使用的关系，即一个类的实现需要另一个类的协助，所以要尽量不使用双向的互相依赖。如：动物类的`新陈代谢(氧气 x, 水 y)`依赖氧气类与水类
 <div style="width: 300px; margin: auto">
 
-![类图关系实例](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/%E7%B1%BB%E5%9B%BE%E5%85%B3%E7%B3%BB.png)
+![类图关系实例](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/develop/go/%E7%B1%BB%E5%9B%BE%E5%85%B3%E7%B3%BB.png)
 </div>
 
 # Go中的OOP实例
