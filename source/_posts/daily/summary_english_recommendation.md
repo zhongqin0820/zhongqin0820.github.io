@@ -1,7 +1,7 @@
 ---
 title: 英语学习：资料总结
 date: 2019-04-14 19:40:10
-updated: 2019-07-28 23:05:07
+updated: 2020-03-22 23:51:31
 categories:
 - 英语学习
 
@@ -19,6 +19,7 @@ tags:
 
 ## 网站/APP
 - [Duolingo](https://duolingo.com)：L1～L5的语法树、卡片式；对应[Streak Hall of Fame](https://duome.eu/)，对应个人[学习进度](https://duome.eu/anoni15/progress)，对应个人[数据面板](https://duome.eu/anoni15/)。
+- [Antimoon](http://www.antimoon.com/): How to learn English effectively.
 
 ### 有道背单词
 - 主要基于【有道背单词】进行搭建生词管理生态：管理生词本，背记单词等
@@ -44,11 +45,11 @@ tags:
 ## 书本/文字资料
 - [《赖世雄【美语英标】书本》](https://book.douban.com/subject/2977637/)
 - [【美式英语】史嘉琳 回音法教学资料](http://homepage.ntu.edu.tw/~karchung/miniconversations/MC.htm)
+- [《日常交际英语口语900句》](https://book.douban.com/subject/26807826/)
 
 ## 网站/APP
 - [British Council：Sounds Right](https://www.britishcouncil.org/english/business/apps/sounds-right)：建议可以先学习李咏梅老师音标视频，掌握48个音标后再使用。
 - [tophonetics.com](https://tophonetics.com/zh/)：英文文本至国际音标在线转换，强烈推荐。
-- [conversationexchange.com](https://www.conversationexchange.com/)：一个相对靠谱的找语伴网站
 
 ## 视频教学
 ### 基础
@@ -102,3 +103,4 @@ You go to [Wikipedia](https://en.wikipedia.org/), hit the “Random” button, a
 - 2019/07/27：添加[ielts-simon.com](https://ielts-simon.com/)的[B站合辑](https://www.bilibili.com/video/av7692222)
 - 2019/07/28：调整内容排版&添加找语伴网站[conversationexchange.com](https://www.conversationexchange.com/)，删除[【鬼屋欢乐送】：第1季](https://search.bilibili.com/all?keyword=%E9%AC%BC%E5%B1%8B%E6%AC%A2%E4%B9%90%E9%80%81)链接
 - 2019/11/16：添加[lit2go](https://etc.usf.edu/lit2go/)、[testyourvocab](http://testyourvocab.com/)及[wordcounters](http://wordcounters.com/index.jsp)
+- 2020/03/22：添加[《日常交际英语口语900句》](https://book.douban.com/subject/26807826/)、[Antimoon](http://www.antimoon.com/)；移除[conversationexchange.com](https://www.conversationexchange.com/)

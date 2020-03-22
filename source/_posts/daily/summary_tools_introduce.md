@@ -1,7 +1,7 @@
 ---
 title: 工作开发中的一些工具推荐
 date: 2017-11-04 22:08:10
-updated: 2019-10-04 17:40:44
+updated: 2020-03-22 23:43:56
 categories:
 - 其它
 
@@ -76,6 +76,8 @@ tags:
     - tmux：终端神器，划分终端窗口
     - z：终端神器，代替cd命令
     - rsync：本地与远程服务器之间同步文件
+    - cloc: 代码分析
+    - [git-extras](https://github.com/tj/git-extras): 扩展git部分功能
 - 其它
     - 时间块：时间/效率管理软件
     - CheatSheet：长按Command键查看当前软件快捷键
@@ -121,3 +123,4 @@ echo <corresponding ciphertext> | base64 --decode | gzip -d
 - 2019/07/02：添加时间块APP
 - 2019/09/02：添加rsync，[实用的代码片段](#实用的代码片段)，删除 ~~[thatseed](https://www.thatseed.org/)：VPS服务提供商；凉凉于2019年8月~~，删除~~[bookset](https://bookset.me/)：中文电子书资源；凉凉于2019年6月~~~
 - 2019/10/04：添加[医学微视](https://www.mvyxws.com/)
+- ###### 2020/03/22：添加cloc、[git-extras](https://github.com/tj/git-extras)、

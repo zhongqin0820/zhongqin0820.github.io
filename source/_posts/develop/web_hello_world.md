@@ -3,13 +3,14 @@ title: 博客开发
 categories: 其它
 tags: 修复问题
 date: 2017-08-05 19:11:50
-updated: 2020-01-04 22:49:45
+updated: 2020-03-08 19:01:36
 ---
 # 博客正在完善中
 记录博客功能更新日志。
 
 <!-- more -->
 # Changelog
+- [x] 2020/03/08: Substitute image urls & Use Travis-ci
 - [x] 2020/01/04: Remove cnzz related snippet & setting. Add copyright template.
 - [x] 2019/12/06: Add AdSense ads plugin for testing the function.
 - [x] 2019/09/09: fix images & equation failed rendering issues
