@@ -1,25 +1,27 @@
 ---
-title: about me
+title: about
 date: 2017-08-13 17:23:33
-updated: 2019-08-10 14:51:54
+updated: 2020-04-23 05:43:24
 comments: true
 layout: about
 ---
-# Motto
+# The Blog
+- The blog hosts all the things that the maintainer(she/her) is interested in, mainly programming, reading, language learning.
+
+# The Maintainer
+- She is an enthusiastic sharer who likes to share those useful and helpful contents to others.
+
+## Her Motto
 > Talent you have naturally.
 > Skill is only developed by hours and hours and hours of beating on your craft.
 > Just decide what is gonna be, who you're gonna be and how you're gonna do it.
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=98s)</cite>
 
-# Self-assessment
-- **An active internet node idles in reality.**
-- **Loquacious online but reticent offline.** 
+## Contacts
+- Feel free to send her an [Email](mailto:zhongq26@mail2.sysu.edu.cn?subject=CVBlogs|What can I help you?) if you have any doubts about the posts.
+- You can also find her on [GitHub](http://github.com/zhongqin0820), [Goodreads](https://www.goodreads.com/zoking), [Duolingo](https://duome.eu/anoni15).
 
-# Contacts
-Feel free to contact me via [Email](mailto:zhongq26@mail2.sysu.edu.cn?subject=CVBlogs|What can I help you?) but I would prefer you to leave comments under the specific post that you have a doubt about.
-You can also find me at [Github](http://github.com/zhongqin0820). 
-
-# Stats
+# The Trap
 <div style="width: auto; margin: auto">
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5j8t3yr253j&amp;m=6&amp;c=ff0000&amp;cr1=54ff00&amp;sx=30&amp;dds=10&amp;ds=10" async="async"></script>
 </div>
