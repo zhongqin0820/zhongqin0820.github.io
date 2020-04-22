@@ -123,4 +123,4 @@ echo <corresponding ciphertext> | base64 --decode | gzip -d
 - 2019/07/02：添加时间块APP
 - 2019/09/02：添加rsync，[实用的代码片段](#实用的代码片段)，删除 ~~[thatseed](https://www.thatseed.org/)：VPS服务提供商；凉凉于2019年8月~~，删除~~[bookset](https://bookset.me/)：中文电子书资源；凉凉于2019年6月~~~
 - 2019/10/04：添加[医学微视](https://www.mvyxws.com/)
-- ###### 2020/03/22：添加cloc、[git-extras](https://github.com/tj/git-extras)、
+- 2020/03/22：添加cloc、[git-extras](https://github.com/tj/git-extras)

@@ -53,7 +53,7 @@ cat list.txt | awk -F '\t' '{print $1}' > list_final.txt
 1. 执行`./qshell qdownload batch_download.conf`
 
 # 结束语
-当然你也可以写一个批处理去弄，但是我的需求比较简答，以上就可以解决我的问题。另外，其实可以把图片保存到GitHub，替换一下URI的前缀即可。非常方便。
+当然你也可以写一个批处理去弄，但是我的需求比较简单，以上就可以解决我的问题。另外，其实可以把图片保存到GitHub，替换一下URI的前缀即可。非常方便。
 
 # 参考资料
 - [七牛云测试域名过期，存储图片的下载方法](http://zsx-cup.top/2018/11/09/%E4%B8%83%E7%89%9B%E4%BA%91%E6%B5%8B%E8%AF%95%E5%9F%9F%E5%90%8D%E8%BF%87%E6%9C%9F%EF%BC%8C%E5%AD%98%E5%82%A8%E5%9B%BE%E7%89%87%E7%9A%84%E4%B8%8B%E8%BD%BD%E6%96%B9%E6%B3%95/)
