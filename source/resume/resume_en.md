@@ -70,5 +70,5 @@ layout: resume
 - Honorary title of outstanding university student: Once
 
 # Publications
-- Yang M., **Zhong Q.**, Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshops. [**Link**](https://dblp.org/rec/html/conf/icmcs/YangZCHL19)
+- Yang M., **Zhong Q.**, Chen L., Huang F., Lei B. (2019) Attention Based Semi supervised Dictionary Learning for Diagnosis of Autism Spectrum Disorders. ICME Workshops. [**Link**](https://ieeexplore.ieee.org/document/8795085)
 - **Zhong Q.**, Yang M., Zhang T. (2018) Semi supervised Dictionary Active Learning for Pattern Classification. PRCV 2018. [**Link**](https://link.springer.com/chapter/10.1007/978-3-030-03338-5_47).
