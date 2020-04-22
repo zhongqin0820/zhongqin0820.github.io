@@ -37,8 +37,8 @@ install:
 script:
   - hexo generate
 after_success:
-  - git config --global user.name "${USERNAME}"
-  - git config --global user.email "${SUB_EMAIL}"
+  - git config --global user.name "void"
+  - git config --global user.email "void@email.com"
   - sed -in-place -e "s/git@/https:\/\/${GITHUB_TOKEN}@/" _config.yml
   - sed -in-place -e "s/github.com:${USERNAME}/github.com\/${USERNAME}/" _config.yml
   - hexo deploy
