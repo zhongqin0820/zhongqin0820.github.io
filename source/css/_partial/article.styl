@@ -127,6 +127,34 @@
   h1, h2, h3, h4, h5, h6
     line-height: line-height-title
     margin: line-height-title 0
+    a
+      &:before
+        color: #333
+        font-weight: lighter;
+  h1
+    a
+      &:before
+        content: "#"
+  h2
+    a
+      &:before
+        content: "##"
+  h3
+    a
+      &:before
+        content: "###"
+  h4
+    a
+      &:before
+        content: "####"
+  h5
+    a
+      &:before
+        content: "#####"
+  h6
+    a
+      &:before
+        content: "######"
   a
     color: color-link
     text-decoration: none
