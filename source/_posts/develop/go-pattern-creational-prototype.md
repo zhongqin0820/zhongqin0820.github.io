@@ -115,8 +115,8 @@ func TestPrototype(t *testing.T) {
 > **Svetlin Ralchev** --- <cite>[Design Patterns in Golang: Prototype](http://blog.ralch.com/articles/design-patterns/golang-prototype/)</cite>
 
 # 参考资料
-- Video: [Design Patterns in Golang: Prototype](https://www.bilibili.com/video/av10623920/?p=15) & its implementation in [Github.com](https://github.com/ismayilmalik/golang-design-patterns/blob/master/creational/prototype/prototype.go) & another implementation in [Github.com](https://github.com/senghoo/golang-design-pattern/blob/master/07_prototype/README.md)
-- Blog: [Design Patterns in Golang: Prototype](http://blog.ralch.com/articles/design-patterns/golang-prototype/) & its implementation in [Github.com](https://github.com/svett/golang-design-patterns/blob/master/creational-patterns/prototype/README.md)
+- Video: [Design Patterns in Golang: Prototype](https://www.bilibili.com/video/av10623920/?p=15) & its implementation in [GitHub.com](https://github.com/ismayilmalik/golang-design-patterns/blob/master/creational/prototype/prototype.go) & another implementation in [GitHub.com](https://github.com/senghoo/golang-design-pattern/blob/master/07_prototype/README.md)
+- Blog: [Design Patterns in Golang: Prototype](http://blog.ralch.com/articles/design-patterns/golang-prototype/) & its implementation in [GitHub.com](https://github.com/svett/golang-design-patterns/blob/master/creational-patterns/prototype/README.md)
 - 类型判断相关
     - [浅谈Golang Reflection (二)](https://zhuanlan.zhihu.com/p/40840214)
     - [13.3. 示例: 深度相等判断](http://shouce.jb51.net/gopl-zh/ch13/ch13-03.html)

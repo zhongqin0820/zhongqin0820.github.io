@@ -33,7 +33,7 @@ Another habit I built that relieves my anxiety is learning Spanish in [Duolingo]
 
 About books, I still use [Douban](http://douban.com/) as my main online reading logs manager but I also start using Goodreads to store those in English and here is my [Year in Books](https://www.goodreads.com/user/year_in_books/2019/89404830).
 
-Due to my major background, I committed 772 submissions in [LeetCode](https://leetcode.com) and 499 contributions in [Github](https://github.com/) so far this year. Although most of them are useless snippets, I think it represents my dedication to train myself to be a good programmer and I believe I can be better by insisting to do so.
+Due to my major background, I committed 772 submissions in [LeetCode](https://leetcode.com) and 499 contributions in [GitHub](https://github.com/) so far this year. Although most of them are useless snippets, I think it represents my dedication to train myself to be a good programmer and I believe I can be better by insisting to do so.
 
 In time management, I still use diaries to record my daily life but I start using [Time Blocks](https://www.douban.com/app/26850600/) to quantify my time usages and it works quite well. It shows that 26% of my time was used in coding/doing related works which compares to 31% of my time used in sleep but shame on me that no more than 4% of my time was spent in research which is even 2% lower than the time I spent in learning languages.
 

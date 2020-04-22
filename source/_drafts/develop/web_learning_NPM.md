@@ -106,7 +106,7 @@ sudo npm install -global <package name># 全局安装
 sudo npm install -g <package name>
 ```
 
-`npm install`也支持直接输入` Github` 代码库地址。
+`npm install`也支持直接输入` GitHub` 代码库地址。
 
 ```sh
 npm install git://github.com/package/path.git

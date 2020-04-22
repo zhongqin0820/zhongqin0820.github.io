@@ -75,7 +75,7 @@ layout: projects
 - 主要根据InfluxDB中的数据，拉取数据进行绘制，为了能够公开访问图表，使用匿名组织画图
 
 ### 告警业务系统
-- 基于[OpenKB](https://github.com/mrvautin/openKB)进行再开发得到。项目代码地址：[Github](https://github.com/XiaoguTech/rta-monitor)。
+- 基于[OpenKB](https://github.com/mrvautin/openKB)进行再开发得到。项目代码地址：[GitHub](https://github.com/XiaoguTech/rta-monitor)。
 - 主要由两部分组成：简单的监控系统展示+简单的后台管理。
     - 告警展示与推送： 可以查看不同分类下的数据监控信息以及自动获取报警推送和查看对应报警的解决方案文章。
     - 添加告警平台组织的管理
@@ -123,7 +123,7 @@ layout: projects
 
 # 课程设计：一个简单类C文法解释器的实现(一个月)
 - 时间：2016年12月
-- 源码地址：[Github](https://github.com/Zokingo/compiler)
+- 源码地址：[GitHub](https://github.com/Zokingo/compiler)
 
 ## 所用技术
 - Java
@@ -138,7 +138,7 @@ layout: projects
 
 # 大创项目：抠图系统(一年)
 - 开始时间：2016年9月
-- 源码地址：[Github](https://github.com/zhongqin0820/GrabcutQt)
+- 源码地址：[GitHub](https://github.com/zhongqin0820/GrabcutQt)
     - 在完成抠图的基础之上，加入图片合成的小功能。
     - 点击查看[系统演示](https://raw.githubusercontent.com/zhongqin0820/GrabcutQt/master/res/Jietu20170919-180439-HD.gif)。
 
@@ -168,7 +168,7 @@ layout: projects
 
 # 单机游戏：消除类小游戏(一个半月)
 - 开始时间: 2016年4月（独立完成）
-- 源码地址：[Github](https://github.com/zhongqin0820/linkgameplus)
+- 源码地址：[GitHub](https://github.com/zhongqin0820/linkgameplus)
     - 项目共有两个版本，一个是消除麻将素材，一个是消除糖果素材（含有关卡模式）。
 
 ## 所用技术

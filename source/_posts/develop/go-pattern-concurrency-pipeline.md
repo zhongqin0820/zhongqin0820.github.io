@@ -33,7 +33,7 @@ Pipeline模式也叫作流水线模式。它将消息分发给多个工作协程
 </div>
 
 # 样例代码
-- 完整代码参见[Github](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/concurrency/pipeline)
+- 完整代码参见[GitHub](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/concurrency/pipeline)
 
 ## 代码实现
 - 主流程实现

@@ -11,7 +11,7 @@ tags:
 ---
 # 前言
 在之前的[博文](https://cvblogs.cn/2019/03/08/develop/go_basic_algo_sort/)中曾经梳理过与经典的内部排序算法相关的内容，如：冒泡、选择、插入、希尔、归并、快排、堆排序等。顾名思义，其需要将数据一次性载入内存中进行排序。
-本文将要讨论的是基于分治法的单机版本与网络版本的**并发外部排序算法**，即数据无需一次性载入内存。完整代码参见[Github](https://github.com/zhongqin0820/coding-playground/tree/master/go/concurrent/classic/sorts)。
+本文将要讨论的是基于分治法的单机版本与网络版本的**并发外部排序算法**，即数据无需一次性载入内存。完整代码参见[GitHub](https://github.com/zhongqin0820/coding-playground/tree/master/go/concurrent/classic/sorts)。
 
 <!-- more -->
 # 场景描述
@@ -30,7 +30,7 @@ tags:
 
 # 样例代码
 ## 代码实现
-完整代码参见[Github](https://github.com/zhongqin0820/coding-playground/tree/master/go/concurrent/classic/sorts)
+完整代码参见[GitHub](https://github.com/zhongqin0820/coding-playground/tree/master/go/concurrent/classic/sorts)
 ### 数据生成
 - 随机生成指定需求的数据，并写入二进制文件`large.in`中
 

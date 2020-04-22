@@ -24,7 +24,7 @@ tags:
 
 ## 搭建细节
 ### Markdown
-Markdown利用隐藏URL的特性，本身只要是形容`[...]: # (...)`格式的代码都会被解析为注释，即不会被渲染；但是，IDEA与Hexo（默认Github Flavored Markdown）中支持的Markdown注释方式如下所示，并且只允许单行注释。
+Markdown利用隐藏URL的特性，本身只要是形容`[...]: # (...)`格式的代码都会被解析为注释，即不会被渲染；但是，IDEA与Hexo（默认GitHub Flavored Markdown）中支持的Markdown注释方式如下所示，并且只允许单行注释。
 ```markdown
 [//]: # (this is a comment)
 ```

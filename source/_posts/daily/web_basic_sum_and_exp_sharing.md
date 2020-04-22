@@ -23,7 +23,7 @@ tags:
     - 5G入门
     - MySQL数据库使用
     - ...
-- 如果时间不够，可以参考这个不错的[Github Repo](https://github.com/edisonleolhl/Huawei)，资料总结的很到位.
+- 如果时间不够，可以参考这个不错的[GitHub Repo](https://github.com/edisonleolhl/Huawei)，资料总结的很到位.
 
 ## 复赛
 虽然无缘复赛，但是借机会也学习了一下`eNSP`的使用，分享几个实用资源。

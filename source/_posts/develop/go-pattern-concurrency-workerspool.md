@@ -41,7 +41,7 @@ Workers Pool模式也叫作Thread Pool模式/线程池模式。在Go的实现简
 </div>
 
 # 样例代码
-样例是实现的是一个将输入字符串转化为大写后为其拼接上前后缀。完整代码参见[Github](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/concurrency/workerPool)。
+样例是实现的是一个将输入字符串转化为大写后为其拼接上前后缀。完整代码参见[GitHub](https://github.com/zhongqin0820/coding-playground/tree/master/go/pattern/concurrency/workerPool)。
 
 ## 代码实现
 字符串算法的流程实现基于[Pipeline模式](https://cvblogs.cn/2019/07/08/develop/go-pattern-concurrency-pipeline)。

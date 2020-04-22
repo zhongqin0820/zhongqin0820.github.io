@@ -28,7 +28,7 @@ updated: 2020-04-23 04:20:26
 - [x] 2019/06/04: add changelog at the end of when the post gets updated.
 - [x] add auto init issue page by using rss.xml and python: done
 - [x] fix busuanzi_count issues: changed the URL, [ref](https://juejin.im/post/5bbc954a5188255c7c657ca5)
-- [x] Github issues comments
+- [x] GitHub issues comments
     - [x] Gitment. To use this extension, **you need to fix the issues below**:
         - [object ProgressEvent]: fix this by changing the certification server
         - [Validation Failed]: fix this by limit the `id.length < 50`.

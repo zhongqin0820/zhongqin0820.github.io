@@ -9,7 +9,7 @@ tags:
 - Go
 ---
 # 前言
-梳理总结学习Go语言的笔记。相较并行，并发是一种结构上的关系，而并行需要硬件的支持是一种执行关系。并发的意义是为了能够最大化利用单个CPU的计算资源。Go在语言层面上支持并发；本篇文章从单个协程到多个协程的并发执行，逐步分析如何使用Go进行并发编程；同时，分析了异步与同步两种并发目的如何通过Go实现。完整代码访问[Github](https://github.com/zhongqin0820/coding-playground/blob/master/go/concurrent/basic/README.md)。
+梳理总结学习Go语言的笔记。相较并行，并发是一种结构上的关系，而并行需要硬件的支持是一种执行关系。并发的意义是为了能够最大化利用单个CPU的计算资源。Go在语言层面上支持并发；本篇文章从单个协程到多个协程的并发执行，逐步分析如何使用Go进行并发编程；同时，分析了异步与同步两种并发目的如何通过Go实现。完整代码访问[GitHub](https://github.com/zhongqin0820/coding-playground/blob/master/go/concurrent/basic/README.md)。
 
 <!-- more -->
 # 单个协程
