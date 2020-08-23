@@ -55,7 +55,6 @@ fancybox: true
 # Sidebar
 sidebar: left
 widgets:
-  - google-ads-vertical
   - recent_posts
   - category
   - tagcloud

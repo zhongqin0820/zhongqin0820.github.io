@@ -28,7 +28,7 @@ hexo.extend.helper.register('related_posts', function(currentPost, allPosts){
         });
     });
     if (relatedPosts.length == 0) {return ''};
-    var result = '<header class="article-entry"><h1 class="thumb" itemprop="name"> 相关文章</h1></header><ul class="related-posts">';
+    var result = '<header class="article-entry"><h1 class="thumb" itemprop="name"> Related Posts</h1></header><ul class="related-posts">';
     relatedPosts = relatedPosts.sort(compare('weight'));
     for (var i = 0; i < Math.min(relatedPosts.length, 10); i++) {
         result += '<li><a href="/' + relatedPosts[i].path + '">' + relatedPosts[i].title + '</a></li>';

@@ -22,7 +22,7 @@ theme_by: Theme by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
-connect: 'Connect With Us'
+connect: 'Contact me'
 post_total_count: There are %d posts in total till now.
 read_more: More
 contents: Contents
@@ -45,8 +45,19 @@ nav:
     Words: 'Words'
     Min: 'Mins'
 credit:
-    total_visits: 'Total Visited'
-    all_visits: 'All Visited'
-    people_num: 'People'
-    times: 'Times'
+    total_visits: 'UV'
+    all_visits: 'PV'
+    people_num: ' '
+    times: ' '
+    total_counts: 'Total Word Count'
+    licenses_discription: 'Contents follow'
+    licenses: 'Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license'
 links: 'Links Exchange'
+copyright:
+    author: "Author: "
+    date: "Published: "
+    updated: "Updated: "
+    link: "Link: "
+    license_title: "Copyright: "
+    left_license_content: "All articles in this blog are licensed under "
+    right_license_content: "unless stating additionally."
