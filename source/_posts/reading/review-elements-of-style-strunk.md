@@ -3,11 +3,10 @@ title: After reading The Elements of Style
 date: 2019-06-26 10:27:36
 updated: 2019-06-26 14:07:13
 categories:
-- 英语学习
+- Reading
 
 tags:
-- 读书笔记
-- 写作练习
+- Book Review
 ---
 # Introduction
 > The most trusted writer's guide to American English, this is the book that generations of writers have relied upon for timeless advice on grammar, diction, syntax, sentence construction, and other writing essentials.

@@ -3,11 +3,10 @@ title: After reading Wonder
 date: 2019-04-10 16:40:11
 updated: 2019-04-18 16:12:12
 categories:
-- 英语学习
+- Reading
 
 tags:
-- 读书笔记
-- 写作练习
+- Book Review
 ---
 # Introduction
 {% blockquote R·J·Palacio https://book.douban.com/subject/7952978/ Wonder %}

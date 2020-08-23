@@ -3,11 +3,10 @@ title: After reading Wuthering Heights
 date: 2019-06-15 13:05:21
 updated: 2019-06-23 15:42:50
 categories:
-- 英语学习
+- Reading
 
 tags:
-- 读书笔记
-- 写作练习
+- Book Review
 ---
 # Introduction
 > "May she wake in torment!" he cried, with frightful vehemence, stamping his foot, and groaning in a sudden paroxysm of ungovernable passion. "Why, she's a liar to the end! Where is she? Not there—not in heaven—not perished—where? Oh! you said you cared nothing for my sufferings! And I pray one prayer—I repeat it till my tongue stiffens—Catherine Earnshaw, may you not rest as long as I am living; you said I killed you—haunt me, then! The murdered do haunt their murderers, I believe-I know that ghosts have wandered on earth. Be with me always—take any form—drive me mad! only do not leave me in this abyss, where I cannot find you! Oh, God! it is unutterable! I cannot live without my life! I cannot live without my soul!"

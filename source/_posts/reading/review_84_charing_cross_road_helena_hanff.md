@@ -3,11 +3,10 @@ title: After reading 84,Charing Cross Road
 date: 2019-04-10 12:40:11
 updated: 2019-04-16 16:12:12
 categories:
-- 英语学习
+- Reading
 
 tags:
-- 读书笔记
-- 写作练习
+- Book Review
 ---
 # Introduction
 {% blockquote Helena·Hanff https://book.douban.com/subject/1340646/ 84 Charing Cross Road %}

@@ -4,17 +4,17 @@
 
 # Site
 title: CVBlogs
-subtitle:
-description: developing..
-author: Zoking
-language: zh-CN
+subtitle: CV-oriented blogging.
+description: Less sh*t posts pls.
+author: Qin Zhong
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://cvblogs.cn
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -79,7 +79,6 @@ pagination_dir: page
 # Extensions
 Plugins:
   - hexo-generator-sitemap
-  - hexo-generator-baidu-sitemap
   - hexo-generator-feed
 
 ## Plugins: https://hexo.io/plugins/
@@ -101,8 +100,6 @@ exclude:
 # hexo sitemap
 sitemap:
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
 
 #rss: /atom.xml
 # Feed Atom
@@ -111,9 +108,3 @@ feed:
   path: atom.xml
   limit: 20
   order_by: -updated
-
-baidu_url_submit:
-  count: 3
-  host: www.cvblogs.cn
-  token: N7RDvFcI1s
-  path: baidu_urls.txt

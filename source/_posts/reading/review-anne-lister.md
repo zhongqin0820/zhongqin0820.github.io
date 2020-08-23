@@ -3,11 +3,10 @@ title: After reading Anne Lister
 date: 2019-06-15 18:02:15
 updated: 2019-07-09 11:24:39
 categories:
-- 英语学习
+- Reading
 
 tags:
-- 读书笔记
-- 写作练习
+- Book Review
 ---
 # Introduction
 After I finished watching the hit HBO series [Gentleman Jack](https://www.imdb.com/title/tt7211618/), I couldn't help myself to want to know more about Anne Lister deeply and thoroughly. During the time, I was reading the famous Wuthering Heights written by Emily Brontë, the writer who lived near Anne at the time. Apparently, it perplexed me that why Anne Lister was so different from the female characters under Emily Brontë's and what if Emily had met Anne, will it influence her writing of Wuthering Heights? Other things that I'm interested in are the kind of geek style codebook and how does the decoding process work? And also the pleasure of peeping one's diaries that the writer has no idea about it. Of the most importance, I want to know the history during that period since I'm a big fan of horrible histories.

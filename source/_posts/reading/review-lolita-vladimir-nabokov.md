@@ -3,11 +3,10 @@ title: After Reading Lolita
 date: 2019-08-12 13:25:25
 updated: 2019-08-14 15:02:19
 categories:
-- 英语学习
+- Reading
 
 tags:
-- 读书笔记
-- 写作练习
+- Book Review
 ---
 # Introduction
 > Lolita, light of my life, fire of my loins. My sin, my soul.

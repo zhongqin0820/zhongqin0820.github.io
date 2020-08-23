@@ -1,12 +1,13 @@
 ---
 title: about
 date: 2017-08-13 17:23:33
-updated: 2020-04-23 05:43:24
+updated: 2020-08-23 16:26:18
 comments: true
 layout: about
 ---
 # The Blog
 - The blog hosts all the things that the maintainer(she/her) is interested in, mainly programming, reading, language learning.
+- Note: In order to maintain a clean and professional blog, the maintainer moved most of the old posts into  [stash](https://github.com/zhongqin0820/zhongqin0820.github.io/tree/source-articles/source/_drafts) in 2020/08/23 and **guaranteed no more 💩 posts since then**.
 
 # The Maintainer
 - She is an enthusiastic sharer who likes to share those useful and helpful contents to others.
@@ -18,7 +19,7 @@ layout: about
 > **Will Smith** --- <cite>[Will Smith's Most Inspiring Quotes On Life](https://www.youtube.com/watch?v=p2aDEYspVbQ&t=98s)</cite>
 
 ## Contacts
-- Feel free to send her an [Email](mailto:zhongq26@mail2.sysu.edu.cn?subject=CVBlogs|What can I help you?) if you have any doubts about the posts.
+- Feel free to send her an [Email](mailto:zhongq26@mail3.sysu.edu.cn?subject=CVBlogs|What can I help you?) if you have any doubts about the posts.
 - You can also find her on [GitHub](http://github.com/zhongqin0820), [Goodreads](https://www.goodreads.com/zoking), [Duolingo](https://duome.eu/anoni15).
 
 # The Trap
