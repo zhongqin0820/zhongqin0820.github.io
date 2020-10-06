@@ -8,7 +8,7 @@ categories:
 tags:
 - Book Review
 ---
-# Introduction
+# Intro
 {% blockquote Helena·Hanff https://book.douban.com/subject/1340646/ 84 Charing Cross Road %}
 I love inscriptions on flyleaves and notes in margins, I like the comradely sense of turning pages someone else turned, and reading passages some one long gone has called my attention to.
 {% endblockquote %}

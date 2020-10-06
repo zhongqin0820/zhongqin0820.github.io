@@ -8,7 +8,7 @@ categories:
 tags:
 - Book Review
 ---
-# Introduction
+# Intro
 > The most trusted writer's guide to American English, this is the book that generations of writers have relied upon for timeless advice on grammar, diction, syntax, sentence construction, and other writing essentials.
 > **Dover Publications** --- <cite>[Review of "The Elements of Style"](https://www.goodreads.com/book/show/65220.The_Elements_of_Style)</cite>
 

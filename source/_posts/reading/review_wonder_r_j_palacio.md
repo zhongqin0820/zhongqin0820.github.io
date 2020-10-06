@@ -8,7 +8,7 @@ categories:
 tags:
 - Book Review
 ---
-# Introduction
+# Intro
 {% blockquote R·J·Palacio https://book.douban.com/subject/7952978/ Wonder %}
 Funny how sometimes you worry a lot about something and it turns out to be nothing.
 {% endblockquote %}
