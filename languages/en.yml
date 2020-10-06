@@ -41,9 +41,9 @@ article:
 nav:
     published: 'Published'
     updated: 'Updated'
-    PViews: 'Read'
-    Words: 'Words'
-    Min: 'Mins'
+    PViews: ''
+    Words: ''
+    Min: ''
 credit:
     total_visits: 'UV'
     all_visits: 'PV'
