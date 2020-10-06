@@ -1,5 +1,5 @@
 ---
-title: Hash In Action: A Simple Use Case
+title: Hash In Action
 date: 2020-10-06 22:48:57
 updated: 2020-10-06 22:48:57
 categories:
