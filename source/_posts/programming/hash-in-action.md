@@ -19,7 +19,7 @@ I have summarized Hash technique a year ago when I was preparing for on-campus r
 ![What is Hash?](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/programming/what-is-hash.png)
 </div>
 
-With this in mind, here goes the [user story](#User Story).
+With this in mind, here goes the [user story](#user-story).
 
 # User Story
 > As a customer manager, I want to monitor all my clients' machines which distributed in different regions and I should receive an alert whenever, wherever and whichever server crashed, thus the OPS team who use MS-DOS will be notified promptly and the problems will be fixed quickly and I can serve my clients better.
