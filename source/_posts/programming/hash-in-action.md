@@ -8,7 +8,7 @@ tags:
 - System Design
 ---
 # Intro
-In the past three months, I was occupied by the intensive work and have no extra energy to divert my attention. But thanks to National Day! Finally, I have the time to review and to share. Vive la Chine! Let's keep on track, in this post, I share a simple use case of using hash technique in action.
+In the past three months, I was occupied by the intensive work and have no extra energy to divert my attention. But thanks to National Day! Finally, I have the time to review and to share. Vive la Chine! In this post, I share a simple use case of using hash technique in action.
 
 <!-- more -->
 # What is Hash?
