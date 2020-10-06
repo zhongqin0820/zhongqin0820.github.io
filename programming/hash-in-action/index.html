@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <title>hash in action | CVBlogs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="System Design">
+  
+  
+  
+  
+  <meta name="description" content="IntroIn the past three months, I was occupied by the intensive work and have no extra energy to divert my attention. But thanks to National Day! Finally, I have the time to review and to share. Vive l">
+<meta name="keywords" content="System Design">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hash in Action">
+<meta property="og:url" content="https://cvblogs.cn/programming/hash-in-action/index.html">
+<meta property="og:site_name" content="CVBlogs">
+<meta property="og:description" content="IntroIn the past three months, I was occupied by the intensive work and have no extra energy to divert my attention. But thanks to National Day! Finally, I have the time to review and to share. Vive l">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/programming/what-is-hash.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/programming/hash-simple-use-case-system-design.png">
+<meta property="og:updated_time" content="2020-10-06T22:48:57.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hash in Action">
+<meta name="twitter:description" content="IntroIn the past three months, I was occupied by the intensive work and have no extra energy to divert my attention. But thanks to National Day! Finally, I have the time to review and to share. Vive l">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/programming/what-is-hash.png">
+  
+  <link rel="icon" href="/css/images/favicon.ico">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+
+  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/hiero.css">
+  <link rel="stylesheet" href="/css/glyphs.css">
+  
+
+<link rel="alternate" href="/atom.xml" title="CVBlogs" type="application/atom+xml">
+</head>
+</html>
+<script>
+var themeMenus = {};
+
+  themeMenus["/"] = "Home"; 
+
+  themeMenus["/archives"] = "Archives"; 
+
+  themeMenus["/categories"] = "Categories"; 
+
+  themeMenus["/tags"] = "Tags"; 
+
+  themeMenus["/about"] = "About"; 
+
+</script>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  <header id="allheader" class="site-header" role="banner">
+  <div class="clearfix container">
+      <div class="site-branding">
+          <nav id="main-navigation" class="main-navigation" role="navigation">
+            <a class="nav-open">
+                <i class="fa fa-bars fa-2x" aria-hidden="true" ></i>
+            </a>
+            <a class="nav-close">收起</a>
+            <div class="clearfix sf-menu">
+              <ul id="main-nav" class="nmenu sf-js-enabled">
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/">Home</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/archives">Archives</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/categories">Categories</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/tags">Tags</a> </li>
+                    
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/about">About</a> </li>
+                    
+              </ul>
+            </div>
+          </nav>
+      </div>
+      <div class="site-search">
+          <div id="search-form-wrap">
+
+    <form class="search-form">
+        <!--<label style="float:left;">-->
+            <!--<span class="screen-reader-text">Search for:</span>-->
+            <!--<input type="search" class="search-field"  placeholder=" Search…" value="" name="s" title="Search for:">-->
+        <!--</label>-->
+        <input type="submit" class="search-form-submit" value="Search">
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+      </div>
+  </div>
+</header>
+
+
+  <div id="container">
+    <div id="wrap">
+
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-programming/hash-in-action" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    
+    
+      <header class="article-header">
+        
+
+  
+    <h1 class="thumb" class="article-title" itemprop="name">
+      Hash in Action
+    </h1>
+  
+
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<span class="ico-folder"></span>
+    <a class="article-category-link" href="/categories/Programming/">Programming</a>
+
+      
+  <span class="ico-tags"></span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/System-Design/">System Design</a></li></ul>
+
+      
+	<a class="article-views">
+	<span id="busuanzi_container_page_pv">
+	  <span id="busuanzi_value_page_pv"> </span>
+	</span>
+	</a>
+
+      
+<a class="article-count">
+    <span >
+        695 
+    </span>
+</a>
+
+
+      
+<a class="article-read">
+    <span >
+        4 
+    </span>
+</a>
+
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p>In the past three months, I was occupied by the intensive work and have no extra energy to divert my attention. But thanks to National Day! Finally, I have the time to review and to share. Vive la Chine! In this post, I share a simple use case of using hash technique in action.</p>
+<a id="more"></a>
+<h1 id="What-is-Hash"><a href="#What-is-Hash" class="headerlink" title="What is Hash?"></a>What is Hash?</h1><p>I have summarized Hash technique a year ago when I was preparing for on-campus recruitment season. To summarized it more simply, I draw an illustration below. Be aware that we don’t talk about how to design but how to use it in this post. In short, hash function is the core of a hash algorithm, a well-designed hash function should output different results when received high similarity inputs.</p>
+<div style="width: 300px; margin: auto"><br><br><img src="https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/programming/what-is-hash.png" alt="What is Hash?"><br></div>
+
+<p>With this in mind, here goes the <a href="#User-Story">user story</a>.</p>
+<h1 id="User-Story"><a href="#User-Story" class="headerlink" title="User Story"></a>User Story</h1><blockquote>
+<p>As a customer manager, I want to monitor all my clients’ machines which distributed in different regions and I should receive an alert whenever, wherever and whichever server crashed, thus the OPS team who use MS-DOS will be notified promptly and the problems will be fixed quickly and I can serve my clients better.</p>
+</blockquote>
+<blockquote>
+<p>As a service leader, I don’t want your implementation to become too heavy. Just implement it simply with no user perception and without any extra expenses on it. To achieve the requirement, you may use our provided OBS which compatible in each server.</p>
+</blockquote>
+<h1 id="System-Design"><a href="#System-Design" class="headerlink" title="System Design"></a>System Design</h1><p>Since we have different servers in different regions and each server is capable of uploading files to an OBS. The case is easier than those using telegraf or kafka things. Just as the illustration shows below, we separate the system into two parts, monitoring and notifying.</p>
+<div style="width: 300px; margin: auto"><br><br><img src="https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/programming/hash-simple-use-case-system-design.png" alt="System Design"><br></div>
+
+<h2 id="Monitoring"><a href="#Monitoring" class="headerlink" title="Monitoring"></a>Monitoring</h2><p><strong>Monitor</strong> all servers by installing a cron job with a pre-defined threshold in each server to check the required metrics. If the server reaches the threshold, it will only upload the log file once to the OBS and won’t upload any more until the problem was fixed.</p>
+<blockquote>
+<p>Note that cron service needs to be restart if you edit a cron job by using <code>crontab -e</code>.</p>
+</blockquote>
+<h2 id="Notifying"><a href="#Notifying" class="headerlink" title="Notifying"></a>Notifying</h2><p><strong>Notify</strong> the OPS team every time the OBS file list changed by popping a notification window, which will give enough information to fix the crashed server. This is the highlighted part I intend to share in this post, where hash technique was used by me in action. Since the OBS will receive a log file whenever a server crashed, what we need to do is to list the bucket and compare the file list to the previous one with the help of a hash algorithm. The logic behind is, <strong>if the hash value is different from each other, it means that the file list is different and there must be some new log files uploaded. Then, we need to diff and notify those new log files.</strong></p>
+<h3 id="Cron-job-in-MS-DOS"><a href="#Cron-job-in-MS-DOS" class="headerlink" title="Cron job in MS-DOS"></a>Cron job in MS-DOS</h3><p>Since we need to retrieve the file list regularly, we need to set up a cron job to do so. Unlike *nix system, we cannot use cron services in MS-DOS. Although MS-DOS has <code>Task Scheduler</code>, it’s still not user-friendly if your program was implemented in shell scripts. Thus, I highly recommend you to set a cron job by using <code>infinite loop</code> and run the script by using <code>nohup bash xxx.sh 2&gt;&amp;1 &amp;</code>, which will save your time a lot.</p>
+<h3 id="How-to-Notify-in-MS-DOS"><a href="#How-to-Notify-in-MS-DOS" class="headerlink" title="How to Notify in MS-DOS"></a>How to Notify in MS-DOS</h3><p>Now comes to notification, it’s easier to pop up a notification window in MS-DOS than you thought by using vb-scripts. Here is the snippet, which reads content from a file and display it on a pop up window, you may customize it to your use case.</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> fs = creatobject(<span class="string">"scripting.filesystemobject"</span>)</span><br><span class="line"><span class="keyword">set</span> ts = fs.opentextfile(<span class="string">"path_to/filename.type"</span>, <span class="number">1</span>, <span class="literal">true</span>)</span><br><span class="line">value = ts.readall</span><br><span class="line">Msgbox(value, <span class="number">64</span>, FormatDateTime(Now))</span><br></pre></td></tr></table></figure>
+<h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>Although the whole system isn’t very complicated and is a kind of a toy-system, at least it worked without extra costs. And above all, I demonstrate a simple use case of using hash technique in action. Hope this post helped and happy coding :)</p>
+<h1 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h1><ul>
+<li>2020/10/06：First edition</li>
+</ul>
+
+      
+    </div>
+
+    
+
+    <footer class="entry-meta entry-footer">
+
+      
+        <div>
+    <ul class="post-copyright">
+        <li class="post-copyright-author">
+            <strong>Author:  </strong>
+            <a href="https://github.com/zhongqin0820"  target="_blank" title="Qin Zhong"> Qin Zhong</a>
+        </li>
+        <li class="post-copyright-date">
+            <strong>Published:  </strong>
+            2020-10-06
+            <strong>Updated:  </strong>
+            2020-10-06
+        </li>
+        <li class="post-copyright-link">
+            <strong>Link:  </strong>
+            <a href="/programming/hash-in-action/" target="_blank" title="Hash in Action">https://cvblogs.cn/programming/hash-in-action/</a>
+        </li>
+        <li class="post-copyright-license">
+            <strong>Copyright:   </strong>
+            All articles in this blog are licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+            unless stating additionally.
+        </li>
+    </ul>
+</div>
+
+      
+
+      
+        
+      
+
+      
+
+      
+    </footer>
+
+  </div>
+
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/reading/review-lolita-vladimir-nabokov/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">After Reading Lolita</div>
+    </a>
+  
+</nav>
+
+  
+
+</article>
+
+
+
+
+<!-- Table of Contents -->
+
+  <aside id="sidebar">
+    <div id="toc" class="toc-article" style="overflow-y: scroll;">
+    <strong class="toc-title">Contents</strong>
+    
+      <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-number">1.</span> <span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#What-is-Hash"><span class="nav-number">2.</span> <span class="nav-text">What is Hash?</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#User-Story"><span class="nav-number">3.</span> <span class="nav-text">User Story</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#System-Design"><span class="nav-number">4.</span> <span class="nav-text">System Design</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Monitoring"><span class="nav-number">4.1.</span> <span class="nav-text">Monitoring</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Notifying"><span class="nav-number">4.2.</span> <span class="nav-text">Notifying</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Cron-job-in-MS-DOS"><span class="nav-number">4.2.1.</span> <span class="nav-text">Cron job in MS-DOS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#How-to-Notify-in-MS-DOS"><span class="nav-number">4.2.2.</span> <span class="nav-text">How to Notify in MS-DOS</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Summary"><span class="nav-number">5.</span> <span class="nav-text">Summary</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Changelog"><span class="nav-number">6.</span> <span class="nav-text">Changelog</span></a></li></ol>
+    
+    </div>
+  </aside>
+
+</section>
+        
+      </div>
+      <footer id="footer" class="site-footer">
+  
+
+  <div class="clearfix container">
+<!--      <div class="site-licenses">-->
+<!--          -->
+<!--              Contents follow:<a href=[object Object] target="_blank">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license</a>-->
+<!--              </span>-->
+<!--          -->
+<!--      </div>-->
+
+      <div class="site-credit">
+          
+              <span id="busuanzi_container_site_uv">
+              UV:<span id="busuanzi_value_site_uv"> </span> 
+                  PV:<span id="busuanzi_value_site_pv"> </span> 
+            </span>
+          
+          
+              Total Word Count:<span >6.5k  </span>
+          
+      </div>
+
+      <div class="site-info" >
+          &copy; 2017 - 2020 CVBlogs All Rights Reserved.
+          <span>
+              Theme by <a href="https://hexo.io/" target="_blank">HEXO</a>
+          </span>
+      </div>
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var contentdiv = document.getElementById("content");
+
+    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+</script>
+
+    </div>
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!--https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML-->
+<!--https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js-->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/main.js"></script>
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-155269267-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+
+
+
+	<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+		<!--https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js-->
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js" async=""></script>
+</body>
+</html>
