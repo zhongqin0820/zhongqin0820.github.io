@@ -15,6 +15,7 @@ In the past three months, I was occupied by the intensive work and have no extra
 I have summarized Hash technique a year ago when I was preparing for on-campus recruitment season. To summarized it more simply, I draw an illustration below. Be aware that we don't talk about how to design but how to use it in this post. In short, hash function is the core of a hash algorithm, a well-designed hash function should output different results when received high similarity inputs.
 
 <div style="width: 300px; margin: auto">
+
 ![What is Hash?](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/programming/what-is-hash.png)
 </div>
 
@@ -22,12 +23,14 @@ With this in mind, here goes the [user story](#User Story).
 
 # User Story
 > As a customer manager, I want to monitor all my clients' machines which distributed in different regions and I should receive an alert whenever, wherever and whichever server crashed, thus the OPS team who use MS-DOS will be notified promptly and the problems will be fixed quickly and I can serve my clients better.
+
 > As a service leader, I don't want your implementation to become too heavy. Just implement it simply with no user perception and without any extra expenses on it. To achieve the requirement, you may use our provided OBS which compatible in each server.
 
 # System Design
 Since we have different servers in different regions and each server is capable of uploading files to an OBS. The case is easier than those using telegraf or kafka things. Just as the illustration shows below, we separate the system into two parts, monitoring and notifying.
 
 <div style="width: 300px; margin: auto">
+
 ![System Design](https://raw.githubusercontent.com/zhongqin0820/zhongqin0820.github.io/source-articles/source/images/programming/hash-simple-use-case-system-design.png)
 </div>
 
@@ -44,6 +47,7 @@ Since we need to retrieve the file list regularly, we need to set up a cron job 
 
 ### How to Notify in MS-DOS
 Now comes to notification, it's easier to pop up a notification window in MS-DOS than you thought by using vb-scripts. Here is the snippet, which reads content from a file and display it on a pop up window, you may customize it to your use case.
+
 ```vb
 set fs = creatobject("scripting.filesystemobject")
 set ts = fs.opentextfile("path_to/filename.type", 1, true)
@@ -56,4 +60,3 @@ Although the whole system isn't very complicated and is a kind of a toy-system, 
 
 # Changelog
 - 2020/10/06：First edition
-
